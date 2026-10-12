@@ -1,0 +1,165 @@
+{
+  "lean": "4.34.1",
+  "modules": [
+    {
+      "module": "ForestWord",
+      "sha256": "2834837acbeaa74d0f41f4e84bf0effcce28d52cfadec09545d05604ce994db1",
+      "lines": 154
+    },
+    {
+      "module": "LabelledForest",
+      "sha256": "9ae3c4e8d595001a77fe8f86ba58cd97dd40ba53f2d4d9a37ab3d2b4a863b95d",
+      "lines": 258
+    },
+    {
+      "module": "OutputRanks",
+      "sha256": "8f303fd7c7b1277031b3db6c60c112790a1083be970993cca1743e1afda1ab9a",
+      "lines": 98
+    },
+    {
+      "module": "OrderedTraces",
+      "sha256": "6d3e59e1155658e6bb3a93b984632d9cd8de26d2740941f058b8a2a03f59ae78",
+      "lines": 155
+    },
+    {
+      "module": "EagerTraces",
+      "sha256": "6392024ea8b1da58248dde09a5d430118f35229cbb281027f621efccbcb56304",
+      "lines": 190
+    },
+    {
+      "module": "CanonicalUniqueness",
+      "sha256": "be6d420bb5e08d4dbb6aef6a8e0ed8a14cdfedc6264da6eb9c12e51957079f52",
+      "lines": 248
+    },
+    {
+      "module": "OriginalMachine",
+      "sha256": "08fb59afd074bb1a6f46dfde813ed913e10a43ae6c97e1ed91e9d2776c0c1ee1",
+      "lines": 122
+    },
+    {
+      "module": "RawExchange",
+      "sha256": "ec2842294f733bf29b3583030d7780d4ca4e514b93f86cf15cc3cb83defd8c04",
+      "lines": 177
+    },
+    {
+      "module": "RawDeletion",
+      "sha256": "11c11b7f264bbc9b91a94e8a8c84eb9040bcea83066e542275848730a7c3db5f",
+      "lines": 99
+    },
+    {
+      "module": "RawNormalization",
+      "sha256": "043bb8e4105dac37476149320028af114751b865d03b97aa862565eac6c7e2d0",
+      "lines": 106
+    },
+    {
+      "module": "RawCanonical",
+      "sha256": "4ec59acc982e7492048e1670d5f51e7e761e6846dc5341815dd4bae28aefea29",
+      "lines": 128
+    },
+    {
+      "module": "GeneralizedDeletion",
+      "sha256": "bfe6e4852b73aa18e29f006c65e80c5880df6dd8f60426db6a0643aaa40bf751",
+      "lines": 95
+    },
+    {
+      "module": "GeneralizedRawMachine",
+      "sha256": "f333f69cb3f56e66079c2de63538754a327a20e9bac398f51357d6a508138710",
+      "lines": 180
+    },
+    {
+      "module": "GeneralizedCompatibility",
+      "sha256": "85a56b87ecba8f6680c3b023dc35a2293092db1a0f8578582cde8d56095874c4",
+      "lines": 98
+    },
+    {
+      "module": "GeneralizedRelational",
+      "sha256": "eb18fa00529529d37bf549e6ee0dd25fc5085c73996cabc7c58ce0301b78cac3",
+      "lines": 129
+    },
+    {
+      "module": "GeneralizedLazy",
+      "sha256": "612f395a220f4fcbc7bf89a65c99b984018a6e0685afa7092d173d1871557276",
+      "lines": 202
+    },
+    {
+      "module": "GeneralizedRangeLazy",
+      "sha256": "d399c2405727b2201ee1993fd24953862c7c7a57e1cd5522cf512c80ff95de45",
+      "lines": 115
+    },
+    {
+      "module": "GeneralizedChecks",
+      "sha256": "2540ed82c8531f104a8d46a4dc5677f6c4da44c0213fc744f578e43459a8b45d",
+      "lines": 31
+    },
+    {
+      "module": "TwoPushBlocks",
+      "sha256": "bfe78c3eaabfc76c50b42fb2377869e634b5ad3d5c5b9a20d98ab549f28664d4",
+      "lines": 140
+    },
+    {
+      "module": "MaximumBlockDeletion",
+      "sha256": "a66f1eb46e7bf3e27407f77c19ce20bb0a57a6c1dd30031d0a7cb3f39ce45fc2",
+      "lines": 67
+    },
+    {
+      "module": "IntervalMinimum",
+      "sha256": "05088b5b62997e3b3638577e3dfa4f729f71a62c11b2099bf9c0669cec305e13",
+      "lines": 188
+    },
+    {
+      "module": "RelabelledBlocks",
+      "sha256": "9b5b0412788472fe88be400bdd7ce1bcf7386431c3be27f50af2b57baaf05bab",
+      "lines": 93
+    },
+    {
+      "module": "BlockPushClosure",
+      "sha256": "cd2abcbb395302cbce079c4003c9314bd0005b8a3c0a52362523ab9e2c81021d",
+      "lines": 186
+    },
+    {
+      "module": "RankBlockTransitions",
+      "sha256": "5cc32d8d79d941191987bb62fcebf1eb3a02b00b95feab44313a3e9ebc0a2835",
+      "lines": 123
+    },
+    {
+      "module": "SmallBlocks",
+      "sha256": "91fc1d577c6dfb203403efc095c27d0ccae5255a6600f438bca95ae3e59b834b",
+      "lines": 89
+    },
+    {
+      "module": "BlockCycles",
+      "sha256": "9e535111f1df8cdb371f3fc9fec1308654d2ffdda15c47436ca22a0812d10082",
+      "lines": 82
+    },
+    {
+      "module": "BlockTerminal",
+      "sha256": "1a6d2542bda10c04360c935ace5130c49fc59295743e7083365c6c4b31bbc2f8",
+      "lines": 124
+    },
+    {
+      "module": "InfiniteFamily",
+      "sha256": "7ef1e73897f2a7ee3e0843322673e2045756066337d71a33ad15c06c003e7553",
+      "lines": 169
+    },
+    {
+      "module": "RangeLazyInversion",
+      "sha256": "c6261cc2c42fd0958dec8975c452878b1db60f936cd71833f1f75f865b609aa0",
+      "lines": 15
+    },
+    {
+      "module": "FamilyInitial",
+      "sha256": "54b4f134de1c379ed00f843eae50820ff16798b28837c1e1ba0393e2082f085f",
+      "lines": 86
+    },
+    {
+      "module": "FamilyCycles",
+      "sha256": "2cb77c353f1197719d518c661956fff587a41f6aef0e6c799c15a89dec513c7a",
+      "lines": 70
+    },
+    {
+      "module": "FamilyObstruction",
+      "sha256": "0c31246c6ae81464e3465162bb4dc67637883370ed00ded3acbe6be1679bffe8",
+      "lines": 66
+    }
+  ]
+}

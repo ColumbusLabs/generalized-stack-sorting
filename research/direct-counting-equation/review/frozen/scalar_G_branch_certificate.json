@@ -1,0 +1,116 @@
+{
+  "scope": "Exact scalar Hensel existence/uniqueness and rational-map regularity certificate; paired with exact divisibility and coordinate-reduction equivalence it proves the actual G equation.",
+  "candidate_sha256": "dad38a8f22a20fdfe971792b09558df21104aa1ec8b51844a52b49da3f3f4b79",
+  "maps_sha256": "df35469c74961b9b00c167586b93256b352174be13e0e9015f7e3813b00fb62f",
+  "center_degree": 28,
+  "center_coefficients": [
+    "1",
+    "1",
+    "2",
+    "6",
+    "24",
+    "120",
+    "720",
+    "5004",
+    "38844",
+    "325692",
+    "2874096",
+    "26225388",
+    "244673064",
+    "2317801968",
+    "22198619268",
+    "214367639076",
+    "2083597536348",
+    "20360027153448",
+    "199846526174532",
+    "1969295339147040",
+    "19472755070776536",
+    "193150274100215220",
+    "1921290782808596508",
+    "19161078447676979700",
+    "191553567926972883480",
+    "1919241933402029131476",
+    "19269609849457550687016",
+    "193848032939479704746280",
+    "1953630687224717447602500"
+  ],
+  "residual_valuation": 40,
+  "derivative_valuation": 11,
+  "derivative_leading": "-576",
+  "hensel_unique_mod_x_power": 12,
+  "guaranteed_solution_agreement_mod_x_power": 29,
+  "map_denominator_ledger": {
+    "a": {
+      "numerator_valuation": 10,
+      "denominator_valuation": 10,
+      "denominator_leading": "-186624",
+      "ratio_jet4": [
+        "2",
+        "2",
+        "4",
+        "18",
+        "124"
+      ]
+    },
+    "t": {
+      "numerator_valuation": 12,
+      "denominator_valuation": 12,
+      "denominator_leading": "2304",
+      "ratio_jet4": [
+        "1/4",
+        "-1/4",
+        "-1/4",
+        "-3/2",
+        "-41/4"
+      ]
+    },
+    "u": {
+      "numerator_valuation": 10,
+      "denominator_valuation": 10,
+      "denominator_leading": "-1036800",
+      "ratio_jet4": [
+        "1/6",
+        "0",
+        "1/9",
+        "1/3",
+        "23/27"
+      ]
+    },
+    "i": {
+      "numerator_valuation": 12,
+      "denominator_valuation": 12,
+      "denominator_leading": "288",
+      "ratio_jet4": [
+        "8",
+        "8",
+        "28",
+        "150",
+        "964"
+      ]
+    },
+    "q": {
+      "numerator_valuation": 10,
+      "denominator_valuation": 10,
+      "denominator_leading": "567787968",
+      "ratio_jet4": [
+        "1/18",
+        "-1/9",
+        "-5/27",
+        "-26/27",
+        "-484/81"
+      ]
+    }
+  },
+  "polynomial_factor_degrees": [
+    [
+      [
+        12,
+        6
+      ],
+      1
+    ]
+  ],
+  "irreducible_over_Qxy": true,
+  "seconds": 0.047525421003228985,
+  "peak_rss_kib": 28264
+}

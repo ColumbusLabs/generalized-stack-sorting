@@ -1,0 +1,21 @@
+{
+  "status": "PASS corrected raw and quotient PDA accept regression",
+  "permutation": [
+    6,
+    3,
+    2,
+    5,
+    10,
+    8,
+    4,
+    13,
+    12,
+    11,
+    9,
+    7,
+    1
+  ],
+  "raw_steps": 58,
+  "quotient_steps": 58,
+  "scope": "One exact regression, not a replacement for the all-length compiler proof."
+}

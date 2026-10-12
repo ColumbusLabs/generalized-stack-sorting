@@ -1,0 +1,126 @@
+import BivariateRowEquality
+import Horner0Base
+import Horner0Node043
+namespace StackSorting.RationalLift
+open StackSorting.CauchyRing StackSorting.ConcreteScalar
+set_option maxRecDepth 50000
+set_option maxHeartbeats 100000000
+
+noncomputable def h0p44 : BiPoly.Poly := [[(Int.ofNat 166520235849984000000), (Int.ofNat 1107945276894239616000), (Int.negSucc 269941195534358125439), (Int.negSucc 9675761794487253495359), (Int.ofNat 3798476219672336597760), (Int.ofNat 28165533111421711505280), (Int.negSucc 41258593653098934337919), (Int.ofNat 17491754967553934020800)], [(Int.negSucc 1988552277585760319999), (Int.negSucc 12034797142722652203839), (Int.ofNat 9025772547047793862752), (Int.ofNat 109584112382246290190112), (Int.negSucc 75744670836117791549375), (Int.negSucc 294463611767270129459327), (Int.ofNat 492320843170348323834720), (Int.negSucc 239666904268898155385183), (Int.ofNat 18331633830162795724800)], [(Int.ofNat 11036312317168469798400), (Int.ofNat 60284662318137088584000), (Int.negSucc 75652302632528864336255), (Int.negSucc 556262207960147052290063), (Int.ofNat 531934210711814929875504), (Int.ofNat 1332047078956152767393568), (Int.negSucc 2489467535261309003896223), (Int.ofNat 1288028020593004351532208), (Int.negSucc 142590201454542520246031), (Int.ofNat 7297768837549155126528)], [(Int.negSucc 37772505571979306015999), (Int.negSucc 184349925207574170745679), (Int.ofNat 324073684968816006361656), (Int.ofNat 1682701312487922019091808), (Int.negSucc 1959468006461516033971175), (Int.negSucc 3439228502686339926239471), (Int.ofNat 6840139847726341249583400), (Int.negSucc 3313713505756019113645631), (Int.ofNat 242637836770456289653896), (Int.negSucc 17353632267706197869279), (Int.ofNat 1343658225594667843584)], [(Int.ofNat 89200644044558831193600), (Int.ofNat 383574991554142868786400), (Int.negSucc 867055214818653229562543), (Int.negSucc 3398857455152462255511551), (Int.ofNat 4314265995352170513714480), (Int.ofNat 5671683348773167913906448), (Int.negSucc 10519271918539470819013679), (Int.ofNat 2997793049517114808901760), (Int.ofNat 1042701635816264848781232), (Int.negSucc 143049054164204523757103), (Int.ofNat 5077772587213700704128), (Int.ofNat 107918160460173186048)], [(Int.negSucc 154063500345356892400799), (Int.negSucc 571802628500289102207599), (Int.ofNat 1583885149138707461366976), (Int.ofNat 4877543238471078172546032), (Int.negSucc 5762514434874068749029479), (Int.negSucc 6532339530400753353939647), (Int.ofNat 6893725763289719484352080), (Int.ofNat 5444475469035488696421360), (Int.negSucc 5369918771344437190222631), (Int.ofNat 620399783083220035103088), (Int.negSucc 38987408644096586499647), (Int.ofNat 1342204683937372198656), (Int.ofNat 2448593422580219904)], [(Int.ofNat 201246262525874287504800), (Int.ofNat 623786198334943184539560), (Int.negSucc 2065519628826060911210459), (Int.negSucc 5209562867272512639150491), (Int.ofNat 3864102849307894673300868), (Int.ofNat 6116210342254759154387940), (Int.ofNat 5085104173161506628857388), (Int.negSucc 19146219487352198568946403), (Int.ofNat 8909942207809179421337724), (Int.negSucc 187226803924435199030363), (Int.negSucc 24715440410215643073215), (Int.negSucc 13131905779636424063), (Int.ofNat 81330394177611203328), (Int.negSucc 15056575377592319)], [(Int.negSucc 202743555964838153503199), (Int.negSucc 495003692034148933249439), (Int.ofNat 1961884852434401440052448), (Int.ofNat 4384185719464167853092540), (Int.ofNat 1131005097496887414007752), (Int.negSucc 5664663652299824928290795), (Int.negSucc 15369977395298621191208687), (Int.ofNat 21967892371255039334101956), (Int.negSucc 2111331069748703699015471), (Int.negSucc 3251785282312315916261603), (Int.ofNat 389837327661981521863032), (Int.negSucc 19762884177881784918911), (Int.ofNat 445972872420012937344), (Int.ofNat 198368961394346496)], [(Int.ofNat 159157190364002841996000), (Int.ofNat 270735449129092297897560), (Int.negSucc 1360567238540827252073051), (Int.negSucc 3189984201694279536867323), (Int.negSucc 5719551761284232817012515), (Int.ofNat 4875180970498828426855416), (Int.ofNat 14474103620631314200919184), (Int.negSucc 5203373192187768964378427), (Int.negSucc 14231803424497983455095907), (Int.ofNat 7070230795618532639223912), (Int.negSucc 418046117277610038345035), (Int.ofNat 8331698794444947105168), (Int.negSucc 266540332227738239999), (Int.ofNat 12166881819958000896)], [(Int.negSucc 97657839236547186052799), (Int.negSucc 80074258242715605281999), (Int.ofNat 680580315302906466214848), (Int.ofNat 2241338311494145233419700), (Int.ofNat 6930449190530473583628864), (Int.negSucc 2388096477338161752193343), (Int.negSucc 6105436389730108958661263), (Int.negSucc 14921441346112877033400923), (Int.ofNat 21555722416991840750446248), (Int.negSucc 3688720095287529901083527), (Int.negSucc 1069476593733826360895663), (Int.ofNat 118338413873872526732112), (Int.negSucc 4449467913466460723807), (Int.ofNat 69810287205889945344)], [(Int.ofNat 46672951925984455646400), (Int.negSucc 13979410061306682188399), (Int.negSucc 242200391194954026710447), (Int.negSucc 1558167736850346793972955), (Int.negSucc 5191990843170805687868375), (Int.negSucc 1196775418368654904395407), (Int.ofNat 182323772428264589670504), (Int.ofNat 18144783617005366149292044), (Int.negSucc 8906720671573823916181163), (Int.negSucc 6358453308661190326835435), (Int.ofNat 2764339438987544095709820), (Int.negSucc 143530258800145298732387), (Int.ofNat 1305738138561689845920), (Int.ofNat 34378683318730987392)], [(Int.negSucc 17189265095599669358399), (Int.ofNat 31467962146596129306000), (Int.ofNat 66858462093948267489096), (Int.ofNat 975519113005271234148168), (Int.ofNat 2803710880320998539776804), (Int.ofNat 3537969519516582619792428), (Int.ofNat 600284045217742455647412), (Int.negSucc 7378376849179028639101727), (Int.negSucc 8255836917024730210939235), (Int.ofNat 10836354812029524326838696), (Int.negSucc 1445158171910728293264491), (Int.negSucc 237891734642176141737395), (Int.ofNat 19588118459889470604912), (Int.negSucc 438662676283513646303)], [(Int.ofNat 4782211571501591092800), (Int.negSucc 19636080337795866443279), (Int.negSucc 23694243678594087764471), (Int.negSucc 492284751143534953726943), (Int.negSucc 1204327340703459406360703), (Int.negSucc 3535855769318348853397535), (Int.negSucc 85107674414879450786315), (Int.negSucc 1286861496140538383997779), (Int.ofNat 11716900463732367930618480), (Int.negSucc 4418019469838060068241063), (Int.negSucc 1997623137891055725283427), (Int.ofNat 568681857335660562327432), (Int.negSucc 14397222023782268759267), (Int.negSucc 360547177643034851951)], [(Int.negSucc 971591469983226851999), (Int.ofNat 7616010072132933428880), (Int.ofNat 13640235837884903054064), (Int.ofNat 183823618262795207471568), (Int.ofNat 449120039612180253251520), (Int.ofNat 2187674042026740779521032), (Int.ofNat 511030040801493729020340), (Int.ofNat 2193123590191476283782672), (Int.negSucc 4629981058574602662028895), (Int.negSucc 3262169530461449327396975), (Int.ofNat 2987313941757068999694852), (Int.negSucc 188465914702093384961315), (Int.negSucc 36762742039756072177055), (Int.ofNat 1363489449944414859936)], [(Int.ofNat 135958542720006967200), (Int.negSucc 2016425465590822339799), (Int.negSucc 6910627862933198773835), (Int.negSucc 45408594905960390764955), (Int.negSucc 144253578540059428921403), (Int.negSucc 900635870775408595990523), (Int.negSucc 1010287297187593129541183), (Int.negSucc 457583753672324908138631), (Int.negSucc 736466606439243424597991), (Int.ofNat 4191581836277306518831368), (Int.negSucc 857251428303510274608923), (Int.negSucc 413773026047258316318503), (Int.ofNat 50909860017542354297760), (Int.ofNat 544542236383976858880)], [(Int.negSucc 11709221018108037599), (Int.ofNat 363452813230491535200), (Int.ofNat 2395890958755022229952), (Int.ofNat 4892864109929739946980), (Int.ofNat 31760007574497894679608), (Int.ofNat 225281036096368177471140), (Int.ofNat 836623118185447296911052), (Int.negSucc 114304971964574590089011), (Int.ofNat 1200385592187364214851716), (Int.negSucc 1369482813795954592132955), (Int.negSucc 899405625527013288306599), (Int.ofNat 410317911776718254663928), (Int.ofNat 5279017308677264768616), (Int.negSucc 2390778778322286055007)], [(Int.ofNat 467655247834341600), (Int.negSucc 42122702071709166119), (Int.negSucc 548374862572454242427), (Int.ofNat 1093347990709321497468), (Int.negSucc 431339659702437619091), (Int.negSucc 12157547684082496460207), (Int.negSucc 376721075334537097923971), (Int.negSucc 94047679552658575378967), (Int.negSucc 275043567431560538189123), (Int.negSucc 264223173049582994923751), (Int.ofNat 802439398794055111234992), (Int.negSucc 29013950407483168021871), (Int.negSucc 41764490766470654766863), (Int.ofNat 501691322740706696448)], [(Int.ofNat 0), (Int.ofNat 2737418409920705520), (Int.ofNat 80191251756585967920), (Int.negSucc 582731123831484304115), (Int.negSucc 2747344493128579639799), (Int.negSucc 15834607903529319454847), (Int.ofNat 87264994594927215587220), (Int.ofNat 165847464108642776141268), (Int.negSucc 42866037759423243221855), (Int.ofNat 295460467172690343973272), (Int.negSucc 173038718684852052622055), (Int.negSucc 135863378931747856227695), (Int.ofNat 19385044400764824838992), (Int.ofNat 1591521875566773009984)], [(Int.ofNat 0), (Int.negSucc 69369363610572959), (Int.negSucc 6854806169840905127), (Int.ofNat 115931697316339025124), (Int.ofNat 1068539122384645882464), (Int.ofNat 7325219625936939577080), (Int.negSucc 1477202628303553614083), (Int.negSucc 79633967298719594046407), (Int.ofNat 4318100526985564276800), (Int.negSucc 57729209737164005022911), (Int.negSucc 55777961528356772405519), (Int.ofNat 70951087876706540122320), (Int.ofNat 6653146448286238315392), (Int.negSucc 1011207370197615086591)], [(Int.ofNat 0), (Int.ofNat 0), (Int.ofNat 263884604277104352), (Int.negSucc 11760670108450717415), (Int.negSucc 206203103025941399867), (Int.negSucc 1698977224948436516483), (Int.negSucc 5296177066938958368935), (Int.ofNat 16673608460177672867496), (Int.ofNat 18509744978045514484056), (Int.negSucc 4789501522423448667263), (Int.ofNat 34038502336188907389792), (Int.negSucc 6259221966151552692959), (Int.negSucc 8076461703245039278943), (Int.negSucc 131081150020907606399)], [(Int.ofNat 0), (Int.ofNat 0), (Int.ofNat 0), (Int.ofNat 499202089400371680), (Int.ofNat 21162190665565798920), (Int.ofNat 229092822811745006616), (Int.ofNat 1581959732310261202032), (Int.negSucc 504843959451114512207), (Int.negSucc 8162070429898875174191), (Int.ofNat 931540141654473449376), (Int.negSucc 4730098478120111365631), (Int.negSucc 4853015216436080684735), (Int.ofNat 2087579741925546123264), (Int.ofNat 305785891993306887936)], [(Int.ofNat 0), (Int.ofNat 0), (Int.ofNat 0), (Int.ofNat 0), (Int.negSucc 925313523477142751), (Int.negSucc 16709290607222611703), (Int.negSucc 213762726889371533879), (Int.negSucc 463557851454019986287), (Int.ofNat 1323553983306168793680), (Int.ofNat 1039472412007888124352), (Int.negSucc 214345275376574104703), (Int.ofNat 1485829225110252839040), (Int.ofNat 73125732909686057280), (Int.negSucc 102477786156525047039)], [(Int.ofNat 0), (Int.ofNat 0), (Int.ofNat 0), (Int.ofNat 0), (Int.ofNat 0), (Int.ofNat 491375159683532352), (Int.ofNat 13049248604088923856), (Int.ofNat 88177735214297087184), (Int.negSucc 42416812275557827391), (Int.negSucc 320735215790672458751), (Int.ofNat 34287715567518251328), (Int.negSucc 118683287765535369023), (Int.negSucc 104466733811601914879), (Int.ofNat 11240257389394636800)], [(Int.ofNat 0), (Int.ofNat 0), (Int.ofNat 0), (Int.ofNat 0), (Int.ofNat 0), (Int.ofNat 0), (Int.negSucc 205118496397607039), (Int.negSucc 5572635562453093919), (Int.negSucc 10528049982467457503), (Int.ofNat 31335691632275571840), (Int.ofNat 15005205484065448128), (Int.negSucc 1846385529557137919), (Int.ofNat 11476971593536896000)], [(Int.ofNat 0), (Int.ofNat 0), (Int.ofNat 0), (Int.ofNat 0), (Int.ofNat 0), (Int.ofNat 0), (Int.ofNat 0), (Int.ofNat 51992994478226688), (Int.ofNat 830251561241708352), (Int.negSucc 750643544391549119), (Int.negSucc 1721545739030534399)]]
+
+theorem h0n44_arithmetic_row0 :
+    (BiPoly.mul h0p36 h0p43).getD 0 []=h0p44.getD 0 [] := by
+  decide +kernel
+
+theorem h0n44_arithmetic_row1 :
+    (BiPoly.mul h0p36 h0p43).getD 1 []=h0p44.getD 1 [] := by
+  decide +kernel
+
+theorem h0n44_arithmetic_row2 :
+    (BiPoly.mul h0p36 h0p43).getD 2 []=h0p44.getD 2 [] := by
+  decide +kernel
+
+theorem h0n44_arithmetic_row3 :
+    (BiPoly.mul h0p36 h0p43).getD 3 []=h0p44.getD 3 [] := by
+  decide +kernel
+
+theorem h0n44_arithmetic_row4 :
+    (BiPoly.mul h0p36 h0p43).getD 4 []=h0p44.getD 4 [] := by
+  decide +kernel
+
+theorem h0n44_arithmetic_row5 :
+    (BiPoly.mul h0p36 h0p43).getD 5 []=h0p44.getD 5 [] := by
+  decide +kernel
+
+theorem h0n44_arithmetic_row6 :
+    (BiPoly.mul h0p36 h0p43).getD 6 []=h0p44.getD 6 [] := by
+  decide +kernel
+
+theorem h0n44_arithmetic_row7 :
+    (BiPoly.mul h0p36 h0p43).getD 7 []=h0p44.getD 7 [] := by
+  decide +kernel
+
+theorem h0n44_arithmetic_row8 :
+    (BiPoly.mul h0p36 h0p43).getD 8 []=h0p44.getD 8 [] := by
+  decide +kernel
+
+theorem h0n44_arithmetic_row9 :
+    (BiPoly.mul h0p36 h0p43).getD 9 []=h0p44.getD 9 [] := by
+  decide +kernel
+
+theorem h0n44_arithmetic_row10 :
+    (BiPoly.mul h0p36 h0p43).getD 10 []=h0p44.getD 10 [] := by
+  decide +kernel
+
+theorem h0n44_arithmetic_row11 :
+    (BiPoly.mul h0p36 h0p43).getD 11 []=h0p44.getD 11 [] := by
+  decide +kernel
+
+theorem h0n44_arithmetic_row12 :
+    (BiPoly.mul h0p36 h0p43).getD 12 []=h0p44.getD 12 [] := by
+  decide +kernel
+
+theorem h0n44_arithmetic_row13 :
+    (BiPoly.mul h0p36 h0p43).getD 13 []=h0p44.getD 13 [] := by
+  decide +kernel
+
+theorem h0n44_arithmetic_row14 :
+    (BiPoly.mul h0p36 h0p43).getD 14 []=h0p44.getD 14 [] := by
+  decide +kernel
+
+theorem h0n44_arithmetic_row15 :
+    (BiPoly.mul h0p36 h0p43).getD 15 []=h0p44.getD 15 [] := by
+  decide +kernel
+
+theorem h0n44_arithmetic_row16 :
+    (BiPoly.mul h0p36 h0p43).getD 16 []=h0p44.getD 16 [] := by
+  decide +kernel
+
+theorem h0n44_arithmetic_row17 :
+    (BiPoly.mul h0p36 h0p43).getD 17 []=h0p44.getD 17 [] := by
+  decide +kernel
+
+theorem h0n44_arithmetic_row18 :
+    (BiPoly.mul h0p36 h0p43).getD 18 []=h0p44.getD 18 [] := by
+  decide +kernel
+
+theorem h0n44_arithmetic_row19 :
+    (BiPoly.mul h0p36 h0p43).getD 19 []=h0p44.getD 19 [] := by
+  decide +kernel
+
+theorem h0n44_arithmetic_row20 :
+    (BiPoly.mul h0p36 h0p43).getD 20 []=h0p44.getD 20 [] := by
+  decide +kernel
+
+theorem h0n44_arithmetic_row21 :
+    (BiPoly.mul h0p36 h0p43).getD 21 []=h0p44.getD 21 [] := by
+  decide +kernel
+
+theorem h0n44_arithmetic_row22 :
+    (BiPoly.mul h0p36 h0p43).getD 22 []=h0p44.getD 22 [] := by
+  decide +kernel
+
+theorem h0n44_arithmetic_row23 :
+    (BiPoly.mul h0p36 h0p43).getD 23 []=h0p44.getD 23 [] := by
+  decide +kernel
+
+theorem h0n44_arithmetic_row24 :
+    (BiPoly.mul h0p36 h0p43).getD 24 []=h0p44.getD 24 [] := by
+  decide +kernel
+
+theorem h0n44_arithmetic : BiPoly.mul h0p36 h0p43=h0p44 := by
+  apply BiPoly.eq_of_rows
+  · decide +kernel
+  · intro k hk
+    change k<25 at hk
+    have hf : ∀ j : Fin 25, (BiPoly.mul h0p36 h0p43).getD j.val []=h0p44.getD j.val [] :=
+      (fun j => Fin.cases h0n44_arithmetic_row0 (fun j => Fin.cases h0n44_arithmetic_row1 (fun j => Fin.cases h0n44_arithmetic_row2 (fun j => Fin.cases h0n44_arithmetic_row3 (fun j => Fin.cases h0n44_arithmetic_row4 (fun j => Fin.cases h0n44_arithmetic_row5 (fun j => Fin.cases h0n44_arithmetic_row6 (fun j => Fin.cases h0n44_arithmetic_row7 (fun j => Fin.cases h0n44_arithmetic_row8 (fun j => Fin.cases h0n44_arithmetic_row9 (fun j => Fin.cases h0n44_arithmetic_row10 (fun j => Fin.cases h0n44_arithmetic_row11 (fun j => Fin.cases h0n44_arithmetic_row12 (fun j => Fin.cases h0n44_arithmetic_row13 (fun j => Fin.cases h0n44_arithmetic_row14 (fun j => Fin.cases h0n44_arithmetic_row15 (fun j => Fin.cases h0n44_arithmetic_row16 (fun j => Fin.cases h0n44_arithmetic_row17 (fun j => Fin.cases h0n44_arithmetic_row18 (fun j => Fin.cases h0n44_arithmetic_row19 (fun j => Fin.cases h0n44_arithmetic_row20 (fun j => Fin.cases h0n44_arithmetic_row21 (fun j => Fin.cases h0n44_arithmetic_row22 (fun j => Fin.cases h0n44_arithmetic_row23 (fun j => Fin.cases h0n44_arithmetic_row24 (fun j => Fin.elim0 j) j) j) j) j) j) j) j) j) j) j) j) j) j) j) j) j) j) j) j) j) j) j) j) j) j)
+    exact hf ⟨k,hk⟩
+
+theorem h0n44 : h0e44.toBi mapPolyEnv=h0p44 := by
+  change BiPoly.mul (h0e36.toBi mapPolyEnv) (h0e43.toBi mapPolyEnv)=h0p44
+  rw [h0n36, h0n43]
+  exact h0n44_arithmetic
+
+#print axioms h0n44_arithmetic
+end StackSorting.RationalLift

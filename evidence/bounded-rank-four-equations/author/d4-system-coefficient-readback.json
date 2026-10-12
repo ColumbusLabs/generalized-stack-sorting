@@ -1,0 +1,27 @@
+{
+  "status": "PASS polynomial-system coefficient readback",
+  "coefficients": [
+    1,
+    1,
+    2,
+    6,
+    24,
+    120,
+    696,
+    4434,
+    29994,
+    211248,
+    1531326,
+    11343804,
+    85470360,
+    652838112
+  ],
+  "variables": 4886,
+  "constant_fixed_point_rounds": 7,
+  "maximum_constant": 342,
+  "zero_size_jacobian_edges": 32463,
+  "zero_size_jacobian_acyclic": true,
+  "system_sha256": "0f6cce8c90e913d86a22985d3b649633b777ffb607b7972f02dc2d9bcebda2e9",
+  "seconds": 2.1174780540022766,
+  "peak_rss_kib": 61732
+}

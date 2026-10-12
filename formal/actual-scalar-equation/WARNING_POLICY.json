@@ -1,0 +1,38 @@
+{
+  "policy": "Only the four exact pinned sources permit the listed warning headlines. Every other source uses warningAsError=true. Every compiler invocation must exit zero.",
+  "exceptions": [
+    {
+      "module": "CauchyRing",
+      "source_sha256": "f503c3f5534d3c596b0b41b4d5d309aa9aa2dd2245d33078bd4679a58aaf5a34",
+      "exact_warning_headlines": [
+        "CauchyRing.lean:115:42: warning: `if_false` has been deprecated: Use `ite_false` instead",
+        "CauchyRing.lean:117:22: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "CauchyRing.lean:117:22: warning: This simp argument is unused:"
+      ]
+    },
+    {
+      "module": "SeriesPolynomialSemantics",
+      "source_sha256": "22aaae5b5224620c0e4b758d5d049ece6173988f84e000465a17368fb9e44807",
+      "exact_warning_headlines": [
+        "SeriesPolynomialSemantics.lean:174:26: warning: `if_false` has been deprecated: Use `ite_false` instead"
+      ]
+    },
+    {
+      "module": "ScalarSeriesCertificate",
+      "source_sha256": "0988f2431f6f1ead4157970a6873c8f4129267db4f239419069f0afd01f5a58e",
+      "exact_warning_headlines": [
+        "ScalarSeriesCertificate.lean:43:48: warning: This simp argument is unused:",
+        "ScalarSeriesCertificate.lean:77:107: warning: This simp argument is unused:"
+      ]
+    },
+    {
+      "module": "ScalarBranchUnique",
+      "source_sha256": "f83e8bc596cf0b730d3f99155c1abc54c4024ae112008f53a506d8e30eb6e308",
+      "exact_warning_headlines": [
+        "ScalarBranchUnique.lean:97:42: warning: `if_true` has been deprecated: Use `ite_true` instead",
+        "ScalarBranchUnique.lean:112:8: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "ScalarBranchUnique.lean:115:30: warning: `if_false` has been deprecated: Use `ite_false` instead"
+      ]
+    }
+  ]
+}

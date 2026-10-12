@@ -1,0 +1,18 @@
+import Horner3Base
+namespace StackSorting.RationalLift
+open StackSorting.CauchyRing StackSorting.ConcreteScalar
+set_option maxRecDepth 50000
+set_option maxHeartbeats 100000000
+
+noncomputable def h3p10 : BiPoly.Poly := [[0,472261338,1217015676,-2450153790],[0,-2306280714,-6703599180,10748750526,-670962072],[0,5320050962,12293004262,-16403256160,117391062,3405160],[0,-7419367907,-8377521067,4036034801,4035733571,-123557268],[0,6517991433,402433922,12339545263,-5980552106,-206952322],[0,-3504802105,987248176,-10739512339,583467373,377382165],[0,1074940707,858249577,2281968902,2850082835,90990270],[0,-162483782,-936223363,334049373,-1338212760,-249725646],[0,7690068,298735941,-165027066,144652032,71389728],[0,0,-36794952,23061006]]
+
+theorem h3n10_arithmetic : BiPoly.mul h3p8 h3p9=h3p10 := by
+  decide +kernel
+
+theorem h3n10 : h3e10.toBi mapPolyEnv=h3p10 := by
+  change BiPoly.mul (h3e8.toBi mapPolyEnv) (h3e9.toBi mapPolyEnv)=h3p10
+  rw [h3n8, h3n9]
+  exact h3n10_arithmetic
+
+#print axioms h3n10_arithmetic
+end StackSorting.RationalLift

@@ -1,0 +1,25 @@
+{
+  "scope": "Local exploratory artifacts retained; not used as proof and not publication dependencies",
+  "files": {
+    "test_batch_transfer.py": "eda24a835d07145b21fcf8734f288f2edfcd0464111c72fc0a4136d061c76e95",
+    "batch-transfer-test.json": "52ae2d353ad351d13a6cdae17bbead481d613e1f0529838acba4ad6c75ab7f28",
+    "probe_completion_hankel.py": "fb5151b6c098734e3dff8ad6effee4dddae2532b3fed04c567af2b28f74a8e7f",
+    "probe_series_hankel.py": "3044f8dc99bf78db14a292fe702e54680c8285bf8521befc121de597706705b0",
+    "series-hankel-probe.json": "2d194f9bf3929f5c2860fdf865d2a85bb8119db3ffa965439d5f81674098e558",
+    "probe_four_state_transfer.py": "c83c9494fb8ac27c07591210938175d020a700c561239fa7231ba997eb5c9fe5",
+    "four-state-transfer-probe.json": "bd165e40e84570d22584316c2f8e8b8aa05c9529842e312d8112a0caf70b0268",
+    "probe_four_state_mode.py": "3fbd9546de449edcb680fdd3064a6920ca1455cc62fd6cf28fa3b2d60abb7057",
+    "four-state-mode-probe.json": "6d306facae36d47a5d6f9847b9c0aad6c4375ba488a63b435e71189b61f12474",
+    "probe_series_smith.py": "35e9d3dd0f7b160178331a83c764854ede9ef905759a7e3577e73aa4cf3a20b4",
+    "full-completion-interface-notes.md": "5ecadfc52cb4a4d5782c0ba8fa46641885c1333ee2bc68d6a050300c34395233",
+    "series-smith-failure.json": "5c582dac11d3303eeb857c2a282c3b58bcc40a31168115fda7cac9acc3e00e84"
+  },
+  "original_reviewer_sources": {
+    "hankel-obstruction/check_four_by_four_minor.py": "14841e02a86a7fcf9d1dfe9f209df8e7825d402cd724f8fb2f84f51acbad4442",
+    "hankel-obstruction/higher-rank/certify_earlier_minor.py": "29fc72593aeca5a36ff7a64615860a7b9e09742bcef0cf855fc3bc9722945eee",
+    "hankel-obstruction/higher-rank/probe.py": "6307a647002717003ee55ad4a32cdcfcd12fd5de35a1b3d2da9d3dc20c5aa653",
+    "hankel-obstruction/higher-rank/probe-words2.py": "d29ac21b57b4754b06686199c5fc16183c8cf1402571e98350f5fc337e8680b7",
+    "hankel-obstruction/higher-rank/higher-rank-results.json": "312321e5382246d8f472465507f971798f2b06e32288ff61d3e39894b19a2d29",
+    "hankel-obstruction/higher-rank/rank-words3-degree8.json": "b3b63c3eca7453bdda3ad3bf3e07863a09d7a19bece216bbb164f7592580dfeb"
+  }
+}

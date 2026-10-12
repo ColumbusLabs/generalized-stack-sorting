@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.olean
+*.ilean
+.lake/
+build/
+replays/
+replay-output/
+*.aux
+*.log
+*.out
+*.blg

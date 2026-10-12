@@ -1,0 +1,217 @@
+{
+  "lean": "4.34.1",
+  "modules": [
+    {
+      "module": "GeneralizedDeletion",
+      "path": "../generalized/GeneralizedDeletion.lean",
+      "sha256": "bfe6e4852b73aa18e29f006c65e80c5880df6dd8f60426db6a0643aaa40bf751",
+      "lines": 95
+    },
+    {
+      "module": "GeneralizedRawMachine",
+      "path": "../generalized/GeneralizedRawMachine.lean",
+      "sha256": "f333f69cb3f56e66079c2de63538754a327a20e9bac398f51357d6a508138710",
+      "lines": 180
+    },
+    {
+      "module": "GeneralizedRelational",
+      "path": "../generalized/GeneralizedRelational.lean",
+      "sha256": "eb18fa00529529d37bf549e6ee0dd25fc5085c73996cabc7c58ce0301b78cac3",
+      "lines": 129
+    },
+    {
+      "module": "GeneralizedLazy",
+      "path": "../generalized/GeneralizedLazy.lean",
+      "sha256": "612f395a220f4fcbc7bf89a65c99b984018a6e0685afa7092d173d1871557276",
+      "lines": 202
+    },
+    {
+      "module": "GeneralizedRangeLazy",
+      "path": "../generalized/GeneralizedRangeLazy.lean",
+      "sha256": "d399c2405727b2201ee1993fd24953862c7c7a57e1cd5522cf512c80ff95de45",
+      "lines": 115
+    },
+    {
+      "module": "RangeLazyInversion",
+      "path": "../generalized/RangeLazyInversion.lean",
+      "sha256": "c6261cc2c42fd0958dec8975c452878b1db60f936cd71833f1f75f865b609aa0",
+      "lines": 15
+    },
+    {
+      "module": "InfiniteFamily",
+      "path": "../generalized/InfiniteFamily.lean",
+      "sha256": "7ef1e73897f2a7ee3e0843322673e2045756066337d71a33ad15c06c003e7553",
+      "lines": 169
+    },
+    {
+      "module": "UnequalFamily",
+      "path": "../unequal/UnequalFamily.lean",
+      "sha256": "4976e82d75e37c628eaadc2d5e8ccad9de7913c681aca69e9dbb0fbe6f517fbb",
+      "lines": 170
+    },
+    {
+      "module": "UnequalStack",
+      "path": "../unequal/UnequalStack.lean",
+      "sha256": "6258a5abf5b4ad2c4d29c0fc429d73693e98188d238fb17459a68e58516dec30",
+      "lines": 301
+    },
+    {
+      "module": "UnequalObstruction",
+      "path": "../unequal/UnequalObstruction.lean",
+      "sha256": "a6c402d887b56e4e62fbb3fee25cdff65cd7ea071193b69a1582a726fc33a430",
+      "lines": 165
+    },
+    {
+      "module": "UnequalReach",
+      "path": "../unequal/UnequalReach.lean",
+      "sha256": "d6c05a2db88f3d5f5ac075e034672131bf7e8c4380fa398f392c5c1a189fac84",
+      "lines": 240
+    },
+    {
+      "module": "UnequalScript",
+      "path": "../unequal/UnequalScript.lean",
+      "sha256": "b5cfe04d338a4faf27cb300f658d55a7bfb9a91fddebbbd79c61128c1da99e4e",
+      "lines": 238
+    },
+    {
+      "module": "UnequalDeletion",
+      "path": "../unequal/UnequalDeletion.lean",
+      "sha256": "b9e9092d231066560910849737add6d133ff62a6ec1b4403c953eb15a08b3e27",
+      "lines": 266
+    },
+    {
+      "module": "UnequalCasesA",
+      "path": "../unequal/UnequalCasesA.lean",
+      "sha256": "cb630ce3fe9503db1d949b61bef04dcd83f2dbc92399b50e93f1b2f60c97af9a",
+      "lines": 376
+    },
+    {
+      "module": "UnequalCasesB",
+      "path": "../unequal/UnequalCasesB.lean",
+      "sha256": "b31d7d81141c90e42923b91eca14200d69cef537d02d342709857712f30a7300",
+      "lines": 438
+    },
+    {
+      "module": "UnequalBasis",
+      "path": "../unequal/UnequalBasis.lean",
+      "sha256": "f9ba58922c103b98faf890bb90a6ad81465c9082ab0eea2f1dc07d0277513ef2",
+      "lines": 82
+    },
+    {
+      "module": "UnequalSymmetry",
+      "path": "../unequal/UnequalSymmetry.lean",
+      "sha256": "72ccde08cc2e4dec05a0a8b64373ac36e9da73b944b739442472b8f4387b6d0d",
+      "lines": 284
+    },
+    {
+      "module": "UnequalCapacity",
+      "path": "../unequal/UnequalCapacity.lean",
+      "sha256": "696bbed6ef269cd48e95d6803416e3a3b0a3a4b6c12e9edfec5fb06f1ee725b8",
+      "lines": 375
+    },
+    {
+      "module": "UnequalFinite",
+      "path": "../unequal/UnequalFinite.lean",
+      "sha256": "034794733c9d1b2d15addd950de450b2b64a29a19adcd2809cc08633b29b842d",
+      "lines": 153
+    },
+    {
+      "module": "UnequalThreshold",
+      "path": "../unequal/UnequalThreshold.lean",
+      "sha256": "1719d80bb2315ef9d1295e3f013774b926e0f22a5c5632149d6cfe8c199d41e8",
+      "lines": 428
+    },
+    {
+      "module": "UnequalPatterns",
+      "path": "../unequal/UnequalPatterns.lean",
+      "sha256": "9e0bc52ef4b2987d5c0cc6650ebc0d6813e39d0ac8cc84b12d4b9f9ad76f5057",
+      "lines": 95
+    },
+    {
+      "module": "EqualFamily",
+      "path": "EqualFamily.lean",
+      "sha256": "597f09363d34bf5f4552f823ebd0f5888ca1cfbfadc0162d7a67531aaff63251",
+      "lines": 217
+    },
+    {
+      "module": "EqualReject",
+      "path": "EqualReject.lean",
+      "sha256": "99c6b1b14ff46eac48970af3b7c5aa838e59e1998a289457f3e8e7dccf141583",
+      "lines": 339
+    },
+    {
+      "module": "EqualHist",
+      "path": "EqualHist.lean",
+      "sha256": "35a831588d0060580fc0aef5c809ece8dcda9e6664eef5397480c1277c51345b",
+      "lines": 379
+    },
+    {
+      "module": "EqualRegimes",
+      "path": "EqualRegimes.lean",
+      "sha256": "13d6279c4676ab1d23e2c54bb83ec5f6f527b57999315bc8a37a012dce5f8836",
+      "lines": 397
+    },
+    {
+      "module": "EqualFinals",
+      "path": "EqualFinals.lean",
+      "sha256": "ede85ceedb163784c0218e6312956c0b5a028e0fd385108677111d0378440cb4",
+      "lines": 332
+    },
+    {
+      "module": "EqualPrefix",
+      "path": "EqualPrefix.lean",
+      "sha256": "bbda8920fef882e5787eaeca2a6b39eeed0674830aacfb83b0fcd54634b82450",
+      "lines": 340
+    },
+    {
+      "module": "EqualMPhase",
+      "path": "EqualMPhase.lean",
+      "sha256": "cbf2781a61c43e5d88ea4f44a6189f359a2f8e918bd3736e49b4f7bb41a72cf5",
+      "lines": 182
+    },
+    {
+      "module": "EqualDeletion",
+      "path": "EqualDeletion.lean",
+      "sha256": "67b4f68203fada1b3d5b50d49b3e50e5f0aaafd0eab162a49172984896a43528",
+      "lines": 431
+    },
+    {
+      "module": "EqualBasis",
+      "path": "EqualBasis.lean",
+      "sha256": "67c4e7d59e9e71c4116cf7efd23e7ec33ea655a407991badc6e632e605a5e276",
+      "lines": 173
+    }
+  ],
+  "build_order": [
+    "GeneralizedDeletion",
+    "GeneralizedRawMachine",
+    "GeneralizedRelational",
+    "GeneralizedLazy",
+    "GeneralizedRangeLazy",
+    "RangeLazyInversion",
+    "InfiniteFamily",
+    "UnequalFamily",
+    "UnequalStack",
+    "UnequalObstruction",
+    "UnequalReach",
+    "UnequalScript",
+    "UnequalDeletion",
+    "UnequalCasesA",
+    "UnequalCasesB",
+    "UnequalBasis",
+    "UnequalSymmetry",
+    "UnequalCapacity",
+    "UnequalFinite",
+    "UnequalThreshold",
+    "UnequalPatterns",
+    "EqualFamily",
+    "EqualReject",
+    "EqualHist",
+    "EqualRegimes",
+    "EqualFinals",
+    "EqualPrefix",
+    "EqualMPhase",
+    "EqualDeletion",
+    "EqualBasis"
+  ]
+}

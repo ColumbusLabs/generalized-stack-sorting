@@ -1,0 +1,162 @@
+import GraphInitial_Zt_Part03
+import UnitSplitFactorCertificates
+import GraphUnitWitness
+import LiteralEntryNormalization
+import LiteralEntryData
+noncomputable section
+namespace StackSorting.FiniteGraph
+set_option maxRecDepth 32768
+set_option maxHeartbeats 16000000
+variable {R : Type} [Lean.Grind.CommRing R]
+
+theorem initial_Z_t_8_coef30_cert (e : Nat → R) :
+    (2:R)^0*exprEval e initial_Z_t_8_coef30=(2*e 10-1)*exprEval e initial_Z_t_8_coef30_w0 + (e 4*e 9-1)*exprEval e initial_Z_t_8_coef30_w1 + (e 3*e 8-1)*exprEval e initial_Z_t_8_coef30_w2 + (e 0*e 7-1)*exprEval e initial_Z_t_8_coef30_w3 := by
+  dsimp only [initial_Z_t_8_coef30, initial_Z_t_8_coef30_w0, initial_Z_t_8_coef30_w1, initial_Z_t_8_coef30_w2, initial_Z_t_8_coef30_w3, exprEval] <;> grind
+
+theorem initial_Z_t_8_coef30_zero (y : Chart R) (beta : Vec R 6) :
+    exprEval (chartVars y beta) initial_Z_t_8_coef30=0 :=
+  unitIdealClearZero 0 _ y.g y.gi y.q y.qi y.s y.si y.half _ _ _ _
+    y.g_unit y.q_unit y.s_unit y.half_unit (initial_Z_t_8_coef30_cert (chartVars y beta))
+
+def initial_Z_t_8_coef31 : RingExpr := (.mul (.int 12) (.mul (.var 7) (.mul (.var 10) (.mul (.var 3) (.mul (.pow (.var 8) 3) (.mul (.pow (.var 4) 2) (.add (.int (-1)) (.mul (.var 4) (.var 9)))))))))
+def initial_Z_t_8_coef31_w0 : RingExpr := (.mul (.int 6) (.mul (.var 7) (.mul (.var 3) (.mul (.pow (.var 8) 3) (.mul (.pow (.var 4) 2) (.add (.int (-1)) (.mul (.var 4) (.var 9))))))))
+def initial_Z_t_8_coef31_w1 : RingExpr := (.mul (.int 6) (.mul (.var 7) (.mul (.var 3) (.mul (.pow (.var 8) 3) (.pow (.var 4) 2)))))
+def initial_Z_t_8_coef31_w2 : RingExpr := (.int 0)
+def initial_Z_t_8_coef31_w3 : RingExpr := (.int 0)
+
+theorem initial_Z_t_8_coef31_cert (e : Nat → R) :
+    (2:R)^0*exprEval e initial_Z_t_8_coef31=(2*e 10-1)*exprEval e initial_Z_t_8_coef31_w0 + (e 4*e 9-1)*exprEval e initial_Z_t_8_coef31_w1 + (e 3*e 8-1)*exprEval e initial_Z_t_8_coef31_w2 + (e 0*e 7-1)*exprEval e initial_Z_t_8_coef31_w3 := by
+  dsimp only [initial_Z_t_8_coef31, initial_Z_t_8_coef31_w0, initial_Z_t_8_coef31_w1, initial_Z_t_8_coef31_w2, initial_Z_t_8_coef31_w3, exprEval] <;> grind
+
+theorem initial_Z_t_8_coef31_zero (y : Chart R) (beta : Vec R 6) :
+    exprEval (chartVars y beta) initial_Z_t_8_coef31=0 :=
+  unitIdealClearZero 0 _ y.g y.gi y.q y.qi y.s y.si y.half _ _ _ _
+    y.g_unit y.q_unit y.s_unit y.half_unit (initial_Z_t_8_coef31_cert (chartVars y beta))
+
+def initial_Z_t_8_coef32 : RingExpr := (.mul (.int (-4)) (.mul (.var 7) (.mul (.var 10) (.mul (.var 4) (.mul (.pow (.var 8) 3) (.add (.int 4) (.add (.mul (.var 3) (.var 8)) (.add (.mul (.int (-7)) (.mul (.var 4) (.var 9))) (.add (.mul (.int (-1)) (.mul (.var 10) (.mul (.var 4) (.var 9)))) (.add (.mul (.int (-4)) (.mul (.var 0) (.mul (.var 4) (.pow (.var 3) 2)))) (.add (.mul (.var 3) (.mul (.var 8) (.mul (.var 4) (.var 9)))) (.add (.mul (.int (-2)) (.mul (.var 0) (.mul (.var 8) (.mul (.var 4) (.pow (.var 3) 3))))) (.add (.mul (.int 4) (.mul (.var 0) (.mul (.var 9) (.mul (.pow (.var 3) 2) (.pow (.var 4) 2))))) (.add (.mul (.int 2) (.mul (.var 0) (.mul (.var 8) (.mul (.var 9) (.mul (.pow (.var 3) 3) (.pow (.var 4) 2)))))) (.mul (.int 3) (.mul (.var 10) (.mul (.var 3) (.mul (.var 8) (.mul (.var 4) (.var 9))))))))))))))))))))
+def initial_Z_t_8_coef32_w0 : RingExpr := (.mul (.int (-1)) (.mul (.var 7) (.mul (.var 4) (.mul (.pow (.var 8) 3) (.add (.int 8) (.add (.mul (.int (-15)) (.mul (.var 4) (.var 9))) (.add (.mul (.int 2) (.mul (.var 3) (.var 8))) (.add (.mul (.int (-8)) (.mul (.var 0) (.mul (.var 4) (.pow (.var 3) 2)))) (.add (.mul (.int (-2)) (.mul (.var 10) (.mul (.var 4) (.var 9)))) (.add (.mul (.int (-4)) (.mul (.var 0) (.mul (.var 8) (.mul (.var 4) (.pow (.var 3) 3))))) (.add (.mul (.int 5) (.mul (.var 3) (.mul (.var 8) (.mul (.var 4) (.var 9))))) (.add (.mul (.int 8) (.mul (.var 0) (.mul (.var 9) (.mul (.pow (.var 3) 2) (.pow (.var 4) 2))))) (.add (.mul (.int 4) (.mul (.var 0) (.mul (.var 8) (.mul (.var 9) (.mul (.pow (.var 3) 3) (.pow (.var 4) 2)))))) (.mul (.int 6) (.mul (.var 10) (.mul (.var 3) (.mul (.var 8) (.mul (.var 4) (.var 9)))))))))))))))))))
+def initial_Z_t_8_coef32_w1 : RingExpr := (.mul (.int (-1)) (.mul (.var 7) (.mul (.var 4) (.mul (.pow (.var 8) 3) (.add (.int (-15)) (.add (.mul (.int 5) (.mul (.var 3) (.var 8))) (.add (.mul (.int 8) (.mul (.var 0) (.mul (.var 4) (.pow (.var 3) 2)))) (.mul (.int 4) (.mul (.var 0) (.mul (.var 8) (.mul (.var 4) (.pow (.var 3) 3))))))))))))
+def initial_Z_t_8_coef32_w2 : RingExpr := (.mul (.int (-7)) (.mul (.var 7) (.mul (.var 4) (.pow (.var 8) 3))))
+def initial_Z_t_8_coef32_w3 : RingExpr := (.int 0)
+
+theorem initial_Z_t_8_coef32_cert (e : Nat → R) :
+    (2:R)^0*exprEval e initial_Z_t_8_coef32=(2*e 10-1)*exprEval e initial_Z_t_8_coef32_w0 + (e 4*e 9-1)*exprEval e initial_Z_t_8_coef32_w1 + (e 3*e 8-1)*exprEval e initial_Z_t_8_coef32_w2 + (e 0*e 7-1)*exprEval e initial_Z_t_8_coef32_w3 := by
+  dsimp only [initial_Z_t_8_coef32, initial_Z_t_8_coef32_w0, initial_Z_t_8_coef32_w1, initial_Z_t_8_coef32_w2, initial_Z_t_8_coef32_w3, exprEval] <;> grind
+
+theorem initial_Z_t_8_coef32_zero (y : Chart R) (beta : Vec R 6) :
+    exprEval (chartVars y beta) initial_Z_t_8_coef32=0 :=
+  unitIdealClearZero 0 _ y.g y.gi y.q y.qi y.s y.si y.half _ _ _ _
+    y.g_unit y.q_unit y.s_unit y.half_unit (initial_Z_t_8_coef32_cert (chartVars y beta))
+
+def initial_Z_t_8_coef33 : RingExpr := (.mul (.int (-4)) (.mul (.var 7) (.mul (.var 10) (.mul (.var 3) (.mul (.var 4) (.mul (.pow (.var 8) 3) (.mul (.add (.int (-1)) (.mul (.var 3) (.var 8))) (.add (.mul (.var 0) (.var 3)) (.mul (.int 6) (.mul (.var 10) (.mul (.var 9) (.pow (.var 4) 2))))))))))))
+def initial_Z_t_8_coef33_w0 : RingExpr := (.mul (.int (-2)) (.mul (.var 7) (.mul (.var 3) (.mul (.var 4) (.mul (.pow (.var 8) 3) (.mul (.add (.int (-1)) (.mul (.var 3) (.var 8))) (.add (.mul (.var 0) (.var 3)) (.add (.mul (.int 3) (.mul (.var 9) (.pow (.var 4) 2))) (.mul (.int 6) (.mul (.var 10) (.mul (.var 9) (.pow (.var 4) 2))))))))))))
+def initial_Z_t_8_coef33_w1 : RingExpr := (.mul (.int (-6)) (.mul (.var 7) (.mul (.var 3) (.mul (.pow (.var 8) 3) (.mul (.pow (.var 4) 2) (.add (.int (-1)) (.mul (.var 3) (.var 8))))))))
+def initial_Z_t_8_coef33_w2 : RingExpr := (.mul (.int (-2)) (.mul (.var 7) (.mul (.var 3) (.mul (.var 4) (.mul (.pow (.var 8) 3) (.add (.mul (.int 3) (.var 4)) (.mul (.var 0) (.var 3))))))))
+def initial_Z_t_8_coef33_w3 : RingExpr := (.int 0)
+
+theorem initial_Z_t_8_coef33_cert (e : Nat → R) :
+    (2:R)^0*exprEval e initial_Z_t_8_coef33=(2*e 10-1)*exprEval e initial_Z_t_8_coef33_w0 + (e 4*e 9-1)*exprEval e initial_Z_t_8_coef33_w1 + (e 3*e 8-1)*exprEval e initial_Z_t_8_coef33_w2 + (e 0*e 7-1)*exprEval e initial_Z_t_8_coef33_w3 := by
+  dsimp only [initial_Z_t_8_coef33, initial_Z_t_8_coef33_w0, initial_Z_t_8_coef33_w1, initial_Z_t_8_coef33_w2, initial_Z_t_8_coef33_w3, exprEval] <;> grind
+
+theorem initial_Z_t_8_coef33_zero (y : Chart R) (beta : Vec R 6) :
+    exprEval (chartVars y beta) initial_Z_t_8_coef33=0 :=
+  unitIdealClearZero 0 _ y.g y.gi y.q y.qi y.s y.si y.half _ _ _ _
+    y.g_unit y.q_unit y.s_unit y.half_unit (initial_Z_t_8_coef33_cert (chartVars y beta))
+
+def initial_Z_t_8_coef34 : RingExpr := (.mul (.int 4) (.mul (.var 0) (.mul (.var 7) (.mul (.var 10) (.mul (.var 4) (.mul (.pow (.var 3) 2) (.mul (.pow (.var 8) 3) (.add (.int (-1)) (.mul (.var 3) (.var 8))))))))))
+def initial_Z_t_8_coef34_w0 : RingExpr := (.mul (.int 2) (.mul (.var 0) (.mul (.var 7) (.mul (.var 4) (.mul (.pow (.var 3) 2) (.mul (.pow (.var 8) 3) (.add (.int (-1)) (.mul (.var 3) (.var 8)))))))))
+def initial_Z_t_8_coef34_w1 : RingExpr := (.int 0)
+def initial_Z_t_8_coef34_w2 : RingExpr := (.mul (.int 2) (.mul (.var 0) (.mul (.var 7) (.mul (.var 4) (.mul (.pow (.var 3) 2) (.pow (.var 8) 3))))))
+def initial_Z_t_8_coef34_w3 : RingExpr := (.int 0)
+
+theorem initial_Z_t_8_coef34_cert (e : Nat → R) :
+    (2:R)^0*exprEval e initial_Z_t_8_coef34=(2*e 10-1)*exprEval e initial_Z_t_8_coef34_w0 + (e 4*e 9-1)*exprEval e initial_Z_t_8_coef34_w1 + (e 3*e 8-1)*exprEval e initial_Z_t_8_coef34_w2 + (e 0*e 7-1)*exprEval e initial_Z_t_8_coef34_w3 := by
+  dsimp only [initial_Z_t_8_coef34, initial_Z_t_8_coef34_w0, initial_Z_t_8_coef34_w1, initial_Z_t_8_coef34_w2, initial_Z_t_8_coef34_w3, exprEval] <;> grind
+
+theorem initial_Z_t_8_coef34_zero (y : Chart R) (beta : Vec R 6) :
+    exprEval (chartVars y beta) initial_Z_t_8_coef34=0 :=
+  unitIdealClearZero 0 _ y.g y.gi y.q y.qi y.s y.si y.half _ _ _ _
+    y.g_unit y.q_unit y.s_unit y.half_unit (initial_Z_t_8_coef34_cert (chartVars y beta))
+
+def initial_Z_t_8_coef35 : RingExpr := (.mul (.int (-12)) (.mul (.var 7) (.mul (.var 10) (.mul (.var 3) (.mul (.pow (.var 8) 3) (.mul (.pow (.var 4) 2) (.add (.mul (.int (-1)) (.var 9)) (.add (.mul (.int (-1)) (.mul (.var 0) (.pow (.var 3) 2))) (.add (.mul (.int (-1)) (.mul (.var 10) (.var 9))) (.add (.mul (.var 3) (.mul (.var 8) (.var 9))) (.add (.mul (.var 0) (.mul (.var 4) (.mul (.var 9) (.pow (.var 3) 2)))) (.mul (.var 10) (.mul (.var 3) (.mul (.var 8) (.var 9)))))))))))))))
+def initial_Z_t_8_coef35_w0 : RingExpr := (.mul (.int (-3)) (.mul (.var 7) (.mul (.var 3) (.mul (.pow (.var 8) 3) (.mul (.pow (.var 4) 2) (.add (.mul (.int (-3)) (.var 9)) (.add (.mul (.int (-2)) (.mul (.var 0) (.pow (.var 3) 2))) (.add (.mul (.int (-2)) (.mul (.var 10) (.var 9))) (.add (.mul (.int 3) (.mul (.var 3) (.mul (.var 8) (.var 9)))) (.add (.mul (.int 2) (.mul (.var 0) (.mul (.var 4) (.mul (.var 9) (.pow (.var 3) 2))))) (.mul (.int 2) (.mul (.var 10) (.mul (.var 3) (.mul (.var 8) (.var 9)))))))))))))))
+def initial_Z_t_8_coef35_w1 : RingExpr := (.mul (.int (-3)) (.mul (.var 7) (.mul (.var 3) (.mul (.var 4) (.mul (.pow (.var 8) 3) (.add (.int (-3)) (.add (.mul (.int 3) (.mul (.var 3) (.var 8))) (.mul (.int 2) (.mul (.var 0) (.mul (.var 4) (.pow (.var 3) 2)))))))))))
+def initial_Z_t_8_coef35_w2 : RingExpr := (.mul (.int (-9)) (.mul (.var 7) (.mul (.var 3) (.mul (.var 4) (.pow (.var 8) 3)))))
+def initial_Z_t_8_coef35_w3 : RingExpr := (.int 0)
+
+theorem initial_Z_t_8_coef35_cert (e : Nat → R) :
+    (2:R)^0*exprEval e initial_Z_t_8_coef35=(2*e 10-1)*exprEval e initial_Z_t_8_coef35_w0 + (e 4*e 9-1)*exprEval e initial_Z_t_8_coef35_w1 + (e 3*e 8-1)*exprEval e initial_Z_t_8_coef35_w2 + (e 0*e 7-1)*exprEval e initial_Z_t_8_coef35_w3 := by
+  dsimp only [initial_Z_t_8_coef35, initial_Z_t_8_coef35_w0, initial_Z_t_8_coef35_w1, initial_Z_t_8_coef35_w2, initial_Z_t_8_coef35_w3, exprEval] <;> grind
+
+theorem initial_Z_t_8_coef35_zero (y : Chart R) (beta : Vec R 6) :
+    exprEval (chartVars y beta) initial_Z_t_8_coef35=0 :=
+  unitIdealClearZero 0 _ y.g y.gi y.q y.qi y.s y.si y.half _ _ _ _
+    y.g_unit y.q_unit y.s_unit y.half_unit (initial_Z_t_8_coef35_cert (chartVars y beta))
+
+def initial_Z_t_8_coef36 : RingExpr := (.mul (.int (-24)) (.mul (.var 7) (.mul (.var 9) (.mul (.pow (.var 10) 2) (.mul (.pow (.var 3) 2) (.mul (.pow (.var 8) 3) (.mul (.pow (.var 4) 3) (.add (.int (-1)) (.mul (.var 3) (.var 8))))))))))
+def initial_Z_t_8_coef36_w0 : RingExpr := (.mul (.int (-6)) (.mul (.var 7) (.mul (.var 9) (.mul (.pow (.var 3) 2) (.mul (.pow (.var 8) 3) (.mul (.pow (.var 4) 3) (.mul (.add (.int 1) (.mul (.int 2) (.var 10))) (.add (.int (-1)) (.mul (.var 3) (.var 8))))))))))
+def initial_Z_t_8_coef36_w1 : RingExpr := (.mul (.int (-6)) (.mul (.var 7) (.mul (.pow (.var 3) 2) (.mul (.pow (.var 8) 3) (.mul (.pow (.var 4) 2) (.add (.int (-1)) (.mul (.var 3) (.var 8))))))))
+def initial_Z_t_8_coef36_w2 : RingExpr := (.mul (.int (-6)) (.mul (.var 7) (.mul (.pow (.var 3) 2) (.mul (.pow (.var 8) 3) (.pow (.var 4) 2)))))
+def initial_Z_t_8_coef36_w3 : RingExpr := (.int 0)
+
+theorem initial_Z_t_8_coef36_cert (e : Nat → R) :
+    (2:R)^0*exprEval e initial_Z_t_8_coef36=(2*e 10-1)*exprEval e initial_Z_t_8_coef36_w0 + (e 4*e 9-1)*exprEval e initial_Z_t_8_coef36_w1 + (e 3*e 8-1)*exprEval e initial_Z_t_8_coef36_w2 + (e 0*e 7-1)*exprEval e initial_Z_t_8_coef36_w3 := by
+  dsimp only [initial_Z_t_8_coef36, initial_Z_t_8_coef36_w0, initial_Z_t_8_coef36_w1, initial_Z_t_8_coef36_w2, initial_Z_t_8_coef36_w3, exprEval] <;> grind
+
+theorem initial_Z_t_8_coef36_zero (y : Chart R) (beta : Vec R 6) :
+    exprEval (chartVars y beta) initial_Z_t_8_coef36=0 :=
+  unitIdealClearZero 0 _ y.g y.gi y.q y.qi y.s y.si y.half _ _ _ _
+    y.g_unit y.q_unit y.s_unit y.half_unit (initial_Z_t_8_coef36_cert (chartVars y beta))
+
+def initial_Z_t_8_coef37 : RingExpr := (.mul (.var 7) (.mul (.var 10) (.mul (.pow (.var 8) 3) (.add (.int (-4)) (.add (.mul (.int (-1)) (.mul (.var 3) (.var 8))) (.add (.mul (.int 16) (.mul (.var 3) (.pow (.var 4) 2))) (.add (.mul (.int 16) (.mul (.var 4) (.var 9))) (.add (.mul (.int (-16)) (.mul (.var 3) (.mul (.var 9) (.pow (.var 4) 3)))) (.add (.mul (.int 4) (.mul (.var 10) (.mul (.var 4) (.var 9)))) (.add (.mul (.int 4) (.mul (.var 8) (.mul (.pow (.var 3) 2) (.pow (.var 4) 2)))) (.add (.mul (.int (-20)) (.mul (.var 0) (.mul (.var 9) (.mul (.pow (.var 3) 2) (.pow (.var 4) 2))))) (.add (.mul (.int (-7)) (.mul (.var 3) (.mul (.var 8) (.mul (.var 4) (.var 9))))) (.add (.mul (.int (-4)) (.mul (.var 8) (.mul (.var 9) (.mul (.pow (.var 3) 2) (.pow (.var 4) 3))))) (.add (.mul (.int (-4)) (.mul (.var 8) (.mul (.pow (.var 0) 2) (.mul (.pow (.var 3) 5) (.pow (.var 4) 2))))) (.add (.mul (.int 2) (.mul (.var 0) (.mul (.var 8) (.mul (.var 4) (.pow (.var 3) 3))))) (.add (.mul (.int 24) (.mul (.var 10) (.mul (.var 3) (.mul (.var 9) (.pow (.var 4) 3))))) (.add (.mul (.int (-24)) (.mul (.var 10) (.mul (.var 8) (.mul (.var 9) (.mul (.pow (.var 3) 2) (.pow (.var 4) 3)))))) (.add (.mul (.int (-12)) (.mul (.var 10) (.mul (.var 3) (.mul (.var 8) (.mul (.var 4) (.var 9)))))) (.add (.mul (.int 4) (.mul (.var 8) (.mul (.var 9) (.mul (.pow (.var 0) 2) (.mul (.pow (.var 3) 5) (.pow (.var 4) 3)))))) (.add (.mul (.int 12) (.mul (.var 0) (.mul (.var 10) (.mul (.var 9) (.mul (.pow (.var 3) 2) (.pow (.var 4) 2)))))) (.add (.mul (.int 14) (.mul (.var 0) (.mul (.var 8) (.mul (.var 9) (.mul (.pow (.var 3) 3) (.pow (.var 4) 2)))))) (.mul (.int (-4)) (.mul (.var 0) (.mul (.var 10) (.mul (.var 8) (.mul (.var 9) (.mul (.pow (.var 3) 3) (.pow (.var 4) 2))))))))))))))))))))))))))))
+def initial_Z_t_8_coef37_w0 : RingExpr := (.mul (.var 7) (.mul (.pow (.var 8) 3) (.add (.int (-4)) (.add (.mul (.int (-1)) (.mul (.var 3) (.var 8))) (.add (.mul (.int 16) (.mul (.var 3) (.pow (.var 4) 2))) (.add (.mul (.int 18) (.mul (.var 4) (.var 9))) (.add (.mul (.int (-4)) (.mul (.var 3) (.mul (.var 9) (.pow (.var 4) 3)))) (.add (.mul (.int 4) (.mul (.var 10) (.mul (.var 4) (.var 9)))) (.add (.mul (.int 4) (.mul (.var 8) (.mul (.pow (.var 3) 2) (.pow (.var 4) 2)))) (.add (.mul (.int (-16)) (.mul (.var 8) (.mul (.var 9) (.mul (.pow (.var 3) 2) (.pow (.var 4) 3))))) (.add (.mul (.int (-14)) (.mul (.var 0) (.mul (.var 9) (.mul (.pow (.var 3) 2) (.pow (.var 4) 2))))) (.add (.mul (.int (-13)) (.mul (.var 3) (.mul (.var 8) (.mul (.var 4) (.var 9))))) (.add (.mul (.int (-4)) (.mul (.var 8) (.mul (.pow (.var 0) 2) (.mul (.pow (.var 3) 5) (.pow (.var 4) 2))))) (.add (.mul (.int 2) (.mul (.var 0) (.mul (.var 8) (.mul (.var 4) (.pow (.var 3) 3))))) (.add (.mul (.int 24) (.mul (.var 10) (.mul (.var 3) (.mul (.var 9) (.pow (.var 4) 3))))) (.add (.mul (.int (-24)) (.mul (.var 10) (.mul (.var 8) (.mul (.var 9) (.mul (.pow (.var 3) 2) (.pow (.var 4) 3)))))) (.add (.mul (.int (-12)) (.mul (.var 10) (.mul (.var 3) (.mul (.var 8) (.mul (.var 4) (.var 9)))))) (.add (.mul (.int 4) (.mul (.var 8) (.mul (.var 9) (.mul (.pow (.var 0) 2) (.mul (.pow (.var 3) 5) (.pow (.var 4) 3)))))) (.add (.mul (.int 12) (.mul (.var 0) (.mul (.var 10) (.mul (.var 9) (.mul (.pow (.var 3) 2) (.pow (.var 4) 2)))))) (.add (.mul (.int 12) (.mul (.var 0) (.mul (.var 8) (.mul (.var 9) (.mul (.pow (.var 3) 3) (.pow (.var 4) 2)))))) (.mul (.int (-4)) (.mul (.var 0) (.mul (.var 10) (.mul (.var 8) (.mul (.var 9) (.mul (.pow (.var 3) 3) (.pow (.var 4) 2)))))))))))))))))))))))))))
+def initial_Z_t_8_coef37_w1 : RingExpr := (.mul (.var 7) (.mul (.pow (.var 8) 3) (.add (.int 18) (.add (.mul (.int (-13)) (.mul (.var 3) (.var 8))) (.add (.mul (.int (-4)) (.mul (.var 3) (.pow (.var 4) 2))) (.add (.mul (.int (-16)) (.mul (.var 8) (.mul (.pow (.var 3) 2) (.pow (.var 4) 2)))) (.add (.mul (.int (-14)) (.mul (.var 0) (.mul (.var 4) (.pow (.var 3) 2)))) (.add (.mul (.int 4) (.mul (.var 8) (.mul (.pow (.var 0) 2) (.mul (.pow (.var 3) 5) (.pow (.var 4) 2))))) (.mul (.int 12) (.mul (.var 0) (.mul (.var 8) (.mul (.var 4) (.pow (.var 3) 3)))))))))))))
+def initial_Z_t_8_coef37_w2 : RingExpr := (.mul (.int 2) (.mul (.var 7) (.mul (.pow (.var 8) 3) (.add (.int (-7)) (.add (.mul (.int (-6)) (.mul (.var 3) (.pow (.var 4) 2))) (.mul (.int 7) (.mul (.var 0) (.mul (.var 4) (.pow (.var 3) 2)))))))))
+def initial_Z_t_8_coef37_w3 : RingExpr := (.int 0)
+
+theorem initial_Z_t_8_coef37_cert (e : Nat → R) :
+    (2:R)^1*exprEval e initial_Z_t_8_coef37=(2*e 10-1)*exprEval e initial_Z_t_8_coef37_w0 + (e 4*e 9-1)*exprEval e initial_Z_t_8_coef37_w1 + (e 3*e 8-1)*exprEval e initial_Z_t_8_coef37_w2 + (e 0*e 7-1)*exprEval e initial_Z_t_8_coef37_w3 := by
+  dsimp only [initial_Z_t_8_coef37, initial_Z_t_8_coef37_w0, initial_Z_t_8_coef37_w1, initial_Z_t_8_coef37_w2, initial_Z_t_8_coef37_w3, exprEval] <;> grind
+
+theorem initial_Z_t_8_coef37_zero (y : Chart R) (beta : Vec R 6) :
+    exprEval (chartVars y beta) initial_Z_t_8_coef37=0 :=
+  unitIdealClearZero 1 _ y.g y.gi y.q y.qi y.s y.si y.half _ _ _ _
+    y.g_unit y.q_unit y.s_unit y.half_unit (initial_Z_t_8_coef37_cert (chartVars y beta))
+
+def initial_Z_t_8_coef38 : RingExpr := (.mul (.int 2) (.mul (.var 7) (.mul (.var 10) (.mul (.var 3) (.mul (.pow (.var 8) 3) (.add (.mul (.var 0) (.var 3)) (.add (.mul (.int (-1)) (.mul (.var 0) (.mul (.var 8) (.pow (.var 3) 2)))) (.add (.mul (.int (-2)) (.mul (.var 4) (.mul (.pow (.var 0) 2) (.pow (.var 3) 3)))) (.add (.mul (.int 8) (.mul (.var 0) (.mul (.pow (.var 3) 2) (.pow (.var 4) 2)))) (.add (.mul (.int 12) (.mul (.var 10) (.mul (.var 9) (.pow (.var 4) 2)))) (.add (.mul (.int (-16)) (.mul (.var 0) (.mul (.var 9) (.mul (.pow (.var 3) 2) (.pow (.var 4) 3))))) (.add (.mul (.int 2) (.mul (.var 0) (.mul (.var 8) (.mul (.pow (.var 3) 3) (.pow (.var 4) 2))))) (.add (.mul (.int 2) (.mul (.var 8) (.mul (.var 4) (.mul (.pow (.var 0) 2) (.pow (.var 3) 4))))) (.add (.mul (.int (-12)) (.mul (.var 10) (.mul (.var 3) (.mul (.var 8) (.mul (.var 9) (.pow (.var 4) 2)))))) (.add (.mul (.int 4) (.mul (.var 0) (.mul (.var 10) (.mul (.var 9) (.mul (.pow (.var 3) 2) (.pow (.var 4) 3)))))) (.add (.mul (.int 6) (.mul (.var 0) (.mul (.var 8) (.mul (.var 9) (.mul (.pow (.var 3) 3) (.pow (.var 4) 3)))))) (.mul (.int (-4)) (.mul (.var 0) (.mul (.var 10) (.mul (.var 8) (.mul (.var 9) (.mul (.pow (.var 3) 3) (.pow (.var 4) 3)))))))))))))))))))))))
+def initial_Z_t_8_coef38_w0 : RingExpr := (.mul (.var 7) (.mul (.var 3) (.mul (.pow (.var 8) 3) (.add (.mul (.var 0) (.var 3)) (.add (.mul (.int 6) (.mul (.var 9) (.pow (.var 4) 2))) (.add (.mul (.int (-1)) (.mul (.var 0) (.mul (.var 8) (.pow (.var 3) 2)))) (.add (.mul (.int (-2)) (.mul (.var 4) (.mul (.pow (.var 0) 2) (.pow (.var 3) 3)))) (.add (.mul (.int 8) (.mul (.var 0) (.mul (.pow (.var 3) 2) (.pow (.var 4) 2)))) (.add (.mul (.int 12) (.mul (.var 10) (.mul (.var 9) (.pow (.var 4) 2)))) (.add (.mul (.int (-14)) (.mul (.var 0) (.mul (.var 9) (.mul (.pow (.var 3) 2) (.pow (.var 4) 3))))) (.add (.mul (.int (-6)) (.mul (.var 3) (.mul (.var 8) (.mul (.var 9) (.pow (.var 4) 2))))) (.add (.mul (.int 2) (.mul (.var 0) (.mul (.var 8) (.mul (.pow (.var 3) 3) (.pow (.var 4) 2))))) (.add (.mul (.int 2) (.mul (.var 8) (.mul (.var 4) (.mul (.pow (.var 0) 2) (.pow (.var 3) 4))))) (.add (.mul (.int (-12)) (.mul (.var 10) (.mul (.var 3) (.mul (.var 8) (.mul (.var 9) (.pow (.var 4) 2)))))) (.add (.mul (.int 4) (.mul (.var 0) (.mul (.var 10) (.mul (.var 9) (.mul (.pow (.var 3) 2) (.pow (.var 4) 3)))))) (.add (.mul (.int 4) (.mul (.var 0) (.mul (.var 8) (.mul (.var 9) (.mul (.pow (.var 3) 3) (.pow (.var 4) 3)))))) (.mul (.int (-4)) (.mul (.var 0) (.mul (.var 10) (.mul (.var 8) (.mul (.var 9) (.mul (.pow (.var 3) 3) (.pow (.var 4) 3)))))))))))))))))))))))
+def initial_Z_t_8_coef38_w1 : RingExpr := (.mul (.int 2) (.mul (.var 7) (.mul (.var 3) (.mul (.var 4) (.mul (.pow (.var 8) 3) (.add (.int 3) (.add (.mul (.int (-3)) (.mul (.var 3) (.var 8))) (.add (.mul (.int (-7)) (.mul (.var 0) (.mul (.var 4) (.pow (.var 3) 2)))) (.mul (.int 2) (.mul (.var 0) (.mul (.var 8) (.mul (.var 4) (.pow (.var 3) 3)))))))))))))
+def initial_Z_t_8_coef38_w2 : RingExpr := (.mul (.var 7) (.mul (.var 3) (.mul (.pow (.var 8) 3) (.add (.mul (.int (-6)) (.var 4)) (.add (.mul (.int (-1)) (.mul (.var 0) (.var 3))) (.add (.mul (.int 2) (.mul (.var 4) (.mul (.pow (.var 0) 2) (.pow (.var 3) 3)))) (.mul (.int 6) (.mul (.var 0) (.mul (.pow (.var 3) 2) (.pow (.var 4) 2))))))))))
+def initial_Z_t_8_coef38_w3 : RingExpr := (.int 0)
+
+theorem initial_Z_t_8_coef38_cert (e : Nat → R) :
+    (2:R)^0*exprEval e initial_Z_t_8_coef38=(2*e 10-1)*exprEval e initial_Z_t_8_coef38_w0 + (e 4*e 9-1)*exprEval e initial_Z_t_8_coef38_w1 + (e 3*e 8-1)*exprEval e initial_Z_t_8_coef38_w2 + (e 0*e 7-1)*exprEval e initial_Z_t_8_coef38_w3 := by
+  dsimp only [initial_Z_t_8_coef38, initial_Z_t_8_coef38_w0, initial_Z_t_8_coef38_w1, initial_Z_t_8_coef38_w2, initial_Z_t_8_coef38_w3, exprEval] <;> grind
+
+theorem initial_Z_t_8_coef38_zero (y : Chart R) (beta : Vec R 6) :
+    exprEval (chartVars y beta) initial_Z_t_8_coef38=0 :=
+  unitIdealClearZero 0 _ y.g y.gi y.q y.qi y.s y.si y.half _ _ _ _
+    y.g_unit y.q_unit y.s_unit y.half_unit (initial_Z_t_8_coef38_cert (chartVars y beta))
+
+def initial_Z_t_8_coef39 : RingExpr := (.mul (.int (-2)) (.mul (.var 0) (.mul (.var 7) (.mul (.var 10) (.mul (.pow (.var 3) 2) (.mul (.pow (.var 8) 3) (.mul (.add (.int (-1)) (.mul (.var 3) (.var 8))) (.add (.int (-1)) (.mul (.int 2) (.mul (.var 0) (.mul (.var 4) (.pow (.var 3) 2))))))))))))
+def initial_Z_t_8_coef39_w0 : RingExpr := (.mul (.int (-1)) (.mul (.var 0) (.mul (.var 7) (.mul (.pow (.var 3) 2) (.mul (.pow (.var 8) 3) (.mul (.add (.int (-1)) (.mul (.var 3) (.var 8))) (.add (.int (-1)) (.mul (.int 2) (.mul (.var 0) (.mul (.var 4) (.pow (.var 3) 2)))))))))))
+def initial_Z_t_8_coef39_w1 : RingExpr := (.int 0)
+def initial_Z_t_8_coef39_w2 : RingExpr := (.mul (.int (-1)) (.mul (.var 0) (.mul (.var 7) (.mul (.pow (.var 3) 2) (.mul (.pow (.var 8) 3) (.add (.int (-1)) (.mul (.int 2) (.mul (.var 0) (.mul (.var 4) (.pow (.var 3) 2))))))))))
+def initial_Z_t_8_coef39_w3 : RingExpr := (.int 0)
+
+theorem initial_Z_t_8_coef39_cert (e : Nat → R) :
+    (2:R)^0*exprEval e initial_Z_t_8_coef39=(2*e 10-1)*exprEval e initial_Z_t_8_coef39_w0 + (e 4*e 9-1)*exprEval e initial_Z_t_8_coef39_w1 + (e 3*e 8-1)*exprEval e initial_Z_t_8_coef39_w2 + (e 0*e 7-1)*exprEval e initial_Z_t_8_coef39_w3 := by
+  dsimp only [initial_Z_t_8_coef39, initial_Z_t_8_coef39_w0, initial_Z_t_8_coef39_w1, initial_Z_t_8_coef39_w2, initial_Z_t_8_coef39_w3, exprEval] <;> grind
+
+theorem initial_Z_t_8_coef39_zero (y : Chart R) (beta : Vec R 6) :
+    exprEval (chartVars y beta) initial_Z_t_8_coef39=0 :=
+  unitIdealClearZero 0 _ y.g y.gi y.q y.qi y.s y.si y.half _ _ _ _
+    y.g_unit y.q_unit y.s_unit y.half_unit (initial_Z_t_8_coef39_cert (chartVars y beta))
+
+def initial_Z_t_8_coef40 : RingExpr := (.mul (.int (-4)) (.mul (.var 7) (.mul (.var 10) (.mul (.var 4) (.mul (.pow (.var 3) 2) (.mul (.pow (.var 8) 3) (.add (.mul (.int (-4)) (.var 4)) (.add (.mul (.int (-1)) (.mul (.var 0) (.var 3))) (.add (.mul (.int 4) (.mul (.var 9) (.pow (.var 4) 2))) (.add (.mul (.var 0) (.mul (.var 8) (.pow (.var 3) 2))) (.add (.mul (.int (-1)) (.mul (.var 3) (.mul (.var 8) (.var 4)))) (.add (.mul (.int (-6)) (.mul (.var 10) (.mul (.var 9) (.pow (.var 4) 2)))) (.add (.mul (.var 3) (.mul (.var 8) (.mul (.var 9) (.pow (.var 4) 2)))) (.mul (.int 6) (.mul (.var 10) (.mul (.var 3) (.mul (.var 8) (.mul (.var 9) (.pow (.var 4) 2)))))))))))))))))))
+def initial_Z_t_8_coef40_w0 : RingExpr := (.mul (.int (-2)) (.mul (.var 7) (.mul (.var 4) (.mul (.pow (.var 3) 2) (.mul (.pow (.var 8) 3) (.add (.mul (.int (-4)) (.var 4)) (.add (.mul (.var 9) (.pow (.var 4) 2)) (.add (.mul (.int (-1)) (.mul (.var 0) (.var 3))) (.add (.mul (.var 0) (.mul (.var 8) (.pow (.var 3) 2))) (.add (.mul (.int (-1)) (.mul (.var 3) (.mul (.var 8) (.var 4)))) (.add (.mul (.int (-6)) (.mul (.var 10) (.mul (.var 9) (.pow (.var 4) 2)))) (.add (.mul (.int 4) (.mul (.var 3) (.mul (.var 8) (.mul (.var 9) (.pow (.var 4) 2))))) (.mul (.int 6) (.mul (.var 10) (.mul (.var 3) (.mul (.var 8) (.mul (.var 9) (.pow (.var 4) 2))))))))))))))))))
+def initial_Z_t_8_coef40_w1 : RingExpr := (.mul (.int (-2)) (.mul (.var 7) (.mul (.pow (.var 3) 2) (.mul (.pow (.var 8) 3) (.mul (.pow (.var 4) 2) (.add (.int 1) (.mul (.int 4) (.mul (.var 3) (.var 8)))))))))
+def initial_Z_t_8_coef40_w2 : RingExpr := (.mul (.int (-2)) (.mul (.var 7) (.mul (.var 4) (.mul (.pow (.var 3) 2) (.mul (.pow (.var 8) 3) (.add (.mul (.int 3) (.var 4)) (.mul (.var 0) (.var 3))))))))
+def initial_Z_t_8_coef40_w3 : RingExpr := (.int 0)
+
+end StackSorting.FiniteGraph

@@ -1,0 +1,53 @@
+{
+  "scope": "Exact selected-branch consequence p=-i*q. The other empty-equation factor has nonzero x4 coefficient -4 on the x5-selected branch, so the domain property forces this factor.",
+  "variables": [
+    "g",
+    "i",
+    "q",
+    "s",
+    "c",
+    "o",
+    "x"
+  ],
+  "substitution": "p=-i*q",
+  "equations": [
+    {
+      "index": 0,
+      "numerator": "-6*c*g*i*q**2*s*x + 6*c*g*o*q**2*s*x + 3*c*i*x - 3*c*o*x - 18*g*i**2*q**3*s**2*x + 18*g*i*o*q**3*s**2*x + 24*g*i*q**3*s**2*x + 12*g*i*q**3*s**2 - 24*g*o*q**3*s**2*x - 12*g*o*q**3*s**2 + 6*g*o*q**2*s*x - 8*g*q**2*s*x - 4*g*q**2*s + 9*i**2*q*s*x - 9*i*o*q*s*x - 12*i*q*s*x - 6*i*q*s + 6*i*q - 9*i*x + 12*o*q*s*x + 6*o*q*s - 6*o*q + 6*o*x + 4*x + 2",
+      "denominator": "2*(2*g*q**2*s - 1)*(3*i*q*s - 3*o*q*s - 1)"
+    },
+    {
+      "index": 1,
+      "numerator": "-12*c*g*i*o*q**3*s*x + 12*c*g*o**2*q**3*s*x + 6*c*i*o*q*x - 6*c*o**2*q*x - 24*g**2*i*q**5*s**3*x + 24*g**2*o*q**5*s**3*x + 8*g**2*q**4*s**2*x - 36*g*i**3*q**4*s**2*x + 36*g*i**2*o*q**4*s**2*x + 48*g*i**2*q**4*s**2*x + 24*g*i**2*q**4*s**2 - 18*g*i**2*q**3*s*x - 48*g*i*o*q**4*s**2*x - 24*g*i*o*q**4*s**2 + 48*g*i*o*q**3*s*x - 72*g*i*q**4*s**2 + 48*g*i*q**3*s**2*x - 12*g*i*q**3*s*x + 18*g*i*q**2*x - 18*g*o**2*q**3*s*x + 72*g*o*q**4*s**2 - 48*g*o*q**3*s**2*x - 4*g*o*q**3*s*x - 8*g*o*q**3*s - 18*g*o*q**2*x + 24*g*q**3*s - 16*g*q**2*s*x + 18*i**3*q**2*s*x - 18*i**2*o*q**2*s*x - 24*i**2*q**2*s*x - 12*i**2*q**2*s - 9*i**2*q*x + 24*i*o*q**2*s*x + 12*i*o*q**2*s - 6*i*o*q*x + 36*i*q**2*s - 18*i*q*s*x + 12*i*q*x + 6*i*q + 9*o**2*q*x - 36*o*q**2*s + 18*o*q*s*x - 4*o*q*x - 2*o*q - 12*q + 6*x",
+      "denominator": "4*q*(2*g*q**2*s - 1)*(3*i*q*s - 3*o*q*s - 1)"
+    },
+    {
+      "index": 2,
+      "numerator": "3*(-12*c*g*i*o*q**3*s*x + 8*c*g*i*q**3*s + 4*c*g*i*q**2*x + 12*c*g*o**2*q**3*s*x - 8*c*g*o*q**3*s - 4*c*g*o*q**2*x + 6*c*i*o*q*x - 4*c*i*q - 6*c*o**2*q*x + 4*c*o*q + 24*g**2*i*q**5*s**3*x - 24*g**2*o*q**5*s**3*x - 8*g**2*q**4*s**2*x - 36*g*i**3*q**4*s**2*x + 36*g*i**2*o*q**4*s**2*x + 48*g*i**2*q**4*s**2*x + 24*g*i**2*q**4*s**2 - 18*g*i**2*q**3*s*x - 48*g*i*o*q**4*s**2*x - 24*g*i*o*q**4*s**2 + 48*g*i*o*q**3*s*x - 48*g*i*q**4*s**2 + 24*g*i*q**3*s**2*x + 12*g*i*q**2*x - 18*g*o**2*q**3*s*x + 48*g*o*q**4*s**2 - 24*g*o*q**3*s**2*x - 16*g*o*q**3*s*x - 8*g*o*q**3*s - 12*g*o*q**2*x + 16*g*q**3*s - 8*g*q**2*s*x + 18*i**3*q**2*s*x - 18*i**2*o*q**2*s*x - 24*i**2*q**2*s*x - 12*i**2*q**2*s - 9*i**2*q*x + 24*i*o*q**2*s*x + 12*i*o*q**2*s - 6*i*o*q*x + 24*i*q**2*s - 18*i*q*s*x + 12*i*q*x + 12*i*q + 9*o**2*q*x - 24*o*q**2*s + 18*o*q*s*x - 4*o*q*x - 8*o*q - 8*q + 6*x)",
+      "denominator": "8*q*(2*g*q**2*s - 1)*(3*i*q*s - 3*o*q*s - 1)"
+    },
+    {
+      "index": 3,
+      "numerator": "24*g**2*i*q**5*s**3*x - 24*g**2*o*q**5*s**3*x - 12*g**2*q**4*s**2*x - 36*g*i**3*q**4*s**2*x + 36*g*i**2*o*q**4*s**2*x + 96*g*i**2*q**4*s**2*x + 24*g*i**2*q**4*s**2 - 6*g*i**2*q**3*s*x - 96*g*i*o*q**4*s**2*x - 24*g*i*o*q**4*s**2 + 16*g*i*o*q**3*s*x - 96*g*i*q**4*s**2 + 24*g*i*q**3*s**2*x - 24*g*i*q**3*s*x + 12*g*i*q**3*s + 12*g*i*q**2*x + 96*g*o*q**4*s**2 - 24*g*o*q**3*s**2*x - 8*g*o*q**3*s*x - 16*g*o*q**3*s - 12*g*o*q**2*x + 24*g*q**3*s - 4*g*q**2*s*x + 18*i**3*q**2*s*x - 18*i**2*o*q**2*s*x - 48*i**2*q**2*s*x - 12*i**2*q**2*s - 9*i**2*q*x + 48*i*o*q**2*s*x + 12*i*o*q**2*s + 4*i*o*q*x + 48*i*q**2*s - 18*i*q*s*x + 24*i*q*x + 6*i*q - 48*o*q**2*s + 18*o*q*s*x - 8*o*q*x - 4*o*q - 12*q + 5*x",
+      "denominator": "8*q*(2*g*q**2*s - 1)*(3*i*q*s - 3*o*q*s - 1)"
+    },
+    {
+      "index": 4,
+      "numerator": "-12*c*g*i**2*o*q**3*s*x + 12*c*g*i*o**2*q**3*s*x + 12*c*g*i*q**2*s*x - 12*c*g*o*q**2*s*x + 6*c*i**2*o*q*x - 6*c*i*o**2*q*x - 6*c*i*x + 6*c*o*x - 24*g**2*i**2*q**5*s**3*x + 24*g**2*i*o*q**5*s**3*x - 16*g**2*i*q**4*s**2*x + 24*g**2*o*q**4*s**2*x + 8*g**2*q**3*s*x - 36*g*i**4*q**4*s**2*x + 36*g*i**3*o*q**4*s**2*x + 48*g*i**3*q**4*s**2*x + 24*g*i**3*q**4*s**2 - 18*g*i**3*q**3*s*x - 48*g*i**2*o*q**4*s**2*x - 24*g*i**2*o*q**4*s**2 + 48*g*i**2*o*q**3*s*x - 72*g*i**2*q**4*s**2 + 84*g*i**2*q**3*s**2*x - 12*g*i**2*q**3*s*x + 18*g*i**2*q**2*x - 18*g*i*o**2*q**3*s*x + 72*g*i*o*q**4*s**2 - 84*g*i*o*q**3*s**2*x - 4*g*i*o*q**3*s*x - 8*g*i*o*q**3*s - 18*g*i*o*q**2*x - 48*g*i*q**3*s**2*x - 24*g*i*q**3*s**2 + 12*g*i*q**3*s - 4*g*i*q**2*s*x - 6*g*i*q**2*x - 6*g*i*q**2 + 48*g*o*q**3*s**2*x + 24*g*o*q**3*s**2 + 12*g*o*q**3*s - 24*g*o*q**2*s*x + 6*g*o*q**2*x + 6*g*o*q**2 + 16*g*q**2*s*x + 8*g*q**2*s - 4*g*q*x + 18*i**4*q**2*s*x - 18*i**3*o*q**2*s*x - 24*i**3*q**2*s*x - 12*i**3*q**2*s - 9*i**3*q*x + 24*i**2*o*q**2*s*x + 12*i**2*o*q**2*s - 6*i**2*o*q*x + 36*i**2*q**2*s - 36*i**2*q*s*x + 12*i**2*q*x + 6*i**2*q + 9*i*o**2*q*x - 36*i*o*q**2*s + 36*i*o*q*s*x - 4*i*o*q*x - 2*i*o*q + 24*i*q*s*x + 12*i*q*s - 18*i*q + 24*i*x - 24*o*q*s*x - 12*o*q*s + 6*o*q - 12*o*x - 8*x - 4",
+      "denominator": "4*q*(2*g*q**2*s - 1)*(3*i*q*s - 3*o*q*s - 1)"
+    },
+    {
+      "index": 5,
+      "numerator": "24*g**2*i**2*q**5*s**3*x - 24*g**2*i*o*q**5*s**3*x - 60*g**2*i*q**4*s**2*x + 48*g**2*o*q**4*s**2*x + 16*g**2*q**3*s*x - 36*g*i**4*q**4*s**2*x + 36*g*i**3*o*q**4*s**2*x + 96*g*i**3*q**4*s**2*x + 24*g*i**3*q**4*s**2 - 6*g*i**3*q**3*s*x - 96*g*i**2*o*q**4*s**2*x - 24*g*i**2*o*q**4*s**2 + 16*g*i**2*o*q**3*s*x - 96*g*i**2*q**4*s**2 + 60*g*i**2*q**3*s**2*x - 24*g*i**2*q**3*s*x + 12*g*i**2*q**3*s + 12*g*i**2*q**2*x + 96*g*i*o*q**4*s**2 - 60*g*i*o*q**3*s**2*x - 8*g*i*o*q**3*s*x - 16*g*i*o*q**3*s - 12*g*i*o*q**2*x - 96*g*i*q**3*s**2*x - 24*g*i*q**3*s**2 + 26*g*i*q**2*s*x - 12*g*i*q**2*x - 12*g*i*q**2 + 96*g*o*q**3*s**2*x + 24*g*o*q**3*s**2 + 24*g*o*q**3*s - 40*g*o*q**2*s*x + 12*g*o*q**2*x + 12*g*o*q**2 + 32*g*q**2*s*x + 4*g*q**2*s - 8*g*q*x + 18*i**4*q**2*s*x - 18*i**3*o*q**2*s*x - 48*i**3*q**2*s*x - 12*i**3*q**2*s - 9*i**3*q*x + 48*i**2*o*q**2*s*x + 12*i**2*o*q**2*s + 4*i**2*o*q*x + 48*i**2*q**2*s - 36*i**2*q*s*x + 24*i**2*q*x + 6*i**2*q - 48*i*o*q**2*s + 36*i*o*q*s*x - 8*i*o*q*x - 4*i*o*q + 48*i*q*s*x + 12*i*q*s - 24*i*q + 14*i*x - 48*o*q*s*x - 12*o*q*s + 12*o*q - 4*o*x - 16*x - 2",
+      "denominator": "8*q*(2*g*q**2*s - 1)*(3*i*q*s - 3*o*q*s - 1)"
+    }
+  ],
+  "v_ratios": {
+    "beta2": "3*(2*c*g*i*q**2*s - 2*c*g*o*q**2*s - c*i + c*o + 6*g*i**2*q**3*s**2 - 6*g*i*o*q**3*s**2 - 2*g*o*q**2*s - 3*i**2*q*s + 3*i*o*q*s + 3*i - 2*o)/(2*(2*g*q**2*s - 1)*(3*i*q*s - 3*o*q*s - 1))",
+    "beta3": "(12*g*i**2*q**3*s**2 - 12*g*i*o*q**3*s**2 + 6*g*i*q**2*s - 8*g*o*q**2*s - 6*i**2*q*s + 6*i*o*q*s + 3*i - 2*o)/(4*(2*g*q**2*s - 1)*(3*i*q*s - 3*o*q*s - 1))",
+    "beta5": "(12*g*i**3*q**4*s**2 - 12*g*i**2*o*q**4*s**2 + 6*g*i**2*q**3*s - 8*g*i*o*q**3*s - 12*g*i*q**3*s**2 - 6*g*i*q**2 + 12*g*o*q**3*s**2 + 6*g*o*q**2 + 2*g*q**2*s - 6*i**3*q**2*s + 6*i**2*o*q**2*s + 3*i**2*q - 2*i*o*q + 6*i*q*s - 6*o*q*s - 1)/(4*q*(2*g*q**2*s - 1)*(3*i*q*s - 3*o*q*s - 1))",
+    "beta4": "(12*g*i**3*q**4*s**2 - 12*g*i**2*o*q**4*s**2 - 4*g*i*o*q**3*s - 12*g*i*q**3*s**2 - 3*g*i*q**2 + 12*g*o*q**3*s**2 + 3*g*o*q**2 + 4*g*q**2*s - 6*i**3*q**2*s + 6*i**2*o*q**2*s + 3*i**2*q - i*o*q + 6*i*q*s - 6*o*q*s - 2)/(2*q*(2*g*q**2*s - 1)*(3*i*q*s - 3*o*q*s - 1))",
+    "beta1": "(12*g*i**2*q**3*s**2 - 12*g*i*o*q**3*s**2 - 4*g*o*q**2*s - 6*i**2*q*s + 6*i*o*q*s + 3*i - o)/(2*(2*g*q**2*s - 1)*(3*i*q*s - 3*o*q*s - 1))"
+  },
+  "seconds": 2.8127311150019523
+}

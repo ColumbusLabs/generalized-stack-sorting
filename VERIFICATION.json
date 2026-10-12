@@ -1,0 +1,100 @@
+{
+  "checked_utc": "2026-10-12",
+  "python_regression_tests": {
+    "tests": 120,
+    "status": "PASS"
+  },
+  "model_cli": "PASS",
+  "compileall_src_tests": "PASS",
+  "manuscript_exact_arithmetic": "PASS",
+  "direct_symbolic_replay": {
+    "status": "PASS",
+    "python": "3.12",
+    "sympy": "1.14.0",
+    "python_flint": "0.9.0",
+    "drivers": [
+      {
+        "driver": "independent_identities.py",
+        "exit_code": 0
+      },
+      {
+        "driver": "independent_branch.py",
+        "exit_code": 0
+      },
+      {
+        "driver": "independent_reverse_lift.py",
+        "exit_code": 0
+      },
+      {
+        "driver": "independent_display.py",
+        "exit_code": 0
+      },
+      {
+        "driver": "independent_irreducibility.py",
+        "exit_code": 0
+      },
+      {
+        "driver": "run_controls.py",
+        "exit_code": 0
+      }
+    ]
+  },
+  "main_lean_source_integrity": {
+    "status": "PASS",
+    "modules": 1613,
+    "bytes": 97526535,
+    "module_bytes_match_original_closure": true
+  },
+  "pdf_builds": [
+    {
+      "paper": "algebraicity",
+      "pages": 17,
+      "pdf_sha256": "51fda587aca9ef36f0d812d451ea3e4f766919c8cc7723d2c2bceeeea9184099",
+      "layout_reference_warnings": []
+    },
+    {
+      "paper": "enumeration",
+      "pages": 7,
+      "pdf_sha256": "a7d4ef7b202938788faededb452f104a8ec19d06a80f42f7f189db51494f3fa4",
+      "layout_reference_warnings": []
+    },
+    {
+      "paper": "capacity",
+      "pages": 11,
+      "pdf_sha256": "097aca240c5c649288dd9409dc12314ede1a7ac2ac94702bafb479b290cfc3b8",
+      "layout_reference_warnings": []
+    },
+    {
+      "paper": "classification",
+      "pages": 15,
+      "pdf_sha256": "e2670d2ff4313ae3df59758901c3da76575a47b6c26add6aed1ba4f39c441206",
+      "layout_reference_warnings": []
+    }
+  ],
+  "visual_layout_check": "PASS: all 50 rendered pages inspected",
+  "full_lean_compilation_this_packaging_pass": "NOT_RUN",
+  "scope": "These results qualify the packaged sources, finite tests, exact-algebra drivers and paper builds. The formal and written theorem scopes are stated in the papers and formal/README.md.",
+  "companion_source_snapshot_integrity": [
+    {
+      "certificate": "generalized",
+      "modules": 32,
+      "paths_hashes_and_import_order": "PASS"
+    },
+    {
+      "certificate": "unequal",
+      "modules": 21,
+      "paths_hashes_and_import_order": "PASS"
+    },
+    {
+      "certificate": "equal",
+      "modules": 30,
+      "paths_hashes_and_import_order": "PASS"
+    },
+    {
+      "certificate": "container",
+      "modules": 33,
+      "paths_hashes_and_import_order": "PASS"
+    }
+  ],
+  "pdf_license_notice": "CC BY 4.0 notice and official hyperlink in all four papers"
+}

@@ -1,0 +1,141 @@
+{
+  "scope": "Exact polynomial divisibility certificates after substituting rational parameter maps. Each denominator is checked separately on the selected branch.",
+  "candidate_sha256": "dad38a8f22a20fdfe971792b09558df21104aa1ec8b51844a52b49da3f3f4b79",
+  "maps_sha256": "df35469c74961b9b00c167586b93256b352174be13e0e9015f7e3813b00fb62f",
+  "checks": {
+    "F1-oF0": {
+      "source_degree_list": [
+        2,
+        2,
+        2,
+        1,
+        2,
+        1,
+        0
+      ],
+      "homogenized_degrees": [
+        74,
+        37
+      ],
+      "homogenized_terms": 2463,
+      "quotient_degrees": [
+        62,
+        31
+      ],
+      "quotient_terms": 1773,
+      "status": "PASS"
+    },
+    "F3": {
+      "source_degree_list": [
+        1,
+        2,
+        2,
+        2,
+        1,
+        1,
+        0
+      ],
+      "homogenized_degrees": [
+        61,
+        34
+      ],
+      "homogenized_terms": 1777,
+      "quotient_degrees": [
+        49,
+        28
+      ],
+      "quotient_terms": 1201,
+      "status": "PASS"
+    },
+    "F5-iF3": {
+      "source_degree_list": [
+        1,
+        2,
+        2,
+        1,
+        1,
+        1,
+        0
+      ],
+      "homogenized_degrees": [
+        55,
+        30
+      ],
+      "homogenized_terms": 1446,
+      "quotient_degrees": [
+        43,
+        24
+      ],
+      "quotient_terms": 930,
+      "status": "PASS"
+    },
+    "short4": {
+      "source_degree_list": [
+        1,
+        1,
+        2,
+        0,
+        1,
+        1,
+        0
+      ],
+      "homogenized_degrees": [
+        41,
+        22
+      ],
+      "homogenized_terms": 844,
+      "quotient_degrees": [
+        29,
+        16
+      ],
+      "quotient_terms": 461,
+      "status": "PASS"
+    },
+    "last": {
+      "source_degree_list": [
+        2,
+        2,
+        3,
+        1,
+        2,
+        2,
+        0
+      ],
+      "homogenized_degrees": [
+        81,
+        43
+      ],
+      "homogenized_terms": 3051,
+      "quotient_degrees": [
+        69,
+        37
+      ],
+      "quotient_terms": 2277,
+      "status": "PASS"
+    },
+    "G_output": {
+      "source_degree_list": [
+        2,
+        2,
+        3,
+        1,
+        1,
+        3,
+        1
+      ],
+      "homogenized_degrees": [
+        73,
+        40
+      ],
+      "homogenized_terms": 2545,
+      "quotient_degrees": [
+        61,
+        34
+      ],
+      "quotient_terms": 1843,
+      "status": "PASS"
+    }
+  },
+  "seconds": 1.6913741109965486,
+  "peak_rss_kib": 65080
+}

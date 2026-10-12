@@ -1,0 +1,91 @@
+{
+  "scope": "Exact ordinary scalar implicit-function blowup and recovery of the selected seven-parameter jet. This complements the exact homogenization certificate.",
+  "prefix_C8": [
+    1,
+    1,
+    2,
+    6,
+    24,
+    120,
+    720,
+    5004,
+    38844
+  ],
+  "substitution": "Y=C8+x^9*z",
+  "factor_removed": "x^20",
+  "R_at_x0": "-16*(z-325692)*(z-325656)",
+  "selected_z0": 325692,
+  "derivative_at_selected_root": "-576",
+  "R_degree_z": 12,
+  "R_degree_x": 92,
+  "R_terms": 645,
+  "selected_solution_agreement_from_degree28_center": "mod x^29 in Y, equivalently mod x^20 in z",
+  "recovered_seven_parameter_jet4": {
+    "g": [
+      "12",
+      "36",
+      "144",
+      "756",
+      "4704"
+    ],
+    "i": [
+      "8",
+      "8",
+      "28",
+      "150",
+      "964"
+    ],
+    "p": [
+      "-4/9",
+      "4/9",
+      "22/27",
+      "107/27",
+      "1928/81"
+    ],
+    "q": [
+      "1/18",
+      "-1/9",
+      "-5/27",
+      "-26/27",
+      "-484/81"
+    ],
+    "s": [
+      "9/2",
+      "9/2",
+      "39/2",
+      "105",
+      "1305/2"
+    ],
+    "c": [
+      "2",
+      "0",
+      "0",
+      "-3/2",
+      "-35/2"
+    ],
+    "o": [
+      "6",
+      "6",
+      "24",
+      "132",
+      "840"
+    ]
+  },
+  "c_linear_coefficient_at_origin": "6",
+  "changed_equation_denominator_constants": {
+    "F1-oF0": "-1/54",
+    "F3": "-1/27",
+    "F5-iF3": "-1/27",
+    "short4": "-1/108",
+    "last": "2/81"
+  },
+  "G_output_denominator_constant": "-2/81",
+  "source_sha256": {
+    "scalar_G_degree12_x6_candidate.json": "dad38a8f22a20fdfe971792b09558df21104aa1ec8b51844a52b49da3f3f4b79",
+    "scalar_G_branch_certificate.json": "15815d17842d0d4cda530b51d2e9878082ca1d586b3e49c19ae9c358e254bb36",
+    "five_scalar_reduction.json": "fdc6545749e2b078c56d0f14de638e908c21d721c133db3baa158010d9d1edf3",
+    "changed_scalar_coordinates.json": "f5f80418c53cd9226c878386321910e66ea7b708455f596d9865bac74e31b6b1"
+  },
+  "seconds": 0.13554215200565523,
+  "peak_rss_kib": 64500
+}

@@ -1,0 +1,143 @@
+\begin{thebibliography}{18}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Albert and Atkinson(2003)]{AlbertAtkinson2003}
+Michael~H. Albert and Michael~D. Atkinson.
+\newblock Sorting with a forklift.
+\newblock \emph{The Electronic Journal of Combinatorics}, 9\penalty0
+  (2):\penalty0 R9, 2003.
+\newblock URL \url{https://arxiv.org/abs/cs/0209016}.
+
+\bibitem[Albert et~al.(2018)Albert, Homberger, Pantone, Shar, and
+  Vatter]{RestrictedContainers2018}
+Michael~H. Albert, Cheyne Homberger, Jay Pantone, Nathaniel Shar, and Vincent
+  Vatter.
+\newblock Generating permutations with restricted containers.
+\newblock \emph{Journal of Combinatorial Theory, Series A}, 157:\penalty0
+  205--232, 2018.
+\newblock URL \url{https://arxiv.org/abs/1510.00269}.
+
+\bibitem[Atkinson(1998)]{Atkinson1998}
+M.~D. Atkinson.
+\newblock Generalized stack permutations.
+\newblock \emph{Combinatorics, Probability and Computing}, 7\penalty0
+  (3):\penalty0 239--246, 1998.
+\newblock \doi{10.1017/S096354839800354X}.
+
+\bibitem[Bodlaender(1998)]{Bodlaender1998}
+Hans~L. Bodlaender.
+\newblock A partial k-arboretum of graphs with bounded treewidth.
+\newblock \emph{Theoretical Computer Science}, 209:\penalty0 1--45, 1998.
+\newblock \doi{10.1016/S0304-3975(97)00228-4}.
+
+\bibitem[Boja{\'n}czyk(2020)]{Bojanczyk2020}
+Miko{\l}aj Boja{\'n}czyk.
+\newblock Languages recognised by finite semigroups, and their generalisations
+  to objects such as trees and graphs, with an emphasis on definability in
+  monadic second-order logic.
+\newblock Lecture notes, arXiv:2008.11635v1, 2020.
+\newblock URL \url{https://arxiv.org/abs/2008.11635v1}.
+\newblock Definitions 6.20--6.21 and Theorem 6.22; version-pinned lecture
+  notes.
+
+\bibitem[Boja{\'n}czyk and Pilipczuk(2016)]{BP2016}
+Miko{\l}aj Boja{\'n}czyk and Micha{\l} Pilipczuk.
+\newblock Definability equals recognizability for graphs of bounded treewidth.
+\newblock In \emph{Proceedings of the 31st Annual ACM/IEEE Symposium on Logic
+  in Computer Science (LICS)}, pages 407--416, 2016.
+\newblock \doi{10.1145/2933575.2934508}.
+\newblock URL \url{https://arxiv.org/abs/1605.03045}.
+
+\bibitem[Boja{\'n}czyk and Pilipczuk(2022)]{BP2022}
+Miko{\l}aj Boja{\'n}czyk and Micha{\l} Pilipczuk.
+\newblock Optimizing tree decompositions in {MSO}.
+\newblock \emph{Logical Methods in Computer Science}, 18\penalty0 (1):\penalty0
+  26:1--26:36, 2022.
+\newblock \doi{10.46298/LMCS-18(1:26)2022}.
+\newblock URL \url{https://arxiv.org/abs/1701.06937}.
+
+\bibitem[Braunfeld(2025)]{Braunfeld2025}
+Samuel Braunfeld.
+\newblock Decidability in geometric grid classes of permutations.
+\newblock \emph{Proceedings of the American Mathematical Society}, 153\penalty0
+  (3):\penalty0 987--1000, 2025.
+\newblock \doi{10.1090/proc/17083}.
+\newblock URL \url{https://arxiv.org/abs/2308.04201v2}.
+
+\bibitem[Courcelle(1991)]{Courcelle1991}
+Bruno Courcelle.
+\newblock The monadic second-order logic of graphs {V}: on closing the gap
+  between definability and recognizability.
+\newblock \emph{Theoretical Computer Science}, 80\penalty0 (2):\penalty0
+  153--202, 1991.
+\newblock \doi{10.1016/0304-3975(91)90387-H}.
+
+\bibitem[Courcelle and Engelfriet(2012)]{CourcelleEngelfriet2012}
+Bruno Courcelle and Joost Engelfriet.
+\newblock \emph{Graph Structure and Monadic Second-Order Logic: A
+  Language-Theoretic Approach}, volume 138 of \emph{Encyclopedia of Mathematics
+  and its Applications}.
+\newblock Cambridge University Press, 2012.
+\newblock \doi{10.1017/CBO9780511977619}.
+
+\bibitem[Doner(1970)]{Doner1970}
+John Doner.
+\newblock Tree acceptors and some of their applications.
+\newblock \emph{Journal of Computer and System Sciences}, 4\penalty0
+  (5):\penalty0 406--451, 1970.
+\newblock \doi{10.1016/S0022-0000(70)80041-1}.
+
+\bibitem[Flajolet and Sedgewick(2009)]{FlajoletSedgewick2009}
+Philippe Flajolet and Robert Sedgewick.
+\newblock \emph{Analytic Combinatorics}.
+\newblock Cambridge University Press, 2009.
+\newblock URL \url{https://ac.cs.princeton.edu/home/}.
+
+\bibitem[Iosif and Zuleger(2026)]{IosifZuleger2026}
+Radu Iosif and Florian Zuleger.
+\newblock Characterizations of monadic second order definable context-free sets
+  of graphs.
+\newblock \emph{Logical Methods in Computer Science}, 22\penalty0 (1):\penalty0
+  22:1--22:30, 2026.
+\newblock URL \url{https://arxiv.org/abs/2310.04764}.
+
+\bibitem[Jel{\'i}nek and Opler(2025)]{JelinekOpler2025}
+V{\'i}t Jel{\'i}nek and Michal Opler.
+\newblock Monadic second-order logic of permutations.
+\newblock arXiv:2511.02386v1, 2025.
+\newblock URL \url{https://arxiv.org/abs/2511.02386v1}.
+
+\bibitem[Katsikarelis(2013)]{Katsikarelis2013}
+Ioannis Katsikarelis.
+\newblock Computing bounded-width tree and branch decompositions of
+  k-outerplanar graphs.
+\newblock arXiv:1301.5896, 2013.
+\newblock URL \url{https://arxiv.org/abs/1301.5896}.
+
+\bibitem[Rabin(1980)]{Rabin1980}
+Michael~O. Rabin.
+\newblock Probabilistic algorithms in finite fields.
+\newblock \emph{SIAM Journal on Computing}, 9\penalty0 (2):\penalty0 273--280,
+  1980.
+\newblock \doi{10.1137/0209024}.
+
+\bibitem[Thatcher and Wright(1968)]{ThatcherWright1968}
+James~W. Thatcher and Jesse~B. Wright.
+\newblock Generalized finite automata theory with an application to a decision
+  problem of second-order logic.
+\newblock \emph{Mathematical Systems Theory}, 2:\penalty0 57--81, 1968.
+\newblock \doi{10.1007/BF01691346}.
+
+\bibitem[Vatter(2026)]{Vatter2026}
+Vincent Vatter.
+\newblock An assortment of problems in permutation patterns: unimodality,
+  equivalence, derangements, and sorting.
+\newblock arXiv:2602.16355v2, 2026.
+\newblock URL \url{https://arxiv.org/abs/2602.16355v2}.
+\newblock Section 5, especially Question 5.12.
+
+\end{thebibliography}

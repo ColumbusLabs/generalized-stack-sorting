@@ -1,0 +1,157 @@
+{
+  "scope": "Exact full seven-parameter graph-system branch certificate; all-word identification uses the combinatorial graph and boundary proofs.",
+  "variables": [
+    "g",
+    "i",
+    "p",
+    "q",
+    "s",
+    "c",
+    "o"
+  ],
+  "center_jet_degree8": {
+    "g": [
+      "12",
+      "36",
+      "144",
+      "756",
+      "4704",
+      "32592",
+      "244368",
+      "1951788",
+      "16403376"
+    ],
+    "i": [
+      "8",
+      "8",
+      "28",
+      "150",
+      "964",
+      "6864",
+      "52756",
+      "431118",
+      "3696820"
+    ],
+    "p": [
+      "-4/9",
+      "4/9",
+      "22/27",
+      "107/27",
+      "1928/81",
+      "12958/81",
+      "285130/243",
+      "2248439/243",
+      "56349392/729"
+    ],
+    "q": [
+      "1/18",
+      "-1/9",
+      "-5/27",
+      "-26/27",
+      "-484/81",
+      "-3358/81",
+      "-76535/243",
+      "-624689/243",
+      "-16131937/729"
+    ],
+    "s": [
+      "9/2",
+      "9/2",
+      "39/2",
+      "105",
+      "1305/2",
+      "4494",
+      "33627",
+      "269142",
+      "4542945/2"
+    ],
+    "c": [
+      "2",
+      "0",
+      "0",
+      "-3/2",
+      "-35/2",
+      "-337/2",
+      "-1563",
+      "-14480",
+      "-270381/2"
+    ],
+    "o": [
+      "6",
+      "6",
+      "24",
+      "132",
+      "840",
+      "5868",
+      "44196",
+      "354588",
+      "2994552"
+    ]
+  },
+  "equation_definition": {
+    "terminal": "(I-xT)(I+K)v-xv=0, six scalar equations",
+    "empty": "(alpha-e0)K v=0",
+    "w_substitution": "3*o/2",
+    "v0": 1,
+    "v_ratios_source": "eight_parameter_beta_elimination.json",
+    "matrix_source": "eight-parameter-matrix-closure.json",
+    "K_rows": [
+      "(3*h*e0+2*i*e1-2*e4-e3*B-2*alpha*Z*B+2*i*alpha*B)/g",
+      "-3*e0",
+      "-3*e0",
+      "-e0-2*alpha",
+      "-2*e1-2*alpha*B",
+      "-e1-e3-2*alpha*Z"
+    ],
+    "normalization": "beta0=2/(1-x*v2); beta=beta0*v; G=1+x+2*x^2/(1-x*v2)"
+  },
+  "residual_valuation_at_least": 9,
+  "jacobian_smith_pivots": [
+    {
+      "valuation": 0,
+      "constant_unit": "-1/24",
+      "equation_index": 0,
+      "variable": "g"
+    },
+    {
+      "valuation": 0,
+      "constant_unit": "54",
+      "equation_index": 1,
+      "variable": "p"
+    },
+    {
+      "valuation": 0,
+      "constant_unit": "9/2",
+      "equation_index": 2,
+      "variable": "i"
+    },
+    {
+      "valuation": 0,
+      "constant_unit": "-81",
+      "equation_index": 3,
+      "variable": "q"
+    },
+    {
+      "valuation": 0,
+      "constant_unit": "2",
+      "equation_index": 4,
+      "variable": "o"
+    },
+    {
+      "valuation": 4,
+      "constant_unit": "24",
+      "equation_index": 5,
+      "variable": "c"
+    },
+    {
+      "valuation": 4,
+      "constant_unit": "-8/3",
+      "equation_index": 6,
+      "variable": "s"
+    }
+  ],
+  "jacobian_inverse_pole_order": 4,
+  "seconds": 0.14066570100112585,
+  "peak_rss_kib": 63584,
+  "driver_sha256": "1ad10c4452b8a95bff71547d8017f18d958146453dd3edebacc3a4e2a639d5f9"
+}

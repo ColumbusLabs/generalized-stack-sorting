@@ -1,0 +1,119 @@
+{
+  "scope": "Exact Rabin irreducibility certificate for Q(3,Y) modulo17. Since the Y-leading coefficient specializes nonzero and Q has no nonconstant x-only factor, this proves irreducibility of Q over Q(x), hence minimal degree12 for its selected formal root.",
+  "prime": 17,
+  "specialized_x": 3,
+  "specialized_coefficients_ascending_Y": [
+    5,
+    14,
+    9,
+    10,
+    4,
+    3,
+    14,
+    7,
+    14,
+    3,
+    14,
+    7,
+    5
+  ],
+  "rabin_checks": {
+    "4": {
+      "frobenius_remainder": [
+        6,
+        13,
+        0,
+        12,
+        12,
+        7,
+        0,
+        5,
+        4,
+        1,
+        2,
+        3
+      ],
+      "gcd": 1,
+      "bezout_F": [
+        7,
+        12,
+        15,
+        2,
+        13,
+        6,
+        3,
+        6,
+        4,
+        10,
+        14
+      ],
+      "bezout_remainder_minus_Y": [
+        0,
+        2,
+        13,
+        4,
+        16,
+        2,
+        7,
+        16,
+        3,
+        8,
+        4,
+        5
+      ]
+    },
+    "6": {
+      "frobenius_remainder": [
+        0,
+        12,
+        6,
+        7,
+        4,
+        5,
+        9,
+        13,
+        5,
+        14,
+        10,
+        4
+      ],
+      "gcd": 1,
+      "bezout_F": [
+        7,
+        13,
+        9,
+        9,
+        4,
+        6,
+        6,
+        9,
+        5,
+        6,
+        13
+      ],
+      "bezout_remainder_minus_Y": [
+        13,
+        16,
+        3,
+        1,
+        13,
+        13,
+        11,
+        11,
+        11,
+        8,
+        4,
+        5
+      ]
+    },
+    "12": {
+      "frobenius_remainder": [
+        0,
+        1
+      ]
+    }
+  },
+  "no_x_only_factor_witness": "The leading Y coefficient is972*x^4, while the constant Y coefficient is -8100-11016*x+80028*x^2, whose value at x=0 is nonzero. Their gcd in Q[x] is1.",
+  "source_sha256": "dad38a8f22a20fdfe971792b09558df21104aa1ec8b51844a52b49da3f3f4b79",
+  "status": "PASS"
+}

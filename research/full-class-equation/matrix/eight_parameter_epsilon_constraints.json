@@ -1,0 +1,269 @@
+{
+  "scope": "Exact conditional rational graph identities; no claim they hold on the selected branch. E-column constraints are linear in beta; terminal/boundary equations are linear in beta,r,d0 for fixed matrix parameters and x.",
+  "matrix_variables": [
+    "g",
+    "i",
+    "p",
+    "q",
+    "s",
+    "c",
+    "o",
+    "w"
+  ],
+  "linear_unknowns": [
+    "beta0",
+    "beta1",
+    "beta2",
+    "beta3",
+    "beta4",
+    "beta5",
+    "r0",
+    "r1",
+    "r2",
+    "r3",
+    "r4",
+    "r5",
+    "d0"
+  ],
+  "parameter": "x",
+  "stats": {
+    "ZE": {
+      "nonzero_matrix_entries": 20
+    },
+    "BE": {
+      "nonzero_matrix_entries": 12
+    },
+    "TE": {
+      "nonzero_matrix_entries": 18
+    },
+    "initial_ZZ": {
+      "nonzero_matrix_entries": 5
+    },
+    "initial_ZB": {
+      "nonzero_matrix_entries": 5
+    },
+    "initial_ZT": {
+      "nonzero_matrix_entries": 0
+    }
+  },
+  "U_rows": [
+    [
+      "(2*i*p*q*s + 4*i*q**2*s**2 + i*q + 2*p**2*s + 4*p*q*s**2 + p)/(2*g*q**2*s)",
+      "(2*i*p*q*s + i*q + 2*p**2*s + p)/(g*q)",
+      "0",
+      "0",
+      "(2*i*q*s + 2*p*s)/g",
+      "0"
+    ],
+    [
+      "(2*g*p*q**2*s - g*q**2 - 2*i*p*q*s - i*q - 2*p**2*s - p + 2*q*s)/(g*q**2)",
+      "(2*g*q*s - 2*i*s)/g",
+      "0",
+      "0",
+      "2*s/g",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "(2*g*p*q**2*s - g*q**2 - 2*i*p*q*s - i*q - 2*p**2*s - p + 2*q*s)/(g*q**2)",
+      "(-2*g*p + 2*g*q*s - 2*i*s)/g",
+      "0",
+      "2*p",
+      "(-2*g*q + 2*s)/g",
+      "2*q"
+    ],
+    [
+      "(-4*g*p**2*q**2*s**2 - 2*g*p*q**2*s - 4*g*q**3*s**2 + 4*i*p**2*q*s**2 + 4*i*p*q*s + i*q + 4*p**3*s**2 + 4*p**2*s - 4*p*q*s**2 + p - 2*q*s)/(2*g*q**3*s)",
+      "(-4*g*p*q*s - 2*g*q + 2*i*p*s + i)/(g*q)",
+      "0",
+      "0",
+      "(-2*g*q**2*s - 2*p*s - 1)/(g*q)",
+      "0"
+    ],
+    [
+      "(-4*g*p**2*q**2*s**2 - 2*g*p*q**2*s - 4*g*q**3*s**2 + 4*i*p**2*q*s**2 + 4*i*p*q*s + i*q + 4*p**3*s**2 + 4*p**2*s - 4*p*q*s**2 + p - 2*q*s)/(2*g*q**3*s)",
+      "(-4*g*p*q*s + 2*i*p*s + i)/(g*q)",
+      "0",
+      "-2",
+      "(-2*g*q**2*s - 2*p*s - 1)/(g*q)",
+      "0"
+    ]
+  ],
+  "K_rows": [
+    [
+      "(6*i*p*q*s + 4*i*q**2*s**2 + 3*i*q + 6*p**2*s + 4*p*q*s**2 + 3*p - 4*q*s)/(2*g*q**2*s)",
+      "(2*i*p*q*s + 3*i*q + 2*p**2*s + p)/(g*q)",
+      "0",
+      "0",
+      "(2*i*q*s + 2*p*s - 2)/g",
+      "0"
+    ],
+    [
+      "-3",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "-3",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "-3",
+      "-2*p",
+      "0",
+      "2*p",
+      "-2*q",
+      "2*q"
+    ],
+    [
+      "-2*s",
+      "-2*p*s - 3",
+      "0",
+      "0",
+      "-2*q*s",
+      "0"
+    ],
+    [
+      "-2*s",
+      "-2*p*s - 1",
+      "0",
+      "-2",
+      "-2*q*s",
+      "0"
+    ]
+  ],
+  "equations": {
+    "ZE_2": {
+      "numerator": "-12*beta0*c*g*p*q**2*s - 8*beta0*c*g*q**3*s**2 + 12*beta0*c*i*p*q*s + 8*beta0*c*i*q**2*s**2 + 6*beta0*c*i*q + 12*beta0*c*p**2*s + 8*beta0*c*p*q*s**2 + 6*beta0*c*p - 8*beta0*c*q*s - 36*beta0*g*i*p*q**3*s**2 - 24*beta0*g*i*q**4*s**3 - 36*beta0*g*p**2*q**2*s**2 - 24*beta0*g*p*q**3*s**3 + 18*beta0*g*p*q**2*s + 24*beta0*g*q**3*s**2 + 36*beta0*i**2*p*q**2*s**2 + 24*beta0*i**2*q**3*s**3 + 18*beta0*i**2*q**2*s + 72*beta0*i*p**2*q*s**2 + 48*beta0*i*p*q**2*s**3 + 18*beta0*i*p*q*s - 36*beta0*i*q**2*s**2 - 9*beta0*i*q + 36*beta0*p**3*s**2 + 24*beta0*p**2*q*s**3 - 36*beta0*p*q*s**2 - 9*beta0*p + 12*beta0*q*s - 8*beta1*c*g*p*q**3*s**2 - 12*beta1*c*g*q**3*s + 8*beta1*c*i*p*q**2*s**2 + 12*beta1*c*i*q**2*s + 8*beta1*c*p**2*q*s**2 + 4*beta1*c*p*q*s - 24*beta1*g**2*p**2*q**4*s**2 + 24*beta1*g**2*q**5*s**2 + 24*beta1*g*i*p**2*q**3*s**2 - 24*beta1*g*i*p*q**4*s**3 + 12*beta1*g*i*p*q**3*s - 60*beta1*g*i*q**4*s**2 + 24*beta1*g*p**3*q**2*s**2 - 24*beta1*g*p**2*q**3*s**3 + 12*beta1*g*p**2*q**2*s - 36*beta1*g*p*q**3*s**2 + 12*beta1*g*q**3*s + 24*beta1*i**2*p*q**3*s**3 + 36*beta1*i**2*q**3*s**2 + 48*beta1*i*p**2*q**2*s**3 + 36*beta1*i*p*q**2*s**2 - 18*beta1*i*q**2*s + 24*beta1*p**3*q*s**3 - 6*beta1*p*q*s + 4*beta2*g*q**3*s + 24*beta3*g**2*p**2*q**4*s**2 - 24*beta3*g**2*q**5*s**2 - 24*beta3*g*i*p**2*q**3*s**2 - 12*beta3*g*i*p*q**3*s + 24*beta3*g*i*q**4*s**2 - 24*beta3*g*p**3*q**2*s**2 - 12*beta3*g*p**2*q**2*s + 24*beta3*g*p*q**3*s**2 - 8*beta4*c*g*q**4*s**2 + 8*beta4*c*i*q**3*s**2 + 8*beta4*c*p*q**2*s**2 - 8*beta4*c*q**2*s - 24*beta4*g**2*p*q**5*s**2 + 24*beta4*g*i*p*q**4*s**2 - 24*beta4*g*i*q**5*s**3 + 12*beta4*g*i*q**4*s + 24*beta4*g*p**2*q**3*s**2 - 24*beta4*g*p*q**4*s**3 + 12*beta4*g*p*q**3*s + 24*beta4*g*q**4*s**2 + 24*beta4*i**2*q**4*s**3 + 48*beta4*i*p*q**3*s**3 - 36*beta4*i*q**3*s**2 + 24*beta4*p**2*q**2*s**3 - 36*beta4*p*q**2*s**2 + 12*beta4*q**2*s + 24*beta5*g**2*p*q**5*s**2 - 24*beta5*g*i*p*q**4*s**2 - 12*beta5*g*i*q**4*s - 24*beta5*g*p**2*q**3*s**2 - 12*beta5*g*p*q**3*s",
+      "denominator": "4*g*q**3*s"
+    },
+    "ZE_3": {
+      "numerator": "12*beta0*g*p**2*q**2*s**2 + 8*beta0*g*p*q**3*s**3 + 6*beta0*g*p*q**2*s + 16*beta0*g*q**3*s**2 - 12*beta0*i*p**2*q*s**2 - 8*beta0*i*p*q**2*s**3 - 12*beta0*i*p*q*s - 4*beta0*i*q**2*s**2 - 3*beta0*i*q - 12*beta0*p**3*s**2 - 8*beta0*p**2*q*s**3 - 12*beta0*p**2*s + 4*beta0*p*q*s**2 - 3*beta0*p + 4*beta0*q*s - 8*beta1*g**2*p**2*q**4*s**2 + 8*beta1*g**2*q**5*s**2 + 8*beta1*g*i*p**2*q**3*s**2 + 4*beta1*g*i*p*q**3*s - 8*beta1*g*i*q**4*s**2 + 8*beta1*g*p**3*q**2*s**2 + 8*beta1*g*p**2*q**3*s**3 + 4*beta1*g*p**2*q**2*s + 20*beta1*g*p*q**3*s**2 + 4*beta1*g*q**3*s - 8*beta1*i*p**2*q**2*s**3 - 16*beta1*i*p*q**2*s**2 - 6*beta1*i*q**2*s - 8*beta1*p**3*q*s**3 - 8*beta1*p**2*q*s**2 - 2*beta1*p*q*s + 8*beta3*g**2*p**2*q**4*s**2 - 8*beta3*g**2*q**5*s**2 - 8*beta3*g*i*p**2*q**3*s**2 - 4*beta3*g*i*p*q**3*s + 8*beta3*g*i*q**4*s**2 - 8*beta3*g*p**3*q**2*s**2 - 4*beta3*g*p**2*q**2*s + 8*beta3*g*p*q**3*s**2 + 8*beta3*g*q**3*s - 8*beta4*g**2*p*q**5*s**2 + 8*beta4*g*i*p*q**4*s**2 + 4*beta4*g*i*q**4*s + 8*beta4*g*p**2*q**3*s**2 + 8*beta4*g*p*q**4*s**3 + 4*beta4*g*p*q**3*s + 16*beta4*g*q**4*s**2 - 8*beta4*i*p*q**3*s**3 - 4*beta4*i*q**3*s**2 - 8*beta4*p**2*q**2*s**3 + 4*beta4*p*q**2*s**2 + 4*beta4*q**2*s + 8*beta5*g**2*p*q**5*s**2 - 8*beta5*g*i*p*q**4*s**2 - 4*beta5*g*i*q**4*s - 8*beta5*g*p**2*q**3*s**2 - 4*beta5*g*p*q**3*s",
+      "denominator": "4*g*q**3*s"
+    },
+    "ZE_4": {
+      "numerator": "2*beta1*g*p**2*q**2*s - 2*beta1*g*q**3*s - 2*beta1*i*p**2*q*s - beta1*i*p*q + 2*beta1*i*q**2*s - 2*beta1*p**3*s - beta1*p**2 + 2*beta1*p*q*s - 2*beta3*g*p**2*q**2*s + 2*beta3*g*q**3*s + 2*beta3*i*p**2*q*s + beta3*i*p*q - 2*beta3*i*q**2*s + 2*beta3*p**3*s + beta3*p**2 - 2*beta3*p*q*s + 2*beta4*g*p*q**3*s - 2*beta4*i*p*q**2*s - beta4*i*q**2 - 2*beta4*p**2*q*s - beta4*p*q - 2*beta5*g*p*q**3*s + 2*beta5*i*p*q**2*s + beta5*i*q**2 + 2*beta5*p**2*q*s + beta5*p*q",
+      "denominator": "q**2*s"
+    },
+    "ZE_5": {
+      "numerator": "-12*beta0*g*p**3*q**2*s**2 - 8*beta0*g*p**2*q**3*s**3 - 6*beta0*g*p**2*q**2*s - 4*beta0*g*p*q**3*s**2 + 8*beta0*g*q**4*s**3 - 6*beta0*g*q**3*s + 12*beta0*i*p**3*q*s**2 + 8*beta0*i*p**2*q**2*s**3 + 12*beta0*i*p**2*q*s - 8*beta0*i*p*q**2*s**2 + 3*beta0*i*p*q - 8*beta0*i*q**3*s**3 - 6*beta0*i*q**2*s + 12*beta0*p**4*s**2 + 8*beta0*p**3*q*s**3 + 12*beta0*p**3*s - 16*beta0*p**2*q*s**2 + 3*beta0*p**2 - 8*beta0*p*q**2*s**3 - 10*beta0*p*q*s + 8*beta0*q**2*s**2 + 8*beta1*g**2*p**3*q**4*s**2 + 8*beta1*g**2*p**2*q**4*s - 8*beta1*g**2*p*q**5*s**2 - 8*beta1*g**2*q**5*s - 8*beta1*g*i*p**3*q**3*s**2 - 12*beta1*g*i*p**2*q**3*s + 8*beta1*g*i*p*q**4*s**2 - 4*beta1*g*i*p*q**3 + 8*beta1*g*i*q**4*s - 8*beta1*g*p**4*q**2*s**2 - 8*beta1*g*p**3*q**3*s**3 - 12*beta1*g*p**3*q**2*s - 20*beta1*g*p**2*q**3*s**2 - 4*beta1*g*p**2*q**2 + 8*beta1*g*p*q**4*s**3 - 4*beta1*g*p*q**3*s + 12*beta1*g*q**4*s**2 + 8*beta1*i*p**3*q**2*s**3 + 16*beta1*i*p**2*q**2*s**2 - 8*beta1*i*p*q**3*s**3 + 6*beta1*i*p*q**2*s - 12*beta1*i*q**3*s**2 + 8*beta1*p**4*q*s**3 + 8*beta1*p**3*q*s**2 - 8*beta1*p**2*q**2*s**3 + 2*beta1*p**2*q*s - 4*beta1*p*q**2*s**2 - 8*beta3*g**2*p**3*q**4*s**2 - 8*beta3*g**2*p**2*q**4*s + 8*beta3*g**2*p*q**5*s**2 + 8*beta3*g**2*q**5*s + 8*beta3*g*i*p**3*q**3*s**2 + 12*beta3*g*i*p**2*q**3*s - 8*beta3*g*i*p*q**4*s**2 + 4*beta3*g*i*p*q**3 - 8*beta3*g*i*q**4*s + 8*beta3*g*p**4*q**2*s**2 + 12*beta3*g*p**3*q**2*s - 8*beta3*g*p**2*q**3*s**2 + 4*beta3*g*p**2*q**2 - 8*beta3*g*p*q**3*s + 8*beta4*g**2*p**2*q**5*s**2 + 8*beta4*g**2*p*q**5*s - 8*beta4*g*i*p**2*q**4*s**2 - 12*beta4*g*i*p*q**4*s - 4*beta4*g*i*q**4 - 8*beta4*g*p**3*q**3*s**2 - 8*beta4*g*p**2*q**4*s**3 - 12*beta4*g*p**2*q**3*s - 16*beta4*g*p*q**4*s**2 - 4*beta4*g*p*q**3 + 8*beta4*g*q**5*s**3 - 8*beta4*g*q**4*s + 8*beta4*i*p**2*q**3*s**3 + 4*beta4*i*p*q**3*s**2 - 8*beta4*i*q**4*s**3 + 8*beta4*p**3*q**2*s**3 - 4*beta4*p**2*q**2*s**2 - 8*beta4*p*q**3*s**3 - 4*beta4*p*q**2*s + 8*beta4*q**3*s**2 - 8*beta5*g**2*p**2*q**5*s**2 - 8*beta5*g**2*p*q**5*s + 8*beta5*g*i*p**2*q**4*s**2 + 12*beta5*g*i*p*q**4*s + 4*beta5*g*i*q**4 + 8*beta5*g*p**3*q**3*s**2 + 12*beta5*g*p**2*q**3*s + 4*beta5*g*p*q**3 + 8*beta5*g*q**4*s",
+      "denominator": "4*g*q**4*s"
+    },
+    "BE_2": {
+      "numerator": "-12*beta0*c*g*p*q**2*s - 8*beta0*c*g*q**3*s**2 + 12*beta0*c*i*p*q*s + 8*beta0*c*i*q**2*s**2 + 6*beta0*c*i*q + 12*beta0*c*p**2*s + 8*beta0*c*p*q*s**2 + 6*beta0*c*p - 8*beta0*c*q*s - 36*beta0*g*i*p*q**3*s**2 - 24*beta0*g*i*q**4*s**3 - 36*beta0*g*p**2*q**2*s**2 - 24*beta0*g*p*q**3*s**3 + 18*beta0*g*p*q**2*s + 24*beta0*g*q**3*s**2 + 36*beta0*i**2*p*q**2*s**2 + 24*beta0*i**2*q**3*s**3 + 18*beta0*i**2*q**2*s + 72*beta0*i*p**2*q*s**2 + 48*beta0*i*p*q**2*s**3 + 18*beta0*i*p*q*s - 36*beta0*i*q**2*s**2 - 9*beta0*i*q + 36*beta0*p**3*s**2 + 24*beta0*p**2*q*s**3 - 36*beta0*p*q*s**2 - 9*beta0*p + 12*beta0*q*s - 8*beta1*c*g*p*q**3*s**2 - 12*beta1*c*g*q**3*s + 8*beta1*c*i*p*q**2*s**2 + 12*beta1*c*i*q**2*s + 8*beta1*c*p**2*q*s**2 + 4*beta1*c*p*q*s - 24*beta1*g*i*p*q**4*s**3 - 36*beta1*g*i*q**4*s**2 - 24*beta1*g*p**2*q**3*s**3 - 12*beta1*g*p*q**3*s**2 + 12*beta1*g*q**3*s + 24*beta1*i**2*p*q**3*s**3 + 36*beta1*i**2*q**3*s**2 + 48*beta1*i*p**2*q**2*s**3 + 36*beta1*i*p*q**2*s**2 - 18*beta1*i*q**2*s + 24*beta1*p**3*q*s**3 - 6*beta1*p*q*s + 4*beta2*g*q**3*s - 8*beta4*c*g*q**4*s**2 + 8*beta4*c*i*q**3*s**2 + 8*beta4*c*p*q**2*s**2 - 8*beta4*c*q**2*s - 24*beta4*g*i*q**5*s**3 - 24*beta4*g*p*q**4*s**3 + 24*beta4*g*q**4*s**2 + 24*beta4*i**2*q**4*s**3 + 48*beta4*i*p*q**3*s**3 - 36*beta4*i*q**3*s**2 + 24*beta4*p**2*q**2*s**3 - 36*beta4*p*q**2*s**2 + 12*beta4*q**2*s",
+      "denominator": "4*g*q**3*s"
+    },
+    "BE_3": {
+      "numerator": "12*beta0*g*p**2*q**2*s**2 + 8*beta0*g*p*q**3*s**3 + 6*beta0*g*p*q**2*s + 16*beta0*g*q**3*s**2 - 12*beta0*i*p**2*q*s**2 - 8*beta0*i*p*q**2*s**3 - 12*beta0*i*p*q*s - 4*beta0*i*q**2*s**2 - 3*beta0*i*q - 12*beta0*p**3*s**2 - 8*beta0*p**2*q*s**3 - 12*beta0*p**2*s + 4*beta0*p*q*s**2 - 3*beta0*p + 4*beta0*q*s + 8*beta1*g*p**2*q**3*s**3 + 28*beta1*g*p*q**3*s**2 + 4*beta1*g*q**3*s - 8*beta1*i*p**2*q**2*s**3 - 16*beta1*i*p*q**2*s**2 - 6*beta1*i*q**2*s - 8*beta1*p**3*q*s**3 - 8*beta1*p**2*q*s**2 - 2*beta1*p*q*s + 8*beta3*g*q**3*s + 8*beta4*g*p*q**4*s**3 + 16*beta4*g*q**4*s**2 - 8*beta4*i*p*q**3*s**3 - 4*beta4*i*q**3*s**2 - 8*beta4*p**2*q**2*s**3 + 4*beta4*p*q**2*s**2 + 4*beta4*q**2*s",
+      "denominator": "4*g*q**3*s"
+    },
+    "BE_5": {
+      "numerator": "-12*beta0*g*p**3*q**2*s**2 - 8*beta0*g*p**2*q**3*s**3 - 6*beta0*g*p**2*q**2*s - 4*beta0*g*p*q**3*s**2 + 8*beta0*g*q**4*s**3 - 6*beta0*g*q**3*s + 12*beta0*i*p**3*q*s**2 + 8*beta0*i*p**2*q**2*s**3 + 12*beta0*i*p**2*q*s - 8*beta0*i*p*q**2*s**2 + 3*beta0*i*p*q - 8*beta0*i*q**3*s**3 - 6*beta0*i*q**2*s + 12*beta0*p**4*s**2 + 8*beta0*p**3*q*s**3 + 12*beta0*p**3*s - 16*beta0*p**2*q*s**2 + 3*beta0*p**2 - 8*beta0*p*q**2*s**3 - 10*beta0*p*q*s + 8*beta0*q**2*s**2 - 8*beta1*g*p**3*q**3*s**3 - 28*beta1*g*p**2*q**3*s**2 + 8*beta1*g*p*q**4*s**3 - 12*beta1*g*p*q**3*s + 12*beta1*g*q**4*s**2 + 8*beta1*i*p**3*q**2*s**3 + 16*beta1*i*p**2*q**2*s**2 - 8*beta1*i*p*q**3*s**3 + 6*beta1*i*p*q**2*s - 12*beta1*i*q**3*s**2 + 8*beta1*p**4*q*s**3 + 8*beta1*p**3*q*s**2 - 8*beta1*p**2*q**2*s**3 + 2*beta1*p**2*q*s - 4*beta1*p*q**2*s**2 - 8*beta4*g*p**2*q**4*s**3 - 16*beta4*g*p*q**4*s**2 + 8*beta4*g*q**5*s**3 - 8*beta4*g*q**4*s + 8*beta4*i*p**2*q**3*s**3 + 4*beta4*i*p*q**3*s**2 - 8*beta4*i*q**4*s**3 + 8*beta4*p**3*q**2*s**3 - 4*beta4*p**2*q**2*s**2 - 8*beta4*p*q**3*s**3 - 4*beta4*p*q**2*s + 8*beta4*q**3*s**2 + 8*beta5*g*q**4*s",
+      "denominator": "4*g*q**4*s"
+    },
+    "TE_1": {
+      "numerator": "3*(-12*beta0*g*o*p*q**3*s**2 - 8*beta0*g*o*q**4*s**3 + 2*beta0*g*o*q**3*s - 12*beta0*g*p**2*q**2*s**2 - 8*beta0*g*p*q**3*s**3 - 6*beta0*g*p*q**2*s - 8*beta0*g*q**3*s**2 + 12*beta0*i*o*p*q**2*s**2 + 8*beta0*i*o*q**3*s**3 + 6*beta0*i*o*q**2*s + 12*beta0*i*p**2*q*s**2 + 8*beta0*i*p*q**2*s**3 + 12*beta0*i*p*q*s + 4*beta0*i*q**2*s**2 + 3*beta0*i*q + 12*beta0*o*p**2*q*s**2 + 8*beta0*o*p*q**2*s**3 + 6*beta0*o*p*q*s - 8*beta0*o*q**2*s**2 + 12*beta0*p**3*s**2 + 8*beta0*p**2*q*s**3 + 12*beta0*p**2*s - 4*beta0*p*q*s**2 + 3*beta0*p - 4*beta0*q*s - 8*beta1*g*o*p*q**4*s**3 - 12*beta1*g*o*q**4*s**2 - 8*beta1*g*p**2*q**3*s**3 - 20*beta1*g*p*q**3*s**2 - 8*beta1*g*q**3*s + 8*beta1*i*o*p*q**3*s**3 + 12*beta1*i*o*q**3*s**2 + 8*beta1*i*p**2*q**2*s**3 + 16*beta1*i*p*q**2*s**2 + 6*beta1*i*q**2*s + 8*beta1*o*p**2*q**2*s**3 + 4*beta1*o*p*q**2*s**2 + 8*beta1*p**3*q*s**3 + 8*beta1*p**2*q*s**2 + 2*beta1*p*q*s - 8*beta4*g*o*q**5*s**3 - 8*beta4*g*p*q**4*s**3 - 8*beta4*g*q**4*s**2 + 8*beta4*i*o*q**4*s**3 + 8*beta4*i*p*q**3*s**3 + 4*beta4*i*q**3*s**2 + 8*beta4*o*p*q**3*s**3 - 8*beta4*o*q**3*s**2 + 8*beta4*p**2*q**2*s**3 - 4*beta4*p*q**2*s**2 - 4*beta4*q**2*s)",
+      "denominator": "4*g*q**3*s"
+    },
+    "TE_2": {
+      "numerator": "-24*beta0*c*g*p*q**2*s - 16*beta0*c*g*q**3*s**2 + 24*beta0*c*i*p*q*s + 16*beta0*c*i*q**2*s**2 + 12*beta0*c*i*q + 24*beta0*c*p**2*s + 16*beta0*c*p*q*s**2 + 12*beta0*c*p - 16*beta0*c*q*s - 72*beta0*g*i*p*q**3*s**2 - 48*beta0*g*i*q**4*s**3 - 180*beta0*g*p**2*q**2*s**2 - 120*beta0*g*p*q**3*s**3 - 72*beta0*g*p*q**3*s**2*w - 18*beta0*g*p*q**2*s - 48*beta0*g*q**4*s**3*w - 24*beta0*g*q**3*s**2 + 12*beta0*g*q**3*s*w + 72*beta0*i**2*p*q**2*s**2 + 48*beta0*i**2*q**3*s**3 + 36*beta0*i**2*q**2*s + 252*beta0*i*p**2*q*s**2 + 168*beta0*i*p*q**2*s**3 + 72*beta0*i*p*q**2*s**2*w + 144*beta0*i*p*q*s + 48*beta0*i*q**3*s**3*w - 36*beta0*i*q**2*s**2 + 36*beta0*i*q**2*s*w + 9*beta0*i*q + 180*beta0*p**3*s**2 + 120*beta0*p**2*q*s**3 + 72*beta0*p**2*q*s**2*w + 108*beta0*p**2*s + 48*beta0*p*q**2*s**3*w - 108*beta0*p*q*s**2 + 36*beta0*p*q*s*w + 9*beta0*p - 48*beta0*q**2*s**2*w - 12*beta0*q*s - 16*beta1*c*g*p*q**3*s**2 - 24*beta1*c*g*q**3*s + 16*beta1*c*i*p*q**2*s**2 + 24*beta1*c*i*q**2*s + 16*beta1*c*p**2*q*s**2 + 8*beta1*c*p*q*s - 48*beta1*g*i*p*q**4*s**3 - 72*beta1*g*i*q**4*s**2 - 120*beta1*g*p**2*q**3*s**3 - 48*beta1*g*p*q**4*s**3*w - 204*beta1*g*p*q**3*s**2 - 72*beta1*g*q**4*s**2*w - 48*beta1*g*q**3*s + 48*beta1*i**2*p*q**3*s**3 + 72*beta1*i**2*q**3*s**2 + 168*beta1*i*p**2*q**2*s**3 + 48*beta1*i*p*q**3*s**3*w + 216*beta1*i*p*q**2*s**2 + 72*beta1*i*q**3*s**2*w + 18*beta1*i*q**2*s + 120*beta1*p**3*q*s**3 + 48*beta1*p**2*q**2*s**3*w + 72*beta1*p**2*q*s**2 + 24*beta1*p*q**2*s**2*w + 6*beta1*p*q*s + 8*beta2*g*q**3*s - 16*beta4*c*g*q**4*s**2 + 16*beta4*c*i*q**3*s**2 + 16*beta4*c*p*q**2*s**2 - 16*beta4*c*q**2*s - 48*beta4*g*i*q**5*s**3 - 120*beta4*g*p*q**4*s**3 - 48*beta4*g*q**5*s**3*w - 24*beta4*g*q**4*s**2 + 48*beta4*i**2*q**4*s**3 + 168*beta4*i*p*q**3*s**3 + 48*beta4*i*q**4*s**3*w - 36*beta4*i*q**3*s**2 + 120*beta4*p**2*q**2*s**3 + 48*beta4*p*q**3*s**3*w - 108*beta4*p*q**2*s**2 - 48*beta4*q**3*s**2*w - 12*beta4*q**2*s",
+      "denominator": "8*g*q**3*s"
+    },
+    "TE_3": {
+      "numerator": "2*beta1*g*p**2*q**2*s - 2*beta1*g*q**3*s - 2*beta1*i*p**2*q*s - beta1*i*p*q + 2*beta1*i*q**2*s - 2*beta1*p**3*s - beta1*p**2 + 2*beta1*p*q*s - 2*beta3*g*p**2*q**2*s + 2*beta3*g*q**3*s + 2*beta3*i*p**2*q*s + beta3*i*p*q - 2*beta3*i*q**2*s + 2*beta3*p**3*s + beta3*p**2 - 2*beta3*p*q*s + 2*beta4*g*p*q**3*s - 2*beta4*i*p*q**2*s - beta4*i*q**2 - 2*beta4*p**2*q*s - beta4*p*q - 2*beta5*g*p*q**3*s + 2*beta5*i*p*q**2*s + beta5*i*q**2 + 2*beta5*p**2*q*s + beta5*p*q",
+      "denominator": "q"
+    },
+    "TE_4": {
+      "numerator": "-3*p*(-12*beta0*g*o*p*q**3*s**2 - 8*beta0*g*o*q**4*s**3 + 2*beta0*g*o*q**3*s - 12*beta0*g*p**2*q**2*s**2 - 8*beta0*g*p*q**3*s**3 - 6*beta0*g*p*q**2*s - 8*beta0*g*q**3*s**2 + 12*beta0*i*o*p*q**2*s**2 + 8*beta0*i*o*q**3*s**3 + 6*beta0*i*o*q**2*s + 12*beta0*i*p**2*q*s**2 + 8*beta0*i*p*q**2*s**3 + 12*beta0*i*p*q*s + 4*beta0*i*q**2*s**2 + 3*beta0*i*q + 12*beta0*o*p**2*q*s**2 + 8*beta0*o*p*q**2*s**3 + 6*beta0*o*p*q*s - 8*beta0*o*q**2*s**2 + 12*beta0*p**3*s**2 + 8*beta0*p**2*q*s**3 + 12*beta0*p**2*s - 4*beta0*p*q*s**2 + 3*beta0*p - 4*beta0*q*s - 8*beta1*g*o*p*q**4*s**3 - 12*beta1*g*o*q**4*s**2 - 8*beta1*g*p**2*q**3*s**3 - 20*beta1*g*p*q**3*s**2 - 8*beta1*g*q**3*s + 8*beta1*i*o*p*q**3*s**3 + 12*beta1*i*o*q**3*s**2 + 8*beta1*i*p**2*q**2*s**3 + 16*beta1*i*p*q**2*s**2 + 6*beta1*i*q**2*s + 8*beta1*o*p**2*q**2*s**3 + 4*beta1*o*p*q**2*s**2 + 8*beta1*p**3*q*s**3 + 8*beta1*p**2*q*s**2 + 2*beta1*p*q*s - 8*beta4*g*o*q**5*s**3 - 8*beta4*g*p*q**4*s**3 - 8*beta4*g*q**4*s**2 + 8*beta4*i*o*q**4*s**3 + 8*beta4*i*p*q**3*s**3 + 4*beta4*i*q**3*s**2 + 8*beta4*o*p*q**3*s**3 - 8*beta4*o*q**3*s**2 + 8*beta4*p**2*q**2*s**3 - 4*beta4*p*q**2*s**2 - 4*beta4*q**2*s)",
+      "denominator": "4*g*q**4*s"
+    },
+    "TE_5": {
+      "numerator": "p*(-2*beta1*g*p**2*q**2*s + 2*beta1*g*q**3*s + 2*beta1*i*p**2*q*s + beta1*i*p*q - 2*beta1*i*q**2*s + 2*beta1*p**3*s + beta1*p**2 - 2*beta1*p*q*s + 2*beta3*g*p**2*q**2*s - 2*beta3*g*q**3*s - 2*beta3*i*p**2*q*s - beta3*i*p*q + 2*beta3*i*q**2*s - 2*beta3*p**3*s - beta3*p**2 + 2*beta3*p*q*s - 2*beta4*g*p*q**3*s + 2*beta4*i*p*q**2*s + beta4*i*q**2 + 2*beta4*p**2*q*s + beta4*p*q + 2*beta5*g*p*q**3*s - 2*beta5*i*p*q**2*s - beta5*i*q**2 - 2*beta5*p**2*q*s - beta5*p*q)",
+      "denominator": "q**2"
+    },
+    "initial_ZZ_0": {
+      "numerator": "-6*beta0*g*p*q**2*s - 4*beta0*g*q**3*s**2 + 3*beta0*g*q**2 + 6*beta0*i*p*q*s + 4*beta0*i*q**2*s**2 + 3*beta0*i*q + 6*beta0*p**2*s + 4*beta0*p*q*s**2 + 3*beta0*p - 4*beta0*q*s - 4*beta1*g*p*q**3*s**2 + 4*beta1*g*p*q**2 - 6*beta1*g*q**3*s + 4*beta1*i*p*q**2*s**2 + 6*beta1*i*q**2*s + 4*beta1*p**2*q*s**2 + 2*beta1*p*q*s - 4*beta3*g*p*q**2 - 4*beta4*g*q**4*s**2 + 4*beta4*g*q**3 + 4*beta4*i*q**3*s**2 + 4*beta4*p*q**2*s**2 - 4*beta4*q**2*s - 4*beta5*g*q**3",
+      "denominator": "2*g*q**2"
+    },
+    "initial_ZB_0": {
+      "numerator": "-6*beta0*g*p*q**2*s - 4*beta0*g*q**3*s**2 + 3*beta0*g*q**2 + 6*beta0*i*p*q*s + 4*beta0*i*q**2*s**2 + 3*beta0*i*q + 6*beta0*p**2*s + 4*beta0*p*q*s**2 + 3*beta0*p - 4*beta0*q*s - 4*beta1*g*p*q**3*s**2 + 4*beta1*g*p*q**2 - 6*beta1*g*q**3*s + 4*beta1*i*p*q**2*s**2 + 6*beta1*i*q**2*s + 4*beta1*p**2*q*s**2 + 2*beta1*p*q*s - 4*beta3*g*p*q**2 - 4*beta4*g*q**4*s**2 + 4*beta4*g*q**3 + 4*beta4*i*q**3*s**2 + 4*beta4*p*q**2*s**2 - 4*beta4*q**2*s - 4*beta5*g*q**3",
+      "denominator": "2*g*q**2"
+    },
+    "terminal_0": {
+      "numerator": "2*beta0*g*q**2*s + 6*beta0*i*p*q*s + 4*beta0*i*q**2*s**2 + 3*beta0*i*q + 6*beta0*p**2*s + 4*beta0*p*q*s**2 + 3*beta0*p - 4*beta0*q*s + 4*beta1*i*p*q**2*s**2 + 6*beta1*i*q**2*s + 4*beta1*p**2*q*s**2 + 2*beta1*p*q*s + 4*beta4*i*q**3*s**2 + 4*beta4*p*q**2*s**2 - 4*beta4*q**2*s - 2*g*q**2*r0*s*x",
+      "denominator": "2*g*q**2*s"
+    },
+    "terminal_1": {
+      "numerator": "-3*beta0 + beta1 - r1*x",
+      "denominator": "1"
+    },
+    "terminal_2": {
+      "numerator": "-3*beta0 + beta2 - r2*x",
+      "denominator": "1"
+    },
+    "terminal_3": {
+      "numerator": "-3*beta0 - 2*beta1*p + 2*beta3*p + beta3 - 2*beta4*q + 2*beta5*q - r3*x",
+      "denominator": "1"
+    },
+    "terminal_4": {
+      "numerator": "-2*beta0*s - 2*beta1*p*s - 3*beta1 - 2*beta4*q*s + beta4 - r4*x",
+      "denominator": "1"
+    },
+    "terminal_5": {
+      "numerator": "-2*beta0*s - 2*beta1*p*s - beta1 - 2*beta3 - 2*beta4*q*s + beta5 - r5*x",
+      "denominator": "1"
+    },
+    "resolvent_0": {
+      "numerator": "-beta0 + r0 - r2*x",
+      "denominator": "1"
+    },
+    "resolvent_1": {
+      "numerator": "-2*beta1*q - 2*g*q**2*r0*s*x - 2*i*p*q*r1*s*x - 2*i*q**2*r4*s*x - i*q*r1*x - 6*o*p*q*r1*s*x - 6*o*q**2*r4*s*x - 6*o*q*r0*s*x + 3*o*q*r1*x - 2*o*q*r2*x - 8*p**2*r1*s*x - 8*p*q*r4*s*x - 6*p*r0*s*x - 4*p*r1*x + 2*q*r1 - 6*q*r4*x - 3*r0*x",
+      "denominator": "2*q"
+    },
+    "resolvent_2": {
+      "numerator": "-4*beta2*q - 4*c*p*r1*x - 4*c*q*r4*x - 4*c*r0*x + 6*g*q**2*r0*s*x - 6*i*p*q*r1*s*x - 6*i*q**2*r4*s*x - 12*i*q*r0*s*x + 3*i*q*r1*x - 24*p**2*r1*s*x - 12*p*q*r1*s*w*x - 24*p*q*r4*s*x - 30*p*r0*s*x - 12*q**2*r4*s*w*x - 12*q*r0*s*w*x + 6*q*r1*w*x - 4*q*r2*w*x + 4*q*r2 - 12*q*r4*x - 3*r0*x",
+      "denominator": "4*q"
+    },
+    "resolvent_3": {
+      "numerator": "-2*beta3*q - 2*g*p*q**2*r1*s*x + 2*g*p*q**2*r3*s*x - 2*g*q**3*r4*s*x + 2*g*q**3*r5*s*x + 2*i*p*q*r1*s*x - 2*i*p*q*r3*s*x + 2*i*q**2*r4*s*x - 2*i*q**2*r5*s*x + i*q*r1*x - i*q*r3*x + 2*p**2*r1*s*x - 2*p**2*r3*s*x + 2*p*q*r4*s*x - 2*p*q*r5*s*x + p*r1*x - p*r3*x + 2*q*r3 - q*r4*x - q*r5*x",
+      "denominator": "2*q"
+    },
+    "resolvent_4": {
+      "numerator": "-2*beta4*q**2*s + 2*g*p*q**2*r0*s**2*x - 2*g*q**2*r0*s*x + 2*i*p**2*q*r1*s**2*x + 2*i*p*q**2*r4*s**2*x - i*p*q*r1*s*x - 2*i*q**2*r4*s*x - i*q*r1*x + 6*o*p**2*q*r1*s**2*x + 6*o*p*q**2*r4*s**2*x + 6*o*p*q*r0*s**2*x - 3*o*p*q*r1*s*x + 2*o*p*q*r2*s*x + 8*p**3*r1*s**2*x + 8*p**2*q*r4*s**2*x + 6*p**2*r0*s**2*x + 2*p**2*r1*s*x + 4*p*q*r4*s*x + 3*p*r0*s*x - p*r1*x + 2*q**2*r4*s + 2*q*r2*s*x",
+      "denominator": "2*q**2*s"
+    },
+    "resolvent_5": {
+      "numerator": "-2*beta5*q**2*s + 2*g*p**2*q**2*r1*s**2*x - 2*g*p**2*q**2*r3*s**2*x + 2*g*p*q**3*r4*s**2*x - 2*g*p*q**3*r5*s**2*x - 2*g*q**2*r0*s*x - 2*i*p**2*q*r1*s**2*x + 2*i*p**2*q*r3*s**2*x - 2*i*p*q**2*r4*s**2*x + 2*i*p*q**2*r5*s**2*x - 3*i*p*q*r1*s*x + i*p*q*r3*s*x - 2*i*q**2*r4*s*x - i*q*r1*x - 2*p**3*r1*s**2*x + 2*p**3*r3*s**2*x - 2*p**2*q*r4*s**2*x + 2*p**2*q*r5*s**2*x - 3*p**2*r1*s*x + p**2*r3*s*x - p*q*r4*s*x + p*q*r5*s*x - p*r1*x + 2*q**2*r5*s + q*r1*s*x + q*r3*s*x",
+      "denominator": "2*q**2*s"
+    },
+    "empty_B": {
+      "numerator": "beta0 - 2*d0 - r0*x",
+      "denominator": "1"
+    },
+    "empty_Z": {
+      "numerator": "beta0 + beta1*p - beta3*p + beta4*q - beta5*q - 2*d0 - p*r1*x + p*r3*x - q*r4*x + q*r5*x - r0*x",
+      "denominator": "1"
+    },
+    "height_one": {
+      "numerator": "-2*d0*x + d0 - r0*x**2 - 1",
+      "denominator": "1"
+    }
+  },
+  "seconds": 5.498742780997418,
+  "driver_sha256": "dd4b2fd6d2bc6d859dfe5313b775c5e48137b8d1e2e0d59b1d5db7e53520acec"
+}

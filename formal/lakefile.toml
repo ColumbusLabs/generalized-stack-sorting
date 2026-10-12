@@ -1,0 +1,12 @@
+name = "stack_sorting_formal"
+version = "0.1.0"
+defaultTargets = ["StackSortingFormal"]
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "d13f23b723b8a846827a245b89c10fc7d3f11612"
+
+[[lean_lib]]
+name = "StackSortingFormal"
+roots = ["ForestWord", "LabelledForest", "OutputRanks", "OrderedTraces", "EagerTraces", "CanonicalUniqueness", "OriginalMachine", "RawExchange", "RawDeletion", "RawNormalization", "RawCanonical", "ForestCompleteness", "RawWiring", "OperationWords", "FiniteWords", "FirstReturnTrees", "CompleteGrammar", "GrammarPermutations", "GrammarCounting", "FirstReturnSeries", "CompleteCounting", "CompleteSeries", "CountingSemantics", "FirstReturnAlgebra", "EnumerationTheorem", "PhysicalCapacity", "CapacityHeight", "CapacityBridge", "CapacityChecks", "CapacityCounting", "CapacitySeries", "CapacityComplete", "CapacitySemantics", "CapacityStabilization", "CapacityCountChecks", "CapacityAlgebra", "CapacityEnumeration", "CapacityTheorem"]

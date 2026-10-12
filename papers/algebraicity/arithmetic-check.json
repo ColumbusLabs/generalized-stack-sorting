@@ -1,0 +1,65 @@
+{
+  "status": "PASS",
+  "equation_sha256": "17afff08c73965f090e52687cabe464fced4a07f7e16bd0116b693c42ace4029",
+  "display_matches_sparse_json": true,
+  "terms": 69,
+  "degree_x": 6,
+  "degree_y": 12,
+  "integer_content": 1,
+  "blowup_x_valuation": 20,
+  "selected_z0": 325692,
+  "blowup_derivative": -576,
+  "finite_field": 17,
+  "specialization_x": 3,
+  "specialized_coefficients": [
+    5,
+    14,
+    9,
+    10,
+    4,
+    3,
+    14,
+    7,
+    14,
+    3,
+    14,
+    7,
+    5
+  ],
+  "frobenius_remainders": {
+    "4": [
+      6,
+      13,
+      0,
+      12,
+      12,
+      7,
+      0,
+      5,
+      4,
+      1,
+      2,
+      3
+    ],
+    "6": [
+      0,
+      12,
+      6,
+      7,
+      4,
+      5,
+      9,
+      13,
+      5,
+      14,
+      10,
+      4
+    ],
+    "12": [
+      0,
+      1
+    ]
+  },
+  "irreducibility_tests": "Rabin exponents 12, 6, 4; exact degree preserved",
+  "scope": "Small arithmetic checks only; no full Lean or MSO proof replay."
+}
