@@ -6,10 +6,12 @@ A generalized `(r,s)`-stack inserts each incoming entry into one of its top `r` 
 
 ## Papers
 
-- [Algebraic enumeration of generalized stack permutations](papers/algebraicity/generalized-stack-algebraicity.pdf). Algebraicity for every fixed pair of positive widths, with a degree-12 equation for `(3,3)`. [TeX](papers/algebraicity/generalized-stack-algebraicity.tex) · [Reading copy](papers/algebraicity/generalized-stack-algebraicity.md)
-- [A direct enumeration of permutations sortable by a generalized (2,2)-stack](papers/enumeration/main.pdf). A mechanism-based derivation of the known cubic. [TeX](papers/enumeration/main.tex) · [Reading copy](papers/enumeration/main.md)
-- [Physical capacity in a generalized stack: exact series and a Brownian limit](papers/capacity/capacity.pdf). Exact capacity series, minimum-memory statistics, and asymptotic capacity. [TeX](papers/capacity/capacity.tex) · [Reading copy](papers/capacity/capacity.md)
-- [Finite and infinite bases for generalized stacks](papers/classification/classification.pdf). Constructive obstruction families and the capacity threshold. [TeX](papers/classification/classification.tex) · [Reading copy](papers/classification/classification.md)
+The paper titles below link to the PDF reading editions.
+
+- [Algebraic enumeration of generalized stack permutations](papers/algebraicity/generalized-stack-algebraicity.pdf). Algebraicity for every fixed pair of positive widths, with a degree-12 equation for `(3,3)`. [TeX](papers/algebraicity/generalized-stack-algebraicity.tex)
+- [A direct enumeration of permutations sortable by a generalized (2,2)-stack](papers/enumeration/main.pdf). A mechanism-based derivation of the known cubic. [TeX](papers/enumeration/main.tex)
+- [Physical capacity in a generalized stack: exact series and a Brownian limit](papers/capacity/capacity.pdf). Exact capacity series, minimum-memory statistics, and asymptotic capacity. [TeX](papers/capacity/capacity.tex)
+- [Finite and infinite bases for generalized stacks](papers/classification/classification.pdf). Constructive obstruction families and the capacity threshold. [TeX](papers/classification/classification.tex)
 
 ## What is formalized
 
