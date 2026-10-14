@@ -171,7 +171,7 @@ and corresponding nonzero leading pivots
  -1/24,\quad54,\quad9/2,\quad-81,\quad2,\quad24,\quad-8/3.
 \]
 
-Therefore its inverse has pole order at most four. Singular Hensel/Newton lifting gives a unique formal solution congruent to y_* modulo x^5. Rational denominators are units: q(0)=1/18, s(0)=9/2, g(0)=12, det C(0)=12, det H_F[I,:](0)=-1/3, and the determinant in (3) is 4. The complete seed and exact replay are in the certificate packet. This establishes existence, not merely consistency of finitely many fitted coefficients.
+Therefore its inverse has pole order at most four. Singular Hensel/Newton lifting gives a unique formal solution congruent to y_* modulo x^5. Rational denominators are units: q(0)=1/18, s(0)=9/2, g(0)=12, det C(0)=12, $`\det H_F[I,:](0)=-1/3`$, and the determinant in (3) is 4. The complete seed and exact replay are in the certificate packet. This establishes existence, not merely consistency of finitely many fitted coefficients.
 
 ## 5. Why this branch counts the full class
 

@@ -540,7 +540,7 @@ The formal construction uses a proved naming equivalence to transport physical c
 The original $`1{,}613`$-module Core/Std packet in `formal/actual-scalar-equation/` counts the duplicate-free outputs satisfying the literal predicate
 
 ```math
-\mathop{\mathrm{Run}}\nolimits\ 3\ 3\ []\ (\mathop{\mathrm{List.range}}\nolimitsn)\ \mathit{output}\ [].
+\mathop{\mathrm{Run}}\nolimits\ 3\ 3\ []\ (\mathop{\mathrm{List.range}}\nolimits n)\ \mathit{output}\ [].
 ```
 
 The input labels are $`0,\ldots,n-1`$, the stack has unrestricted height, and $`n`$ is arbitrary. Its endpoints `literal_G_counts` and `actual_counts_literalQ` identify every coefficient with the selected scalar branch and prove the literal scalar identity. Alternative histories are not counted repeatedly.

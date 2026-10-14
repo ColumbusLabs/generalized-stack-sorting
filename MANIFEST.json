@@ -12771,8 +12771,8 @@
     },
     {
       "path": "papers/algebraicity/generalized-stack-algebraicity.md",
-      "bytes": 59236,
-      "sha256": "a5e1d605a8d2778d8bd8b962ba190618d95c03bd4ab275798d6dbe613e691c91"
+      "bytes": 59237,
+      "sha256": "0b72b50ac361dac3f6ae0403313e56f1e1997c159838a37f7aac9faf943cbe67"
     },
     {
       "path": "papers/algebraicity/generalized-stack-algebraicity.pdf",
@@ -13046,8 +13046,8 @@
     },
     {
       "path": "research/full-class-equation/author/explicit-seven-equation-theorem.md",
-      "bytes": 7985,
-      "sha256": "660b7081b0e533bdcffe5015bb2490ace6f7df4e052142aa915f40612288d164"
+      "bytes": 7990,
+      "sha256": "53179150854670449cb52b24f9872627242556adf4dbcfdc4f86f098b1df8efc"
     },
     {
       "path": "research/full-class-equation/author/finite-certificate-identification.md",
