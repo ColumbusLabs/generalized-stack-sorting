@@ -6,12 +6,12 @@ A generalized `(r,s)`-stack inserts each incoming entry into one of its top `r` 
 
 ## Papers
 
-The paper titles below link to the PDF reading editions.
+The paper titles below open the PDF editions. Each paper also has a formatted Markdown reading copy and LaTeX source.
 
-- [Algebraic enumeration of generalized stack permutations](papers/algebraicity/generalized-stack-algebraicity.pdf). Algebraicity for every fixed pair of positive widths, with a degree-12 equation for `(3,3)`. [TeX](papers/algebraicity/generalized-stack-algebraicity.tex)
-- [A direct enumeration of permutations sortable by a generalized (2,2)-stack](papers/enumeration/main.pdf). A mechanism-based derivation of the known cubic. [TeX](papers/enumeration/main.tex)
-- [Physical capacity in a generalized stack: exact series and a Brownian limit](papers/capacity/capacity.pdf). Exact capacity series, minimum-memory statistics, and asymptotic capacity. [TeX](papers/capacity/capacity.tex)
-- [Finite and infinite bases for generalized stacks](papers/classification/classification.pdf). Constructive obstruction families and the capacity threshold. [TeX](papers/classification/classification.tex)
+- [Algebraic enumeration of generalized stack permutations](papers/algebraicity/generalized-stack-algebraicity.pdf). Algebraicity for every fixed pair of positive widths, with a degree-12 equation for `(3,3)`. [Reading copy](papers/algebraicity/generalized-stack-algebraicity.md) · [LaTeX source](papers/algebraicity/generalized-stack-algebraicity.tex)
+- [A direct enumeration of permutations sortable by a generalized (2,2)-stack](papers/enumeration/main.pdf). A mechanism-based derivation of the known cubic. [Reading copy](papers/enumeration/main.md) · [LaTeX source](papers/enumeration/main.tex)
+- [Physical capacity in a generalized stack: exact series and a Brownian limit](papers/capacity/capacity.pdf). Exact capacity series, minimum-memory statistics, and asymptotic capacity. [Reading copy](papers/capacity/capacity.md) · [LaTeX source](papers/capacity/capacity.tex)
+- [Finite and infinite bases for generalized stacks](papers/classification/classification.pdf). Constructive obstruction families and the capacity threshold. [Reading copy](papers/classification/classification.md) · [LaTeX source](papers/classification/classification.tex)
 
 ## What is formalized
 

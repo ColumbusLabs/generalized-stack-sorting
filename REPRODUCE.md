@@ -70,7 +70,7 @@ Install standard TeX Live packages (`article`, AMS, Latin Modern, geometry, micr
     pdflatex generalized-stack-algebraicity.tex
     pdflatex generalized-stack-algebraicity.tex
 
-For each companion, run `pdflatex` twice on its TeX file in that paper's directory. The companion bibliography is embedded. Pandoc can regenerate a Markdown reading copy from the TeX. Inspect rendered pages after changing content; a successful build is not a visual-layout check.
+For each companion, run `pdflatex` twice on its TeX file in that paper's directory. The companion bibliography is embedded. After regenerating a Markdown reading copy from the TeX, preserve its GitHub-compatible math blocks, linked citations, and section anchors, and check the rendered GitHub page. Inspect rendered pages after changing content; a successful build is not a visual-layout check.
 
 ## Interpreting results
 

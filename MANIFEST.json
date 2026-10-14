@@ -21,13 +21,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 3792,
-      "sha256": "ee4bba365cb8dc5b3267fbb96ac8e41158daff490467dea2bc40946301957213"
+      "bytes": 4114,
+      "sha256": "ccd54132619f9c6869ddefb8cdedb26b40dfa884a4b483c1e5d63589639db2c1"
     },
     {
       "path": "REPRODUCE.md",
-      "bytes": 5475,
-      "sha256": "1023138ca78987e5bb56b4536f114bdf34c0fa37b50f4c1e54ca01484b5bc4fe"
+      "bytes": 5591,
+      "sha256": "1e0448e948ba26d5998775f7480b2e638f2b083c87ae7b28dadc34a895ae1d7d"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -12771,8 +12771,8 @@
     },
     {
       "path": "papers/algebraicity/generalized-stack-algebraicity.md",
-      "bytes": 52852,
-      "sha256": "ee0880a7b0fb03ecdd779d7ca30482611b4c40427b537b91f3a86627825137c0"
+      "bytes": 59236,
+      "sha256": "a5e1d605a8d2778d8bd8b962ba190618d95c03bd4ab275798d6dbe613e691c91"
     },
     {
       "path": "papers/algebraicity/generalized-stack-algebraicity.pdf",
@@ -12786,8 +12786,8 @@
     },
     {
       "path": "papers/capacity/capacity.md",
-      "bytes": 30261,
-      "sha256": "38d144801e551a2812c523518a95e6986e51c6b2049143ba59e8471a13fca6c2"
+      "bytes": 34183,
+      "sha256": "ffbf2bcb70b8762cfaf6263534d9f57f6adb4144d799930477442d66c24f717c"
     },
     {
       "path": "papers/capacity/capacity.pdf",
@@ -12801,8 +12801,8 @@
     },
     {
       "path": "papers/classification/classification.md",
-      "bytes": 47257,
-      "sha256": "4cd3b16ba831f7619813f09bb1c5e5db8401835c65e180413b2531a74a38193e"
+      "bytes": 53409,
+      "sha256": "b35e7476862f9afe03199825c335fd23edb2f215f20ac90015bf6cad1a322ac5"
     },
     {
       "path": "papers/classification/classification.pdf",
@@ -12816,8 +12816,8 @@
     },
     {
       "path": "papers/enumeration/main.md",
-      "bytes": 20308,
-      "sha256": "db7d8dbb3ecdb4bdb277e3222881d2d953b3615482b4f445383611f46a661856"
+      "bytes": 22213,
+      "sha256": "ed507421b4581ac06fab8343f4931eaceb172810e461435d0a7ac4ea41414f1b"
     },
     {
       "path": "papers/enumeration/main.pdf",
