@@ -1,0 +1,44 @@
+{
+  "status": "COMMENT_ONLY_SEMANTIC_EQUIVALENCE_ACCEPTED_NO_FRESH_COMPILATION",
+  "scope": "Seven obsolete historical status headers across the general and degree packages; no logical Lean changes. This package contains the subset listed below.",
+  "previous_public_source_manifest_sha256": "8b02386a598ca00f8692be7a5eaa4342dd8eb81ab41fae36a936003d5ef70215",
+  "previous_public_file_manifest_sha256": "165e8bb7842235d981bd7b210a53ec562df03f33c1683ba69d47b4a3085b1204",
+  "changes": [
+    {
+      "module": "GeneralizedSortableScalarEquation",
+      "path": "sources/GeneralizedSortableScalarEquation.lean",
+      "original_accepted_sha256": "5816c4c69f5a376ab5977f9d9756b472728a8f9fd3906fde53bbf3219762038e",
+      "published_sha256": "cf1de4926526db543ef84aa60b2ddcd39e5ac74800e5f5073253b216bdd8f196",
+      "original_bytes": 1034,
+      "published_bytes": 1248,
+      "accepted_review_date": "2026-10-13",
+      "publication_edit_date": "2026-10-14",
+      "edit_scope": "Only the initial module documentation comment is replaced. Imports, declarations, terms and proofs are byte-identical outside that comment.",
+      "original_header_start_byte": 75,
+      "original_header_end_byte": 320,
+      "published_header_start_byte": 75,
+      "published_header_end_byte": 534,
+      "original_header_sha256": "aa7049b3a6b64e6108d139b74b00c475ca7e5ad493165cadc9bdb4f07dc6096b",
+      "published_header_sha256": "92e43e7add18319cb315ccd3ce6e0ea789a099c67bb739d3ce3b98057867828f",
+      "unchanged_prefix_sha256": "b3a1f77856abfcf31ba58b108fccb2f97dadf75ce2d8a168ee99d90ddd1b2526",
+      "unchanged_suffix_sha256": "028ef4bada08f64af8605d41f6a90f89342deebdfa5cd6fee28b74d69abaa6e9",
+      "whitespace_normalized_noncomment_code_sha256": "e970de39a831203ed433a96085ac010b84600280ddf4858f6d73e665bf4fe91c"
+    }
+  ],
+  "checks": {
+    "all_original_hashes_match_accepted_packets": true,
+    "only_initial_documentation_comments_changed": true,
+    "unchanged_prefix_and_suffix_bytes": true,
+    "whitespace_normalized_noncomment_code_equal": true
+  },
+  "fresh_revised_source_compilation": {
+    "status": "NOT_RUN_MEMORY_GATE",
+    "compiled_modules": 0,
+    "resource_profiles_changed": false,
+    "reason": "Available host memory did not meet the unchanged historical prelaunch requirement. No compiler was launched."
+  },
+  "acceptance_scope": "Independent bounded documentation-only semantic-equivalence review of the listed initial module-comment replacements, supported by unchanged bytes outside each comment and the original accepted source/proof evidence. This is not a fresh Lean compilation, complete source replay or recursive proof audit.",
+  "compiled_object_byte_identity_claimed": false,
+  "independent_revision_review": "COMMENT_ONLY_REVIEW.json",
+  "independent_comment_revision_review_sha256": "1b96ec47776d83917a6c0f06d199c3dfad6ecfd78f1330ca629beda9ab26b6bf"
+}

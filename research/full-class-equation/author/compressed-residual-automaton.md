@@ -1,5 +1,7 @@
 # Compressed 25-state compatibility certificate target
 
+Scope of this supplement: this is an intermediate derivation retained to explain the construction. Its conditional statements are local to this note. The completed actual-count and exact-degree certificates are documented in [the current formal scope](../../../formal/CLAIMS.md); the hypotheses below are not unresolved premises of those final theorems.
+
 Derivation, 10 October 2026. This is an exact reformulation of the all-word recurrence, not a certificate that the selected algebraic branch satisfies it.
 
 Let d=6, alpha=alpha_b=e0, a=alpha_z, beta the terminal column, and R=(I-xT)^(-1). Write L=B-Z, kappa=beta-xR beta, and d0=Phi(Z). All matrices use row-vector actions. The notation d denotes matrix dimension and d0 denotes a scalar series.

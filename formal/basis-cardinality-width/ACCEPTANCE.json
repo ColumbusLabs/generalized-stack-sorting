@@ -1,0 +1,39 @@
+{
+  "record_kind": "Public summaries of two independent acceptances; historical receipts are hash-identified.",
+  "cardinality": {
+    "status": "INDEPENDENT_SCOPED_ACCEPTANCE",
+    "review_date_utc": "2026-10-13",
+    "candidate_seal_sha256": "cf3cf470fa6d3db9ee31b5ef6ce7c328d9f1deb467caceec3be02d54f413936d",
+    "source_manifest_sha256": "37530cf5eb80f96b40f79eef13c7d07ea15936d6a15c7d019160c04075d6500d",
+    "scope": [
+      "Exact H! cardinality of actual generated and sortable finite-capacity basis finsets for all positive widths and H at most max(r,s)+1",
+      "Exact all-length predicate characterization including capacity zero"
+    ],
+    "fresh_project_modules": 21,
+    "project_object_reuse": false,
+    "required_endpoint_audits": "PASS: propext, Classical.choice, Quot.sound only",
+    "limitations": [
+      "Official Mathlib caches trusted at pinned source revisions, not byte-pinned or rebuilt",
+      "Endpoint transitive axiom checks are not declaration-by-declaration dependency audits",
+      "Finite independent controls do not replace universal Lean proofs"
+    ]
+  },
+  "cardinality_review_receipt_sha256": "e393505f39b06c1fbeae5edb691c889658c312cd4db20aa058806a8ceea1e22b",
+  "width": {
+    "status": "INDEPENDENT_SCOPED_ACCEPTANCE",
+    "fresh_project_modules": 31,
+    "project_object_reuse": false,
+    "scope": "Exact endpoint/displacement widths of literal R, A and B obstruction families under stated hypotheses; not successful-run or least-machine-capacity claims.",
+    "candidate_endpoint_axiom_audits": 8,
+    "reviewer_added_axiom_audits": 9,
+    "numeric_cases": 2947,
+    "negative_controls": 2,
+    "allowed_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "width_review_narrative_sha256": "f4a216fb8ca89ecb5ea0bc7af28adc3f863d242953a302d2a784f87dbed79a01",
+  "combined_packet_note": "The two accepted source closures share 20 byte-identical modules; their union has 32 sources. This new combined layout has not undergone a new Lean rebuild during packaging."
+}

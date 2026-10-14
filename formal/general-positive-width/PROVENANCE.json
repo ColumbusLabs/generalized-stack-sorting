@@ -1,0 +1,18 @@
+{
+  "accepted_original_source_manifest_sha256": "776a072bb04c84c16a3b4e48761bd3a055a8062468a4a2bb50e9f3088ced8073",
+  "projected_source_manifest_sha256": "02c64b935076690ab13cdd02a978f2656c19433ec65f9bd0262413a05fe8d254",
+  "publication_source_lean_bytes_unchanged": false,
+  "source_manifest_note": "The historical source manifest contained projected provenance metadata. This portable manifest uses relative paths and records six comment-only publication revisions separately from original accepted source hashes. Unchanged source hashes, imports and exact warning policy remain pinned.",
+  "final_review_receipt_sha256": "a075a8cb038312d196259c6dbebcb052632c10f7fa8e11061f2f27f374e500f3",
+  "endpoint_source_hashes": {
+    "ActualNestedSourceWitness": "564e217c4896efa138d8b5667e9e83f562a10fdccb6547089c9978056b84428b",
+    "PositiveWidthStackAlgebraicity": "2846d861e6719ef7c59aae24eceed1aaf603afce7b2c246d06be84619d119688",
+    "FinalStackConstructionControls": "486cdddd9c679d4f037af259dc3ea7caebcb006f81de02f0b5eee79bfd087f50"
+  },
+  "publication_comment_revision_manifest": "COMMENT_ONLY_REVISIONS.json",
+  "comment_revision_scope": "Historical acceptance refers to original accepted source hashes. Revised publication hashes are separate; no imports, declarations or proofs changed.",
+  "publication_revision_status": "COMMENT_ONLY_SEMANTIC_EQUIVALENCE_ACCEPTED_NO_FRESH_COMPILATION",
+  "independent_comment_revision_review": "COMMENT_ONLY_REVIEW.json",
+  "compiled_object_byte_identity_claimed": false,
+  "independent_comment_revision_review_sha256": "1b96ec47776d83917a6c0f06d199c3dfad6ecfd78f1330ca629beda9ab26b6bf"
+}

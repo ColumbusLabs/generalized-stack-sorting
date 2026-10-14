@@ -1,0 +1,14 @@
+{
+  "accepted_actual_count_source_manifest_sha256": "8626140868f40fe59e514e68314c7a7a230f2550ac652ba19e61f32124d26b7f",
+  "accepted_actual_count_candidate_seal_sha256": "de975f858ec5796f8ee60883720ac5696d0f1d542c892ccec74fcff5cd262542",
+  "accepted_literal_source_manifest_sha256": "f09eb6b79e60f9a37d06bd5f73543811232cd05ae0991b326ed44a939d1777c5",
+  "public_core_source_manifest_sha256": "3deabc65c5d6e2959adbb00d89c1e650be6299ac31f2445ea16b514afa0c247d",
+  "independent_review_receipt_sha256": "711cec9f2e4e2a68159aca14e20edb07204149bd97508638b7dc3a82482b0c19",
+  "inherited_source_hash_comparison": "All 1,640 accepted inherited hashes match the public Core and accepted literal-branch source bytes. Eight accepted join files remain byte-identical; one join has a documentation-header-only revision mapped to its original accepted SHA-256.",
+  "publication_comment_revision_manifest": "COMMENT_ONLY_REVISIONS.json",
+  "comment_revision_scope": "Historical acceptance refers to original accepted source hashes. Revised publication hashes are separate; no imports, declarations or proofs changed.",
+  "publication_revision_status": "COMMENT_ONLY_SEMANTIC_EQUIVALENCE_ACCEPTED_NO_FRESH_COMPILATION",
+  "independent_comment_revision_review": "COMMENT_ONLY_REVIEW.json",
+  "compiled_object_byte_identity_claimed": false,
+  "independent_comment_revision_review_sha256": "1b96ec47776d83917a6c0f06d199c3dfad6ecfd78f1330ca629beda9ab26b6bf"
+}

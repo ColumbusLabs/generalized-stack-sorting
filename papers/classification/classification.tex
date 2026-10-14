@@ -18,7 +18,7 @@
 \hypersetup{pdftitle={Finite and infinite bases for generalized stacks},pdfauthor={Columbus Labs},pdfsubject={Generalized stack permutations}}
 \title{Finite and infinite bases for generalized stacks}
 \author{Columbus Labs\\\small\href{mailto:info@columbus-labs.com}{info@columbus-labs.com}}
-\date{12 October 2026}
+\date{14 October 2026}
 \begin{document}
 \maketitle
 \begin{center}\footnotesize\copyright\ 2026 Columbus Labs. Licensed under \href{https://creativecommons.org/licenses/by/4.0/}{CC BY 4.0}.\end{center}
@@ -46,8 +46,7 @@ selectable pop positions, this also answers negatively a question of
 Vatter on such machines. Lean 4 checks the original-machine
 infinite-basis statements and the capacity threshold in the form of a
 finite-side basis-length characterization and unbounded basis lengths
-above the threshold. The count \(H!\), the exact family widths and the
-cited finite cases remain outside the certificates.
+above the threshold. Additional certificates prove the count \(H!\) and the exact family displacement widths. The cited finite unbounded cases remain outside the certificates.
 \end{abstract}
 
 \section{1 Introduction}\label{introduction}
@@ -175,9 +174,7 @@ searches for small widths and then generalized symbolically; the proofs do not d
 The Lean 4 kernel {[}5{]} checks the
 infinite-basis statements, the finite-side class and basis
 characterizations, and the capacity threshold in the basis-length form
-specified in Section 6. The finite cardinality deduction, the count
-\(H!\), the exact family widths and the cited finite cases remain
-outside these certificates. Finite computations are reported as checks,
+specified in Section 6. The additional source-only certificates prove the finite cardinality deduction, the count \(H!\) and the exact family displacement widths. The cited finite unbounded cases retain their written-proof scope. Finite computations are reported as checks,
 never as proofs. No historical priority is claimed: the bounded
 literature search behind this manuscript is described in Section 7.
 
@@ -893,9 +890,7 @@ extensionality, choice and quotient soundness):
   the combined statements: Theorem 1 for all \(r,s\ge2\) except
   \((2,2)\), and, for the same widths, basis length exactly \(H+1\)
   below the capacity threshold and basis elements beyond every length
-  bound above it. The finite cardinality deduction and count \(H!\) are
-  written consequences of the kernel-checked finite-side
-  characterization, not separate formal cardinality theorems.
+  bound above it. A separate finite-cardinality certificate identifies the entire generated and sortable bases over all lengths and proves that each has \(H!\) elements whenever \(r,s>0\) and \(H\le\max(r,s)+1\), including \(H=0\).
 \end{itemize}
 
 A fourth certificate, \texttt{formal/container}, formalizes Proposition
@@ -913,9 +908,7 @@ of a fixed physical capacity. The exact source hashes and scope are recorded in 
 The deletion histories in Lean are literal histories that follow
 Sections 3.2 and 4.3, sometimes in a different but equivalent order. The
 finite bases of Atkinson {[}1{]} used in Corollary 2 are not formalized.
-Nor are the exact width equalities \(w(R_{r,s,m})=s+2\),
-\(w(A_r(k))=r+3\) and \(w(B_r(k))=r+2\): the capacity certificates use
-the upper bounds \(w(R_{r,s,m})\le s+2\) and \(w(B_r(k))\le r+2\). The
+The added obstruction-width certificate proves the exact displacement identities \(w(R_{r,s,m})=s+2\), \(w(A_r(k))=r+3\) and \(w(B_r(k))=r+2\), for \(2\le r<s\), \(m\ge0\), and \(r\ge3\), \(k\ge0\), respectively. These identities describe displacement widths and do not assert successful runs of the rejected families. The source-only cardinality and width packets, with their exact scopes and reproduction commands, are in \texttt{formal/basis-cardinality-width/}. The
 correspondence between the formal definitions of the families and the
 displayed ones was checked by evaluation on small members and by
 direct comparison with the written definitions.

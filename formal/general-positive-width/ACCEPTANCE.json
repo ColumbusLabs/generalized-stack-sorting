@@ -1,0 +1,34 @@
+{
+  "status": "INDEPENDENT_FINAL_ACCEPTANCE_PASS",
+  "utc": "2026-10-14T11:15:18.169006+00:00",
+  "scope": "All positive integer Stack widths r,s; every token count n including0. Unconditional constructed uniform admissibility, exact distinct-output/actual-sortable counts, and algebraicity over RatFunc Q. Classical existence; no efficient extraction or zero-width counting claim.",
+  "project_modules": 607,
+  "fresh_project_object_reuse": false,
+  "semantic_negative_controls": 4,
+  "recursive_audit_slices": 25,
+  "deduplicated_safe_roots": 15372,
+  "dependency_union": 46373,
+  "runtime_inventory_only_exclusions": 122,
+  "unsafe_or_partial_logical_dependencies": 0,
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "fixtures": 11,
+  "scanner_controls": 7,
+  "endpoint_source_hashes": {
+    "ActualNestedSourceWitness": "564e217c4896efa138d8b5667e9e83f562a10fdccb6547089c9978056b84428b",
+    "PositiveWidthStackAlgebraicity": "2846d861e6719ef7c59aae24eceed1aaf603afce7b2c246d06be84619d119688",
+    "FinalStackConstructionControls": "486cdddd9c679d4f037af259dc3ea7caebcb006f81de02f0b5eee79bfd087f50"
+  },
+  "library_trust": "Pinned official Lean/mathlib/package compiled caches reused; project source closure rebuilt entirely. No broad official-source rebuild or byte hash of all external caches claimed.",
+  "selector_scope": "Actual pointwise realization for one constructed supported A.2 tuple. Arbitrary optional validSelection assignment soundness is outside the claim; accepted-language soundness is proved separately.",
+  "historical_receipt_sha256": "a075a8cb038312d196259c6dbebcb052632c10f7fa8e11061f2f27f374e500f3",
+  "record_kind": "Public extract of the final accepted review; not a byte-identical copy of the full historical receipt.",
+  "publication_revision_note": "This summarizes acceptance of original source bytes. COMMENT_ONLY_REVISIONS.json separately identifies later publication-header revisions and their validation scope.",
+  "publication_revision_status": "COMMENT_ONLY_SEMANTIC_EQUIVALENCE_ACCEPTED_NO_FRESH_COMPILATION",
+  "publication_revision_review": "COMMENT_ONLY_REVIEW.json",
+  "fresh_revised_source_compilation": "NOT_RUN_MEMORY_GATE",
+  "independent_comment_revision_review_sha256": "1b96ec47776d83917a6c0f06d199c3dfad6ecfd78f1330ca629beda9ab26b6bf"
+}

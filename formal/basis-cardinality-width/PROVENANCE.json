@@ -1,0 +1,11 @@
+{
+  "cardinality_source_manifest_sha256": "37530cf5eb80f96b40f79eef13c7d07ea15936d6a15c7d019160c04075d6500d",
+  "cardinality_candidate_seal_sha256": "cf3cf470fa6d3db9ee31b5ef6ce7c328d9f1deb467caceec3be02d54f413936d",
+  "cardinality_review_receipt_sha256": "e393505f39b06c1fbeae5edb691c889658c312cd4db20aa058806a8ceea1e22b",
+  "cardinality_review_seal_sha256": "5385b7a0b22c6e5214cb1578551856f7de35a71b94a276eb703510fdbcc20917",
+  "width_source_manifest_sha256": "65dc3ddabbf4bb54b2cba75c39ce9b242b6d71015a86430e20d28a1e61b22357",
+  "width_candidate_seal_sha256": "327321235ccb2ffb8c3efb75d81ca68ed7f730c87f9c8d795220dcc9d19e7895",
+  "width_review_narrative_sha256": "f4a216fb8ca89ecb5ea0bc7af28adc3f863d242953a302d2a784f87dbed79a01",
+  "width_review_seal_sha256": "529c93d56069647965baf82a4f2cd5e273bc502bd4cc01829c676415e6eaef4e",
+  "source_byte_policy": "All accepted sources and six independent semantic controls copied unchanged. Shared modules deduplicated only after equality of SHA-256, imports and warning policy."
+}

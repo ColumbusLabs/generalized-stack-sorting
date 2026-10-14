@@ -1,5 +1,7 @@
 # Four-channel signed suffix transducer and finite-certificate target
 
+Scope of this supplement: this is an intermediate derivation retained to explain the construction. Its conditional statements are local to this note. The completed actual-count and exact-degree certificates are documented in [the current formal scope](../../../formal/CLAIMS.md); the hypotheses below are not unresolved premises of those final theorems.
+
 Derivation, 10 October 2026. This supplements `signed-three-letter-system.md`. The formulas here are an algebraic restatement, with bounded replay supplied separately. No finite-rank theorem or formal solution of a finite matrix system is asserted.
 
 ## Exact four-channel form

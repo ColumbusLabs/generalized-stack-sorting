@@ -21,7 +21,7 @@ The Python model uses the standard library. From a disposable copy:
     python3 -m compileall -q src tests
     python3 papers/algebraicity/check_manuscript.py
 
-The 120 regression tests exercise literal finite reachability, exact encodings, deletion histories and supporting equation fixtures. The manuscript checker re-expands the displayed 69-term polynomial, checks its selected-branch blowup and recomputes the finite-field irreducibility test. Neither command reruns the full Lean certificate or formalizes the all-width MSO argument.
+The 120 regression tests exercise literal finite reachability, exact encodings, deletion histories and supporting equation fixtures. The manuscript checker re-expands the displayed 69-term polynomial, checks its selected-branch blowup and recomputes the finite-field irreducibility test. These commands do not rerun the Lean certificates. The general positive-width theorem and exact-degree conclusion have their own source-only formal replay below.
 
 ## 3. Exact symbolic replay
 
@@ -39,6 +39,14 @@ The `(3,3)` endpoint requires the official Lean 4.34.1 compiler and Core/Std. No
     LEAN_BIN=/absolute/path/to/lean-4.34.1/bin/lean CHECK_WORK_ROOT=/scratch/lean-replays bash check.sh
 
 The harness compiles the exact 1,613-module closure in an isolated directory, checks the expected warning policy, records every result, and checks the two endpoint axiom reports. Resource requirements and the sampled guard are documented beside the harness. Both the compilation summary and guard result must pass.
+
+The completed general theorem, exact-degree extension, and finite-side basis extension have separate portable source-only packets:
+
+- `formal/general-positive-width/`: exact actual counts and algebraicity for every fixed positive width pair; 607-module source closure.
+- `formal/actual-count-degree-twelve/`: original-machine `(3,3)` generated and sortable counting series, literal branch, irreducibility and exact degree 12.
+- `formal/basis-cardinality-width/`: finite-side basis cardinalities and exact explicit-family widths.
+
+Read each packet's README before running its parameterized replay. Supply the official Lean 4.34.1 executable and, where required, the pinned mathlib checkout/cache; no machine-specific path is assumed. Replays use isolated output directories and preserve resource safeguards. Source-integrity checks alone are not compilation. See [CLAIMS.md](formal/CLAIMS.md) for the exact accepted scope and provenance of each source set.
 
 The smaller companion certificates have separate commands:
 

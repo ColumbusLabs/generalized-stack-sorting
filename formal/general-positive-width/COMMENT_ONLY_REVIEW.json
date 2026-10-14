@@ -1,0 +1,129 @@
+{
+  "status": "INDEPENDENT_BOUNDED_DOCUMENTATION_ONLY_SEMANTIC_ACCEPTANCE",
+  "checked_utc": "2026-10-14T16:33:59.586716+00:00",
+  "scope": "Exactly seven initial module-documentation header replacements. Acceptance concerns unchanged imports, declarations, theorem statements and proof source, not a new compiler run.",
+  "changes": [
+    {
+      "path": "formal/general-positive-width/sources/ActualNestedSourceWitness.lean",
+      "module": "ActualNestedSourceWitness",
+      "original_accepted_sha256": "564e217c4896efa138d8b5667e9e83f562a10fdccb6547089c9978056b84428b",
+      "published_sha256": "891f0f33a5960190d17466a54bf2e19fca4a93096ce4b3287bdbf24297f64ee9",
+      "original_header_start_byte": 141,
+      "original_header_end_byte": 302,
+      "published_header_start_byte": 141,
+      "published_header_end_byte": 523,
+      "unchanged_prefix_sha256": "549a6f9f153b8df4730f48c04c2c1f75cb9c4045520cf0cb54c9c943248ae70b",
+      "unchanged_suffix_sha256": "f5c800c1172ba635caf6acceb5dcc321c383532341d9b1aad543404f5bf0f6a8"
+    },
+    {
+      "path": "formal/general-positive-width/sources/PositiveWidthStackAlgebraicity.lean",
+      "module": "PositiveWidthStackAlgebraicity",
+      "original_accepted_sha256": "2846d861e6719ef7c59aae24eceed1aaf603afce7b2c246d06be84619d119688",
+      "published_sha256": "ff2fd341f58e69943c3bd6bb7de1333814d868a8f7f7f9c7695407bfe5f278f8",
+      "original_header_start_byte": 71,
+      "original_header_end_byte": 222,
+      "published_header_start_byte": 71,
+      "published_header_end_byte": 473,
+      "unchanged_prefix_sha256": "0f9d47657407c03bb2e63f54a24b02403ae9aa8c6e3c5edad8fad17d66e9c891",
+      "unchanged_suffix_sha256": "c7214eb0a7e28a08c261f6e72befa5a48494d202c15512a1ceba83d084e6e096"
+    },
+    {
+      "path": "formal/general-positive-width/sources/FinalStackConstructionControls.lean",
+      "module": "FinalStackConstructionControls",
+      "original_accepted_sha256": "486cdddd9c679d4f037af259dc3ea7caebcb006f81de02f0b5eee79bfd087f50",
+      "published_sha256": "bb07657ef26f4ed7aa48b77f09988a565af4684f19c41990f6247981e7869b0e",
+      "original_header_start_byte": 114,
+      "original_header_end_byte": 193,
+      "published_header_start_byte": 114,
+      "published_header_end_byte": 509,
+      "unchanged_prefix_sha256": "ab253fb7900d2f6425b9aeceb567de3880021fcb5c19f9d835baf58078d98951",
+      "unchanged_suffix_sha256": "66a775636425141cd530f87ad00bac5ac368c146fbffdfec955b256f74d8e80b"
+    },
+    {
+      "path": "formal/general-positive-width/sources/FinitePolynomialSystemAlgebraicity.lean",
+      "module": "FinitePolynomialSystemAlgebraicity",
+      "original_accepted_sha256": "38b78eb73bdfe1fade212a9c3b830b0f4af56f80dd6581c8637bbee2ef77e695",
+      "published_sha256": "aca132c58129f17596e95dbe9235db96343dd4a2288d677eecb2e36582c624fd",
+      "original_header_start_byte": 29,
+      "original_header_end_byte": 170,
+      "published_header_start_byte": 29,
+      "published_header_end_byte": 455,
+      "unchanged_prefix_sha256": "5c7b73e45a8388d32df8f789771b13ba34abd1efc81ff67b63242cdb11469ceb",
+      "unchanged_suffix_sha256": "1b0cf967ff06b7e6cc190dd269111c38b1178d765b537a095dd8368186ddab40"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ProperPowerSeriesAlgebraicity.lean",
+      "module": "ProperPowerSeriesAlgebraicity",
+      "original_accepted_sha256": "690e917738e1776bbceabebfd4ed896cc8b115278f1f62bbdf2aa3c2e6c44ed2",
+      "published_sha256": "c41fc140b63c718224b59420c68a092d00f9e664ac4587a89325a2acc281989d",
+      "original_header_start_byte": 83,
+      "original_header_end_byte": 215,
+      "published_header_start_byte": 83,
+      "published_header_end_byte": 500,
+      "unchanged_prefix_sha256": "aa06d721d3033845072d7938cbc7715baa65775e2f019469d54b1f141ec7d137",
+      "unchanged_suffix_sha256": "7b8a41338b3a14af8fc5d2b0229085bc9731e4cb7630357d542edb34744540ac"
+    },
+    {
+      "path": "formal/general-positive-width/sources/JacobianAlgebraicity.lean",
+      "module": "JacobianAlgebraicity",
+      "original_accepted_sha256": "010334d4de7a89401c0347bc0b176ac2dc633e0bbeaeff07fb28c007a4602bc9",
+      "published_sha256": "88a499120706262e5e376c4ba2b1a4e5517ff6cb6b5480d30e8402452a770e83",
+      "original_header_start_byte": 203,
+      "original_header_end_byte": 357,
+      "published_header_start_byte": 203,
+      "published_header_end_byte": 642,
+      "unchanged_prefix_sha256": "5206172233580ff70a0e42793cf2bd3d7ef5207c1484afd322bc5b385e57908f",
+      "unchanged_suffix_sha256": "005bb4969427e0a79e52b1418dfc04ead9ce0de056c1cd395bad84d5af911ad2"
+    },
+    {
+      "path": "formal/actual-count-degree-twelve/sources/GeneralizedSortableScalarEquation.lean",
+      "module": "GeneralizedSortableScalarEquation",
+      "original_accepted_sha256": "5816c4c69f5a376ab5977f9d9756b472728a8f9fd3906fde53bbf3219762038e",
+      "published_sha256": "cf1de4926526db543ef84aa60b2ddcd39e5ac74800e5f5073253b216bdd8f196",
+      "original_header_start_byte": 75,
+      "original_header_end_byte": 320,
+      "published_header_start_byte": 75,
+      "published_header_end_byte": 534,
+      "unchanged_prefix_sha256": "b3a1f77856abfcf31ba58b108fccb2f97dadf75ce2d8a168ee99d90ddd1b2526",
+      "unchanged_suffix_sha256": "028ef4bada08f64af8605d41f6a90f89342deebdfa5cd6fee28b74d69abaa6e9"
+    }
+  ],
+  "byte_comparison": "PASS: every byte before and after each single initial /-! ... -/ block equals the exact historically accepted source. Each revised block has one intact opening/closing delimiter pair. This is stronger than comment-stripped token equality.",
+  "original_acceptance_binding": "PASS: each original source SHA matches its successful historical independent compiler result. The six general modules are included in the accepted 607-source replay; the sortable scalar wrapper is included in the independently accepted nine-source join replay.",
+  "lean_documentation_semantics": {
+    "version": "Lean 4.34.1, official Linux distribution source",
+    "markdown_configuration": "Neither the reviewed compiler commands nor the edited sources enables doc.verso or doc.verso.module; their built-in defaults are false.",
+    "parser": "Lean/Parser/Command.lean lines 54-61 parses /-! as a module documentation command.",
+    "elaboration": "Lean/Elab/BuiltinCommand.lean lines 24-32 stores an ordinary Markdown body as text with a declaration range; it does not evaluate the body as Lean source.",
+    "storage": "Lean/DocString/Extension.lean lines 212-226 stores ModuleDoc text and declarationRange in a documentation environment extension. Verso defaults are false at lines 115-122.",
+    "source_files": [
+      {
+        "path": "Lean/Parser/Command.lean",
+        "sha256": "f1d31246684013be602a79e0bec3fdf87d24c8c9541fd1e911933bdde68d3a1b"
+      },
+      {
+        "path": "Lean/Elab/BuiltinCommand.lean",
+        "sha256": "a22a93f95b44299068f8c754acae760bd1dc538db82f4504bf3c780a753e7c3f"
+      },
+      {
+        "path": "Lean/DocString/Extension.lean",
+        "sha256": "c87808441ccf7d40f1330a7be3e3326229a286bda4b6a20341d2599f2d0b1f46"
+      },
+      {
+        "path": "Lean/DocString/Parser.lean",
+        "sha256": "8a40ec7e013ccd5b0a507b55866d4789f00b950ba77a7095770f0e51b7ebde80"
+      }
+    ]
+  },
+  "line_sensitive_review": "PASS: inspected all seven proof bodies. They contain ordinary definitions/theorems, standard tactics and axiom-report commands. No source-position/doc-reading metaprograms, run_tac/run_elab hooks, or custom project elaborator/macro declarations were found in these files or their project source closures, including the inherited 1,613-source Core packet.",
+  "fresh_revised_source_compilation": "NOT_RUN_RESOURCE_GATE: guarded prelaunch checks did not permit compiler launch; no Lean process was started. Resource safeguards were not lowered.",
+  "compilation_caveats": [
+    "Documentation content, source-location metadata and resulting compiled-object bytes may differ. No .olean byte-identity claim is made.",
+    "Historical kernel acceptance remains bound to the original source hashes. Revised publication hashes are explicitly separate.",
+    "This is a bounded independent source/documentation-semantics review, not a formally proved compiler equivalence theorem, a new proof replay, or a repeat of the historical exhaustive recursive audit.",
+    "Final packet/root integrity and publication-delta validation are separate from this semantic receipt."
+  ],
+  "recommendation": "Accept the seven mapped documentation-only publication corrections with explicit historical provenance and no fresh-compilation claim. Preserve the original records and the prelaunch resource-gate records.",
+  "candidate_mutation_by_reviewer": false,
+  "uploads_by_reviewer": false
+}

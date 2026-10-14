@@ -1,5 +1,7 @@
 # Conditional 15-state residual quotient and graph certificate
 
+Scope of this supplement: this is an intermediate derivation retained to explain the construction. Its conditional statements are local to this note. The completed actual-count and exact-degree certificates are documented in [the current formal scope](../../../formal/CLAIMS.md); the hypotheses below are not unresolved premises of those final theorems.
+
 Derivation, 10 October 2026. All implications in this note are exact linear algebra. Its matrix-shape hypotheses hold in retained branch jets but have not yet been proved for the selected formal branch. This note is a route to an all-word certificate, not that certificate itself.
 
 Use the notation of `compressed-residual-automaton.md`. Assume:

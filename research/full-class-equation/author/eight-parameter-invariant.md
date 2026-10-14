@@ -1,5 +1,7 @@
 # Exact eight-parameter non-E invariant family
 
+Scope of this supplement: this is an intermediate derivation retained to explain the construction. Its conditional statements are local to this note. The completed actual-count and exact-degree certificates are documented in [the current formal scope](../../../formal/CLAIMS.md); the hypotheses below are not unresolved premises of those final theorems.
+
 Derived 10 October 2026. This is a rational parametrization satisfying every non-E transition and initial-row condition of the 15-state graph certificate. It is independent of any coefficient fit once the formulas are stated: the accompanying exact verifier checks 203 scalar rational identities. The E-column, scalar boundary equations and existence of a formal parameter branch still remain to be supplied.
 
 ## Parameters and branch point

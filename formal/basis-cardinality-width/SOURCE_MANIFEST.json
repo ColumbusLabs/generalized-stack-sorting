@@ -1,0 +1,917 @@
+{
+  "schema": 1,
+  "module_count": 32,
+  "modules": [
+    {
+      "module": "GeneralizedRawMachine",
+      "path": "sources/GeneralizedRawMachine.lean",
+      "sha256": "f333f69cb3f56e66079c2de63538754a327a20e9bac398f51357d6a508138710",
+      "bytes": 6944,
+      "imports": [
+        "Std"
+      ],
+      "warnings": [],
+      "resource_profile": {
+        "rss_limit_bytes": 2147483648,
+        "launch_available_bytes": 6442450944,
+        "host_floor_bytes": 2147483648,
+        "wall_seconds": null,
+        "disk_launch_floor_bytes": 268435456,
+        "disk_live_floor_bytes": 134217728,
+        "sample_seconds": 0.2,
+        "include_controller_rss": false,
+        "internal_lean_heap_limit": 1536,
+        "scope": "Sampled non-daemonizing process group, not a hard OS memory cap"
+      }
+    },
+    {
+      "module": "GeneralizedDeletion",
+      "path": "sources/GeneralizedDeletion.lean",
+      "sha256": "bfe6e4852b73aa18e29f006c65e80c5880df6dd8f60426db6a0643aaa40bf751",
+      "bytes": 4448,
+      "imports": [
+        "Std"
+      ],
+      "warnings": [],
+      "resource_profile": {
+        "rss_limit_bytes": 2147483648,
+        "launch_available_bytes": 6442450944,
+        "host_floor_bytes": 2147483648,
+        "wall_seconds": null,
+        "disk_launch_floor_bytes": 268435456,
+        "disk_live_floor_bytes": 134217728,
+        "sample_seconds": 0.2,
+        "include_controller_rss": false,
+        "internal_lean_heap_limit": 1536,
+        "scope": "Sampled non-daemonizing process group, not a hard OS memory cap"
+      }
+    },
+    {
+      "module": "GeneralizedRelational",
+      "path": "sources/GeneralizedRelational.lean",
+      "sha256": "eb18fa00529529d37bf549e6ee0dd25fc5085c73996cabc7c58ce0301b78cac3",
+      "bytes": 5081,
+      "imports": [
+        "GeneralizedRawMachine",
+        "GeneralizedDeletion"
+      ],
+      "warnings": [],
+      "resource_profile": {
+        "rss_limit_bytes": 2147483648,
+        "launch_available_bytes": 6442450944,
+        "host_floor_bytes": 2147483648,
+        "wall_seconds": null,
+        "disk_launch_floor_bytes": 268435456,
+        "disk_live_floor_bytes": 134217728,
+        "sample_seconds": 0.2,
+        "include_controller_rss": false,
+        "internal_lean_heap_limit": 1536,
+        "scope": "Sampled non-daemonizing process group, not a hard OS memory cap"
+      }
+    },
+    {
+      "module": "GeneralizedLazy",
+      "path": "sources/GeneralizedLazy.lean",
+      "sha256": "612f395a220f4fcbc7bf89a65c99b984018a6e0685afa7092d173d1871557276",
+      "bytes": 9672,
+      "imports": [
+        "GeneralizedRelational"
+      ],
+      "warnings": [],
+      "resource_profile": {
+        "rss_limit_bytes": 2147483648,
+        "launch_available_bytes": 6442450944,
+        "host_floor_bytes": 2147483648,
+        "wall_seconds": null,
+        "disk_launch_floor_bytes": 268435456,
+        "disk_live_floor_bytes": 134217728,
+        "sample_seconds": 0.2,
+        "include_controller_rss": false,
+        "internal_lean_heap_limit": 1536,
+        "scope": "Sampled non-daemonizing process group, not a hard OS memory cap"
+      }
+    },
+    {
+      "module": "GeneralizedRangeLazy",
+      "path": "sources/GeneralizedRangeLazy.lean",
+      "sha256": "d399c2405727b2201ee1993fd24953862c7c7a57e1cd5522cf512c80ff95de45",
+      "bytes": 5325,
+      "imports": [
+        "GeneralizedLazy"
+      ],
+      "warnings": [],
+      "resource_profile": {
+        "rss_limit_bytes": 2147483648,
+        "launch_available_bytes": 6442450944,
+        "host_floor_bytes": 2147483648,
+        "wall_seconds": null,
+        "disk_launch_floor_bytes": 268435456,
+        "disk_live_floor_bytes": 134217728,
+        "sample_seconds": 0.2,
+        "include_controller_rss": false,
+        "internal_lean_heap_limit": 1536,
+        "scope": "Sampled non-daemonizing process group, not a hard OS memory cap"
+      }
+    },
+    {
+      "module": "InfiniteFamily",
+      "path": "sources/InfiniteFamily.lean",
+      "sha256": "7ef1e73897f2a7ee3e0843322673e2045756066337d71a33ad15c06c003e7553",
+      "bytes": 7333,
+      "imports": [
+        "GeneralizedRangeLazy"
+      ],
+      "warnings": [],
+      "resource_profile": {
+        "rss_limit_bytes": 2147483648,
+        "launch_available_bytes": 6442450944,
+        "host_floor_bytes": 2147483648,
+        "wall_seconds": null,
+        "disk_launch_floor_bytes": 268435456,
+        "disk_live_floor_bytes": 134217728,
+        "sample_seconds": 0.2,
+        "include_controller_rss": false,
+        "internal_lean_heap_limit": 1536,
+        "scope": "Sampled non-daemonizing process group, not a hard OS memory cap"
+      }
+    },
+    {
+      "module": "UnequalFamily",
+      "path": "sources/UnequalFamily.lean",
+      "sha256": "4976e82d75e37c628eaadc2d5e8ccad9de7913c681aca69e9dbb0fbe6f517fbb",
+      "bytes": 7186,
+      "imports": [
+        "InfiniteFamily"
+      ],
+      "warnings": [],
+      "resource_profile": {
+        "rss_limit_bytes": 2147483648,
+        "launch_available_bytes": 6442450944,
+        "host_floor_bytes": 2147483648,
+        "wall_seconds": null,
+        "disk_launch_floor_bytes": 268435456,
+        "disk_live_floor_bytes": 134217728,
+        "sample_seconds": 0.2,
+        "include_controller_rss": false,
+        "internal_lean_heap_limit": 1536,
+        "scope": "Sampled non-daemonizing process group, not a hard OS memory cap"
+      }
+    },
+    {
+      "module": "RangeLazyInversion",
+      "path": "sources/RangeLazyInversion.lean",
+      "sha256": "c6261cc2c42fd0958dec8975c452878b1db60f936cd71833f1f75f865b609aa0",
+      "bytes": 714,
+      "imports": [
+        "GeneralizedRangeLazy"
+      ],
+      "warnings": [],
+      "resource_profile": {
+        "rss_limit_bytes": 2147483648,
+        "launch_available_bytes": 6442450944,
+        "host_floor_bytes": 2147483648,
+        "wall_seconds": null,
+        "disk_launch_floor_bytes": 268435456,
+        "disk_live_floor_bytes": 134217728,
+        "sample_seconds": 0.2,
+        "include_controller_rss": false,
+        "internal_lean_heap_limit": 1536,
+        "scope": "Sampled non-daemonizing process group, not a hard OS memory cap"
+      }
+    },
+    {
+      "module": "UnequalStack",
+      "path": "sources/UnequalStack.lean",
+      "sha256": "6258a5abf5b4ad2c4d29c0fc429d73693e98188d238fb17459a68e58516dec30",
+      "bytes": 12907,
+      "imports": [
+        "UnequalFamily",
+        "RangeLazyInversion"
+      ],
+      "warnings": [],
+      "resource_profile": {
+        "rss_limit_bytes": 2147483648,
+        "launch_available_bytes": 6442450944,
+        "host_floor_bytes": 2147483648,
+        "wall_seconds": null,
+        "disk_launch_floor_bytes": 268435456,
+        "disk_live_floor_bytes": 134217728,
+        "sample_seconds": 0.2,
+        "include_controller_rss": false,
+        "internal_lean_heap_limit": 1536,
+        "scope": "Sampled non-daemonizing process group, not a hard OS memory cap"
+      }
+    },
+    {
+      "module": "UnequalObstruction",
+      "path": "sources/UnequalObstruction.lean",
+      "sha256": "a6c402d887b56e4e62fbb3fee25cdff65cd7ea071193b69a1582a726fc33a430",
+      "bytes": 6987,
+      "imports": [
+        "UnequalStack"
+      ],
+      "warnings": [],
+      "resource_profile": {
+        "rss_limit_bytes": 2147483648,
+        "launch_available_bytes": 6442450944,
+        "host_floor_bytes": 2147483648,
+        "wall_seconds": null,
+        "disk_launch_floor_bytes": 268435456,
+        "disk_live_floor_bytes": 134217728,
+        "sample_seconds": 0.2,
+        "include_controller_rss": false,
+        "internal_lean_heap_limit": 1536,
+        "scope": "Sampled non-daemonizing process group, not a hard OS memory cap"
+      }
+    },
+    {
+      "module": "UnequalReach",
+      "path": "sources/UnequalReach.lean",
+      "sha256": "d6c05a2db88f3d5f5ac075e034672131bf7e8c4380fa398f392c5c1a189fac84",
+      "bytes": 9507,
+      "imports": [
+        "UnequalObstruction"
+      ],
+      "warnings": [],
+      "resource_profile": {
+        "rss_limit_bytes": 2147483648,
+        "launch_available_bytes": 6442450944,
+        "host_floor_bytes": 2147483648,
+        "wall_seconds": null,
+        "disk_launch_floor_bytes": 268435456,
+        "disk_live_floor_bytes": 134217728,
+        "sample_seconds": 0.2,
+        "include_controller_rss": false,
+        "internal_lean_heap_limit": 1536,
+        "scope": "Sampled non-daemonizing process group, not a hard OS memory cap"
+      }
+    },
+    {
+      "module": "UnequalScript",
+      "path": "sources/UnequalScript.lean",
+      "sha256": "b5cfe04d338a4faf27cb300f658d55a7bfb9a91fddebbbd79c61128c1da99e4e",
+      "bytes": 10933,
+      "imports": [
+        "UnequalReach"
+      ],
+      "warnings": [],
+      "resource_profile": {
+        "rss_limit_bytes": 2147483648,
+        "launch_available_bytes": 6442450944,
+        "host_floor_bytes": 2147483648,
+        "wall_seconds": null,
+        "disk_launch_floor_bytes": 268435456,
+        "disk_live_floor_bytes": 134217728,
+        "sample_seconds": 0.2,
+        "include_controller_rss": false,
+        "internal_lean_heap_limit": 1536,
+        "scope": "Sampled non-daemonizing process group, not a hard OS memory cap"
+      }
+    },
+    {
+      "module": "UnequalDeletion",
+      "path": "sources/UnequalDeletion.lean",
+      "sha256": "b9e9092d231066560910849737add6d133ff62a6ec1b4403c953eb15a08b3e27",
+      "bytes": 12236,
+      "imports": [
+        "UnequalScript"
+      ],
+      "warnings": [],
+      "resource_profile": {
+        "rss_limit_bytes": 2147483648,
+        "launch_available_bytes": 6442450944,
+        "host_floor_bytes": 2147483648,
+        "wall_seconds": null,
+        "disk_launch_floor_bytes": 268435456,
+        "disk_live_floor_bytes": 134217728,
+        "sample_seconds": 0.2,
+        "include_controller_rss": false,
+        "internal_lean_heap_limit": 1536,
+        "scope": "Sampled non-daemonizing process group, not a hard OS memory cap"
+      }
+    },
+    {
+      "module": "UnequalCasesA",
+      "path": "sources/UnequalCasesA.lean",
+      "sha256": "cb630ce3fe9503db1d949b61bef04dcd83f2dbc92399b50e93f1b2f60c97af9a",
+      "bytes": 20926,
+      "imports": [
+        "UnequalDeletion"
+      ],
+      "warnings": [],
+      "resource_profile": {
+        "rss_limit_bytes": 2147483648,
+        "launch_available_bytes": 6442450944,
+        "host_floor_bytes": 2147483648,
+        "wall_seconds": null,
+        "disk_launch_floor_bytes": 268435456,
+        "disk_live_floor_bytes": 134217728,
+        "sample_seconds": 0.2,
+        "include_controller_rss": false,
+        "internal_lean_heap_limit": 1536,
+        "scope": "Sampled non-daemonizing process group, not a hard OS memory cap"
+      }
+    },
+    {
+      "module": "UnequalCasesB",
+      "path": "sources/UnequalCasesB.lean",
+      "sha256": "b31d7d81141c90e42923b91eca14200d69cef537d02d342709857712f30a7300",
+      "bytes": 23170,
+      "imports": [
+        "UnequalCasesA"
+      ],
+      "warnings": [],
+      "resource_profile": {
+        "rss_limit_bytes": 2147483648,
+        "launch_available_bytes": 6442450944,
+        "host_floor_bytes": 2147483648,
+        "wall_seconds": null,
+        "disk_launch_floor_bytes": 268435456,
+        "disk_live_floor_bytes": 134217728,
+        "sample_seconds": 0.2,
+        "include_controller_rss": false,
+        "internal_lean_heap_limit": 1536,
+        "scope": "Sampled non-daemonizing process group, not a hard OS memory cap"
+      }
+    },
+    {
+      "module": "UnequalBasis",
+      "path": "sources/UnequalBasis.lean",
+      "sha256": "f9ba58922c103b98faf890bb90a6ad81465c9082ab0eea2f1dc07d0277513ef2",
+      "bytes": 3583,
+      "imports": [
+        "UnequalCasesB"
+      ],
+      "warnings": [],
+      "resource_profile": {
+        "rss_limit_bytes": 2147483648,
+        "launch_available_bytes": 6442450944,
+        "host_floor_bytes": 2147483648,
+        "wall_seconds": null,
+        "disk_launch_floor_bytes": 268435456,
+        "disk_live_floor_bytes": 134217728,
+        "sample_seconds": 0.2,
+        "include_controller_rss": false,
+        "internal_lean_heap_limit": 1536,
+        "scope": "Sampled non-daemonizing process group, not a hard OS memory cap"
+      }
+    },
+    {
+      "module": "UnequalSymmetry",
+      "path": "sources/UnequalSymmetry.lean",
+      "sha256": "b8a5b9d92474a1d35b7f2261d5ce654add32e162516f63555851608718bf0098",
+      "bytes": 12208,
+      "imports": [
+        "UnequalBasis"
+      ],
+      "warnings": [],
+      "resource_profile": {
+        "rss_limit_bytes": 2147483648,
+        "launch_available_bytes": 6442450944,
+        "host_floor_bytes": 2147483648,
+        "wall_seconds": null,
+        "disk_launch_floor_bytes": 268435456,
+        "disk_live_floor_bytes": 134217728,
+        "sample_seconds": 0.2,
+        "include_controller_rss": false,
+        "internal_lean_heap_limit": 1536,
+        "scope": "Sampled non-daemonizing process group, not a hard OS memory cap"
+      }
+    },
+    {
+      "module": "UnequalCapacity",
+      "path": "sources/UnequalCapacity.lean",
+      "sha256": "696bbed6ef269cd48e95d6803416e3a3b0a3a4b6c12e9edfec5fb06f1ee725b8",
+      "bytes": 17533,
+      "imports": [
+        "UnequalSymmetry"
+      ],
+      "warnings": [],
+      "resource_profile": {
+        "rss_limit_bytes": 2147483648,
+        "launch_available_bytes": 6442450944,
+        "host_floor_bytes": 2147483648,
+        "wall_seconds": null,
+        "disk_launch_floor_bytes": 268435456,
+        "disk_live_floor_bytes": 134217728,
+        "sample_seconds": 0.2,
+        "include_controller_rss": false,
+        "internal_lean_heap_limit": 1536,
+        "scope": "Sampled non-daemonizing process group, not a hard OS memory cap"
+      }
+    },
+    {
+      "module": "UnequalFinite",
+      "path": "sources/UnequalFinite.lean",
+      "sha256": "034794733c9d1b2d15addd950de450b2b64a29a19adcd2809cc08633b29b842d",
+      "bytes": 6292,
+      "imports": [
+        "UnequalCapacity"
+      ],
+      "warnings": [],
+      "resource_profile": {
+        "rss_limit_bytes": 2147483648,
+        "launch_available_bytes": 6442450944,
+        "host_floor_bytes": 2147483648,
+        "wall_seconds": null,
+        "disk_launch_floor_bytes": 268435456,
+        "disk_live_floor_bytes": 134217728,
+        "sample_seconds": 0.2,
+        "include_controller_rss": false,
+        "internal_lean_heap_limit": 1536,
+        "scope": "Sampled non-daemonizing process group, not a hard OS memory cap"
+      }
+    },
+    {
+      "module": "UnequalThreshold",
+      "path": "sources/UnequalThreshold.lean",
+      "sha256": "1719d80bb2315ef9d1295e3f013774b926e0f22a5c5632149d6cfe8c199d41e8",
+      "bytes": 18808,
+      "imports": [
+        "UnequalFinite"
+      ],
+      "warnings": [],
+      "resource_profile": {
+        "rss_limit_bytes": 2147483648,
+        "launch_available_bytes": 6442450944,
+        "host_floor_bytes": 2147483648,
+        "wall_seconds": null,
+        "disk_launch_floor_bytes": 268435456,
+        "disk_live_floor_bytes": 134217728,
+        "sample_seconds": 0.2,
+        "include_controller_rss": false,
+        "internal_lean_heap_limit": 1536,
+        "scope": "Sampled non-daemonizing process group, not a hard OS memory cap"
+      }
+    },
+    {
+      "module": "FiniteCapacityBasisCardinality",
+      "path": "sources/FiniteCapacityBasisCardinality.lean",
+      "sha256": "6ec2a08c4353e325a4a301dc04116e15acc615fde7cf9279d9d41b5407d2534e",
+      "bytes": 4392,
+      "imports": [
+        "UnequalThreshold",
+        "Mathlib.Data.List.Permutation",
+        "Mathlib.Data.Finset.Card"
+      ],
+      "warnings": [],
+      "resource_profile": {
+        "rss_limit_bytes": 4294967296,
+        "launch_available_bytes": 6442450944,
+        "host_floor_bytes": 2147483648,
+        "wall_seconds": null,
+        "disk_launch_floor_bytes": 268435456,
+        "disk_live_floor_bytes": 134217728,
+        "sample_seconds": 0.2,
+        "include_controller_rss": false,
+        "internal_lean_heap_limit": 3584,
+        "scope": "Sampled non-daemonizing process group, not a hard OS memory cap"
+      }
+    },
+    {
+      "module": "UnequalPatterns",
+      "path": "sources/UnequalPatterns.lean",
+      "sha256": "9e0bc52ef4b2987d5c0cc6650ebc0d6813e39d0ac8cc84b12d4b9f9ad76f5057",
+      "bytes": 4294,
+      "imports": [
+        "UnequalThreshold"
+      ],
+      "warnings": [],
+      "resource_profile": {
+        "rss_limit_bytes": 2147483648,
+        "launch_available_bytes": 6442450944,
+        "host_floor_bytes": 2147483648,
+        "wall_seconds": null,
+        "disk_launch_floor_bytes": 268435456,
+        "disk_live_floor_bytes": 134217728,
+        "sample_seconds": 0.2,
+        "include_controller_rss": false,
+        "internal_lean_heap_limit": 1536,
+        "scope": "Sampled non-daemonizing process group, not a hard OS memory cap"
+      }
+    },
+    {
+      "module": "EqualFamily",
+      "path": "sources/EqualFamily.lean",
+      "sha256": "597f09363d34bf5f4552f823ebd0f5888ca1cfbfadc0162d7a67531aaff63251",
+      "bytes": 10136,
+      "imports": [
+        "UnequalPatterns"
+      ],
+      "warnings": [],
+      "resource_profile": {
+        "rss_limit_bytes": 2147483648,
+        "launch_available_bytes": 6442450944,
+        "host_floor_bytes": 2147483648,
+        "wall_seconds": null,
+        "disk_launch_floor_bytes": 268435456,
+        "disk_live_floor_bytes": 134217728,
+        "sample_seconds": 0.2,
+        "include_controller_rss": false,
+        "internal_lean_heap_limit": 1536,
+        "scope": "Sampled non-daemonizing process group, not a hard OS memory cap"
+      }
+    },
+    {
+      "module": "EqualReject",
+      "path": "sources/EqualReject.lean",
+      "sha256": "99c6b1b14ff46eac48970af3b7c5aa838e59e1998a289457f3e8e7dccf141583",
+      "bytes": 14807,
+      "imports": [
+        "EqualFamily"
+      ],
+      "warnings": [],
+      "resource_profile": {
+        "rss_limit_bytes": 2147483648,
+        "launch_available_bytes": 6442450944,
+        "host_floor_bytes": 2147483648,
+        "wall_seconds": null,
+        "disk_launch_floor_bytes": 268435456,
+        "disk_live_floor_bytes": 134217728,
+        "sample_seconds": 0.2,
+        "include_controller_rss": false,
+        "internal_lean_heap_limit": 1536,
+        "scope": "Sampled non-daemonizing process group, not a hard OS memory cap"
+      }
+    },
+    {
+      "module": "EqualHist",
+      "path": "sources/EqualHist.lean",
+      "sha256": "35a831588d0060580fc0aef5c809ece8dcda9e6664eef5397480c1277c51345b",
+      "bytes": 17094,
+      "imports": [
+        "EqualReject"
+      ],
+      "warnings": [],
+      "resource_profile": {
+        "rss_limit_bytes": 2147483648,
+        "launch_available_bytes": 6442450944,
+        "host_floor_bytes": 2147483648,
+        "wall_seconds": null,
+        "disk_launch_floor_bytes": 268435456,
+        "disk_live_floor_bytes": 134217728,
+        "sample_seconds": 0.2,
+        "include_controller_rss": false,
+        "internal_lean_heap_limit": 1536,
+        "scope": "Sampled non-daemonizing process group, not a hard OS memory cap"
+      }
+    },
+    {
+      "module": "EqualRegimes",
+      "path": "sources/EqualRegimes.lean",
+      "sha256": "13d6279c4676ab1d23e2c54bb83ec5f6f527b57999315bc8a37a012dce5f8836",
+      "bytes": 20184,
+      "imports": [
+        "EqualHist"
+      ],
+      "warnings": [],
+      "resource_profile": {
+        "rss_limit_bytes": 2147483648,
+        "launch_available_bytes": 6442450944,
+        "host_floor_bytes": 2147483648,
+        "wall_seconds": null,
+        "disk_launch_floor_bytes": 268435456,
+        "disk_live_floor_bytes": 134217728,
+        "sample_seconds": 0.2,
+        "include_controller_rss": false,
+        "internal_lean_heap_limit": 1536,
+        "scope": "Sampled non-daemonizing process group, not a hard OS memory cap"
+      }
+    },
+    {
+      "module": "EqualFinals",
+      "path": "sources/EqualFinals.lean",
+      "sha256": "ede85ceedb163784c0218e6312956c0b5a028e0fd385108677111d0378440cb4",
+      "bytes": 17779,
+      "imports": [
+        "EqualRegimes"
+      ],
+      "warnings": [],
+      "resource_profile": {
+        "rss_limit_bytes": 2147483648,
+        "launch_available_bytes": 6442450944,
+        "host_floor_bytes": 2147483648,
+        "wall_seconds": null,
+        "disk_launch_floor_bytes": 268435456,
+        "disk_live_floor_bytes": 134217728,
+        "sample_seconds": 0.2,
+        "include_controller_rss": false,
+        "internal_lean_heap_limit": 1536,
+        "scope": "Sampled non-daemonizing process group, not a hard OS memory cap"
+      }
+    },
+    {
+      "module": "EqualPrefix",
+      "path": "sources/EqualPrefix.lean",
+      "sha256": "bbda8920fef882e5787eaeca2a6b39eeed0674830aacfb83b0fcd54634b82450",
+      "bytes": 18744,
+      "imports": [
+        "EqualFinals"
+      ],
+      "warnings": [],
+      "resource_profile": {
+        "rss_limit_bytes": 2147483648,
+        "launch_available_bytes": 6442450944,
+        "host_floor_bytes": 2147483648,
+        "wall_seconds": null,
+        "disk_launch_floor_bytes": 268435456,
+        "disk_live_floor_bytes": 134217728,
+        "sample_seconds": 0.2,
+        "include_controller_rss": false,
+        "internal_lean_heap_limit": 1536,
+        "scope": "Sampled non-daemonizing process group, not a hard OS memory cap"
+      }
+    },
+    {
+      "module": "EqualMPhase",
+      "path": "sources/EqualMPhase.lean",
+      "sha256": "cbf2781a61c43e5d88ea4f44a6189f359a2f8e918bd3736e49b4f7bb41a72cf5",
+      "bytes": 10831,
+      "imports": [
+        "EqualPrefix"
+      ],
+      "warnings": [],
+      "resource_profile": {
+        "rss_limit_bytes": 2147483648,
+        "launch_available_bytes": 6442450944,
+        "host_floor_bytes": 2147483648,
+        "wall_seconds": null,
+        "disk_launch_floor_bytes": 268435456,
+        "disk_live_floor_bytes": 134217728,
+        "sample_seconds": 0.2,
+        "include_controller_rss": false,
+        "internal_lean_heap_limit": 1536,
+        "scope": "Sampled non-daemonizing process group, not a hard OS memory cap"
+      }
+    },
+    {
+      "module": "EqualDeletion",
+      "path": "sources/EqualDeletion.lean",
+      "sha256": "67b4f68203fada1b3d5b50d49b3e50e5f0aaafd0eab162a49172984896a43528",
+      "bytes": 22054,
+      "imports": [
+        "EqualMPhase"
+      ],
+      "warnings": [],
+      "resource_profile": {
+        "rss_limit_bytes": 2147483648,
+        "launch_available_bytes": 6442450944,
+        "host_floor_bytes": 2147483648,
+        "wall_seconds": null,
+        "disk_launch_floor_bytes": 268435456,
+        "disk_live_floor_bytes": 134217728,
+        "sample_seconds": 0.2,
+        "include_controller_rss": false,
+        "internal_lean_heap_limit": 1536,
+        "scope": "Sampled non-daemonizing process group, not a hard OS memory cap"
+      }
+    },
+    {
+      "module": "EqualBasis",
+      "path": "sources/EqualBasis.lean",
+      "sha256": "67c4e7d59e9e71c4116cf7efd23e7ec33ea655a407991badc6e632e605a5e276",
+      "bytes": 8827,
+      "imports": [
+        "EqualDeletion"
+      ],
+      "warnings": [],
+      "resource_profile": {
+        "rss_limit_bytes": 2147483648,
+        "launch_available_bytes": 6442450944,
+        "host_floor_bytes": 2147483648,
+        "wall_seconds": null,
+        "disk_launch_floor_bytes": 268435456,
+        "disk_live_floor_bytes": 134217728,
+        "sample_seconds": 0.2,
+        "include_controller_rss": false,
+        "internal_lean_heap_limit": 1536,
+        "scope": "Sampled non-daemonizing process group, not a hard OS memory cap"
+      }
+    },
+    {
+      "module": "ObstructionFamilyWidths",
+      "path": "sources/ObstructionFamilyWidths.lean",
+      "sha256": "ca61fcd6806811ebe60d9915c99aa79f8b25226928ed0f3b86520309ce8b283f",
+      "bytes": 6194,
+      "imports": [
+        "EqualBasis"
+      ],
+      "warnings": [],
+      "resource_profile": {
+        "rss_limit_bytes": 2147483648,
+        "launch_available_bytes": 6442450944,
+        "host_floor_bytes": 2147483648,
+        "wall_seconds": null,
+        "disk_launch_floor_bytes": 268435456,
+        "disk_live_floor_bytes": 134217728,
+        "sample_seconds": 0.2,
+        "include_controller_rss": false,
+        "internal_lean_heap_limit": 1536,
+        "scope": "Sampled non-daemonizing process group, not a hard OS memory cap"
+      }
+    }
+  ],
+  "controls": [
+    {
+      "module": "Positive",
+      "path": "controls/Positive.lean",
+      "sha256": "6dc0c5282a3f05db1af7db6b3bbfe7d654686fe82bb1d814fdac1f7c7d7134c1",
+      "bytes": 933,
+      "imports": [
+        "FiniteCapacityBasisCardinality"
+      ],
+      "warnings": [],
+      "expect": "pass",
+      "resource_profile": {
+        "rss_limit_bytes": 4294967296,
+        "launch_available_bytes": 6442450944,
+        "host_floor_bytes": 2147483648,
+        "wall_seconds": null,
+        "disk_launch_floor_bytes": 268435456,
+        "disk_live_floor_bytes": 134217728,
+        "sample_seconds": 0.2,
+        "include_controller_rss": false,
+        "internal_lean_heap_limit": 3584,
+        "scope": "Sampled non-daemonizing process group, not a hard OS memory cap"
+      }
+    },
+    {
+      "module": "WrongCount",
+      "path": "controls/WrongCount.lean",
+      "sha256": "b4a923300efdb7eab0c93373e753f7f2367754c70d597c043034e4ca7fb9d5fe",
+      "bytes": 182,
+      "imports": [
+        "FiniteCapacityBasisCardinality"
+      ],
+      "warnings": [],
+      "expect": "reject",
+      "required_diagnostics": [
+        "Type mismatch",
+        "Application type mismatch",
+        "unsolved goals",
+        "Tactic `decide` proved that the proposition"
+      ],
+      "resource_profile": {
+        "rss_limit_bytes": 4294967296,
+        "launch_available_bytes": 6442450944,
+        "host_floor_bytes": 2147483648,
+        "wall_seconds": null,
+        "disk_launch_floor_bytes": 268435456,
+        "disk_live_floor_bytes": 134217728,
+        "sample_seconds": 0.2,
+        "include_controller_rss": false,
+        "internal_lean_heap_limit": 3584,
+        "scope": "Sampled non-daemonizing process group, not a hard OS memory cap"
+      }
+    },
+    {
+      "module": "MissingBound",
+      "path": "controls/MissingBound.lean",
+      "sha256": "ed4dfeab3e8ebe8d499c80fadb902952d5baa3760fa68c7cd91083342d76adc5",
+      "bytes": 236,
+      "imports": [
+        "FiniteCapacityBasisCardinality"
+      ],
+      "warnings": [],
+      "expect": "reject",
+      "required_diagnostics": [
+        "Type mismatch",
+        "Application type mismatch",
+        "unsolved goals",
+        "Tactic `decide` proved that the proposition"
+      ],
+      "resource_profile": {
+        "rss_limit_bytes": 4294967296,
+        "launch_available_bytes": 6442450944,
+        "host_floor_bytes": 2147483648,
+        "wall_seconds": null,
+        "disk_launch_floor_bytes": 268435456,
+        "disk_live_floor_bytes": 134217728,
+        "sample_seconds": 0.2,
+        "include_controller_rss": false,
+        "internal_lean_heap_limit": 3584,
+        "scope": "Sampled non-daemonizing process group, not a hard OS memory cap"
+      }
+    },
+    {
+      "module": "PositiveControls",
+      "path": "controls/PositiveControls.lean",
+      "sha256": "3f4806f414fc30a6eae3ad7def06b4831ad55fc13c12d60f3a22fd527f47caf3",
+      "bytes": 1340,
+      "imports": [
+        "ObstructionFamilyWidths"
+      ],
+      "warnings": [],
+      "expect": "pass",
+      "resource_profile": {
+        "rss_limit_bytes": 2147483648,
+        "launch_available_bytes": 6442450944,
+        "host_floor_bytes": 2147483648,
+        "wall_seconds": null,
+        "disk_launch_floor_bytes": 268435456,
+        "disk_live_floor_bytes": 134217728,
+        "sample_seconds": 0.2,
+        "include_controller_rss": false,
+        "internal_lean_heap_limit": 1536,
+        "scope": "Sampled non-daemonizing process group, not a hard OS memory cap"
+      }
+    },
+    {
+      "module": "NegativeWidth",
+      "path": "controls/NegativeWidth.lean",
+      "sha256": "d9d2beca345a58f0bb4f779208e605866e6fad411fd1c3e2fc489fbb1c383872",
+      "bytes": 132,
+      "imports": [
+        "ObstructionFamilyWidths"
+      ],
+      "warnings": [],
+      "expect": "reject",
+      "required_diagnostics": [
+        "Type mismatch",
+        "Application type mismatch",
+        "unsolved goals",
+        "Tactic `decide` proved that the proposition"
+      ],
+      "resource_profile": {
+        "rss_limit_bytes": 2147483648,
+        "launch_available_bytes": 6442450944,
+        "host_floor_bytes": 2147483648,
+        "wall_seconds": null,
+        "disk_launch_floor_bytes": 268435456,
+        "disk_live_floor_bytes": 134217728,
+        "sample_seconds": 0.2,
+        "include_controller_rss": false,
+        "internal_lean_heap_limit": 1536,
+        "scope": "Sampled non-daemonizing process group, not a hard OS memory cap"
+      }
+    },
+    {
+      "module": "NegativeEmpty",
+      "path": "controls/NegativeEmpty.lean",
+      "sha256": "7013c172bc2f4fc6d27106485ef55b8300b62209099c447066722e87184f0483",
+      "bytes": 133,
+      "imports": [
+        "ObstructionFamilyWidths"
+      ],
+      "warnings": [],
+      "expect": "reject",
+      "required_diagnostics": [
+        "Type mismatch",
+        "Application type mismatch",
+        "unsolved goals",
+        "Tactic `decide` proved that the proposition"
+      ],
+      "resource_profile": {
+        "rss_limit_bytes": 2147483648,
+        "launch_available_bytes": 6442450944,
+        "host_floor_bytes": 2147483648,
+        "wall_seconds": null,
+        "disk_launch_floor_bytes": 268435456,
+        "disk_live_floor_bytes": 134217728,
+        "sample_seconds": 0.2,
+        "include_controller_rss": false,
+        "internal_lean_heap_limit": 1536,
+        "scope": "Sampled non-daemonizing process group, not a hard OS memory cap"
+      }
+    }
+  ],
+  "roots": [
+    "FiniteCapacityBasisCardinality",
+    "ObstructionFamilyWidths"
+  ],
+  "external_imports": [
+    "Mathlib.Data.Finset.Card",
+    "Mathlib.Data.List.Permutation",
+    "Std"
+  ],
+  "required_audit_endpoints": [
+    "StackSorting.Generalized.Unequal.finiteGeneratedBasis_exact",
+    "StackSorting.Generalized.Unequal.finiteGeneratedBasis_card",
+    "StackSorting.Generalized.Unequal.finiteSortableBasis_exact",
+    "StackSorting.Generalized.Unequal.finiteSortableBasis_card",
+    "StackSorting.Generalized.Unequal.finiteGeneratedBasis_all_sizes",
+    "StackSorting.Generalized.Unequal.finiteSortableBasis_all_sizes",
+    "StackSorting.Generalized.Unequal.family_generatedDisplacementWidth",
+    "StackSorting.Generalized.Equal.famA_generatedDisplacementWidth",
+    "StackSorting.Generalized.Equal.famB_generatedDisplacementWidth"
+  ],
+  "scope": [
+    "Exact H! cardinality of actual generated and sortable finite-capacity basis finsets for all positive widths and H at most max(r,s)+1",
+    "Exact all-length predicate characterization including capacity zero",
+    "Literal position-excess displacement width equalities for all three obstruction families",
+    "Exact equivalence with all possible endpoint bounds, not a successful-machine-run claim"
+  ],
+  "resource_profile": {
+    "rss_limit_bytes": 4294967296,
+    "launch_available_bytes": 6442450944,
+    "host_floor_bytes": 2147483648,
+    "wall_seconds": null,
+    "disk_launch_floor_bytes": 268435456,
+    "disk_live_floor_bytes": 134217728,
+    "sample_seconds": 0.2,
+    "include_controller_rss": false,
+    "internal_lean_heap_limit": 3584,
+    "scope": "Sampled non-daemonizing process group, not a hard OS memory cap"
+  },
+  "source_byte_policy": "Every Lean source is byte-identical to its accepted source packet. No compiled project artifacts are distributed or reused by replay."
+}

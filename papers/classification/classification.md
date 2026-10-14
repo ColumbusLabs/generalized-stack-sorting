@@ -1,11 +1,11 @@
 ---
 abstract: |
-  Atkinson's generalized $(r,s)$-stack inserts each input entry into one of its top $r$ positions and outputs an entry from one of its top $s$ positions. The permutations it can sort form a class closed under taking patterns. Atkinson determined finite bases for this class when $r=1$ or $s=1$ and when $r=s=2$, and Vatter's recent problem list records that it is not known whether these bases are all finite. We show that they are not. For every pair $r,s\ge 2$ other than $r=s=2$, both the class of sortable permutations and the class of generated permutations have infinite bases. We give explicit infinite families of basis elements, one family when $r\ne s$ and two when $r=s\ge 3$, and prove them by following literal stack configurations. Consequently one generalized stack has a finite basis exactly when $\min(r,s)=1$ or $r=s=2$. We also determine the effect of a physical capacity $H$ that counts every held entry. For the same widths, the capacity-$H$ basis is finite exactly when $H\le\max(r,s)+1$, in which case the class is a maximum-drop class with $H!$ basis elements, and it is infinite for every larger $H$. Since an $(r,s)$-stack is a $\mathcal C$-machine with a finitely based container class and $s$ selectable pop positions, this also answers negatively a question of Vatter on such machines. Lean 4 checks the original-machine infinite-basis statements and the capacity threshold in the form of a finite-side basis-length characterization and unbounded basis lengths above the threshold. The count $H!$, the exact family widths and the cited finite cases remain outside the certificates.
+  Atkinson's generalized $(r,s)$-stack inserts each input entry into one of its top $r$ positions and outputs an entry from one of its top $s$ positions. The permutations it can sort form a class closed under taking patterns. Atkinson determined finite bases for this class when $r=1$ or $s=1$ and when $r=s=2$, and Vatter's recent problem list records that it is not known whether these bases are all finite. We show that they are not. For every pair $r,s\ge 2$ other than $r=s=2$, both the class of sortable permutations and the class of generated permutations have infinite bases. We give explicit infinite families of basis elements, one family when $r\ne s$ and two when $r=s\ge 3$, and prove them by following literal stack configurations. Consequently one generalized stack has a finite basis exactly when $\min(r,s)=1$ or $r=s=2$. We also determine the effect of a physical capacity $H$ that counts every held entry. For the same widths, the capacity-$H$ basis is finite exactly when $H\le\max(r,s)+1$, in which case the class is a maximum-drop class with $H!$ basis elements, and it is infinite for every larger $H$. Since an $(r,s)$-stack is a $\mathcal C$-machine with a finitely based container class and $s$ selectable pop positions, this also answers negatively a question of Vatter on such machines. Lean 4 checks the original-machine infinite-basis statements and the capacity threshold in the form of a finite-side basis-length characterization and unbounded basis lengths above the threshold. Additional certificates prove the count $H!$ and the exact family displacement widths. The cited finite unbounded cases remain outside the certificates.
 author:
 - |
   Columbus Labs\
   <info@columbus-labs.com>
-date: 12 October 2026
+date: 14 October 2026
 title: Finite and infinite bases for generalized stacks
 ---
 
@@ -35,9 +35,9 @@ We also consider a *physical capacity* $H\ge0$: a history has capacity $H$ if th
 
 **Theorem 3 (sharp capacity threshold).** Let $r,s\ge1$ and $H\ge0$.
 
-(a) If $H\le\max(r,s)+1$, then a nonempty permutation $\pi$ lies in $\mathcal S_H(r,s)$ if and only if $D(\pi)\le H-1$. For $H\ge1$ the basis of $\mathcal S_H(r,s)$ consists of the $H!$ permutations of length $H+1$ that end with $1$, and for $H=0$ it is $\{1\}$. In particular these bases are finite.
+1.  If $H\le\max(r,s)+1$, then a nonempty permutation $\pi$ lies in $\mathcal S_H(r,s)$ if and only if $D(\pi)\le H-1$. For $H\ge1$ the basis of $\mathcal S_H(r,s)$ consists of the $H!$ permutations of length $H+1$ that end with $1$, and for $H=0$ it is $\{1\}$. In particular these bases are finite.
 
-(b) If $r,s\ge2$, $(r,s)\ne(2,2)$ and $H\ge\max(r,s)+2$, then $\mathcal S_H(r,s)$ and $\mathcal G_H(r,s)$ have infinite bases.
+2.  If $r,s\ge2$, $(r,s)\ne(2,2)$ and $H\ge\max(r,s)+2$, then $\mathcal S_H(r,s)$ and $\mathcal G_H(r,s)$ have infinite bases.
 
 The threshold $\max(r,s)+2$ is therefore exact for every pair of widths covered by Theorem 1.
 
@@ -53,7 +53,7 @@ The rejection arguments follow one entry at the bottom of the stack. In the uneq
 
 ## 1.3 Verification and scope {#verification-and-provenance}
 
-The Lean 4 kernel \[5\] checks the infinite-basis statements, the finite-side class and basis characterizations, and the capacity threshold in the basis-length form specified in Section 6. The finite cardinality deduction, the count $H!$, the exact family widths and the cited finite cases remain outside these certificates. Finite computations are reported as checks, never as proofs. No historical priority is claimed: the bounded literature search behind this manuscript is described in Section 7.
+The Lean 4 kernel \[5\] checks the infinite-basis statements, the finite-side class and basis characterizations, and the capacity threshold in the basis-length form specified in Section 6. The additional source-only certificates prove the finite cardinality deduction, the count $H!$ and the exact family displacement widths. The cited finite unbounded cases retain their written-proof scope. Finite computations are reported as checks, never as proofs. No historical priority is claimed: the bounded literature search behind this manuscript is described in Section 7.
 
 # 2 Preliminaries
 
@@ -309,11 +309,11 @@ The certificates prove, with only the standard axioms (propositional extensional
 
 -   for all $r\ge3$ and $k$, that $A_r(k)$ and $B_r(k)$ are basis elements of $\mathcal G(r,r)$, their inverses of $\mathcal S(r,r)$, and $w(B_r(k))\le r+2$;
 
--   the combined statements: Theorem 1 for all $r,s\ge2$ except $(2,2)$, and, for the same widths, basis length exactly $H+1$ below the capacity threshold and basis elements beyond every length bound above it. The finite cardinality deduction and count $H!$ are written consequences of the kernel-checked finite-side characterization, not separate formal cardinality theorems.
+-   the combined statements: Theorem 1 for all $r,s\ge2$ except $(2,2)$, and, for the same widths, basis length exactly $H+1$ below the capacity threshold and basis elements beyond every length bound above it. A separate finite-cardinality certificate identifies the entire generated and sortable bases over all lengths and proves that each has $H!$ elements whenever $r,s>0$ and $H\le\max(r,s)+1$, including $H=0$.
 
 A fourth certificate, `formal/container`, formalizes Proposition 5.1 and Corollary 4. Its three new modules reuse the preceding 30 core/Std modules unchanged. They prove literal pattern avoidance of $S_r\oplus1$, the positive-width generation equivalence for every strictly increasing input with or without bypass, and transfer of the original-machine infinite basis to the container machine. The frozen 33-module closure is supplied for source-only checking with Lean 4.34.1. The recorded axiom audit found only the standard foundational axioms listed above. This is an **unbounded-capacity** equivalence: simulating a bypass uses a real intermediate held token, so the certificate does not assert preservation of a fixed physical capacity. The exact source hashes and scope are recorded in the source distribution.
 
-The deletion histories in Lean are literal histories that follow Sections 3.2 and 4.3, sometimes in a different but equivalent order. The finite bases of Atkinson \[1\] used in Corollary 2 are not formalized. Nor are the exact width equalities $w(R_{r,s,m})=s+2$, $w(A_r(k))=r+3$ and $w(B_r(k))=r+2$: the capacity certificates use the upper bounds $w(R_{r,s,m})\le s+2$ and $w(B_r(k))\le r+2$. The correspondence between the formal definitions of the families and the displayed ones was checked by evaluation on small members and by direct comparison with the written definitions.
+The deletion histories in Lean are literal histories that follow Sections 3.2 and 4.3, sometimes in a different but equivalent order. The finite bases of Atkinson \[1\] used in Corollary 2 are not formalized. The added obstruction-width certificate proves the exact displacement identities $w(R_{r,s,m})=s+2$, $w(A_r(k))=r+3$ and $w(B_r(k))=r+2$, for $2\le r<s$, $m\ge0$, and $r\ge3$, $k\ge0$, respectively. These identities describe displacement widths and do not assert successful runs of the rejected families. The source-only cardinality and width packets, with their exact scopes and reproduction commands, are in `formal/basis-cardinality-width/`. The correspondence between the formal definitions of the families and the displayed ones was checked by evaluation on small members and by direct comparison with the written definitions.
 
 As further checks, the written deletion histories were replayed by a literal machine simulator: $29{,}562$ histories for the $819$ members of the unequal family with $2\le r\le10$, $r<s\le13$ and $m\le12$, and $54{,}600$ histories for the equal-width members with $3\le r\le30$ and $k\le12$. A pruned exhaustive search confirmed rejection and minimality for $133$ of $136$ equal-width members with $r\le8$; the other three runs were stopped without a conclusion. These finite checks are not part of the proof.
 

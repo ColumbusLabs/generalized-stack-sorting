@@ -1,0 +1,34 @@
+{
+  "status": "SCOPED_ACCEPTANCE",
+  "fresh_join_sources_passed": 9,
+  "hash_bound_inherited_modules": 1640,
+  "base_replay_modules": 1613,
+  "accepted_literal_replay_modules": 38,
+  "common_modules": 11,
+  "fresh_endpoint_axiom_audits": 44,
+  "independent_endpoint_axiom_audits": 8,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "author_negative_controls_passed": 5,
+  "independent_positive_control": "ReviewPhysicalCounts",
+  "independent_negative_controls_passed": 4,
+  "offline_integrity_controls_passed": 5,
+  "accepted_scope": [
+    "All-length ordinary counts of distinct outputs of the unrestricted-height top-three insertion/removal physical machine.",
+    "All-length one-based raw CanSort input-permutation counts via proved inversion and relabeling, not orientation by assumption.",
+    "Empty permutation contributes exactly one; embedding preserves every natural-index coefficient and makes negative-index coefficients zero.",
+    "Both actual counting series equal the concrete literal branch and satisfy the unchanged 69-term scalar polynomial without a supplied root hypothesis.",
+    "Both are integral over RatFunc Q, have minimal-polynomial natDegree exactly 12, and every nonzero annihilating polynomial has degree at least 12."
+  ],
+  "historical_receipt_sha256": "711cec9f2e4e2a68159aca14e20edb07204149bd97508638b7dc3a82482b0c19",
+  "record_kind": "Public extract of accepted independent review.",
+  "historical_replay_scope": "Nine joins freshly rebuilt; 1,640 inherited module identities hash-validated against completed 1,613-source Core and accepted 38-source literal replays. This was not a second full 1,649-source replay.",
+  "publication_revision_note": "This summarizes acceptance of original source bytes. COMMENT_ONLY_REVISIONS.json separately identifies later publication-header revisions and their validation scope.",
+  "publication_revision_status": "COMMENT_ONLY_SEMANTIC_EQUIVALENCE_ACCEPTED_NO_FRESH_COMPILATION",
+  "publication_revision_review": "COMMENT_ONLY_REVIEW.json",
+  "fresh_revised_source_compilation": "NOT_RUN_MEMORY_GATE",
+  "independent_comment_revision_review_sha256": "1b96ec47776d83917a6c0f06d199c3dfad6ecfd78f1330ca629beda9ab26b6bf"
+}

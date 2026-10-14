@@ -1,100 +1,170 @@
 {
-  "checked_utc": "2026-10-12",
-  "python_regression_tests": {
-    "tests": 120,
-    "status": "PASS"
-  },
-  "model_cli": "PASS",
-  "compileall_src_tests": "PASS",
-  "manuscript_exact_arithmetic": "PASS",
-  "direct_symbolic_replay": {
-    "status": "PASS",
-    "python": "3.12",
-    "sympy": "1.14.0",
-    "python_flint": "0.9.0",
-    "drivers": [
+  "edition_date": "2026-10-14",
+  "checks_this_edition": {
+    "python_regression_tests": {
+      "tests": 120,
+      "status": "PASS"
+    },
+    "model_cli": "PASS",
+    "compileall_src_tests": "PASS",
+    "manuscript_exact_arithmetic": "PASS: 69 terms, degree y=12/x=6, selected-branch blowup, finite-field irreducibility",
+    "original_scalar_source_integrity": "PASS: 1613 modules, 97526535 bytes; no Lean invoked",
+    "symbolic_input_integrity": "PASS: 16 pinned input files; no symbolic replay invoked",
+    "pdf_builds": [
       {
-        "driver": "independent_identities.py",
-        "exit_code": 0
+        "paper": "algebraicity",
+        "pages": 17,
+        "sha256": "1fde6d07ca477f7255f05c63ef4c11237c30bd923e98cf8c9d630a8294ad3e26",
+        "unresolved_references": false,
+        "overfull_boxes": false
       },
       {
-        "driver": "independent_branch.py",
-        "exit_code": 0
-      },
-      {
-        "driver": "independent_reverse_lift.py",
-        "exit_code": 0
-      },
-      {
-        "driver": "independent_display.py",
-        "exit_code": 0
-      },
-      {
-        "driver": "independent_irreducibility.py",
-        "exit_code": 0
-      },
-      {
-        "driver": "run_controls.py",
-        "exit_code": 0
+        "paper": "classification",
+        "pages": 15,
+        "sha256": "af74f5349f5987bb84383f3587435446288c693116c054949d192256edd297e4",
+        "unresolved_references": false,
+        "overfull_boxes": false
       }
-    ]
-  },
-  "main_lean_source_integrity": {
-    "status": "PASS",
-    "modules": 1613,
-    "bytes": 97526535,
-    "module_bytes_match_original_closure": true
-  },
-  "pdf_builds": [
-    {
-      "paper": "algebraicity",
-      "pages": 17,
-      "pdf_sha256": "51fda587aca9ef36f0d812d451ea3e4f766919c8cc7723d2c2bceeeea9184099",
-      "layout_reference_warnings": []
+    ],
+    "visual_layout_check": "PASS: all 32 rendered pages of revised algebraicity and classification PDFs inspected; no clipping",
+    "full_lean_compilation": "NOT_RUN: no full closure rebuild during packaging. Historical accepted compile receipts remain bound to original source hashes.",
+    "new_source_packets": [
+      {
+        "directory": "formal/general-positive-width",
+        "source_manifest_sha256": "31906d3f4f2cf962b74e0506029aa71b353a6b69c39333abf998761ebe27eed7",
+        "file_manifest_sha256": "6f66bebfa3538dcd2a426273aa41b4bb1e646715ede95d6c499d9b1541d26754",
+        "static_source_and_import_closure": "PASS",
+        "fresh_lean_replay": "NOT_RUN"
+      },
+      {
+        "directory": "formal/actual-count-degree-twelve",
+        "source_manifest_sha256": "817f440b3e3c23f19ef88f2092125772e198259d64d3758c03b86ca424696449",
+        "file_manifest_sha256": "948cb856038beec01aa6a7b1443111423c129815c3d887ff72e9318048f3944f",
+        "static_source_and_import_closure": "PASS",
+        "fresh_lean_replay": "NOT_RUN"
+      },
+      {
+        "directory": "formal/basis-cardinality-width",
+        "source_manifest_sha256": "f3499ea8f070bf1282fafc47babb578e09156c4fe3aba2e9761c6bbc2ac37564",
+        "file_manifest_sha256": "b77495ffa88381d3d32ba27b5ff4235e279bec74ffa6cf4548712c7d7b615dc6",
+        "static_source_and_import_closure": "PASS",
+        "fresh_lean_replay": "NOT_RUN"
+      }
+    ],
+    "portable_guard_smoke_tests": "PASS: normal success, intended nonzero exit and timed stop with no surviving children; no Lean invoked",
+    "portable_negative_diagnostic_bindings": "PASS: all 17 expectations match accepted historical outputs",
+    "new_portable_driver_unit_tests": {
+      "status": "PASS",
+      "tests": 24,
+      "packets": 3
     },
-    {
-      "paper": "enumeration",
-      "pages": 7,
-      "pdf_sha256": "a7d4ef7b202938788faededb452f104a8ec19d06a80f42f7f189db51494f3fa4",
-      "layout_reference_warnings": []
-    },
-    {
-      "paper": "capacity",
-      "pages": 11,
-      "pdf_sha256": "097aca240c5c649288dd9409dc12314ede1a7ac2ac94702bafb479b290cfc3b8",
-      "layout_reference_warnings": []
-    },
-    {
-      "paper": "classification",
-      "pages": 15,
-      "pdf_sha256": "e2670d2ff4313ae3df59758901c3da76575a47b6c26add6aed1ba4f39c441206",
-      "layout_reference_warnings": []
+    "documentation_only_source_revision": {
+      "status": "INDEPENDENT_SEMANTIC_EQUIVALENCE_ACCEPTED",
+      "changed_modules": 7,
+      "scope": "Only initial ordinary module-documentation comments changed; all bytes outside each header are identical to the original accepted source. No imports, declarations or proof terms changed. Original and revised hashes and exact comment boundaries are recorded in packet COMMENT_ONLY_REVISIONS.json.",
+      "fresh_revised_source_compilation": "NOT_RUN: original memory prelaunch floors were not met; no compiler launched and no guard weakened.",
+      "limits": "Documentation/source-position metadata and compiled object hashes may differ; no new compilation or identical compiled-object claim."
     }
-  ],
-  "visual_layout_check": "PASS: all 50 rendered pages inspected",
-  "full_lean_compilation_this_packaging_pass": "NOT_RUN",
-  "scope": "These results qualify the packaged sources, finite tests, exact-algebra drivers and paper builds. The formal and written theorem scopes are stated in the papers and formal/README.md.",
-  "companion_source_snapshot_integrity": [
-    {
-      "certificate": "generalized",
-      "modules": 32,
-      "paths_hashes_and_import_order": "PASS"
+  },
+  "previous_edition_verification": {
+    "checked_utc": "2026-10-12",
+    "python_regression_tests": {
+      "tests": 120,
+      "status": "PASS"
     },
-    {
-      "certificate": "unequal",
-      "modules": 21,
-      "paths_hashes_and_import_order": "PASS"
+    "model_cli": "PASS",
+    "compileall_src_tests": "PASS",
+    "manuscript_exact_arithmetic": "PASS",
+    "direct_symbolic_replay": {
+      "status": "PASS",
+      "python": "3.12",
+      "sympy": "1.14.0",
+      "python_flint": "0.9.0",
+      "drivers": [
+        {
+          "driver": "independent_identities.py",
+          "exit_code": 0
+        },
+        {
+          "driver": "independent_branch.py",
+          "exit_code": 0
+        },
+        {
+          "driver": "independent_reverse_lift.py",
+          "exit_code": 0
+        },
+        {
+          "driver": "independent_display.py",
+          "exit_code": 0
+        },
+        {
+          "driver": "independent_irreducibility.py",
+          "exit_code": 0
+        },
+        {
+          "driver": "run_controls.py",
+          "exit_code": 0
+        }
+      ]
     },
-    {
-      "certificate": "equal",
-      "modules": 30,
-      "paths_hashes_and_import_order": "PASS"
+    "main_lean_source_integrity": {
+      "status": "PASS",
+      "modules": 1613,
+      "bytes": 97526535,
+      "module_bytes_match_original_closure": true
     },
-    {
-      "certificate": "container",
-      "modules": 33,
-      "paths_hashes_and_import_order": "PASS"
-    }
-  ],
-  "pdf_license_notice": "CC BY 4.0 notice and official hyperlink in all four papers"
+    "pdf_builds": [
+      {
+        "paper": "algebraicity",
+        "pages": 17,
+        "pdf_sha256": "51fda587aca9ef36f0d812d451ea3e4f766919c8cc7723d2c2bceeeea9184099",
+        "layout_reference_warnings": []
+      },
+      {
+        "paper": "enumeration",
+        "pages": 7,
+        "pdf_sha256": "a7d4ef7b202938788faededb452f104a8ec19d06a80f42f7f189db51494f3fa4",
+        "layout_reference_warnings": []
+      },
+      {
+        "paper": "capacity",
+        "pages": 11,
+        "pdf_sha256": "097aca240c5c649288dd9409dc12314ede1a7ac2ac94702bafb479b290cfc3b8",
+        "layout_reference_warnings": []
+      },
+      {
+        "paper": "classification",
+        "pages": 15,
+        "pdf_sha256": "e2670d2ff4313ae3df59758901c3da76575a47b6c26add6aed1ba4f39c441206",
+        "layout_reference_warnings": []
+      }
+    ],
+    "visual_layout_check": "PASS: all 50 rendered pages inspected",
+    "full_lean_compilation_this_packaging_pass": "NOT_RUN",
+    "scope": "These results qualify the packaged sources, finite tests, exact-algebra drivers and paper builds. The formal and written theorem scopes are stated in the papers and formal/README.md.",
+    "companion_source_snapshot_integrity": [
+      {
+        "certificate": "generalized",
+        "modules": 32,
+        "paths_hashes_and_import_order": "PASS"
+      },
+      {
+        "certificate": "unequal",
+        "modules": 21,
+        "paths_hashes_and_import_order": "PASS"
+      },
+      {
+        "certificate": "equal",
+        "modules": 30,
+        "paths_hashes_and_import_order": "PASS"
+      },
+      {
+        "certificate": "container",
+        "modules": 33,
+        "paths_hashes_and_import_order": "PASS"
+      }
+    ],
+    "pdf_license_notice": "CC BY 4.0 notice and official hyperlink in all four papers"
+  },
+  "scope": "Current packaging checks are separate from the accepted Lean theorem replays recorded in certificate provenance. Previously recorded checks retain their original date and scope. See formal/CLAIMS.md."
 }

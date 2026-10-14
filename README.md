@@ -13,9 +13,11 @@ A generalized `(r,s)`-stack inserts each incoming entry into one of its top `r` 
 
 ## What is formalized
 
-The `(3,3)` endpoint identifies the all-length count of distinct outputs of the literal unrestricted-height machine with its scalar branch and proves the polynomial identity. Its complete source closure contains 1,613 Lean modules. The all-width algebraicity argument and degree-minimality argument are written proofs; the `(3,3)` Lean endpoint does not formalize them.
+The headline algebraicity theorem is formalized end to end for every fixed pair of positive integer widths `r,s`, at every size including zero. The construction supplies its decomposition, routing, representation and uniform-admissibility witnesses. It counts distinct generated outputs and sortable inputs, related by proved inversion; the empty permutation is counted once.
 
-The companion certificates cover the `(2,2)` enumeration, the exact bounded-capacity recurrence, and the stated generalized-stack basis and container results. Their limits are described in [formal scope](formal/README.md). Finite checks corroborate implementations; they are not substituted for all-length proofs.
+The `(3,3)` certificates additionally identify the actual counting series with the specified scalar branch, prove its 69-term polynomial relation, and establish algebraic degree exactly 12 for both counting series. This includes the nonexistence of a nonzero annihilating polynomial of smaller degree.
+
+The companion certificates cover the `(2,2)` enumeration, the exact bounded-capacity recurrence, the infinite-basis and container results, and the added finite-side basis cardinalities and exact obstruction-family widths. See [the claim-by-claim scope](formal/CLAIMS.md) and [certificate guide](formal/README.md) for precise hypotheses and reproduction instructions. Analytic capacity asymptotics and the complete finite basis grammars retain their separately stated written-proof scope. Finite checks corroborate implementations; they do not replace all-length proofs.
 
 ## Reproduce
 

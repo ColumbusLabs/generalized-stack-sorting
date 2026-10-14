@@ -2,7 +2,7 @@
   "format_version": 1,
   "project": "Generalized stack permutations",
   "author": "Columbus Labs",
-  "edition_date": "2026-10-12",
+  "edition_date": "2026-10-14",
   "files": [
     {
       "path": ".gitignore",
@@ -21,23 +21,23 @@
     },
     {
       "path": "README.md",
-      "bytes": 3394,
-      "sha256": "1f2632153541a2ebcd1a83846b73e5d4b52a0b7dee0e5319c66b69ee5c27abe2"
+      "bytes": 3959,
+      "sha256": "ab19a29389f40a67d6fd3d16dacba0b1722f32b69a1a963e7171d3293980c59e"
     },
     {
       "path": "REPRODUCE.md",
-      "bytes": 4447,
-      "sha256": "b7525c2931322012c4b7e5d4a106f2b94afde9496acd2ad79c7f4cb5cf9b2ad6"
+      "bytes": 5475,
+      "sha256": "1023138ca78987e5bb56b4536f114bdf34c0fa37b50f4c1e54ca01484b5bc4fe"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "bytes": 1131,
-      "sha256": "5493715b1801de6cc05e4b045ff8cd85f00a5c660080921e91104e8a32409b5c"
+      "bytes": 1204,
+      "sha256": "9a424a4cff2b05051e555f78ec3e4e3547809c4c81a5242fce3ba69c8d17553b"
     },
     {
       "path": "VERIFICATION.json",
-      "bytes": 2704,
-      "sha256": "559738c53217c6dde617f51f64ab7152bf9663a252fc5812e2340a0f640496ce"
+      "bytes": 6684,
+      "sha256": "d413a9acfceb1d091cedddfda75a46e820d567539e88bc20d6117b0b016d7417"
     },
     {
       "path": "docs/canonical-exchange.md",
@@ -275,6 +275,11 @@
       "sha256": "207281b4f873f154e3f209c5229ea5713af7b66028f613e30dcca67e9d241722"
     },
     {
+      "path": "formal/CLAIMS.md",
+      "bytes": 5939,
+      "sha256": "ea3f5d085e76b7e0d9023f7857d1d94df7dcdb02885d2a1a9bcbe446408ef150"
+    },
+    {
       "path": "formal/CanonicalUniqueness.lean",
       "bytes": 9789,
       "sha256": "be6d420bb5e08d4dbb6aef6a8e0ed8a14cdfedc6264da6eb9c12e51957079f52"
@@ -441,8 +446,8 @@
     },
     {
       "path": "formal/README.md",
-      "bytes": 1407,
-      "sha256": "829ffc45d4b5a7bad37fcd74a201750533c81fb927ecbf3158a6eff0e218748b"
+      "bytes": 2510,
+      "sha256": "c5b60b13f6054a0c87af35031b21c8723f774744b34d0b5eb501c674e6398cad"
     },
     {
       "path": "formal/RawCanonical.lean",
@@ -468,6 +473,301 @@
       "path": "formal/RawWiring.lean",
       "bytes": 5486,
       "sha256": "bbb4fabd70f6c4d2c94c338493fbe64b7afa1d229eadcc8fd72bc2b7a837e170"
+    },
+    {
+      "path": "formal/actual-count-degree-twelve/ACCEPTANCE.json",
+      "bytes": 2232,
+      "sha256": "58d32a7e8d797c0ad631415e214c288294f3d12e398bce8e38de655879a8557d"
+    },
+    {
+      "path": "formal/actual-count-degree-twelve/COMMENT_ONLY_REVIEW.json",
+      "bytes": 8734,
+      "sha256": "1b96ec47776d83917a6c0f06d199c3dfad6ecfd78f1330ca629beda9ab26b6bf"
+    },
+    {
+      "path": "formal/actual-count-degree-twelve/COMMENT_ONLY_REVISIONS.json",
+      "bytes": 2878,
+      "sha256": "a34743935e1b78476184e2df7e7939d3c024e11cc49a1dd40855b73af32bc152"
+    },
+    {
+      "path": "formal/actual-count-degree-twelve/FILE_MANIFEST.json",
+      "bytes": 8559,
+      "sha256": "948cb856038beec01aa6a7b1443111423c129815c3d887ff72e9318048f3944f"
+    },
+    {
+      "path": "formal/actual-count-degree-twelve/PROVENANCE.json",
+      "bytes": 1437,
+      "sha256": "f2c435a6a6401cbcb94c34823e624ba0d43bb6ee91bc322c5250ca03390f1c04"
+    },
+    {
+      "path": "formal/actual-count-degree-twelve/README.md",
+      "bytes": 6890,
+      "sha256": "5e7b6e7008f729be72dbb5d7287d4dd15c906e9c0ed8371e5418fb72ec5f9961"
+    },
+    {
+      "path": "formal/actual-count-degree-twelve/SOURCE_MANIFEST.json",
+      "bytes": 1387348,
+      "sha256": "817f440b3e3c23f19ef88f2092125772e198259d64d3758c03b86ca424696449"
+    },
+    {
+      "path": "formal/actual-count-degree-twelve/TOOLCHAIN.json",
+      "bytes": 2460,
+      "sha256": "652da1ffb16b65b8fc3e0c0cf2e91014923f0ee92cc670c3f38e5ec361d208c7"
+    },
+    {
+      "path": "formal/actual-count-degree-twelve/check.sh",
+      "bytes": 75,
+      "sha256": "f0112638fec001c7c7fccc44851ccc47870ade7dffcf89261ef513969b8845d2"
+    },
+    {
+      "path": "formal/actual-count-degree-twelve/controls/RejectArbitrarySeriesDegree.lean",
+      "bytes": 200,
+      "sha256": "1c805ce5b17073e7b810c75cec769aed30d9a9d138c9246bef23fa0810cf9b88"
+    },
+    {
+      "path": "formal/actual-count-degree-twelve/controls/RejectChangingMachineWidths.lean",
+      "bytes": 309,
+      "sha256": "84fb52cfe9a37a79156db69e9a401faa98ed58fe78dc251ed8a497b4e38af2c0"
+    },
+    {
+      "path": "formal/actual-count-degree-twelve/controls/RejectDroppingNonzeroAnnihilator.lean",
+      "bytes": 258,
+      "sha256": "bc62880be71105c1ae318df9b0daf0d796c707dd7f43c947785f62f7ea66acaa"
+    },
+    {
+      "path": "formal/actual-count-degree-twelve/controls/RejectGeneratedDegreeEleven.lean",
+      "bytes": 198,
+      "sha256": "92818a856b6f16b962efb29ef07a6479fdf87421216e53dd35d95c096d99f011"
+    },
+    {
+      "path": "formal/actual-count-degree-twelve/controls/RejectOmittingEmptyPermutation.lean",
+      "bytes": 175,
+      "sha256": "d34fd1575a782aeb480cbfcdbb8beda5b8435139c3e3fbffaeef3573e9c837ed"
+    },
+    {
+      "path": "formal/actual-count-degree-twelve/controls/ReviewArbitraryPolynomial.lean",
+      "bytes": 210,
+      "sha256": "63c0b91f4dd12a0edad371a426754431965328f922af88346d9706fe69dada5f"
+    },
+    {
+      "path": "formal/actual-count-degree-twelve/controls/ReviewBadDegree.lean",
+      "bytes": 196,
+      "sha256": "f93d212242db21036014dbd4352d6108dfd79279dfee111e667d5836190710a6"
+    },
+    {
+      "path": "formal/actual-count-degree-twelve/controls/ReviewBadNegativeCoefficient.lean",
+      "bytes": 179,
+      "sha256": "f7264351d5596ecc01cfba11603992604cd5820e3042d99da98cfd708627e06c"
+    },
+    {
+      "path": "formal/actual-count-degree-twelve/controls/ReviewFalse.lean",
+      "bytes": 61,
+      "sha256": "0921095cfe9cb27cf29050633ba727156332f7d5991c326bab8db7e6d0be9185"
+    },
+    {
+      "path": "formal/actual-count-degree-twelve/controls/ReviewPhysicalCounts.lean",
+      "bytes": 2990,
+      "sha256": "981f6d313fbf4fb5c17ecadd5e5795c9e2ff2c5873e09a98c9d2c2760a386f2d"
+    },
+    {
+      "path": "formal/actual-count-degree-twelve/lean-toolchain",
+      "bytes": 25,
+      "sha256": "d5edba4e4b8faad9c1baeadb265716d20d03be4d1a2647dc5e35b0c0325bea7b"
+    },
+    {
+      "path": "formal/actual-count-degree-twelve/replay.py",
+      "bytes": 13717,
+      "sha256": "368cf43650abfefe0f2bd37aa9722ac37e2b41bf2bbe1b56231df7012682fc5f"
+    },
+    {
+      "path": "formal/actual-count-degree-twelve/resource_guard.py",
+      "bytes": 4019,
+      "sha256": "b383be7c03a8e7c69485baa9c65a4781a3adb24df9ffd88eea59aadaf7b63fc2"
+    },
+    {
+      "path": "formal/actual-count-degree-twelve/sources/ActualCountsDegreeTwelve.lean",
+      "bytes": 7606,
+      "sha256": "fd824c9a0e2de6bab62401af35fe5184aef7d0c11871e369e990837c79c23043"
+    },
+    {
+      "path": "formal/actual-count-degree-twelve/sources/ActualCountsDegreeTwelveSemanticControls.lean",
+      "bytes": 2245,
+      "sha256": "96c40c0facfd43f2421f543804783417151e54251b108d36ec37f8013251e199"
+    },
+    {
+      "path": "formal/actual-count-degree-twelve/sources/DegreeTwelveBezout.lean",
+      "bytes": 1448,
+      "sha256": "a8460475b3d43cb7efe34939f80a7681cc53b51faadc3b245f17ace75fbdb504"
+    },
+    {
+      "path": "formal/actual-count-degree-twelve/sources/DegreeTwelveCoefficientArithmetic.lean",
+      "bytes": 3122,
+      "sha256": "de0b301e1f2292612cfd4c769635966dc2d3a804b1ba5e561b859e1a49948f4a"
+    },
+    {
+      "path": "formal/actual-count-degree-twelve/sources/DegreeTwelveCoefficientData.lean",
+      "bytes": 3407,
+      "sha256": "8295f08eced8403e54b43196d05552984927441ce05675ca4753c3ed0222d81a"
+    },
+    {
+      "path": "formal/actual-count-degree-twelve/sources/DegreeTwelveCoefficientStep0.lean",
+      "bytes": 1069,
+      "sha256": "ff35875a26afde8b514b54f8ae8a29c18387846ffcd80165475cedeae492053e"
+    },
+    {
+      "path": "formal/actual-count-degree-twelve/sources/DegreeTwelveCoefficientStep1.lean",
+      "bytes": 1641,
+      "sha256": "5a5cae67bc4d5000d67c3e5d7725d285cca6f7f79bef71ddd3402bc1db1afb63"
+    },
+    {
+      "path": "formal/actual-count-degree-twelve/sources/DegreeTwelveCoefficientStep10.lean",
+      "bytes": 1672,
+      "sha256": "c93d662505d50c5fc2d224e797f9f13bf37ab688822b616136a5fa1cd75950c2"
+    },
+    {
+      "path": "formal/actual-count-degree-twelve/sources/DegreeTwelveCoefficientStep11.lean",
+      "bytes": 1659,
+      "sha256": "7ffd63bf839c085d8ef3b896073c55abc826e90830322ea0ce32654406a03d6a"
+    },
+    {
+      "path": "formal/actual-count-degree-twelve/sources/DegreeTwelveCoefficientStep2.lean",
+      "bytes": 1644,
+      "sha256": "8927cea51413581901e7aa23a5a706ad1fb8eebe0af6cecb30dc070263152a21"
+    },
+    {
+      "path": "formal/actual-count-degree-twelve/sources/DegreeTwelveCoefficientStep3.lean",
+      "bytes": 1647,
+      "sha256": "0fca55c6b31c9809a8397662bb947036bcc4f47129ce06e273794e38660f374b"
+    },
+    {
+      "path": "formal/actual-count-degree-twelve/sources/DegreeTwelveCoefficientStep4.lean",
+      "bytes": 1638,
+      "sha256": "894012165eb4d1e0d633cf1cd321b6f57efe0db81b679589506e8d7ff9c60447"
+    },
+    {
+      "path": "formal/actual-count-degree-twelve/sources/DegreeTwelveCoefficientStep5.lean",
+      "bytes": 1650,
+      "sha256": "7a374626d499852252ca25f57cef663dc0aef20722a861d42b2037e618fa38ad"
+    },
+    {
+      "path": "formal/actual-count-degree-twelve/sources/DegreeTwelveCoefficientStep6.lean",
+      "bytes": 1642,
+      "sha256": "d40bcf78b3ba49cb2631e01ef1715c22d2abfdcefb0c5ca7f0471ba3980986a2"
+    },
+    {
+      "path": "formal/actual-count-degree-twelve/sources/DegreeTwelveCoefficientStep7.lean",
+      "bytes": 1652,
+      "sha256": "be799c5eac31baf83df5881973f807962320139f3ace697937d899f8e24c06a8"
+    },
+    {
+      "path": "formal/actual-count-degree-twelve/sources/DegreeTwelveCoefficientStep8.lean",
+      "bytes": 1632,
+      "sha256": "4d926ab585efc66dd091c36af0c09a12020449712daa1469ac447a7d829e5661"
+    },
+    {
+      "path": "formal/actual-count-degree-twelve/sources/DegreeTwelveCoefficientStep9.lean",
+      "bytes": 1662,
+      "sha256": "79f00f598117829b5bc389050a9954c52d7c5f3327c120a2dd91d7f5feffe81b"
+    },
+    {
+      "path": "formal/actual-count-degree-twelve/sources/DegreeTwelveData.lean",
+      "bytes": 2274,
+      "sha256": "94170dc4dbf592b8e308d101715688a0d87d4636deb60a6f343b56469cb2c1e4"
+    },
+    {
+      "path": "formal/actual-count-degree-twelve/sources/DegreeTwelveFiniteIrreducible.lean",
+      "bytes": 1307,
+      "sha256": "e7dcb634e97892778b5c961c0be72ab1678322db5eaca8a49a904f7c9783872e"
+    },
+    {
+      "path": "formal/actual-count-degree-twelve/sources/DegreeTwelveIntegerSpecialization.lean",
+      "bytes": 2136,
+      "sha256": "dc7857d7abd40df8361b071fdc7a45788bf9741d96bb2ba075c606ffc7513270"
+    },
+    {
+      "path": "formal/actual-count-degree-twelve/sources/DegreeTwelveMinimalRoot.lean",
+      "bytes": 2289,
+      "sha256": "6673c8e0d00bbfad31227411ad73a0161c97536d087365609eb7dd959024b3ab"
+    },
+    {
+      "path": "formal/actual-count-degree-twelve/sources/DegreeTwelveRabinChain.lean",
+      "bytes": 2591,
+      "sha256": "b77c0e65fb3240ba7e730bd3698cada189429d62d64ba5e305d2c0015d4bed91"
+    },
+    {
+      "path": "formal/actual-count-degree-twelve/sources/DegreeTwelveRabinCriterion.lean",
+      "bytes": 2277,
+      "sha256": "4c7f39a62f3c321249a327d6f8cfb7a296e166f2b0042e099d662f97ce1b2334"
+    },
+    {
+      "path": "formal/actual-count-degree-twelve/sources/DegreeTwelveRationalIrreducible.lean",
+      "bytes": 5376,
+      "sha256": "b30c62382373f55e9113c168dddea82cad71a81e56f219afd5e7d4b94eff2541"
+    },
+    {
+      "path": "formal/actual-count-degree-twelve/sources/DegreeTwelveSpecialization.lean",
+      "bytes": 2136,
+      "sha256": "d4d5df4e0f91f423cfd8b718b5bdfb4ffb474a9354e7908e0e48f25f93339824"
+    },
+    {
+      "path": "formal/actual-count-degree-twelve/sources/FPSLaurentSeriesBridge.lean",
+      "bytes": 2980,
+      "sha256": "c1e024f1898541cea1fa71def97371cfba8a98cff67988804d57d8a95757d662"
+    },
+    {
+      "path": "formal/actual-count-degree-twelve/sources/FPSPowerSeriesBridge.lean",
+      "bytes": 5415,
+      "sha256": "e773f0c82827e83ec6dd628b05e7c29e57238364263df06576f78137234132f5"
+    },
+    {
+      "path": "formal/actual-count-degree-twelve/sources/GeneralizedInverseOrientation.lean",
+      "bytes": 5253,
+      "sha256": "c8a0886b5915185a7f9f983c4bdeb6cb105fa34eceed891f74ed1e98ab038fe2"
+    },
+    {
+      "path": "formal/actual-count-degree-twelve/sources/GeneralizedRawCanSortWidth.lean",
+      "bytes": 6039,
+      "sha256": "b3b082e925a26d39fd94d1ca57a318adc71a887f29ac5536db262337c1337d01"
+    },
+    {
+      "path": "formal/actual-count-degree-twelve/sources/GeneralizedSortableBasisWidth.lean",
+      "bytes": 8476,
+      "sha256": "f79c5e531a14410b4b292f6afea3c1db20534bdc543c1b12b892066d2efd06fe"
+    },
+    {
+      "path": "formal/actual-count-degree-twelve/sources/GeneralizedSortableCounting.lean",
+      "bytes": 5272,
+      "sha256": "6da6271831542e96fa8bb238e1a5e78c568c0ae45f3399e52e7a02846bb3e146"
+    },
+    {
+      "path": "formal/actual-count-degree-twelve/sources/GeneralizedSortableScalarEquation.lean",
+      "bytes": 1248,
+      "sha256": "cf1de4926526db543ef84aa60b2ddcd39e5ac74800e5f5073253b216bdd8f196"
+    },
+    {
+      "path": "formal/actual-count-degree-twelve/sources/LiteralBranchDegreeTwelve.lean",
+      "bytes": 2392,
+      "sha256": "c092a4f4607ed16bfe3d084562ff6009558aaa32f7429d978c95a0fa8ed4912a"
+    },
+    {
+      "path": "formal/actual-count-degree-twelve/sources/ScalarLiteralPrefixUniqueness.lean",
+      "bytes": 574,
+      "sha256": "cc74b6789ddb2111bfdbe55f8cc861ba99caf28c6cc6f78139abdfb868cb44f9"
+    },
+    {
+      "path": "formal/actual-count-degree-twelve/sources/ScalarPolynomialMathlibBridge.lean",
+      "bytes": 1784,
+      "sha256": "2b8eb2e181b3598e55a6cc42bcbaa42e1126841db60b0e03b47847dfeb3d8041"
+    },
+    {
+      "path": "formal/actual-count-degree-twelve/sources/ScalarPrefixUniqueness.lean",
+      "bytes": 1715,
+      "sha256": "f123f1db67bda1ed81f0c13eb5861529fb4befb73eb99bfccd1ae00efef0c392"
+    },
+    {
+      "path": "formal/actual-count-degree-twelve/test_replay.py",
+      "bytes": 2201,
+      "sha256": "9803bd510e4283de3ab02e4b0b355b58ddc36ed3850e463b7471c4ebd86f6c51"
     },
     {
       "path": "formal/actual-scalar-equation/README.md",
@@ -8570,6 +8870,251 @@
       "sha256": "668fb4a50fd277ee61218858bddf90b6b202d0e48c4f9e0af1c9f278357f835b"
     },
     {
+      "path": "formal/basis-cardinality-width/ACCEPTANCE.json",
+      "bytes": 2044,
+      "sha256": "1d344479442572fa4e70b083e7728ea4b65a889006a9a79a155d1a1f06dcd6f8"
+    },
+    {
+      "path": "formal/basis-cardinality-width/FILE_MANIFEST.json",
+      "bytes": 6617,
+      "sha256": "b77495ffa88381d3d32ba27b5ff4235e279bec74ffa6cf4548712c7d7b615dc6"
+    },
+    {
+      "path": "formal/basis-cardinality-width/PROVENANCE.json",
+      "bytes": 1025,
+      "sha256": "2567d6ebe91a51cbc32f17defb09e9bee92265bd6391a2e70bdd35e3852edbe8"
+    },
+    {
+      "path": "formal/basis-cardinality-width/README.md",
+      "bytes": 5984,
+      "sha256": "535f090346f46e418f177e156ef39d504da9892e154b9fc2f8b249f29d253de7"
+    },
+    {
+      "path": "formal/basis-cardinality-width/SOURCE_MANIFEST.json",
+      "bytes": 31565,
+      "sha256": "f3499ea8f070bf1282fafc47babb578e09156c4fe3aba2e9761c6bbc2ac37564"
+    },
+    {
+      "path": "formal/basis-cardinality-width/TOOLCHAIN.json",
+      "bytes": 2460,
+      "sha256": "652da1ffb16b65b8fc3e0c0cf2e91014923f0ee92cc670c3f38e5ec361d208c7"
+    },
+    {
+      "path": "formal/basis-cardinality-width/check.sh",
+      "bytes": 75,
+      "sha256": "f0112638fec001c7c7fccc44851ccc47870ade7dffcf89261ef513969b8845d2"
+    },
+    {
+      "path": "formal/basis-cardinality-width/controls/MissingBound.lean",
+      "bytes": 236,
+      "sha256": "ed4dfeab3e8ebe8d499c80fadb902952d5baa3760fa68c7cd91083342d76adc5"
+    },
+    {
+      "path": "formal/basis-cardinality-width/controls/NegativeEmpty.lean",
+      "bytes": 133,
+      "sha256": "7013c172bc2f4fc6d27106485ef55b8300b62209099c447066722e87184f0483"
+    },
+    {
+      "path": "formal/basis-cardinality-width/controls/NegativeWidth.lean",
+      "bytes": 132,
+      "sha256": "d9d2beca345a58f0bb4f779208e605866e6fad411fd1c3e2fc489fbb1c383872"
+    },
+    {
+      "path": "formal/basis-cardinality-width/controls/Positive.lean",
+      "bytes": 933,
+      "sha256": "6dc0c5282a3f05db1af7db6b3bbfe7d654686fe82bb1d814fdac1f7c7d7134c1"
+    },
+    {
+      "path": "formal/basis-cardinality-width/controls/PositiveControls.lean",
+      "bytes": 1340,
+      "sha256": "3f4806f414fc30a6eae3ad7def06b4831ad55fc13c12d60f3a22fd527f47caf3"
+    },
+    {
+      "path": "formal/basis-cardinality-width/controls/WrongCount.lean",
+      "bytes": 182,
+      "sha256": "b4a923300efdb7eab0c93373e753f7f2367754c70d597c043034e4ca7fb9d5fe"
+    },
+    {
+      "path": "formal/basis-cardinality-width/lean-toolchain",
+      "bytes": 25,
+      "sha256": "d5edba4e4b8faad9c1baeadb265716d20d03be4d1a2647dc5e35b0c0325bea7b"
+    },
+    {
+      "path": "formal/basis-cardinality-width/replay.py",
+      "bytes": 13717,
+      "sha256": "d5f168d638520ac67c3b2b9e70e4506485ae9a7254c986803318b00a5e49a943"
+    },
+    {
+      "path": "formal/basis-cardinality-width/resource_guard.py",
+      "bytes": 4019,
+      "sha256": "b383be7c03a8e7c69485baa9c65a4781a3adb24df9ffd88eea59aadaf7b63fc2"
+    },
+    {
+      "path": "formal/basis-cardinality-width/sources/EqualBasis.lean",
+      "bytes": 8827,
+      "sha256": "67c4e7d59e9e71c4116cf7efd23e7ec33ea655a407991badc6e632e605a5e276"
+    },
+    {
+      "path": "formal/basis-cardinality-width/sources/EqualDeletion.lean",
+      "bytes": 22054,
+      "sha256": "67b4f68203fada1b3d5b50d49b3e50e5f0aaafd0eab162a49172984896a43528"
+    },
+    {
+      "path": "formal/basis-cardinality-width/sources/EqualFamily.lean",
+      "bytes": 10136,
+      "sha256": "597f09363d34bf5f4552f823ebd0f5888ca1cfbfadc0162d7a67531aaff63251"
+    },
+    {
+      "path": "formal/basis-cardinality-width/sources/EqualFinals.lean",
+      "bytes": 17779,
+      "sha256": "ede85ceedb163784c0218e6312956c0b5a028e0fd385108677111d0378440cb4"
+    },
+    {
+      "path": "formal/basis-cardinality-width/sources/EqualHist.lean",
+      "bytes": 17094,
+      "sha256": "35a831588d0060580fc0aef5c809ece8dcda9e6664eef5397480c1277c51345b"
+    },
+    {
+      "path": "formal/basis-cardinality-width/sources/EqualMPhase.lean",
+      "bytes": 10831,
+      "sha256": "cbf2781a61c43e5d88ea4f44a6189f359a2f8e918bd3736e49b4f7bb41a72cf5"
+    },
+    {
+      "path": "formal/basis-cardinality-width/sources/EqualPrefix.lean",
+      "bytes": 18744,
+      "sha256": "bbda8920fef882e5787eaeca2a6b39eeed0674830aacfb83b0fcd54634b82450"
+    },
+    {
+      "path": "formal/basis-cardinality-width/sources/EqualRegimes.lean",
+      "bytes": 20184,
+      "sha256": "13d6279c4676ab1d23e2c54bb83ec5f6f527b57999315bc8a37a012dce5f8836"
+    },
+    {
+      "path": "formal/basis-cardinality-width/sources/EqualReject.lean",
+      "bytes": 14807,
+      "sha256": "99c6b1b14ff46eac48970af3b7c5aa838e59e1998a289457f3e8e7dccf141583"
+    },
+    {
+      "path": "formal/basis-cardinality-width/sources/FiniteCapacityBasisCardinality.lean",
+      "bytes": 4392,
+      "sha256": "6ec2a08c4353e325a4a301dc04116e15acc615fde7cf9279d9d41b5407d2534e"
+    },
+    {
+      "path": "formal/basis-cardinality-width/sources/GeneralizedDeletion.lean",
+      "bytes": 4448,
+      "sha256": "bfe6e4852b73aa18e29f006c65e80c5880df6dd8f60426db6a0643aaa40bf751"
+    },
+    {
+      "path": "formal/basis-cardinality-width/sources/GeneralizedLazy.lean",
+      "bytes": 9672,
+      "sha256": "612f395a220f4fcbc7bf89a65c99b984018a6e0685afa7092d173d1871557276"
+    },
+    {
+      "path": "formal/basis-cardinality-width/sources/GeneralizedRangeLazy.lean",
+      "bytes": 5325,
+      "sha256": "d399c2405727b2201ee1993fd24953862c7c7a57e1cd5522cf512c80ff95de45"
+    },
+    {
+      "path": "formal/basis-cardinality-width/sources/GeneralizedRawMachine.lean",
+      "bytes": 6944,
+      "sha256": "f333f69cb3f56e66079c2de63538754a327a20e9bac398f51357d6a508138710"
+    },
+    {
+      "path": "formal/basis-cardinality-width/sources/GeneralizedRelational.lean",
+      "bytes": 5081,
+      "sha256": "eb18fa00529529d37bf549e6ee0dd25fc5085c73996cabc7c58ce0301b78cac3"
+    },
+    {
+      "path": "formal/basis-cardinality-width/sources/InfiniteFamily.lean",
+      "bytes": 7333,
+      "sha256": "7ef1e73897f2a7ee3e0843322673e2045756066337d71a33ad15c06c003e7553"
+    },
+    {
+      "path": "formal/basis-cardinality-width/sources/ObstructionFamilyWidths.lean",
+      "bytes": 6194,
+      "sha256": "ca61fcd6806811ebe60d9915c99aa79f8b25226928ed0f3b86520309ce8b283f"
+    },
+    {
+      "path": "formal/basis-cardinality-width/sources/RangeLazyInversion.lean",
+      "bytes": 714,
+      "sha256": "c6261cc2c42fd0958dec8975c452878b1db60f936cd71833f1f75f865b609aa0"
+    },
+    {
+      "path": "formal/basis-cardinality-width/sources/UnequalBasis.lean",
+      "bytes": 3583,
+      "sha256": "f9ba58922c103b98faf890bb90a6ad81465c9082ab0eea2f1dc07d0277513ef2"
+    },
+    {
+      "path": "formal/basis-cardinality-width/sources/UnequalCapacity.lean",
+      "bytes": 17533,
+      "sha256": "696bbed6ef269cd48e95d6803416e3a3b0a3a4b6c12e9edfec5fb06f1ee725b8"
+    },
+    {
+      "path": "formal/basis-cardinality-width/sources/UnequalCasesA.lean",
+      "bytes": 20926,
+      "sha256": "cb630ce3fe9503db1d949b61bef04dcd83f2dbc92399b50e93f1b2f60c97af9a"
+    },
+    {
+      "path": "formal/basis-cardinality-width/sources/UnequalCasesB.lean",
+      "bytes": 23170,
+      "sha256": "b31d7d81141c90e42923b91eca14200d69cef537d02d342709857712f30a7300"
+    },
+    {
+      "path": "formal/basis-cardinality-width/sources/UnequalDeletion.lean",
+      "bytes": 12236,
+      "sha256": "b9e9092d231066560910849737add6d133ff62a6ec1b4403c953eb15a08b3e27"
+    },
+    {
+      "path": "formal/basis-cardinality-width/sources/UnequalFamily.lean",
+      "bytes": 7186,
+      "sha256": "4976e82d75e37c628eaadc2d5e8ccad9de7913c681aca69e9dbb0fbe6f517fbb"
+    },
+    {
+      "path": "formal/basis-cardinality-width/sources/UnequalFinite.lean",
+      "bytes": 6292,
+      "sha256": "034794733c9d1b2d15addd950de450b2b64a29a19adcd2809cc08633b29b842d"
+    },
+    {
+      "path": "formal/basis-cardinality-width/sources/UnequalObstruction.lean",
+      "bytes": 6987,
+      "sha256": "a6c402d887b56e4e62fbb3fee25cdff65cd7ea071193b69a1582a726fc33a430"
+    },
+    {
+      "path": "formal/basis-cardinality-width/sources/UnequalPatterns.lean",
+      "bytes": 4294,
+      "sha256": "9e0bc52ef4b2987d5c0cc6650ebc0d6813e39d0ac8cc84b12d4b9f9ad76f5057"
+    },
+    {
+      "path": "formal/basis-cardinality-width/sources/UnequalReach.lean",
+      "bytes": 9507,
+      "sha256": "d6c05a2db88f3d5f5ac075e034672131bf7e8c4380fa398f392c5c1a189fac84"
+    },
+    {
+      "path": "formal/basis-cardinality-width/sources/UnequalScript.lean",
+      "bytes": 10933,
+      "sha256": "b5cfe04d338a4faf27cb300f658d55a7bfb9a91fddebbbd79c61128c1da99e4e"
+    },
+    {
+      "path": "formal/basis-cardinality-width/sources/UnequalStack.lean",
+      "bytes": 12907,
+      "sha256": "6258a5abf5b4ad2c4d29c0fc429d73693e98188d238fb17459a68e58516dec30"
+    },
+    {
+      "path": "formal/basis-cardinality-width/sources/UnequalSymmetry.lean",
+      "bytes": 12208,
+      "sha256": "b8a5b9d92474a1d35b7f2261d5ce654add32e162516f63555851608718bf0098"
+    },
+    {
+      "path": "formal/basis-cardinality-width/sources/UnequalThreshold.lean",
+      "bytes": 18808,
+      "sha256": "1719d80bb2315ef9d1295e3f013774b926e0f22a5c5632149d6cfe8c199d41e8"
+    },
+    {
+      "path": "formal/basis-cardinality-width/test_replay.py",
+      "bytes": 2201,
+      "sha256": "9803bd510e4283de3ab02e4b0b355b58ddc36ed3850e463b7471c4ebd86f6c51"
+    },
+    {
       "path": "formal/check-capacity-enumeration.sh",
       "bytes": 1204,
       "sha256": "2f1024f3225626df8b96aca7782233c41e95b66e0cd36f7773ef824dda572c88"
@@ -8678,6 +9223,3126 @@
       "path": "formal/equal/snapshot.json",
       "bytes": 6596,
       "sha256": "3df0dc385fab6f73d47be2c15e8e5946513b636e787c9d6d68c679eb454fdd00"
+    },
+    {
+      "path": "formal/general-positive-width/ACCEPTANCE.json",
+      "bytes": 2320,
+      "sha256": "61be3964b5d81782b5fc694d0e4c19ec3908367736fc9997c4b3eff8d2b5eef6"
+    },
+    {
+      "path": "formal/general-positive-width/COMMENT_ONLY_REVIEW.json",
+      "bytes": 8734,
+      "sha256": "1b96ec47776d83917a6c0f06d199c3dfad6ecfd78f1330ca629beda9ab26b6bf"
+    },
+    {
+      "path": "formal/general-positive-width/COMMENT_ONLY_REVISIONS.json",
+      "bytes": 9439,
+      "sha256": "a6d4a092aa33df3446e9b77e4ce5c1e99549af12f31247deba0483986d8f8007"
+    },
+    {
+      "path": "formal/general-positive-width/FILE_MANIFEST.json",
+      "bytes": 91765,
+      "sha256": "6f66bebfa3538dcd2a426273aa41b4bb1e646715ede95d6c499d9b1541d26754"
+    },
+    {
+      "path": "formal/general-positive-width/PROVENANCE.json",
+      "bytes": 1630,
+      "sha256": "6477f2f47296d2816a2023712fb03b267b669e12e9ad66c003ff9c42bdfeaa3d"
+    },
+    {
+      "path": "formal/general-positive-width/README.md",
+      "bytes": 6090,
+      "sha256": "0fcba04e26a0594ccdfd24b4f41cd74a1b8ea81eda0cc7dab6d8bfe1c55816b1"
+    },
+    {
+      "path": "formal/general-positive-width/SOURCE_MANIFEST.json",
+      "bytes": 203121,
+      "sha256": "31906d3f4f2cf962b74e0506029aa71b353a6b69c39333abf998761ebe27eed7"
+    },
+    {
+      "path": "formal/general-positive-width/TOOLCHAIN.json",
+      "bytes": 2460,
+      "sha256": "652da1ffb16b65b8fc3e0c0cf2e91014923f0ee92cc670c3f38e5ec361d208c7"
+    },
+    {
+      "path": "formal/general-positive-width/check.sh",
+      "bytes": 75,
+      "sha256": "f0112638fec001c7c7fccc44851ccc47870ade7dffcf89261ef513969b8845d2"
+    },
+    {
+      "path": "formal/general-positive-width/controls/RejectArbitrarySelectorCoverage.lean",
+      "bytes": 615,
+      "sha256": "0a40c31215776ac49b5ca216d9b0828e6dabf68df72269b6e93ce49d541030b5"
+    },
+    {
+      "path": "formal/general-positive-width/controls/RejectFinalCatalanCount.lean",
+      "bytes": 310,
+      "sha256": "a98774db66444e542d2813998f7c9534655a6c47e3f9c8e7de29bea19632cb02"
+    },
+    {
+      "path": "formal/general-positive-width/controls/RejectFinalEventSize.lean",
+      "bytes": 363,
+      "sha256": "1fc9b1aa26c257e7f922f653e8c6519b10c88113d1dd6b98723a21b2b6254059"
+    },
+    {
+      "path": "formal/general-positive-width/controls/RejectFinalPositiveWidth.lean",
+      "bytes": 339,
+      "sha256": "e8b3007728ef174d1ecfe5b4a081d665e6c4f8b5c2a966761f2b8eb5e865d8f5"
+    },
+    {
+      "path": "formal/general-positive-width/lean-toolchain",
+      "bytes": 25,
+      "sha256": "d5edba4e4b8faad9c1baeadb265716d20d03be4d1a2647dc5e35b0c0325bea7b"
+    },
+    {
+      "path": "formal/general-positive-width/replay.py",
+      "bytes": 13717,
+      "sha256": "5257004424ebd7e8c36bce6db789039661d3e8aa0a8488f38c9b1c5a6a201a06"
+    },
+    {
+      "path": "formal/general-positive-width/resource_guard.py",
+      "bytes": 4019,
+      "sha256": "b383be7c03a8e7c69485baa9c65a4781a3adb24df9ffd88eea59aadaf7b63fc2"
+    },
+    {
+      "path": "formal/general-positive-width/sources/AbstractionCongruence.lean",
+      "bytes": 911,
+      "sha256": "14fe7f6bc83321eeb2aa09fc7517a7cb24b7ab074ba4fbb5ee043d1336311462"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ActiveReplacementPresentation.lean",
+      "bytes": 3410,
+      "sha256": "216ccd0f36a4202ed6e813ca225a3b4f42bed4352c519117b10bdc5dde0fbe94"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ActualDualCotree.lean",
+      "bytes": 2931,
+      "sha256": "d4dfa1e71ee0def3dd1c731bf7bcf17872d20aaf3ff69ed94de17d12d51852b2"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ActualFormulaEquiv.lean",
+      "bytes": 2682,
+      "sha256": "6b69a6c823e0d76133e97f2ae091875c13bbb2bca4e94cf20f8ecb110dd56c19"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ActualMarginalPathFamily.lean",
+      "bytes": 4403,
+      "sha256": "33e866036534a3cf7640c0cd00e0e941e9bda3a8a04290b359c6181986afeb41"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ActualNestedSourceWitness.lean",
+      "bytes": 4461,
+      "sha256": "891f0f33a5960190d17466a54bf2e19fca4a93096ce4b3287bdbf24297f64ee9"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ActualRectangleDecomposition.lean",
+      "bytes": 4275,
+      "sha256": "22e84f32c2902acc7dfe2549ee8f7ba1f9bea2faa37d777fb21ac0f0a2fc7c6b"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ActualRectangleGraph.lean",
+      "bytes": 4313,
+      "sha256": "6319f3d4820ee9fa8aa82eee56d2e5903612f6cf5cec23cb983721fd5ea682cb"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ActualSourceWidth.lean",
+      "bytes": 3868,
+      "sha256": "9f01328bc490e2bc0ea9a22ed384c4e2e46d1cee804785f7d4fd32c0640c179f"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ActualSourceWidthBoundary.lean",
+      "bytes": 2474,
+      "sha256": "111a729fd7f02610f2c589823675a41764efb6d2a81cddd06c1b5ca13ad1cd7e"
+    },
+    {
+      "path": "formal/general-positive-width/sources/AdhesionColoring.lean",
+      "bytes": 2982,
+      "sha256": "20065dbedbfce31113cb0eddf0cfdcd0e0d282982a9eca978a9a35688149957f"
+    },
+    {
+      "path": "formal/general-positive-width/sources/AdhesionConflicts.lean",
+      "bytes": 4005,
+      "sha256": "fa1a95c88794cd1ee91152810554dc0ffab428be37836d45a621555f5bde27c7"
+    },
+    {
+      "path": "formal/general-positive-width/sources/AdhesionForests.lean",
+      "bytes": 3937,
+      "sha256": "b065791396d4053b64749b2dfabc59c4079b1b4767deef445fd5ba8f87e5e099"
+    },
+    {
+      "path": "formal/general-positive-width/sources/AdhesionGeometry.lean",
+      "bytes": 5930,
+      "sha256": "b015614eccd9c45e7575e8789949a4b2089fbaf54cc4407676c1568f30e0add8"
+    },
+    {
+      "path": "formal/general-positive-width/sources/AllColumnLocality.lean",
+      "bytes": 6667,
+      "sha256": "a3409d7472fb9b2c710d15723ee06b87339cc83b66704cbbbbf97b8684363647"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ApexErasureLift.lean",
+      "bytes": 2626,
+      "sha256": "0ec21ac0a8f398f3e977a0b8311565f1744c3efeeeb6dc3c6eed778b7c4a517f"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ArbitraryPrefixConnectivity.lean",
+      "bytes": 5838,
+      "sha256": "de5f92e81c7a29c193bd6f3f8a072efdabcafe47675b4b8c0c3c8d9d98d63b0f"
+    },
+    {
+      "path": "formal/general-positive-width/sources/AssembledIndexedRoutes.lean",
+      "bytes": 3643,
+      "sha256": "7376e9ca9d8654c7f77f7d5c4182195c13f7c6c6aeea101d809ddce56e498312"
+    },
+    {
+      "path": "formal/general-positive-width/sources/AssembledMarginalPaths.lean",
+      "bytes": 4810,
+      "sha256": "5f905a3346a37ac4d0bd0954a00931393411d3dff8269272e971f0130849ccb1"
+    },
+    {
+      "path": "formal/general-positive-width/sources/AssembledRoutingLoad.lean",
+      "bytes": 3739,
+      "sha256": "9ccaa96fa347fa535e842acb82cb9284a373e3c6fe49219143aee392f7485a88"
+    },
+    {
+      "path": "formal/general-positive-width/sources/AssociativeGluing.lean",
+      "bytes": 4951,
+      "sha256": "122566d8f0fe8b2dbb94fcf5dad44b85ecd2e775328a0d46d6caf98ace16cb9b"
+    },
+    {
+      "path": "formal/general-positive-width/sources/BagNaming.lean",
+      "bytes": 2855,
+      "sha256": "46d04cd6e8d741ecc64157dce7181ca583ea6a98e4227738103d72188d0c9c19"
+    },
+    {
+      "path": "formal/general-positive-width/sources/BagPathConcatenation.lean",
+      "bytes": 4198,
+      "sha256": "bc9bd2e6256034cbe8af52527e88a03706871902a966a2d25949eb5c268b8077"
+    },
+    {
+      "path": "formal/general-positive-width/sources/BagPathFiniteAssembly.lean",
+      "bytes": 5879,
+      "sha256": "2f424d957f19f39314f61fd25345433ea9696ee6cdc656ff69076d0da0df1baf"
+    },
+    {
+      "path": "formal/general-positive-width/sources/BagPathImage.lean",
+      "bytes": 1497,
+      "sha256": "9d8601bee26d0eaecb0b5f616ece6f0bde53f25581ae969f5dee1000ef60da01"
+    },
+    {
+      "path": "formal/general-positive-width/sources/BagPathRestriction.lean",
+      "bytes": 1414,
+      "sha256": "fb53031edb9cb6b08085a82784de1c88dbf87ca57e5c00698bf700fb7d60b646"
+    },
+    {
+      "path": "formal/general-positive-width/sources/BagPathReversal.lean",
+      "bytes": 1396,
+      "sha256": "792ede85b3804da9912ac83bbc2ee09d24aac20917126cc15be6015d71d9a187"
+    },
+    {
+      "path": "formal/general-positive-width/sources/BagPathTripleAssembly.lean",
+      "bytes": 2941,
+      "sha256": "d21797fe617220ae8aa573ec50e2bb5da2f2d24540f458fba4864ed3e7dada69"
+    },
+    {
+      "path": "formal/general-positive-width/sources/BagPathWordAdapter.lean",
+      "bytes": 3155,
+      "sha256": "24c208826f43434e2a8afb485ee5698e3661dc7ae8f5a35a5316a1488c332b23"
+    },
+    {
+      "path": "formal/general-positive-width/sources/BalancedPrefixRouting.lean",
+      "bytes": 3913,
+      "sha256": "ccb92d370053f5c822628c95b48167f038fb85c9a1f48d68fc70d44a17d249c4"
+    },
+    {
+      "path": "formal/general-positive-width/sources/BiInterfaceGraph.lean",
+      "bytes": 7274,
+      "sha256": "fa384bcd138fff40663e90aceb19575f94e9bb42726bada4b8249034f58cae9f"
+    },
+    {
+      "path": "formal/general-positive-width/sources/BiInterfaceSeparatorRegions.lean",
+      "bytes": 3175,
+      "sha256": "c6eaf7b88af2d2988d232bc841065b1899a6d0f20f94d9ee289f94640c5ac76f"
+    },
+    {
+      "path": "formal/general-positive-width/sources/BinaryCodeFormulaTransport.lean",
+      "bytes": 2466,
+      "sha256": "6183650c8fec1c26341024c709862c5e75504845ce91d8fe36d1d8d54e990fbf"
+    },
+    {
+      "path": "formal/general-positive-width/sources/BinaryCodePortDecoder.lean",
+      "bytes": 4750,
+      "sha256": "aa0950c8678b8c0fb75029dc9722b356bb0f61b69d1dd6b0862e75e764fa7258"
+    },
+    {
+      "path": "formal/general-positive-width/sources/BinaryDecodedPhysicalModel.lean",
+      "bytes": 4296,
+      "sha256": "f8b999e1b621e7fe87d06cfab96a519bec562b3a22944a57b7a68c948153f357"
+    },
+    {
+      "path": "formal/general-positive-width/sources/BinaryExactCodeSentence.lean",
+      "bytes": 3632,
+      "sha256": "b75e8fed0cdff721f31d4f4b05449482e706a0d7c284b6f02920888985689e61"
+    },
+    {
+      "path": "formal/general-positive-width/sources/BinaryForestReconstruction.lean",
+      "bytes": 4825,
+      "sha256": "758ebc502aadfadab3d3971351ccb35814d900a747ecd8da43fa7e7e3b90b481"
+    },
+    {
+      "path": "formal/general-positive-width/sources/BinaryForestStructure.lean",
+      "bytes": 3353,
+      "sha256": "afbc998db7b54351c75e2b687d919a0eb36a8b277d5461a3d6439bbde76f350e"
+    },
+    {
+      "path": "formal/general-positive-width/sources/BinaryGraphCodeUniqueness.lean",
+      "bytes": 2434,
+      "sha256": "788b7a734074f01691073ea8f92557d16f84b25be2cfb9c3ddc8d9e0fe091e6b"
+    },
+    {
+      "path": "formal/general-positive-width/sources/BinaryNormalPortRecognition.lean",
+      "bytes": 5029,
+      "sha256": "9611e93c1b5305fe5a18dd106e2300d5ef59f825f8e87454f60aaeedfa4be80f"
+    },
+    {
+      "path": "formal/general-positive-width/sources/BinaryNormalRecognitionControls.lean",
+      "bytes": 2278,
+      "sha256": "6da7410a8c699b14c39459b733d26c80b7940974abadfcf3d7eb4ae7bffe220f"
+    },
+    {
+      "path": "formal/general-positive-width/sources/BinaryNormalReconstruction.lean",
+      "bytes": 5022,
+      "sha256": "1a63e2afb5809357e88bd181ecbbc4a0d150e38a57b2b53785fa2824265328d7"
+    },
+    {
+      "path": "formal/general-positive-width/sources/BinaryNormalTree.lean",
+      "bytes": 3090,
+      "sha256": "166e11c17442dad1e043383a762ced55f43e08d7ed9e968a0c9d0248da21ed76"
+    },
+    {
+      "path": "formal/general-positive-width/sources/BinaryOrderMSOSyntax.lean",
+      "bytes": 9418,
+      "sha256": "81242af005490dcceed1e238baa7cd63961e3f7d42526bc26ff4316783a11c84"
+    },
+    {
+      "path": "formal/general-positive-width/sources/BinaryParentMSO.lean",
+      "bytes": 4453,
+      "sha256": "70d505cdfe5f93f28061c1466a19155d0d579742b34bcc2a8f9f738da62fac63"
+    },
+    {
+      "path": "formal/general-positive-width/sources/BinaryParentPositions.lean",
+      "bytes": 3528,
+      "sha256": "03624a603c2a5693b6c9f975d7e609ae08b6a3dae0f42738275ae8b20fa3a27b"
+    },
+    {
+      "path": "formal/general-positive-width/sources/BinaryParentReachability.lean",
+      "bytes": 2957,
+      "sha256": "7d2c8b4b406c0d5fb25df109afaf8d8dfb21681cf597e3a032e4578d6f524c7f"
+    },
+    {
+      "path": "formal/general-positive-width/sources/BinaryParentRelabeling.lean",
+      "bytes": 2064,
+      "sha256": "75c56bc8151dbc445e9bc28eca0d538eadd1397bb908a670799c819d573da71e"
+    },
+    {
+      "path": "formal/general-positive-width/sources/BinaryPositionLists.lean",
+      "bytes": 4171,
+      "sha256": "9cb79d3c90e872dd240fe946a355b4f59b61abe094619eecefd26b18cb698335"
+    },
+    {
+      "path": "formal/general-positive-width/sources/BinaryPositionNumbering.lean",
+      "bytes": 3081,
+      "sha256": "0424ab451c85873d3adfe8b83f219c9ad2c6a4c24a487379ca8ce2bfe1acba01"
+    },
+    {
+      "path": "formal/general-positive-width/sources/BinaryPositionRelabeling.lean",
+      "bytes": 3303,
+      "sha256": "79bac87d70ad91054d48ede729962a6697ff7f5c24b56770585b35c1b8b3baf2"
+    },
+    {
+      "path": "formal/general-positive-width/sources/BinaryShapeParent.lean",
+      "bytes": 3079,
+      "sha256": "a54894bddbd2a87770a3c8ee3b043e00654397a26c939a6a1aeaa2d623370b78"
+    },
+    {
+      "path": "formal/general-positive-width/sources/BinaryShapePositions.lean",
+      "bytes": 3057,
+      "sha256": "26d66a0740601f4a11be54efce459a1a98f8e19ec59793459050a9fe2ab2ad06"
+    },
+    {
+      "path": "formal/general-positive-width/sources/BinarySiblingEdgeOrder.lean",
+      "bytes": 6267,
+      "sha256": "ea2107c86cabfa1347aaf49388c452acf8fba93735eefb4c3a37b7a7e419ef93"
+    },
+    {
+      "path": "formal/general-positive-width/sources/BinarySiblingLinearOrder.lean",
+      "bytes": 1560,
+      "sha256": "81945109a1b17c64b79b11fae6e2e6b00e3bc795737434595361b1237af0328f"
+    },
+    {
+      "path": "formal/general-positive-width/sources/BoundaryTraceAdjacency.lean",
+      "bytes": 2630,
+      "sha256": "a6302c160b949d1794893072b54a72bbcab3943e833e3e08f8e4e67e77f068ff"
+    },
+    {
+      "path": "formal/general-positive-width/sources/BoundaryTraversalDemands.lean",
+      "bytes": 1975,
+      "sha256": "511842b9b77570e940eaa5f13b8f9f0da1c33624f2239a7ef5e9407b245afd2d"
+    },
+    {
+      "path": "formal/general-positive-width/sources/BoundedSourceTree.lean",
+      "bytes": 9897,
+      "sha256": "ee4bc63bd32af2d27fbc2bab5e4d4e493c319cbf96295f5421bc42a6448beac9"
+    },
+    {
+      "path": "formal/general-positive-width/sources/BoundedSubdivisionExtension.lean",
+      "bytes": 1789,
+      "sha256": "0a06fe844ccb2563d04d8ce8aee22c8d73ad24da285c432c2c0caafef50edacf"
+    },
+    {
+      "path": "formal/general-positive-width/sources/BuiltBinaryOrder.lean",
+      "bytes": 4524,
+      "sha256": "c72fe88a4afb7d09164f046e148d5f61c5477bb1f40a775507cbd0ccbe7ac155"
+    },
+    {
+      "path": "formal/general-positive-width/sources/CanonicalCodeIsomorphism.lean",
+      "bytes": 4143,
+      "sha256": "a3357f5c0f7b9eef337518838ccfcd408ab873a05a00ea054470205d660130f7"
+    },
+    {
+      "path": "formal/general-positive-width/sources/CanonicalComponentHomes.lean",
+      "bytes": 7706,
+      "sha256": "5b831bebe0fee1c43a94307ce09df8e1438ee4868d94a97fe9d258ff6539e23b"
+    },
+    {
+      "path": "formal/general-positive-width/sources/CanonicalCountingControls.lean",
+      "bytes": 1097,
+      "sha256": "2856d249d67db52a83b9bcc9bca490dab695afe646481be48d19a63622ae222d"
+    },
+    {
+      "path": "formal/general-positive-width/sources/CanonicalEmptyCode.lean",
+      "bytes": 2952,
+      "sha256": "db7fa9984535c54cee050cf1226d1dda7619480978329c6e73ae3e8157cc66cc"
+    },
+    {
+      "path": "formal/general-positive-width/sources/CanonicalOriginalEdges.lean",
+      "bytes": 5516,
+      "sha256": "fba53fc1b3e09a0870ca70429bd05ea62319fb24fafadcb2f7337c71154fae69"
+    },
+    {
+      "path": "formal/general-positive-width/sources/CanonicalOuterPresentation.lean",
+      "bytes": 3017,
+      "sha256": "3d1ce71382a933973982ec37e51b5883cfc6b46b30200f4170363125d8488310"
+    },
+    {
+      "path": "formal/general-positive-width/sources/CanonicalPhysicalAlgebraicity.lean",
+      "bytes": 4226,
+      "sha256": "f9cab70d568c072bbdaf34f8fa6a05f01852951534c66a749bd50f993106f9fd"
+    },
+    {
+      "path": "formal/general-positive-width/sources/CanonicalPhysicalCardinality.lean",
+      "bytes": 6132,
+      "sha256": "1a850bc36685855d973d853795d6f997dd294f111ff50d8b36dd566e7d80a7e1"
+    },
+    {
+      "path": "formal/general-positive-width/sources/CanonicalPhysicalGraphInput.lean",
+      "bytes": 3603,
+      "sha256": "0ce88ec01bf01f9417539d1e89e2d8eb1aa817c4eb4237b25b42c01cf002e619"
+    },
+    {
+      "path": "formal/general-positive-width/sources/CanonicalSparseEndpoint.lean",
+      "bytes": 11653,
+      "sha256": "0bebbe7edf5ebc142f0698f4fb033fe3b439e782a015dc94222590fdfdc891c6"
+    },
+    {
+      "path": "formal/general-positive-width/sources/CapturedAdhesionConnectors.lean",
+      "bytes": 3430,
+      "sha256": "be7066935d967a5e5414ba836783da64455b08bd7e7eac38a6a3c0e58904269a"
+    },
+    {
+      "path": "formal/general-positive-width/sources/CapturedAdhesionWitness.lean",
+      "bytes": 4890,
+      "sha256": "4190df7078320d4ef48a57b9665e161948951ea38b6b6c76a4751abf43bbdb18"
+    },
+    {
+      "path": "formal/general-positive-width/sources/CapturedLinkMSO.lean",
+      "bytes": 6296,
+      "sha256": "0268fff220e6aac5d1d57ac2afb0bc80c70a9c702e4c24494bed835c10bd5bb0"
+    },
+    {
+      "path": "formal/general-positive-width/sources/CapturedLinkParameters.lean",
+      "bytes": 4494,
+      "sha256": "1736006858b0da93e03217628645dc0ff3840809db068110a22a5aa83a47b09f"
+    },
+    {
+      "path": "formal/general-positive-width/sources/CapturedLinkSelection.lean",
+      "bytes": 5968,
+      "sha256": "31885609f86f373cb4265db47a70544dd09512ac38d7da69486e496f50c923ac"
+    },
+    {
+      "path": "formal/general-positive-width/sources/CauchyRing.lean",
+      "bytes": 7400,
+      "sha256": "f503c3f5534d3c596b0b41b4d5d309aa9aa2dd2245d33078bd4679a58aaf5a34"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ChildDemandExtraction.lean",
+      "bytes": 3632,
+      "sha256": "1c0a12720294b8bfb8e778843968036e869b991c23aefca58426710653347bb4"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ChooseBoundedRoutingPrefix.lean",
+      "bytes": 3481,
+      "sha256": "2346a27618c82db40255a369ed90a3556d20a7beae1e1f1dbb56ab25f7f1aa4f"
+    },
+    {
+      "path": "formal/general-positive-width/sources/CliqueRootBag.lean",
+      "bytes": 4993,
+      "sha256": "dd392ae6f6b6b99fd885658b2c55ae26beff7356d5cce42221e3cc776352d31f"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ColumnCaptureCombination.lean",
+      "bytes": 4232,
+      "sha256": "6be8352cf32c7f0b044e2b7ed4ee4ff40ccf084b196485b57cce6246e55e22d1"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ColumnCoverage.lean",
+      "bytes": 8648,
+      "sha256": "5942d6b6420f5eaf799bfc868b590bbc330b1202ed2dd6ae04b51cb5c4f11d06"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ColumnGeometry.lean",
+      "bytes": 5003,
+      "sha256": "8f41247edb9dc31931962f5de5360f4eff2f25bc7c5a6baa14d121d01e141aa0"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ColumnNaturality.lean",
+      "bytes": 4331,
+      "sha256": "99c6af4a464fe92a7b838407517e76e3c53b5006600090a2e5b55e77804276ea"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ColumnRegionalGuidance.lean",
+      "bytes": 3776,
+      "sha256": "fa2c8c7aea856346236ec374b76b3b29bb60a7865b12db827bcb90acfb902bed"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ColumnSeparation.lean",
+      "bytes": 4960,
+      "sha256": "a858d31c7a60676b426f95ca4f48f02596721e095e8558926e185a465494f1bc"
+    },
+    {
+      "path": "formal/general-positive-width/sources/CompletionIncidenceGraph.lean",
+      "bytes": 6766,
+      "sha256": "b6874887cac97d8e34d8873e552fcc20e0a61faccc9279e68fb66142bbc0af22"
+    },
+    {
+      "path": "formal/general-positive-width/sources/CompletionIncidenceRealization.lean",
+      "bytes": 7950,
+      "sha256": "2441439e9588b4749c1d787e26a9d056961d10b9f21f01603a5d6e815527aabb"
+    },
+    {
+      "path": "formal/general-positive-width/sources/CompletionIncidenceSyntax.lean",
+      "bytes": 6939,
+      "sha256": "7d9c4d6de6e18050c8d409ce57d390e1775b91a817876c72a3563c9a940a0f07"
+    },
+    {
+      "path": "formal/general-positive-width/sources/CompressionPaths.lean",
+      "bytes": 2426,
+      "sha256": "ec9015adac36bd863eb81d4def7c6aca306ec565001547b728b19c6b273b52e6"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ConcreteExpression.lean",
+      "bytes": 3092,
+      "sha256": "db5c96b24b0231d4d2bf12c557ba054aec3c49d61ac21985cd8c1ce3ab0e39e0"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ConeInduction.lean",
+      "bytes": 1787,
+      "sha256": "5720368256270e05ba92e244145f148c6d4e0166ea699b9052a514b4208ad2ae"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ConnectedConeNormalization.lean",
+      "bytes": 6144,
+      "sha256": "541bbb34b0002bb964189710d31a9c72fa275471accfb6020d95aacba1cfbdde"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ConnectedFiberDecomposition.lean",
+      "bytes": 11406,
+      "sha256": "b72e50d236d8ec5376d3f6da13e4c230cb48bb1723d5d61ade2f8e53fde522ee"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ConnectedRootSpecialization.lean",
+      "bytes": 1741,
+      "sha256": "6647bab983e2e6d7024a4b3832bc0a0eb6c33abccd6147a0c895539cb87f6d24"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ConnectedRoutingExistence.lean",
+      "bytes": 2420,
+      "sha256": "f7e8eda3badfe0febdf3fce08b24db2f1191fa5342760de9e0a84479cf7e2529"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ConsecutiveIntervals.lean",
+      "bytes": 3444,
+      "sha256": "b2bf740e8026b43b96993a6cec1654e5d3980fe1dace73a8af72a4ae770dcd14"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ContractedAdhesionGeometry.lean",
+      "bytes": 4210,
+      "sha256": "3f0633b773409fe374d175abc222ac63f8dd54ff7bfb020e2c6890dc0a6fdb42"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ContractedAncestry.lean",
+      "bytes": 2696,
+      "sha256": "b428268024088526ee059566f84143b158c6ce19dc7d2390ee7158f000de1cb3"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ContractedDecomposition.lean",
+      "bytes": 5213,
+      "sha256": "b6210c82bde40abc16963dbed4ba9aaf08c257792c1f7e079c514855db85e709"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ContractedRegions.lean",
+      "bytes": 5481,
+      "sha256": "77fc85a0f2096a85fdd32971e0f1b8ef8a5e072558741c8dc2c7bd2f9f59e758"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ContractedSaneDecomposition.lean",
+      "bytes": 2621,
+      "sha256": "a8e1a11ac09ef4e908560b03e0261a61072f646a413b874ee29d4b7d9290629f"
+    },
+    {
+      "path": "formal/general-positive-width/sources/CorePowerSeriesUniqueness.lean",
+      "bytes": 2157,
+      "sha256": "fc0d56aa687d1a3be01f1ac7a5607f662d74f1b9b8a53e95ff49e065557051d4"
+    },
+    {
+      "path": "formal/general-positive-width/sources/CoreProperSolutionAlgebraicity.lean",
+      "bytes": 3483,
+      "sha256": "bb047a1d8dda38a38538ffda8468a1f59be972839a954bd88bfec5721bbce742"
+    },
+    {
+      "path": "formal/general-positive-width/sources/CutedgeBoundaryTrace.lean",
+      "bytes": 2692,
+      "sha256": "8db65b04f36141cab59ebdd1ee6459d089d6134ffa4b08496a76fc79c3dba5cf"
+    },
+    {
+      "path": "formal/general-positive-width/sources/CutedgeClassification.lean",
+      "bytes": 7785,
+      "sha256": "32de9de6e9c2918ce64c5a7940eae727d372f129cc35043dce0d9aca4e71b297"
+    },
+    {
+      "path": "formal/general-positive-width/sources/CutedgeComponentSeparation.lean",
+      "bytes": 5953,
+      "sha256": "4ba381df77f27a75071f2f3985735eb71464cf92976852c1725149ef3eeefb67"
+    },
+    {
+      "path": "formal/general-positive-width/sources/CutedgeComponents.lean",
+      "bytes": 2951,
+      "sha256": "906ae3c6c3ec09f84b551244d4d6731cfdb299dbb83d07dd4a7b6076a505b3fd"
+    },
+    {
+      "path": "formal/general-positive-width/sources/CutedgeOrder.lean",
+      "bytes": 3195,
+      "sha256": "3b8da29062fabec2615ee2d4df58e4f8cf33deccb62049a3a67a7cded9d3a938"
+    },
+    {
+      "path": "formal/general-positive-width/sources/CutedgePrefix.lean",
+      "bytes": 2050,
+      "sha256": "f2a242eba75da0b39087e3e6d2dcd670acafe99e52c5c74196e802a715fd06a9"
+    },
+    {
+      "path": "formal/general-positive-width/sources/CutedgeRegionLocalization.lean",
+      "bytes": 3135,
+      "sha256": "cc4e3095c21a2cc6ad599d99fff693c9c3572e702d1a5351c0ae1f1574d0a87a"
+    },
+    {
+      "path": "formal/general-positive-width/sources/DecompositionAddition.lean",
+      "bytes": 6309,
+      "sha256": "7cc134935b49ed5429ba30b19c5cd95ed2743f7cd2d4590853244575f67c37c4"
+    },
+    {
+      "path": "formal/general-positive-width/sources/DecompositionBagColoring.lean",
+      "bytes": 4091,
+      "sha256": "368efc60ffa3e529c196cec3531ea084d8a220c4a4e66d8039e69e213809fc5a"
+    },
+    {
+      "path": "formal/general-positive-width/sources/DecompositionBoundaryGraft.lean",
+      "bytes": 4981,
+      "sha256": "cfdf494c73f5d8bc69ad6c8defde036cfc30d29e3133e428d66316ef33f30939"
+    },
+    {
+      "path": "formal/general-positive-width/sources/DecompositionDisjointUnion.lean",
+      "bytes": 2757,
+      "sha256": "4c306035ca9fe3297c8d9e2f9a58e3b885c7ddc94daf175be55bcb20985137da"
+    },
+    {
+      "path": "formal/general-positive-width/sources/DecompositionEmbedding.lean",
+      "bytes": 1960,
+      "sha256": "3c61f23b7fe2dfb0dea0f88c8b2f2c33a4a23c5bbdfd7bc067bec5fbd7347007"
+    },
+    {
+      "path": "formal/general-positive-width/sources/DecompositionFiniteSurgery.lean",
+      "bytes": 2260,
+      "sha256": "1b33322796f88e4d64c100f737b1fdc100be7ae790bb0cd61b8d853a9e249344"
+    },
+    {
+      "path": "formal/general-positive-width/sources/DecompositionFiniteUnion.lean",
+      "bytes": 2444,
+      "sha256": "f5a2c11d4c78558c0eec78f42b8844643832da47a8ba71adcba512a640c9ca2e"
+    },
+    {
+      "path": "formal/general-positive-width/sources/DecompositionForests.lean",
+      "bytes": 3736,
+      "sha256": "d4711f57e2695b2a9491f5bd59945ad703cfdc62a13da28e65d3e6d3f439398a"
+    },
+    {
+      "path": "formal/general-positive-width/sources/DecompositionIntroduction.lean",
+      "bytes": 4610,
+      "sha256": "baeeaeb3a94851a98f5b085b479df6e0dda2932e4765b9c9593d78d6a439add7"
+    },
+    {
+      "path": "formal/general-positive-width/sources/DecompositionIntroductionSyntax.lean",
+      "bytes": 7651,
+      "sha256": "1272e0da455907f9f2fd8c335fd9fc68d1c8335c13a213a36d86756cb85057a6"
+    },
+    {
+      "path": "formal/general-positive-width/sources/DecompositionNumberedCodec.lean",
+      "bytes": 2452,
+      "sha256": "ff162c561f1db7e013fc10ba1d231cc2a89e02bb3eb47163664641fb77a5fad4"
+    },
+    {
+      "path": "formal/general-positive-width/sources/DecompositionRestriction.lean",
+      "bytes": 3575,
+      "sha256": "c9933daafb5d65ec29779341b58f7ba51a27cf9a433fe71054daf568b0aa62e4"
+    },
+    {
+      "path": "formal/general-positive-width/sources/DecompositionTreeCompletion.lean",
+      "bytes": 2267,
+      "sha256": "00b4c6e82a63d5772616a0096ee3df717c4e895e4708d68f8317fc33c5d80016"
+    },
+    {
+      "path": "formal/general-positive-width/sources/DecompositionUniverseTransport.lean",
+      "bytes": 2121,
+      "sha256": "0a55f80d458cc47f12dc022c91b0c6d4b184a80ee976b33174cd6bad7dae6be0"
+    },
+    {
+      "path": "formal/general-positive-width/sources/DomainInterpretationIsomorphism.lean",
+      "bytes": 2988,
+      "sha256": "2034b111942db11f007fb5d653e0b85f1aa46a559c09583cf98bc8b90b523f58"
+    },
+    {
+      "path": "formal/general-positive-width/sources/DualCotreeConnectivity.lean",
+      "bytes": 2960,
+      "sha256": "eaf106947a8785a728b8bc9eae8a76ebf4fdedcb7bf1763339a44d46ba0e667f"
+    },
+    {
+      "path": "formal/general-positive-width/sources/EliminationForestFromDecomposition.lean",
+      "bytes": 3939,
+      "sha256": "5771eed149cd680f3154a016797987859df3a65692712791e1caba8e1bd4f939"
+    },
+    {
+      "path": "formal/general-positive-width/sources/EmbeddedRootSeparator.lean",
+      "bytes": 2352,
+      "sha256": "755a19709782d3f030e57b4feec262b3cbe63b34b52589131aad4a469af75f94"
+    },
+    {
+      "path": "formal/general-positive-width/sources/EmbeddedTreePrefix.lean",
+      "bytes": 2979,
+      "sha256": "cadfa5eb14d5c21e289454ff9b7f916619e37fa86db2448113d71628c605cd9a"
+    },
+    {
+      "path": "formal/general-positive-width/sources/EncodedPortReadInverse.lean",
+      "bytes": 2334,
+      "sha256": "79ed17e3a89c59cbaa8e72a246fc590aab322efca997caa3ead4fa5c3fba7087"
+    },
+    {
+      "path": "formal/general-positive-width/sources/EndpointDecompositionLift.lean",
+      "bytes": 4749,
+      "sha256": "4b4fd1ae4fc9ea19d12f347056d82e296aac780db365ff72be3a8c0325276b55"
+    },
+    {
+      "path": "formal/general-positive-width/sources/EndpointPathTransport.lean",
+      "bytes": 678,
+      "sha256": "981fe542a4b12826b5884b2372e75ad21047548db33811d24d749a252a631bf6"
+    },
+    {
+      "path": "formal/general-positive-width/sources/FPSPowerSeriesBridge.lean",
+      "bytes": 5415,
+      "sha256": "e773f0c82827e83ec6dd628b05e7c29e57238364263df06576f78137234132f5"
+    },
+    {
+      "path": "formal/general-positive-width/sources/FactorizationTree.lean",
+      "bytes": 6390,
+      "sha256": "b6b4b0b92c73f36681812c2c5c28a1ae794d2c4f78fc61b68d6d142e34fe76af"
+    },
+    {
+      "path": "formal/general-positive-width/sources/FinalStackConstructionControls.lean",
+      "bytes": 2249,
+      "sha256": "bb07657ef26f4ed7aa48b77f09988a565af4684f19c41990f6247981e7869b0e"
+    },
+    {
+      "path": "formal/general-positive-width/sources/FiniteAbstractionSemigroup.lean",
+      "bytes": 3899,
+      "sha256": "12e8b83538b9a67b2782e0edaa19f4c7c9ba850475174fbe71fac83a2547aaa4"
+    },
+    {
+      "path": "formal/general-positive-width/sources/FiniteAlphabetBinaryCode.lean",
+      "bytes": 3934,
+      "sha256": "1aa9a10062d52e7e29b8d956a048491a5520155c8004e295199752663c902cf5"
+    },
+    {
+      "path": "formal/general-positive-width/sources/FiniteConfigurationWalk.lean",
+      "bytes": 1779,
+      "sha256": "55f54422f8e86619234c4361c30326697d6cedbb3c2b92a6ea4638560003afac"
+    },
+    {
+      "path": "formal/general-positive-width/sources/FiniteCycles.lean",
+      "bytes": 1235,
+      "sha256": "f5324df1f6f0f5fbd93533df7d74d6a90341e4f2bc5c8daafa51c87d221ccab1"
+    },
+    {
+      "path": "formal/general-positive-width/sources/FiniteDirectedPath.lean",
+      "bytes": 4609,
+      "sha256": "110af7e01118ab6fc937aa02dfcce1671da61d4ae77c3287277eb7f3d7d5133c"
+    },
+    {
+      "path": "formal/general-positive-width/sources/FiniteEarlierColoring.lean",
+      "bytes": 2993,
+      "sha256": "d0243d10cb935ee006132067849a6e0cd922e9e2dcc9b298820e9e5d96a21a9c"
+    },
+    {
+      "path": "formal/general-positive-width/sources/FiniteEmbeddedCode.lean",
+      "bytes": 1567,
+      "sha256": "d6e3fb3a2b573efe5c063019bd130cb37b0fb3d4e03013c3ec8ea8d542f98453"
+    },
+    {
+      "path": "formal/general-positive-width/sources/FiniteFlowCut.lean",
+      "bytes": 11492,
+      "sha256": "d75934afa7035dae025577b7cff549923595584006ce7787ceb02a5572ca9e2c"
+    },
+    {
+      "path": "formal/general-positive-width/sources/FiniteFlowCutOne.lean",
+      "bytes": 4913,
+      "sha256": "6edb4cea48b8d32fb42e9a636010d6c09c42cc9e16823ca1538deaf005468a37"
+    },
+    {
+      "path": "formal/general-positive-width/sources/FiniteForestOrderRank.lean",
+      "bytes": 2249,
+      "sha256": "62c76c30847b409037c73c17adff0773a09ad0baf674adbfd5a2dbbb110a326d"
+    },
+    {
+      "path": "formal/general-positive-width/sources/FiniteIncidenceCuts.lean",
+      "bytes": 2065,
+      "sha256": "04b667ca2e791c3bf9b90c2a6bb661a9a78e591ec009c297f1a68718da33bb2b"
+    },
+    {
+      "path": "formal/general-positive-width/sources/FiniteIndexTreeAdapter.lean",
+      "bytes": 4633,
+      "sha256": "04ee06da12bff13657b1752541b22729ec3bf6dc82d2e4eb0527c11f3ebfead7"
+    },
+    {
+      "path": "formal/general-positive-width/sources/FiniteLabelledTreeEnumeration.lean",
+      "bytes": 4069,
+      "sha256": "a6ad134f22e66e666704d13b041345ea20426f966e99e081bfcaa297c2028dab"
+    },
+    {
+      "path": "formal/general-positive-width/sources/FiniteLexChoice.lean",
+      "bytes": 2580,
+      "sha256": "89fd8b5f150aa07238831d90c0c0fc41695f2f96f90953036c803e75618eca82"
+    },
+    {
+      "path": "formal/general-positive-width/sources/FiniteListPaths.lean",
+      "bytes": 3846,
+      "sha256": "27605397ac4f443f1b0a8f70486c3d896ff8c2a0ead2425e9279eb3059b57f1d"
+    },
+    {
+      "path": "formal/general-positive-width/sources/FiniteMonoidForest.lean",
+      "bytes": 3526,
+      "sha256": "6581ceb556b7858b73951ad66304d7fc81e8f2fa611490acb31670dccf77a79f"
+    },
+    {
+      "path": "formal/general-positive-width/sources/FiniteOrbitCounts.lean",
+      "bytes": 5067,
+      "sha256": "577f8029edf8b75cd8bb19ded425fea598066eeaa3a3baa9bba02d3815c55c2f"
+    },
+    {
+      "path": "formal/general-positive-width/sources/FinitePathFlow.lean",
+      "bytes": 5320,
+      "sha256": "4f7c9c157e27c8dd3b64e0009e9008b334379eb1baa425fff4f20f3a5f3fd488"
+    },
+    {
+      "path": "formal/general-positive-width/sources/FinitePolynomialSystemAlgebraicity.lean",
+      "bytes": 3503,
+      "sha256": "aca132c58129f17596e95dbe9235db96343dd4a2288d677eecb2e36582c624fd"
+    },
+    {
+      "path": "formal/general-positive-width/sources/FinitePortAlphabet.lean",
+      "bytes": 4599,
+      "sha256": "a3523deff8c8c85d67cae88e83d3013f8e5eb836d65459223cdde8695b11346e"
+    },
+    {
+      "path": "formal/general-positive-width/sources/FinitePortCodecRelabeling.lean",
+      "bytes": 9033,
+      "sha256": "2be6af2572baa67622603f9689fe72726b8b224612b357a09a68d9f9dcd46fce"
+    },
+    {
+      "path": "formal/general-positive-width/sources/FinitePortDecoderConstruction.lean",
+      "bytes": 4977,
+      "sha256": "fae63038971216fd16af061fbc41d027676d2a16738f64618a54693acccf7805"
+    },
+    {
+      "path": "formal/general-positive-width/sources/FinitePortEncoding.lean",
+      "bytes": 14347,
+      "sha256": "5d1d02615d2161da40725e2c94ff64579ed632e3a90498205a05df9fe72fb03e"
+    },
+    {
+      "path": "formal/general-positive-width/sources/FinitePortGraphInterpretation.lean",
+      "bytes": 7140,
+      "sha256": "845a491353348d81f40d3af574bc3cfdb85165739315f856fba5cb4dc0ce41ac"
+    },
+    {
+      "path": "formal/general-positive-width/sources/FinitePortRoutes.lean",
+      "bytes": 7319,
+      "sha256": "8233ef733ee175972f0eec9dd22d7e6a0f1de2d1c5399cbbb5fb0eaf8dcfddea"
+    },
+    {
+      "path": "formal/general-positive-width/sources/FinitePrefixSaturation.lean",
+      "bytes": 4244,
+      "sha256": "4d11257eb9f8fee1be189122c551ff71f19b89c4a2d35686e0a978be0ccbec01"
+    },
+    {
+      "path": "formal/general-positive-width/sources/FiniteSpanningTree.lean",
+      "bytes": 11401,
+      "sha256": "13c9dbba08e9f6a156e780da935cde55f277f3db1eb7d2f1a3a9a28c250bdacd"
+    },
+    {
+      "path": "formal/general-positive-width/sources/FiniteStateMSO.lean",
+      "bytes": 6986,
+      "sha256": "438f5c37bfe526870d40c784ca9bc608c8fbce4d4535bbedc598ab05fa736ed2"
+    },
+    {
+      "path": "formal/general-positive-width/sources/FiniteTreeAcceptedLanguage.lean",
+      "bytes": 1547,
+      "sha256": "412b97faf44d82d9f3cc34071cf9dbb604f50e91e75504926825092c1dfd5859"
+    },
+    {
+      "path": "formal/general-positive-width/sources/FiniteTreeAutomatonClosure.lean",
+      "bytes": 4453,
+      "sha256": "cb4809c2d16e4792195fafe8e4039216951091984cd398ffe6df0ca99d3affbd"
+    },
+    {
+      "path": "formal/general-positive-width/sources/FiniteTreeCotreeCount.lean",
+      "bytes": 7248,
+      "sha256": "fcca8e06ad0d4922c44a9c54adb1057cd8ed8eeb18c8f44c2f0dfa9383d62d1f"
+    },
+    {
+      "path": "formal/general-positive-width/sources/FiniteTreeFixedSemantics.lean",
+      "bytes": 14809,
+      "sha256": "26fa36d709eeb0becdfe01e4f5a956877c2e1b9e1dc961be5267b24f4479a275"
+    },
+    {
+      "path": "formal/general-positive-width/sources/FiniteTreeLanguageAlgebraicity.lean",
+      "bytes": 2756,
+      "sha256": "2bdcfff3b6496fb67ed30da4f93230687753ab56f266d442f99a9ae353752ad1"
+    },
+    {
+      "path": "formal/general-positive-width/sources/FiniteTreeLogicAtoms.lean",
+      "bytes": 4164,
+      "sha256": "1dd8bd5442e4c1df08bc144dc5ef538881fd57b7e207ab75ebb7c518976df1a3"
+    },
+    {
+      "path": "formal/general-positive-width/sources/FiniteTreeMSO.lean",
+      "bytes": 4140,
+      "sha256": "a9ae9b7b3d1658221daf3e42939b89a3d011de517a4293d8615244445b085669"
+    },
+    {
+      "path": "formal/general-positive-width/sources/FiniteTreeMSOAlgebraicity.lean",
+      "bytes": 2019,
+      "sha256": "049cfced4b1725a87cf538044e151697fdc2f348d1fc538850df0536ba38f84d"
+    },
+    {
+      "path": "formal/general-positive-width/sources/FiniteTreeMSOPositionCorrectness.lean",
+      "bytes": 7372,
+      "sha256": "eda7a7a7303d95243182622fc1dc373001013156cdfdbfcc592c1cb22fb80f3e"
+    },
+    {
+      "path": "formal/general-positive-width/sources/FiniteTreePositionSemantics.lean",
+      "bytes": 7044,
+      "sha256": "eb484de8f04eb9dad05bd7be129d03a242ef1a9949131d12b2466631adb43e09"
+    },
+    {
+      "path": "formal/general-positive-width/sources/FiniteTreeRootBijection.lean",
+      "bytes": 3249,
+      "sha256": "c9b7ac7c41b48eac6ebe776c26d00efaa3b27d037033bdd8e0c5227f51cae76a"
+    },
+    {
+      "path": "formal/general-positive-width/sources/FiniteTreeSeries.lean",
+      "bytes": 5563,
+      "sha256": "43fbb88cd514e04304464dbf438459a46e5b282e4b0ac7c71e896e9dd29767d4"
+    },
+    {
+      "path": "formal/general-positive-width/sources/FiniteTupleCardinality.lean",
+      "bytes": 1660,
+      "sha256": "a002e2a250aa61e16990d6158851bda1aff5fa775d1e222985712ae83f2a7f14"
+    },
+    {
+      "path": "formal/general-positive-width/sources/FiniteTwoPathFlow.lean",
+      "bytes": 4020,
+      "sha256": "06cce3850e392177e54909c78133747ec33471bd5a56fa4bd3d9ff83ac250924"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ForestAttachment.lean",
+      "bytes": 2981,
+      "sha256": "ca1471305c16bcfd21f5440b9d0b2786c894dbbf44ed989ee5cc7df4e3505ed5"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ForestDisjointUnion.lean",
+      "bytes": 2725,
+      "sha256": "d3bf0bec907631e7c9200431eac43eb8b8fcef93200480fcd72f0651161d97d5"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ForestGrafting.lean",
+      "bytes": 2445,
+      "sha256": "55c3c0cb66eea25b8adb09ea05aa3773c9bb85087c9593b81a3afc6f190bbbe9"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ForestIsolatedVertex.lean",
+      "bytes": 2617,
+      "sha256": "906ba1704b3c6e0ce3a1744fb21d0d07879cc2ca0ae03dfc2008ede25b462e37"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ForestPreorderMSO.lean",
+      "bytes": 5610,
+      "sha256": "ddea56d276b09cb4b50cb5fb6affc67cefaf9c2cd42c73fca81bdc3f7c33025d"
+    },
+    {
+      "path": "formal/general-positive-width/sources/FourDirectionCycles.lean",
+      "bytes": 2631,
+      "sha256": "19566ffdc6ba3d629babdefc674727644f5ba50dde7eeb13d3723de0374d56ef"
+    },
+    {
+      "path": "formal/general-positive-width/sources/FrontierRoutingSupport.lean",
+      "bytes": 1974,
+      "sha256": "eed96c949158f0f2fba915f457aa650486c0e828d9b9c436f17c9017d5e02507"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GeneralizedActualCounting.lean",
+      "bytes": 10493,
+      "sha256": "7f370dc61c0ba6431832450ffc7fe4a148462a72f57b4b58c6f863ebd4a179e0"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GeneralizedBasisCriticality.lean",
+      "bytes": 4181,
+      "sha256": "75e8a3511f4312e444a021cc0518f9e3cb334c61bde81763714c585e3dbef414"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GeneralizedCanonicalHeight.lean",
+      "bytes": 7598,
+      "sha256": "cbdb680b00cc5126ee1ae152a56b4ec67fe9befd7410b66956d49cda16495f79"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GeneralizedCanonicalRecognition.lean",
+      "bytes": 5561,
+      "sha256": "047f42d7dc293fe36c31a88b640d6123f759aed22a96cdbd339299450c493c66"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GeneralizedCanonicalRecords.lean",
+      "bytes": 9576,
+      "sha256": "e1eb53e31b85d3a690a3fd116ffc96c90c13afad463a50c8564dd1b4b4ac8521"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GeneralizedCanonicalTrace.lean",
+      "bytes": 7334,
+      "sha256": "e336e0b66e6b82edbd232124f738a96348400a5e7ad06dfbbb8b7bab806a1185"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GeneralizedCodeRecognition.lean",
+      "bytes": 17379,
+      "sha256": "1c3f5417268611d00189033bb0e4adf1a6b28566877519dd26a51667317c2be5"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GeneralizedDeletion.lean",
+      "bytes": 4448,
+      "sha256": "bfe6e4852b73aa18e29f006c65e80c5880df6dd8f60426db6a0643aaa40bf751"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GeneralizedEndpointDeletionTransport.lean",
+      "bytes": 8717,
+      "sha256": "2daf2d87b16f26796beab613045c3bfac73e795f2dff82fa4c5a22b315c7d673"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GeneralizedEndpointMSO.lean",
+      "bytes": 13127,
+      "sha256": "b42f3f792bc787e0493e9499242ac33bcc9c53f9c0fed238bee72c89d7ed2796"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GeneralizedEndpointReplay.lean",
+      "bytes": 6217,
+      "sha256": "deaac2f2be28a82f2117888771de2e988e476ebeae684a304214db3d113855fb"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GeneralizedEndpointTrace.lean",
+      "bytes": 16710,
+      "sha256": "2102498b7bbb60b8ffaf08d7f0018a144d504213ba229d9461a2ddc192bdf784"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GeneralizedGeneratedDisplacement.lean",
+      "bytes": 6235,
+      "sha256": "22df2102ca70596873122f25a402be4d7e5f3f291761a914df646a5ad633a06a"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GeneralizedGlobalOrder.lean",
+      "bytes": 6853,
+      "sha256": "a7915f5afa5b63a61ad1575a735adf366193f886722e4ede1a7ede652ad42d6d"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GeneralizedIntervalRecognition.lean",
+      "bytes": 9070,
+      "sha256": "0791c26d6413e513cb79c76d3b03d34294c4bf0bacb16197ce7053dcdc0abc3f"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GeneralizedInverseOrientation.lean",
+      "bytes": 5253,
+      "sha256": "c8a0886b5915185a7f9f983c4bdeb6cb105fa34eceed891f74ed1e98ab038fe2"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GeneralizedLazy.lean",
+      "bytes": 9672,
+      "sha256": "612f395a220f4fcbc7bf89a65c99b984018a6e0685afa7092d173d1871557276"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GeneralizedLazyCode.lean",
+      "bytes": 21038,
+      "sha256": "c26999c3395f64c25ea05aba9a61180ba5d4c64803e7c1216550f28ed1d090d3"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GeneralizedNonrecordDeletion.lean",
+      "bytes": 10879,
+      "sha256": "a1a44342c4167ac4413d0f83dcccf4408caf5f31251d63fa3384072689205ddb"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GeneralizedRangeLazy.lean",
+      "bytes": 5325,
+      "sha256": "d399c2405727b2201ee1993fd24953862c7c7a57e1cd5522cf512c80ff95de45"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GeneralizedRawCanSortWidth.lean",
+      "bytes": 6039,
+      "sha256": "b3b082e925a26d39fd94d1ca57a318adc71a887f29ac5536db262337c1337d01"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GeneralizedRawMachine.lean",
+      "bytes": 6944,
+      "sha256": "f333f69cb3f56e66079c2de63538754a327a20e9bac398f51357d6a508138710"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GeneralizedRelational.lean",
+      "bytes": 5081,
+      "sha256": "eb18fa00529529d37bf549e6ee0dd25fc5085c73996cabc7c58ce0301b78cac3"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GeneralizedSortableBasisWidth.lean",
+      "bytes": 8476,
+      "sha256": "f79c5e531a14410b4b292f6afea3c1db20534bdc543c1b12b892066d2efd06fe"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GeneralizedSortableCounting.lean",
+      "bytes": 5272,
+      "sha256": "6da6271831542e96fa8bb238e1a5e78c568c0ae45f3399e52e7a02846bb3e146"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GeneralizedSubsetPeeling.lean",
+      "bytes": 7237,
+      "sha256": "58d93182a32293e677dc9a4b13001c349e940d41c80138ac5897d8f9e69b37aa"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GenericCapturedLinks.lean",
+      "bytes": 9775,
+      "sha256": "1d5bf74321238d1a67fd55ad80ff65331bc33f8d6d584eeb94ba2b050b05c982"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GenericCapturedWitness.lean",
+      "bytes": 2975,
+      "sha256": "05aaa2baa375b634372f9cd685225f75b4d77ff5f7f8c8e4fff2bda7d593d5e5"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GenericGuidanceFormula.lean",
+      "bytes": 5846,
+      "sha256": "ceb8d538bc90f34a24434a373765cd38d240c0eb7a45a8d3ef600a206cc834db"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GenericGuidanceIncidence.lean",
+      "bytes": 8496,
+      "sha256": "ccb137e925d7515c86070748975517590923d03d4a81c3d52a6e13f898fbba55"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GenericIncidenceAdjacency.lean",
+      "bytes": 966,
+      "sha256": "19ef473a5da8647962c6571c762f0750b532ffef7a943853602800e959e9c3b9"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GluingIso.lean",
+      "bytes": 2987,
+      "sha256": "38390314e273e0449426b8806a20b1d9148a3f25bf3381e746404c29dd74d842"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GluingTorsoPaths.lean",
+      "bytes": 3904,
+      "sha256": "63ac9c4aa682252d09362014f107928d6fcaeaa342c82f351921b0870c3c6228"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GraftMarkedConnectivity.lean",
+      "bytes": 1531,
+      "sha256": "0e6dbd5acc21b02be7bcad27fef54b77523d3a811c191a382704bf22f2261a7c"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GraphIso.lean",
+      "bytes": 3764,
+      "sha256": "55dc98e546938a433429334e5bc182f654111a53f4150f92d2879da1dec3a0d3"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GridSubdivisionPaths.lean",
+      "bytes": 5197,
+      "sha256": "411599c1bbd0e9c5b3fbf0dce927201470bbee834596f2be69327d9990af9717"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GroupForest.lean",
+      "bytes": 2859,
+      "sha256": "88d696e2d17d47831252750a0ca7464464bec44414d75b8a268ece4805457033"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GroupPathForest.lean",
+      "bytes": 7343,
+      "sha256": "36372137b7af3037bfa40444a0bf830cd3e92dec166d22c16d4c2841ba7ab441"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GuidanceAddition.lean",
+      "bytes": 2065,
+      "sha256": "5923dba5c9cd04d6cb67439e70bf0a582b8dcea05dfcf17f2d6711d757180cf3"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GuidanceBiInterface.lean",
+      "bytes": 499,
+      "sha256": "abae85f73237a34f77875e5045f3c772dde7ec3121f744be8663bde8b6db84b1"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GuidanceBiInterfaceIso.lean",
+      "bytes": 899,
+      "sha256": "68cbcf14e079a23c9294f6b4c22d1d64be415ad82655da4cc041cac62d3c1628"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GuidanceBounds.lean",
+      "bytes": 1653,
+      "sha256": "2e38225013568e665688d6e92247ca7528e67d734331e8dc0a1f1e8a17279b95"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GuidanceCaptureBound.lean",
+      "bytes": 1171,
+      "sha256": "94e46c21153fe65692e629a334f2fc6705e5ea52d2a389c4fb0c531a8f628846"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GuidanceCompilation.lean",
+      "bytes": 4041,
+      "sha256": "6cedd791892a467ce3de5f3f8d86e80c601282119f388146587eb02a943d5a30"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GuidanceComponents.lean",
+      "bytes": 2670,
+      "sha256": "7cf65beb9648ffbc7f8f55f5afbd67c694b0ac5d4531a0c8f0b7533c3f41165d"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GuidanceDeletion.lean",
+      "bytes": 4034,
+      "sha256": "84508e83ccb0181c195f06261c7dc86286c61c69ef61c7230af568ca0bd3f977"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GuidanceDisjointUnion.lean",
+      "bytes": 1881,
+      "sha256": "36482860af8430e7979b30c3e5f2b4c2192d1a0927659f2b176799ffb5a2756a"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GuidanceEmbedding.lean",
+      "bytes": 1840,
+      "sha256": "514266eebeeb78624e48c1aa5571e7f408557c5445764bd4e2071aae0d6670d9"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GuidanceForestRealization.lean",
+      "bytes": 2884,
+      "sha256": "fefb470d6fcbe6cc2a97b443fd33caeea36d33e0047200c4fdbcc56ef03342ff"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GuidanceGraphSemantics.lean",
+      "bytes": 6291,
+      "sha256": "458601ef8a79417a0b94eea60e750a7826ef0ccc7704c52e58ca0e8a81d4d44e"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GuidanceIncidenceGraph.lean",
+      "bytes": 4069,
+      "sha256": "fd635bf3094ab6f8a4d09049539018054f0e71b1df99a8bd86e94b8e211637e9"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GuidanceIncidenceRealization.lean",
+      "bytes": 5437,
+      "sha256": "e8b5a094d003f457234177fa210d4b89eebe5c8ec0ddc65f81126da0a64c89c0"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GuidanceIncidenceSets.lean",
+      "bytes": 3721,
+      "sha256": "0a7dab16a2816c1a5479679d09a3fec9fe21d40508312098e0505b8b51e79f35"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GuidanceInducedRestriction.lean",
+      "bytes": 2906,
+      "sha256": "9f3d43ea887856d0990a61ca7f08e883b8be7fac841e150c312590ff49448b7f"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GuidanceMSO.lean",
+      "bytes": 7759,
+      "sha256": "fb3f30b8c0b88f69139df24b90da083ea14bfd3db7328ed625efdc68540dc4b4"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GuidanceRegionalConstruction.lean",
+      "bytes": 2278,
+      "sha256": "a6322bc1b9c28a6063448845f85563eb0a75ae1952f25917dea9d3864f53bcb3"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GuidanceRegions.lean",
+      "bytes": 3979,
+      "sha256": "f383f002e665ef614314666cf0b06538da8fe650b2caf59499b3ebbbe995c66e"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GuidedBinaryGluing.lean",
+      "bytes": 2617,
+      "sha256": "3dac81231a22a0ff3c56ba2f16659c43be7d100634ed9f3d41cff94c8d22b24b"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GuidedDecompositionBase.lean",
+      "bytes": 3027,
+      "sha256": "7569ba6f177853f7401ea75de71a9a5761179570ab67ca73a128899597bd3126"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GuidedDisjointInterfaceWord.lean",
+      "bytes": 4274,
+      "sha256": "c050de957d990ed9051512190d833d100183ad632637a3d03dd959eaf171e045"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GuidedFactorizationInduction.lean",
+      "bytes": 3942,
+      "sha256": "afc24356a2dec30f43d549d0d3929def06f57935e79f03a5759f91d3d04f79e0"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GuidedIdempotentWord.lean",
+      "bytes": 1886,
+      "sha256": "ddae05947848b28f481a86e5dcca4a9ee7ca110faec3fd96f1395da40235ec5c"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GuidedPersistentDeletion.lean",
+      "bytes": 2217,
+      "sha256": "09c00d172760f65122aa760f55ea7eb134426a6cacc364a02b8ebe5b372a564a"
+    },
+    {
+      "path": "formal/general-positive-width/sources/GuidedSetBagAdapter.lean",
+      "bytes": 4728,
+      "sha256": "fd4735108347b3948ab6a783836828fd3b09def74714223146f2ed02623fdc31"
+    },
+    {
+      "path": "formal/general-positive-width/sources/HWalkEdgeOrder.lean",
+      "bytes": 906,
+      "sha256": "893b342656bf821693a58c3bce015f3c0ee1dd062702fb360ef65e3a0234d158"
+    },
+    {
+      "path": "formal/general-positive-width/sources/HWalkOperations.lean",
+      "bytes": 4714,
+      "sha256": "569e5382f7ec54baaecb287074fe59bd4f12740fd12b8d7c8d19945b9d0901eb"
+    },
+    {
+      "path": "formal/general-positive-width/sources/HypergraphBagPath.lean",
+      "bytes": 4764,
+      "sha256": "6916002339d6c8bb547409292b70190dc98fc387e19521b7700f2048865976f6"
+    },
+    {
+      "path": "formal/general-positive-width/sources/HypergraphEdgeEquivalence.lean",
+      "bytes": 4930,
+      "sha256": "b1b5eca8c7b52c557fe052a6d85331ecdbf8bca5ea120a3005ebe9c901b26e34"
+    },
+    {
+      "path": "formal/general-positive-width/sources/HypergraphPathEmbedding.lean",
+      "bytes": 1134,
+      "sha256": "1ed9108f9c60396577324117bffe0ddfbb7ff0fe4fc523aef721ac7147803511"
+    },
+    {
+      "path": "formal/general-positive-width/sources/HypergraphPaths.lean",
+      "bytes": 5928,
+      "sha256": "ba1dbc0f286a6a3aaeee480e63f54fc8bf274d40e2e8c0dc8b1eab3ba514a5e4"
+    },
+    {
+      "path": "formal/general-positive-width/sources/HypergraphTwoPaths.lean",
+      "bytes": 7022,
+      "sha256": "200dfc2a696daba1d4127f0b63715d85a03c89e2012a6421dbcddc96121c6587"
+    },
+    {
+      "path": "formal/general-positive-width/sources/HyperpathRouteSplicing.lean",
+      "bytes": 3194,
+      "sha256": "27ef47b5b6cfe23da59c17e6251ce416f6ec14eab81bd29843214fea410f43ae"
+    },
+    {
+      "path": "formal/general-positive-width/sources/HyperpathTraversalEndpoints.lean",
+      "bytes": 2222,
+      "sha256": "d2cf8ab49555a37e5a5365ba2c010a75a5d69ac30c69c51a7c9e3f459aaade53"
+    },
+    {
+      "path": "formal/general-positive-width/sources/IdempotentPadding.lean",
+      "bytes": 4526,
+      "sha256": "a96fd211017b5eab5be52446b9ed9db9cf8bcd92ab6adfb13f4cd83ab92df35d"
+    },
+    {
+      "path": "formal/general-positive-width/sources/IndexedBoundaryTraffic.lean",
+      "bytes": 2890,
+      "sha256": "5c748a8de48e2f419fe3f62f32e63de85a44573cb13fc49686d45389720578e9"
+    },
+    {
+      "path": "formal/general-positive-width/sources/IndexedColumnPorts.lean",
+      "bytes": 4608,
+      "sha256": "bb71d3aee4e303bfb8b4f805cf0c5eb30797cf00bd1ff589717daf0e569ef946"
+    },
+    {
+      "path": "formal/general-positive-width/sources/IndexedEndpointLoad.lean",
+      "bytes": 8200,
+      "sha256": "5435cce940de29054ccd8299adaec9691d6aa44f915dccd6ca6de2bbd82f968a"
+    },
+    {
+      "path": "formal/general-positive-width/sources/IndexedLocality.lean",
+      "bytes": 5643,
+      "sha256": "2b071848784903c6d7fe1fe6214c7d71f27b2817707b1ad54db0b2ef951f98d6"
+    },
+    {
+      "path": "formal/general-positive-width/sources/IndexedRoutesToAdhesionPaths.lean",
+      "bytes": 3685,
+      "sha256": "d898decc7d5aa63a2b75ac6245ef3a252fe0a13d3122f857ec3fbf4d2fa4b647"
+    },
+    {
+      "path": "formal/general-positive-width/sources/IndexedRoutingDemands.lean",
+      "bytes": 3185,
+      "sha256": "68e8642f33caf9b582d332e4b08e7839ddb54dceed42a93fdd2489315b64426d"
+    },
+    {
+      "path": "formal/general-positive-width/sources/IndexedRoutingState.lean",
+      "bytes": 3111,
+      "sha256": "305e5e565f7e2a80ed12946716597e660f8b9a1169ed17f88d79b7044afd4cf9"
+    },
+    {
+      "path": "formal/general-positive-width/sources/InheritedBranchLabels.lean",
+      "bytes": 5462,
+      "sha256": "e79157602037b1158b8656b90e4100045fbfc099f9b20e3b5ae689ed84ba635b"
+    },
+    {
+      "path": "formal/general-positive-width/sources/InheritedBranchLift.lean",
+      "bytes": 2178,
+      "sha256": "81022cefe89b5cafe4f9e39a4c2752e7375598a2d5fa75befc72ef41bedc4781"
+    },
+    {
+      "path": "formal/general-positive-width/sources/InheritedMarginalColoring.lean",
+      "bytes": 927,
+      "sha256": "9747105b3c143edbc86e0826d7d6d4c828ba0a10f17af415c441ddae54cc9ef6"
+    },
+    {
+      "path": "formal/general-positive-width/sources/InheritedSourceBound.lean",
+      "bytes": 1862,
+      "sha256": "c902c544df24f72ac9efa7a1ab954d234e9b2fbd4953ab4867dff36c79bb2c99"
+    },
+    {
+      "path": "formal/general-positive-width/sources/InitialDemandCases.lean",
+      "bytes": 3603,
+      "sha256": "5518467d857c468343e5b25648a069d87dc53439610d9213b6c2d67e8c9c8f0e"
+    },
+    {
+      "path": "formal/general-positive-width/sources/InterfaceFiniteSets.lean",
+      "bytes": 2620,
+      "sha256": "48b8ce0384ad2782f7a785c418d54f7d4f61040487854e96c5e43ba5b53d37ab"
+    },
+    {
+      "path": "formal/general-positive-width/sources/InterfaceRestriction.lean",
+      "bytes": 5365,
+      "sha256": "ed1aa6da166e45d10710d951f1ef98efe7b1f37e650689571e4d673485c049b3"
+    },
+    {
+      "path": "formal/general-positive-width/sources/IntervalCritical.lean",
+      "bytes": 10967,
+      "sha256": "b059201763371d29f67e75f7ad72d8f60250e7408840ea2f4ddc98cb3e8e6c67"
+    },
+    {
+      "path": "formal/general-positive-width/sources/IntervalEndpointHistory.lean",
+      "bytes": 12250,
+      "sha256": "274d42444b8a47c0e78b83e4f393aab9c45baee9059fe2ceb0bb40f411fc0efe"
+    },
+    {
+      "path": "formal/general-positive-width/sources/IntervalEndpointOrder.lean",
+      "bytes": 13569,
+      "sha256": "e0fe9405aad5dce8c5143d62b00a6809f22ab4bd4ef1ad360506a70526560804"
+    },
+    {
+      "path": "formal/general-positive-width/sources/IntroductionForestOrder.lean",
+      "bytes": 5869,
+      "sha256": "0494f3e3961432e53079a736a8338a6a7591ee44f1adbf07f9a9b80cffe8ecee"
+    },
+    {
+      "path": "formal/general-positive-width/sources/JacobianAlgebraicity.lean",
+      "bytes": 2933,
+      "sha256": "88a499120706262e5e376c4ba2b1a4e5517ff6cb6b5480d30e8402452a770e83"
+    },
+    {
+      "path": "formal/general-positive-width/sources/LazyEventConverse.lean",
+      "bytes": 4900,
+      "sha256": "072a54fe7494e561fed5c86baff92e71e86b6c52300208a1767acc468ebab89a"
+    },
+    {
+      "path": "formal/general-positive-width/sources/LiteralMarginIntroduction.lean",
+      "bytes": 1956,
+      "sha256": "94f9669ce01b0722384663d7fa726ad91052f3cbcd528ca6553ba773cb8c91b5"
+    },
+    {
+      "path": "formal/general-positive-width/sources/LocalDivisor.lean",
+      "bytes": 7874,
+      "sha256": "343a755d312c69af23050f24c107efe4446e6e022bf143009c868fe72a6e47e5"
+    },
+    {
+      "path": "formal/general-positive-width/sources/LocalDivisorWords.lean",
+      "bytes": 3316,
+      "sha256": "599cc8572ea28da2b83d5812f05804f42ef9f9a236a0e71bcc72ce535689cf23"
+    },
+    {
+      "path": "formal/general-positive-width/sources/LocalForestLift.lean",
+      "bytes": 3090,
+      "sha256": "62344011eb59162a2d75a89176765ea26dd6fcfe8d5845b4ea324e7efca81f25"
+    },
+    {
+      "path": "formal/general-positive-width/sources/LocalIdempotentNode.lean",
+      "bytes": 2847,
+      "sha256": "37df86bbc8b2115e61409a98e88c35d2202cf5ee4992701bf6ebb7cfaa6a1660"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MarginalActualAtoms.lean",
+      "bytes": 9724,
+      "sha256": "72d038e74a9bbc2048ee33ff27579b81b3d05f5c758c95747ad4cf110d454401"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MarginalAdjacencySemantics.lean",
+      "bytes": 2273,
+      "sha256": "6190d269df8c6795f34e65edabd776fc8209ca3f55f49913244dc51039e0fc80"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MarginalAtomRealization.lean",
+      "bytes": 9885,
+      "sha256": "083734df703599aceba4f6178af6daf37db49351157612d067903b088cb8c7f1"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MarginalBagPathTransport.lean",
+      "bytes": 2242,
+      "sha256": "0e0b6fdfd0e02d01a4700359528180278a4c59ab139c9342148896049f4c556a"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MarginalBagPrerequisites.lean",
+      "bytes": 3335,
+      "sha256": "d4c9eafd9e78b22eef103bbf59e6e8d60c4d4c0e990c50f9fef071d0f6029df8"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MarginalCarrierRealization.lean",
+      "bytes": 4637,
+      "sha256": "09e11a5a93cfcd8dd2befde3c08de17e24fae523b635619996cbd5465da2bf28"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MarginalEarlierGuardControls.lean",
+      "bytes": 2651,
+      "sha256": "1a0304d72d47fb733bfce5861b3fb0f1a45b33395b0ca84d39f1c26af177cb5a"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MarginalEarlierGuards.lean",
+      "bytes": 1607,
+      "sha256": "b2a1b948ecc2af917c04c90edb4d089629207663dc7c31d7d06cb21218355c07"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MarginalEarlierLocality.lean",
+      "bytes": 2084,
+      "sha256": "31c4460ee4323ae1339cecf673923deeb4fc8663eac2e4337a57a33715433493"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MarginalEarlierSemantics.lean",
+      "bytes": 3069,
+      "sha256": "f991c268391cf4e5bb99eaabfa759d7848f1e2ed2753f0e8407b95b3b574c87f"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MarginalEarlierSuccessors.lean",
+      "bytes": 2090,
+      "sha256": "61bd163f3af5342f6093275568f79739853366aaccb1a7b4458be732cbc7e9fe"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MarginalEarlierValues.lean",
+      "bytes": 1551,
+      "sha256": "9fcf159c4ab2db27f2639e62de2b8c2af3f5bb4c37ffb4c2fb2cd6f50a16f6d9"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MarginalEdgeCodes.lean",
+      "bytes": 5784,
+      "sha256": "bae28058559d0ed556c85c0264b71ff492bb906ae6471dc262d895fd3c36f565"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MarginalFiberFormula.lean",
+      "bytes": 2973,
+      "sha256": "d462b011bd492a17687f13b9c476a2c84c01b03112a56f3d21544fc135abef9e"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MarginalIncidenceAtoms.lean",
+      "bytes": 5456,
+      "sha256": "c1a0ed7d94028d882632661c883ce8bbdac75c8f0b2f64e0dbfe48cfe0ae5b61"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MarginalIncidenceEmbedding.lean",
+      "bytes": 6041,
+      "sha256": "d84059029c1412d7b0c72fece44e2cb47673c128df9908cbffa917232b23e581"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MarginalIncidenceSyntax.lean",
+      "bytes": 7405,
+      "sha256": "07a24e14a8a395851599c41914e773dc5976fca70cfb808c9ae533e43d739b94"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MarginalIncidenceSystem.lean",
+      "bytes": 8119,
+      "sha256": "2bd64af5f38792a600f4cf5b13f27e2f583b9da953449af693d8d9eeace86656"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MarginalIncidentOwner.lean",
+      "bytes": 2530,
+      "sha256": "886650f3e50bf303b75952d9be04854fc6fc805c3f71f632841f239482a706b7"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MarginalLabelledAdhesion.lean",
+      "bytes": 1592,
+      "sha256": "29f4967a7c47b7f879a30618b677d60bee9b06013c017c5c95f6290f10cc6ac1"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MarginalLabelledAtoms.lean",
+      "bytes": 3898,
+      "sha256": "3a0ef5aaade7a619139a29b8e3ccc69601b55b95b86f12176611edea800becaf"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MarginalLabelledCarrier.lean",
+      "bytes": 3977,
+      "sha256": "ea47d62e621021cc9a10b7496dfce8f9773f0302ab75ef7c06c187bef851e524"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MarginalLabelledCodes.lean",
+      "bytes": 3614,
+      "sha256": "d2c6315f29785df931117d3c9e5b9ca5f90a822ea45b80797a316f6cc11f18f2"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MarginalLabelledEval.lean",
+      "bytes": 2771,
+      "sha256": "5751cb104d4ba027c9f8ec7c6981cd11f2b3364f62806f0c9ab5ae2278c77620"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MarginalLabelledLocalBag.lean",
+      "bytes": 1350,
+      "sha256": "28c52c315cacca82a4a2f5049f9f2690ef3acd93641b0294e8e99091d57f8e8f"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MarginalLabelledLocalParent.lean",
+      "bytes": 1782,
+      "sha256": "96e4c8ce6b64cf9eaada3b79c0060dd585d882ca4ac3b5ef8dabbb2324c6a6a7"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MarginalLabelledMargin.lean",
+      "bytes": 1426,
+      "sha256": "d0e389290a86ebd0a128d0da87035f79be2f539dc8417fd5c4906eed35e248a9"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MarginalLabelledOriginalEdge.lean",
+      "bytes": 1424,
+      "sha256": "0d6ac643baf4e2d0409d368878f99ed878f77bb0e79c77e7cb0bffbb3d920b48"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MarginalLabelledOuterParent.lean",
+      "bytes": 1280,
+      "sha256": "eb70470ec890b599a1276ad9116c7b57acf489db2abea46ce66a544d5c291c6c"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MarginalLabelledOwner.lean",
+      "bytes": 1586,
+      "sha256": "388465313266df514dde786c0804d7cf7ec9892a1f0e0fe13b1e0e7fa8f5dc90"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MarginalLabelledParent.lean",
+      "bytes": 3086,
+      "sha256": "533af4e7cba8b35421f3980ae098cf5d501d7d029b6e3f32d5cd6fb9d2e55593"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MarginalLabelledUnary.lean",
+      "bytes": 2036,
+      "sha256": "74a36565e1a7ac8d0564438ed6120b6724fc6d5fd5d0b1ea211c307341f71126"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MarginalLocalBagSemantics.lean",
+      "bytes": 3512,
+      "sha256": "e66c6e6e87495cc0a0aaa1ff1bf03cb1944017e0d6cc0360f55ca2f8761c45c9"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MarginalLocalExtraction.lean",
+      "bytes": 2989,
+      "sha256": "2745566a126aba60a083966b27aafaa22f5186c82937e41a61ece618c1f4df72"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MarginalLocalGuidance.lean",
+      "bytes": 5991,
+      "sha256": "5343ba5b750ec75f4fb9b82e603f4c3a7f1ea535850b9eff9ebc20d2bd3e91d4"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MarginalLocalIncidenceFamily.lean",
+      "bytes": 2725,
+      "sha256": "f779d5f094ea3016cc28ae1966a5b9f466b2c23976d484cdc84adac67a0fbe9d"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MarginalLocalNodeNames.lean",
+      "bytes": 1981,
+      "sha256": "e58990ecbdc3996718a914c95956742093ac66ecd80d7003a2b81b7f38c886ba"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MarginalLocalParentSemantics.lean",
+      "bytes": 3303,
+      "sha256": "71df2287d4413b1a4e6372df8155704f596dcb37f9d64c3ea3a1dcb12d0b5955"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MarginalLocalRootSemantics.lean",
+      "bytes": 2120,
+      "sha256": "df4a614c89573d2f002521a1d9bd5fd38412d1644a9c1af28ea32abab8e1c76d"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MarginalMalformedSelectionControl.lean",
+      "bytes": 1384,
+      "sha256": "7e8c258a6aa48b29a5b824d56e4bf5898e67d676fcd755fb3b063a67e343904d"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MarginalMergedExtraction.lean",
+      "bytes": 2591,
+      "sha256": "999bff57aa43fe837ab74a17a4dae1401db060ebd6a7d6fea89018405fd5c236"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MarginalNestedCodes.lean",
+      "bytes": 3181,
+      "sha256": "eb8847c906639e05bc0e9fc1c2e7067e0e427c0865ba954ab84749c8231950fc"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MarginalNestedPhysicalCode.lean",
+      "bytes": 2897,
+      "sha256": "7e09721daa710564f1b2ef777060ad927434865e9006e5a05260d0bc0d950d3a"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MarginalNestedProjection.lean",
+      "bytes": 3019,
+      "sha256": "2ec00f4d23289ea8382235e00cf1e6e69e479d61b3ceb92157afb81324280d1f"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MarginalNestedRealization.lean",
+      "bytes": 4193,
+      "sha256": "11025832e7825f7c4cde76f2281800cb64160ec7f2e5237718cd72e08ee49023"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MarginalNestedSyntax.lean",
+      "bytes": 5621,
+      "sha256": "208bd34598a17329a8e432daf2f9cd8a9556b0afe33758d8659318c6170f60ce"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MarginalNumberedAtoms.lean",
+      "bytes": 2499,
+      "sha256": "7b8736d19a2b71349b1ff6da956df524a0674785973e25aed9ce9403ffa432a1"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MarginalNumberedCodes.lean",
+      "bytes": 2080,
+      "sha256": "38664d2cb9902b9cfd7197483ec9a67b903f7a8fc65b55b8b52ec3ff933b90a5"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MarginalOriginalAdjacency.lean",
+      "bytes": 1857,
+      "sha256": "dad23575509b91bf2272181d6d73d03c9fcd52516f4e02cce84f0874e49e7f67"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MarginalOwnerFibers.lean",
+      "bytes": 4653,
+      "sha256": "ddc4723138da8e37025da666d5f9299b54641133874d6f7e8af11cebbaee1725"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MarginalParentLocality.lean",
+      "bytes": 1637,
+      "sha256": "0d3c1178d6ef132b080db4da52fd166c12341acdaa28a723e07d1519afad6a5a"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MarginalPresentationEndpoint.lean",
+      "bytes": 3951,
+      "sha256": "42229b2fec8abc5a508fc410a05d21c27bc9747f8a857caa08cf9ab584463261"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MarginalRootValues.lean",
+      "bytes": 952,
+      "sha256": "604bfaa405ac85b61fd4b6b7a5cc6f5f997586c0dce20593a7dc95927c059e6a"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MarginalRootedFamily.lean",
+      "bytes": 2108,
+      "sha256": "dff69229e86c394a24849b8085c8befbc74b7e80675d941a0782656c6dbc45cf"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MarginalSelectionValidity.lean",
+      "bytes": 4804,
+      "sha256": "660216370b3a52eaf7b092cffd11a234640ff4f6ae6ef4315809ed37228582ad"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MarkedLocalReduction.lean",
+      "bytes": 3473,
+      "sha256": "17fbdc88c5ba571c5b5fac9687628a21f8b264943bffb235041f73585eb8ac86"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MarkedWordDecomposition.lean",
+      "bytes": 2444,
+      "sha256": "1d26696f644b7d22d341ea35a1fc5115cb781e417afe8e2f1319ea734609b8e6"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MultiMarginAcyclic.lean",
+      "bytes": 3381,
+      "sha256": "77c39791f04b2032430c2550aa9ed249bfdca56e5285bdea1958b4012cdd54ad"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MultiMarginCompletionAdapter.lean",
+      "bytes": 6477,
+      "sha256": "c0f9de60c82ac53b81eed33e2dd060d8faacdd3589d5d64a29b744b0389d2a72"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MultiMarginCompletionCodes.lean",
+      "bytes": 5742,
+      "sha256": "40f1a0a288839fa0eb6ffb3cc7a8802e128e0c85fa8171cc94ac1810e34c73cc"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MultiMarginDecoding.lean",
+      "bytes": 6604,
+      "sha256": "faf4b85b193fb88a8c9f61a951b83f9c436dfe58f3efad67b57f8629038da585"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MultiMarginEndpoint.lean",
+      "bytes": 4188,
+      "sha256": "7fbf897097ed0c09c384fbc28d2a6f1ef5d8aa8891ef7ea799c4ea5680b5947b"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MultiMarginGeometry.lean",
+      "bytes": 9877,
+      "sha256": "9f16f1c542d60147c3e89adaff6f878763397a990e1b65a15977f0792c1fd0dc"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MultiMarginOuterRealization.lean",
+      "bytes": 10481,
+      "sha256": "91c2a9abf85869cb2faa033829d8cc0e5033409afd4768dfd2fb0a10e6aca135"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MultiMarginRealizedLinks.lean",
+      "bytes": 7362,
+      "sha256": "d4332877e5d76709b5ab76dfa67143dcaf3bb1139611a54027fb003122a1b0b0"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MultiMarginRootTransport.lean",
+      "bytes": 7106,
+      "sha256": "5f0e1fa960b2ee2fb1f79780f68ae52a0f9447e7b05886aab13fa1f7c172809d"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MultiMarginSpanning.lean",
+      "bytes": 13009,
+      "sha256": "c10a523ee770437fe4db1d140d8e689d760178543fc1beb1306fc8818730f124"
+    },
+    {
+      "path": "formal/general-positive-width/sources/MultiMarginSyntax.lean",
+      "bytes": 10207,
+      "sha256": "c5b363b985c58462c6acae0f4703831dae9ca31ace462a7597a1dfc657625a53"
+    },
+    {
+      "path": "formal/general-positive-width/sources/NamedIndexTreeAdapter.lean",
+      "bytes": 4451,
+      "sha256": "1094de8f6df61790e41f6541ba63c57f8ef5d35da57302ea911cc657ea776be3"
+    },
+    {
+      "path": "formal/general-positive-width/sources/NearestSelectedAncestor.lean",
+      "bytes": 3641,
+      "sha256": "7ba2cc299d3029780f636ad34c9152a1760bc447b569e0fdc95e7d39790ba171"
+    },
+    {
+      "path": "formal/general-positive-width/sources/NestedCarrierSemantics.lean",
+      "bytes": 4995,
+      "sha256": "94de53e25ce13f3704099eb7f05f0c230967bca0fa07c16f43ed305dbb69932d"
+    },
+    {
+      "path": "formal/general-positive-width/sources/NestedCliqueAttachment.lean",
+      "bytes": 4285,
+      "sha256": "38f45e846d9feb8cc5db4037c13d73b8220f609d28fe5e3cd1eb9b12d20d5c4b"
+    },
+    {
+      "path": "formal/general-positive-width/sources/NestedFlattenedBags.lean",
+      "bytes": 5053,
+      "sha256": "6d5aa7a10fce54e4b2b74939a801c5f7be49838f0aeddcf4e8b1232758790316"
+    },
+    {
+      "path": "formal/general-positive-width/sources/NestedFlattenedRunning.lean",
+      "bytes": 5419,
+      "sha256": "6fe006a3954b949bd2645425692187a61ef8a675795125337f77e4411200b685"
+    },
+    {
+      "path": "formal/general-positive-width/sources/NestedFlatteningExactness.lean",
+      "bytes": 6584,
+      "sha256": "8965594a2d2f2ef1b20d89d81ee08949a4fae9a30ee66fb85368669b8ba84daf"
+    },
+    {
+      "path": "formal/general-positive-width/sources/NestedFlatteningRealization.lean",
+      "bytes": 6429,
+      "sha256": "9a88b8fb1f68a1707fb3466a752c4489569c65b50747101b4446437a665a9da2"
+    },
+    {
+      "path": "formal/general-positive-width/sources/NestedFlatteningSyntax.lean",
+      "bytes": 7184,
+      "sha256": "0570191397847a890a3e791cbf2bd97fba25bcf1cfdc5735110e445849565eea"
+    },
+    {
+      "path": "formal/general-positive-width/sources/NestedInheritedAdhesionBound.lean",
+      "bytes": 1002,
+      "sha256": "165dd378ca9bba1ee4a9e7fb9c9523c999ddd4e43c5d41de3dd29db1daa8fead"
+    },
+    {
+      "path": "formal/general-positive-width/sources/NestedRepresentedAdmissibility.lean",
+      "bytes": 3130,
+      "sha256": "a2341a4bbbeccec8b214bae0113c42aa3bd27f31bf26cf26878e561c11dbbb5d"
+    },
+    {
+      "path": "formal/general-positive-width/sources/NetworkThinCertificates.lean",
+      "bytes": 6073,
+      "sha256": "a5758e31b531983e6a1d1420449c162fb2da4ce4fdeb0b93e4c0aaa2de4d3cb7"
+    },
+    {
+      "path": "formal/general-positive-width/sources/NormalBinaryRecognition.lean",
+      "bytes": 3548,
+      "sha256": "c48eaa8b7109aa85b9031d0d8207290a57708610e457a78910666541d172fdf2"
+    },
+    {
+      "path": "formal/general-positive-width/sources/NormalForestCodec.lean",
+      "bytes": 4356,
+      "sha256": "a377d485fc397a5e802cd6cfa0813c0e66b0cd0e2a659e52d22a653414a67b7d"
+    },
+    {
+      "path": "formal/general-positive-width/sources/NormalizePathWord.lean",
+      "bytes": 4585,
+      "sha256": "b0565fc595c9e1e411f9848683b66f42e468c592dde7812d850077debc4a48aa"
+    },
+    {
+      "path": "formal/general-positive-width/sources/NormalizedDecompositionRegions.lean",
+      "bytes": 8919,
+      "sha256": "62ae2a1400d6797cbcccdc8f1ae62da7cddc3efc951d193ff2f395bd585b70b0"
+    },
+    {
+      "path": "formal/general-positive-width/sources/NormalizedLocalHypertorso.lean",
+      "bytes": 5369,
+      "sha256": "b10525b9cebd3b59326c2aa0a92d2ef7ebb46fbe658cd06a4b07542e2a904cf4"
+    },
+    {
+      "path": "formal/general-positive-width/sources/NormalizedPrefixBase.lean",
+      "bytes": 2795,
+      "sha256": "41909942289876aa5a2ab31143e029bde46b4666bb46d6df95edf5535203314c"
+    },
+    {
+      "path": "formal/general-positive-width/sources/NormalizedPrefixGeometry.lean",
+      "bytes": 6685,
+      "sha256": "fda663a0a6a4938302c9fa0db5697abfc502e600babb083eaeda18283f925919"
+    },
+    {
+      "path": "formal/general-positive-width/sources/NormalizedPrefixIncidence.lean",
+      "bytes": 8011,
+      "sha256": "0e57a563fe40f5bcf4f973a2cc04908bc86c533dc6070bd88b5b00f92238d259"
+    },
+    {
+      "path": "formal/general-positive-width/sources/NormalizedPrefixRank.lean",
+      "bytes": 2325,
+      "sha256": "047b8e79186c236bc333b8448b313667389f9213b26cde017655525cfd83c4a4"
+    },
+    {
+      "path": "formal/general-positive-width/sources/NormalizedPrefixReplacement.lean",
+      "bytes": 7289,
+      "sha256": "4c686e7cfa7a4ea3273fb812f13490af8d869376f8e02fa5d1389c1d26cda01a"
+    },
+    {
+      "path": "formal/general-positive-width/sources/NormalizedPrefixSaturation.lean",
+      "bytes": 3952,
+      "sha256": "9d3179fb73d238c472d7564684a225812f8c504362e16467e1ba79cc6fa505a5"
+    },
+    {
+      "path": "formal/general-positive-width/sources/NormalizedPrefixSeparation.lean",
+      "bytes": 2492,
+      "sha256": "f5f2b25fd5cd944b1b00d917d8c1d562e6ad1baf63da63daa721ce46129dbc8a"
+    },
+    {
+      "path": "formal/general-positive-width/sources/NumberedBinaryShape.lean",
+      "bytes": 2592,
+      "sha256": "444454975de9ad3118517a09f85b16a7b34de06fcf264964c68378c524d804fc"
+    },
+    {
+      "path": "formal/general-positive-width/sources/NumberedBinarySize.lean",
+      "bytes": 3897,
+      "sha256": "3155722d214f172f182a34998fd3417623a7287dd73a94ae734438385843fbcc"
+    },
+    {
+      "path": "formal/general-positive-width/sources/NumberedEliminationCodec.lean",
+      "bytes": 5046,
+      "sha256": "0b7a9bd35eed30acd162d09b971296d951a2e2a3e122c90cf3ed57a0cbcb3fc5"
+    },
+    {
+      "path": "formal/general-positive-width/sources/NumberedFlatteningRealization.lean",
+      "bytes": 4273,
+      "sha256": "ce18b4f5f8f1cdd1a1d9c218becb78daaf0c6de260f1caa7432197e3d0280a50"
+    },
+    {
+      "path": "formal/general-positive-width/sources/OrderedBagPath.lean",
+      "bytes": 3003,
+      "sha256": "fd9ea2ee5dc88f0040aa32b6c2b05884000160ef2e7bd1505aec0e11dcb8f700"
+    },
+    {
+      "path": "formal/general-positive-width/sources/OrderedColumns.lean",
+      "bytes": 7421,
+      "sha256": "e76fd7b2bc8056178222fa0efb2180dd4008dfd62e0ddf0ddae11efac714e213"
+    },
+    {
+      "path": "formal/general-positive-width/sources/OrderedDomainSelector.lean",
+      "bytes": 5421,
+      "sha256": "3c72e05d0137fecab22524ce1e11816a1e5722a2a20bbcb98e23fe5e1c5b9ea7"
+    },
+    {
+      "path": "formal/general-positive-width/sources/OrderedNumberedChildren.lean",
+      "bytes": 2491,
+      "sha256": "8fa76e98ef04ed20a29d984cb2f076bb9b0c9ee8b12e8dafb17770935a9dd339"
+    },
+    {
+      "path": "formal/general-positive-width/sources/OrderedSpineForest.lean",
+      "bytes": 1851,
+      "sha256": "3c940a565d12cb12f51d9b31d86c1b911474e0d525c25ad8bea8d9b7ba2f200f"
+    },
+    {
+      "path": "formal/general-positive-width/sources/OrientedBridgeCertificates.lean",
+      "bytes": 4307,
+      "sha256": "12e46d990728a7fcab62c8955e8bba2ce7523d84c7ea116d2069d91f62857489"
+    },
+    {
+      "path": "formal/general-positive-width/sources/OriginalEdgeForgetting.lean",
+      "bytes": 1968,
+      "sha256": "a34e1898a1dd30dc45b629daa6bbee2629c88624247fda920782aa8fcf4e1a95"
+    },
+    {
+      "path": "formal/general-positive-width/sources/OriginalWalkSupport.lean",
+      "bytes": 583,
+      "sha256": "14ca065df6359e6bbdb29ff4deddc3dddbed3158b633d9b7bfe6fb4c4b17495b"
+    },
+    {
+      "path": "formal/general-positive-width/sources/OuterPhysicalVertexCode.lean",
+      "bytes": 4446,
+      "sha256": "e550f50f7b2cd58f3d93a75e11be8e24262ce6fd032f98a8eeab03acf8199f26"
+    },
+    {
+      "path": "formal/general-positive-width/sources/OwnerParameterMerge.lean",
+      "bytes": 7360,
+      "sha256": "80e616dc7efb4d0bd96662662f656c69d9c8177176e24ad93ca11ca16fefb15f"
+    },
+    {
+      "path": "formal/general-positive-width/sources/OwnerParameterUnion.lean",
+      "bytes": 2011,
+      "sha256": "cbf9db4448ddb9d5fedb74c0868c365a621cc68e3b29a02bd0f16489bcc1f001"
+    },
+    {
+      "path": "formal/general-positive-width/sources/OwnerRelativizeValues.lean",
+      "bytes": 2673,
+      "sha256": "149071c4d28f46130ead549bfdad46092339446bdbc87fa2cca71c78ffb30d9d"
+    },
+    {
+      "path": "formal/general-positive-width/sources/PaddingReachability.lean",
+      "bytes": 12608,
+      "sha256": "06fa1f441b7423d7ee44f1ff93a1c67bb1161c36b7e327ad9f4ea4acfda0d655"
+    },
+    {
+      "path": "formal/general-positive-width/sources/PairAdjacent.lean",
+      "bytes": 921,
+      "sha256": "7f8888f6db36950f9d3fe1310f1e2c5627c36f5e3c09c2e3c05ef0e357962794"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ParameterizedRealizationTransport.lean",
+      "bytes": 1347,
+      "sha256": "dac17e549126c43d2adefb58bbd9dc3d2d8834b1a481282c0de53d651b4a2c65"
+    },
+    {
+      "path": "formal/general-positive-width/sources/PathDecompositionFactorization.lean",
+      "bytes": 2468,
+      "sha256": "8ab5d9145a4a54690bc1039b7214c26072fcc05071875194925dbf261dc5e884"
+    },
+    {
+      "path": "formal/general-positive-width/sources/PathWordConstruction.lean",
+      "bytes": 17648,
+      "sha256": "8f4e4fd1a3afd89d61c8385da4e28c33a7817300d6fefc8f3c258453e28a4f98"
+    },
+    {
+      "path": "formal/general-positive-width/sources/PathwidthForestGuidance.lean",
+      "bytes": 1388,
+      "sha256": "4c811135ff20079eb59bea065d888054f23b9fd5c5c6a7cc34df5db267301862"
+    },
+    {
+      "path": "formal/general-positive-width/sources/PathwidthGuidanceExistence.lean",
+      "bytes": 2429,
+      "sha256": "6c1a8d625194f35966c5c09a9bd2bc608830e438de1f813a8536e2256a9ef452"
+    },
+    {
+      "path": "formal/general-positive-width/sources/PersistentRestrictionCode.lean",
+      "bytes": 4565,
+      "sha256": "476fde4eec046b7276ba468373f169f3dbbc33dfef5b8d30044c8f57286531c6"
+    },
+    {
+      "path": "formal/general-positive-width/sources/PersistentRestrictionGluing.lean",
+      "bytes": 9099,
+      "sha256": "2ed8f74f4e07c5340bdedd251dfbe3b1c7d782dc4ff19b62c894cb63e936ba60"
+    },
+    {
+      "path": "formal/general-positive-width/sources/PersistentRestrictionIdempotent.lean",
+      "bytes": 2191,
+      "sha256": "6cf113b890f35cac1331461f9187e7d6aaab11546fe8fae4085eda948674fe28"
+    },
+    {
+      "path": "formal/general-positive-width/sources/PersistentRestrictionWord.lean",
+      "bytes": 2974,
+      "sha256": "0af9065fcc03dabcd8219f4ab01094d9da6fb7dd3eb8c10885f94417cd774cbd"
+    },
+    {
+      "path": "formal/general-positive-width/sources/PhysicalCanonicalCodeExistence.lean",
+      "bytes": 3676,
+      "sha256": "3601d2a820076d98c607ab152d9c0c2343132ee6140b0f54d265505c9b3a61c8"
+    },
+    {
+      "path": "formal/general-positive-width/sources/PhysicalCanonicalTransportControls.lean",
+      "bytes": 2996,
+      "sha256": "b0dc726e59aabad459df352698b1cb60482be64a02fa57adabad1bb38558d7e7"
+    },
+    {
+      "path": "formal/general-positive-width/sources/PhysicalCanonicalUniqueness.lean",
+      "bytes": 3707,
+      "sha256": "87ba3beb5cec132637813db83e646e3b0f050728c517330b321c668c54081fcc"
+    },
+    {
+      "path": "formal/general-positive-width/sources/PhysicalCanonicalWitnessTransport.lean",
+      "bytes": 2627,
+      "sha256": "d786b4c397993964dd61c3af16969dccd49f657faac1faa165890f1d20f0ce34"
+    },
+    {
+      "path": "formal/general-positive-width/sources/PhysicalChronologicalOrder.lean",
+      "bytes": 4397,
+      "sha256": "7f63ecb1e881861a7354028a4dd7bbe708093f4fa4303bfd98b787146bd112da"
+    },
+    {
+      "path": "formal/general-positive-width/sources/PhysicalDecoderExactness.lean",
+      "bytes": 3215,
+      "sha256": "14623bac6313ed6f195c35fcbc92d6c7225b734563c6e78ea960cf43b0338eab"
+    },
+    {
+      "path": "formal/general-positive-width/sources/PhysicalModelLeastSelector.lean",
+      "bytes": 2855,
+      "sha256": "00ac7bcc3e70ac88ced2cb2e827f8c968c2e303b1820b6cdf48920bd9ffae317"
+    },
+    {
+      "path": "formal/general-positive-width/sources/PhysicalNormalCodec.lean",
+      "bytes": 3876,
+      "sha256": "eb4874a598b5aa068b0c606c1820cd9055f313cad60c54819660a5dd5ef2445d"
+    },
+    {
+      "path": "formal/general-positive-width/sources/PhysicalOrderIndex.lean",
+      "bytes": 2271,
+      "sha256": "592c7faaaf31804f994bbbe12ccbac67ae60e21d427d0f69f5c66b369ecb7491"
+    },
+    {
+      "path": "formal/general-positive-width/sources/PhysicalPortDiagram.lean",
+      "bytes": 4485,
+      "sha256": "b74685536ae2acd5e8c156da574a8d1bc299eded465b18eddf9b1237175b29bb"
+    },
+    {
+      "path": "formal/general-positive-width/sources/PhysicalSelectedForest.lean",
+      "bytes": 2503,
+      "sha256": "78b1c5edbc4faee33de206306d5885ae9cdec94e29ae986b4092a338adee0074"
+    },
+    {
+      "path": "formal/general-positive-width/sources/PolynomialProperSystem.lean",
+      "bytes": 5627,
+      "sha256": "fcdef83dcd0aa8504085eca94aafce9ddf97641ee1bfad1e2a4dcd6efd512e88"
+    },
+    {
+      "path": "formal/general-positive-width/sources/PortCodePrefix.lean",
+      "bytes": 1218,
+      "sha256": "73d6e2b21b0b20a0d9d85a0504da22d30af782f1fa589766f8dfef2f630cad1b"
+    },
+    {
+      "path": "formal/general-positive-width/sources/PortConfigurationWalk.lean",
+      "bytes": 3677,
+      "sha256": "5473adf03e27dc76f972ff33db592152f6ad4492ee639eeab2bf87175ee46e6f"
+    },
+    {
+      "path": "formal/general-positive-width/sources/PortFrontierMSO.lean",
+      "bytes": 4770,
+      "sha256": "b12c69d7ef3ed3334a545a8fe86f6fcfb21e5a79f0593cddfdce09d9fdee8dc1"
+    },
+    {
+      "path": "formal/general-positive-width/sources/PortNormalForm.lean",
+      "bytes": 5096,
+      "sha256": "aa3a814be2dc1823b3f3de8492f3c6a1a0233522a94cd6e8f12669e2c24a34cb"
+    },
+    {
+      "path": "formal/general-positive-width/sources/PortNormalFormSyntax.lean",
+      "bytes": 5232,
+      "sha256": "aff7aabb3e5d5e4becef5fda2427132073ba5ea94f00a9289bf8cab8a3fbc9cb"
+    },
+    {
+      "path": "formal/general-positive-width/sources/PortNormalFormSyntaxCompleteness.lean",
+      "bytes": 5593,
+      "sha256": "36b9109cc8fff7d9f3ee3c272049d3cb812210fd4f4db0bdd278d28c5521726e"
+    },
+    {
+      "path": "formal/general-positive-width/sources/PortNormalFormSyntaxSemantics.lean",
+      "bytes": 10771,
+      "sha256": "3c09334cd75bb0f93d8cc8ab174753ee19aaf53989cc725bdf2d7546dd94b55a"
+    },
+    {
+      "path": "formal/general-positive-width/sources/PortRelationalCompleteness.lean",
+      "bytes": 2394,
+      "sha256": "4b5d0ae90ca262bd60fe0d42e08462ab34d562e8618deef26ad41114f60bf81a"
+    },
+    {
+      "path": "formal/general-positive-width/sources/PortRelationalNormalForm.lean",
+      "bytes": 4893,
+      "sha256": "c078cafcf8ad70a25c0c5c172b222ce15e58aef96fba08da386397c8c61930c1"
+    },
+    {
+      "path": "formal/general-positive-width/sources/PositiveWidthStackAlgebraicity.lean",
+      "bytes": 2799,
+      "sha256": "ff2fd341f58e69943c3bd6bb7de1333814d868a8f7f7f9c7695407bfe5f278f8"
+    },
+    {
+      "path": "formal/general-positive-width/sources/PrefixAvoidingRoutes.lean",
+      "bytes": 2621,
+      "sha256": "b06b0e814f0ce6b0cf34bbe5542086e0eb97f997ec551ddccc783423b740adf0"
+    },
+    {
+      "path": "formal/general-positive-width/sources/PrefixConePartition.lean",
+      "bytes": 3066,
+      "sha256": "31928b994adb2e3fb94e68817b584a43b5fabe63a3c984b6ec03cbbbcb452d82"
+    },
+    {
+      "path": "formal/general-positive-width/sources/PrefixMarginalCoverage.lean",
+      "bytes": 3653,
+      "sha256": "2a49704909780c062b25f49c00482434d6ccef2882928c7a4d14d98e09d88608"
+    },
+    {
+      "path": "formal/general-positive-width/sources/PrefixMarginalPath.lean",
+      "bytes": 3703,
+      "sha256": "02865f2e7d69f482a62aaeefb6540a03864aa59de1dcea53356f2eaef200f62f"
+    },
+    {
+      "path": "formal/general-positive-width/sources/PrefixRoutingFamily.lean",
+      "bytes": 3567,
+      "sha256": "f4e51c1f91588ab2d1fef0660c5160401f8d1cf3c7dc65c0c4a60004b6e907b3"
+    },
+    {
+      "path": "formal/general-positive-width/sources/PreservingSpanningTree.lean",
+      "bytes": 9859,
+      "sha256": "28ddf442f147e5ad383e44a86914bcf818060e74fb3b002df8d27c0707bcf051"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ProjectedRootPathBags.lean",
+      "bytes": 3056,
+      "sha256": "e3377b70f6d0c80f6c709f99a193c94aa721b81df65724f6b2ec1915d4fc26a6"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ProperPowerSeriesAlgebraicity.lean",
+      "bytes": 5974,
+      "sha256": "c41fc140b63c718224b59420c68a092d00f9e664ac4587a89325a2acc281989d"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ProperSeriesRecursion.lean",
+      "bytes": 3377,
+      "sha256": "695d428aa32144104a8bb62cdaa1532a5b6b648066b70a163d2810528c605d45"
+    },
+    {
+      "path": "formal/general-positive-width/sources/PrunedPrefixGeometry.lean",
+      "bytes": 2336,
+      "sha256": "d38c0aa40326b42f9d0657f806ce430a83571c7dfd7125fb210dc9d9e5ca9c91"
+    },
+    {
+      "path": "formal/general-positive-width/sources/PrunedPrefixIncidence.lean",
+      "bytes": 3402,
+      "sha256": "8045e0ac6c46cd86600b81c3570fe741f714c60de424f343a484a8646bde6b70"
+    },
+    {
+      "path": "formal/general-positive-width/sources/PrunedPrefixSeparation.lean",
+      "bytes": 4445,
+      "sha256": "add22f6d3b5b83f2ff64cc7635bde174be407578e9d488e3039382277c1d5ba3"
+    },
+    {
+      "path": "formal/general-positive-width/sources/PrunedRegionBags.lean",
+      "bytes": 3658,
+      "sha256": "fcf7bff758d279642804bda4ca6cf0358c0a72b337584bb40a3c93b45d143c8c"
+    },
+    {
+      "path": "formal/general-positive-width/sources/RadiusOneBagAssembly.lean",
+      "bytes": 6614,
+      "sha256": "05285b3aedea33fce2ed6bdf5e403f5f738dab9cbd0f31316fc2a7e402c00fae"
+    },
+    {
+      "path": "formal/general-positive-width/sources/RankedForestNumbering.lean",
+      "bytes": 3181,
+      "sha256": "d91d394fca4e0a2e4270b1a75e5978a47ac3179c74622668fb2c7782447bd823"
+    },
+    {
+      "path": "formal/general-positive-width/sources/RankedForestParent.lean",
+      "bytes": 4969,
+      "sha256": "3577b189c231fd7ca2e3e336fe8daa8dc90c9aa0652f33107a0497cc378e6686"
+    },
+    {
+      "path": "formal/general-positive-width/sources/RankedForestRoots.lean",
+      "bytes": 3418,
+      "sha256": "4690aa5b617d6533e33e7a0b821416ce3b9a96d033eb9ac8d2e7dc0f99f546e0"
+    },
+    {
+      "path": "formal/general-positive-width/sources/RankedParentCode.lean",
+      "bytes": 1387,
+      "sha256": "2ac0ec06978881fcedb081d5ba454e123aa18fbc25ad2f46e8b9559a49410d59"
+    },
+    {
+      "path": "formal/general-positive-width/sources/RankedParentTree.lean",
+      "bytes": 5132,
+      "sha256": "ad75860932710d1b681ee27924e9b07dc49b1e9472b9ff67755b81e5d8021227"
+    },
+    {
+      "path": "formal/general-positive-width/sources/RealizationApex.lean",
+      "bytes": 8656,
+      "sha256": "874ac49ee1b572154efba3e5db005330468762f0cd292b335114cd7592302ada"
+    },
+    {
+      "path": "formal/general-positive-width/sources/RealizedGuidedDecomposition.lean",
+      "bytes": 4268,
+      "sha256": "1c37a3b2d27d20976b6dc32082ed4e90565cded8710ffee50838c5ba8fdf048d"
+    },
+    {
+      "path": "formal/general-positive-width/sources/RectangleBoundary.lean",
+      "bytes": 4509,
+      "sha256": "69a84cd8bf63c95f576fc14485e660192823120bd989878cc416997f0650a4d9"
+    },
+    {
+      "path": "formal/general-positive-width/sources/RectangleConnected.lean",
+      "bytes": 2652,
+      "sha256": "bac40376ff763061cf3cabc7c2e0e659ddeced367d102acce447fbd9c368f491"
+    },
+    {
+      "path": "formal/general-positive-width/sources/RectangleCotreeConnectivity.lean",
+      "bytes": 4075,
+      "sha256": "0c59b89141382e110834d64e49e13ad0b75e75b7f2967e154bf5042c5cfa4b1b"
+    },
+    {
+      "path": "formal/general-positive-width/sources/RectangleDarts.lean",
+      "bytes": 5367,
+      "sha256": "d8b67dc7ab19e8b7ca0b9cd5375cd526e5f695fe734f683c0a6e021df6fb4fd9"
+    },
+    {
+      "path": "formal/general-positive-width/sources/RectangleEuler.lean",
+      "bytes": 5266,
+      "sha256": "a506212154b710d5f1f9fab07e746ef16b68aa400ccc88641db0f25c9f135554"
+    },
+    {
+      "path": "formal/general-positive-width/sources/RectangleFaceCycles.lean",
+      "bytes": 4832,
+      "sha256": "9aef78865cd062d120f1f48609d9ac5cc3ba6b4563dd8e49eeb789b8985331c8"
+    },
+    {
+      "path": "formal/general-positive-width/sources/RectangleFaceOrbits.lean",
+      "bytes": 4428,
+      "sha256": "0000377d4646e8ded7d4dfc0057e6001fec5a513ba1a477f7b926576b1ac622c"
+    },
+    {
+      "path": "formal/general-positive-width/sources/RectangleIncidence.lean",
+      "bytes": 2795,
+      "sha256": "59f6b586b00e776e1eec285f074d403cc6cd8247d808dd7a7984745c2282fc2e"
+    },
+    {
+      "path": "formal/general-positive-width/sources/RectangleRotation.lean",
+      "bytes": 2672,
+      "sha256": "f7c382275cb35837d50a3964fa222d6300dba620a63097613bc8519ff24b2917"
+    },
+    {
+      "path": "formal/general-positive-width/sources/RectangleVertexOrbits.lean",
+      "bytes": 7038,
+      "sha256": "2f311bd9bf8e906863152ad9beeff7d8b501268575bc93721e51ff5073175b8f"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ReplacementAffectedRegions.lean",
+      "bytes": 8525,
+      "sha256": "c8b5193b6f073142eac0a7862782d02db8ee7255ad39b358d542683369a83937"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ReplacementAppendixSeparation.lean",
+      "bytes": 4280,
+      "sha256": "a9730e666afe56fe4b343cf619735e54027ea8206538b7f54681baeaad5fbfd4"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ReplacementBagSurgery.lean",
+      "bytes": 2679,
+      "sha256": "41102a11bb73734c570f33afaeced17cb54b4925de2c2f0767cc186987c5a0f6"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ReplacementBoundaryNeighbors.lean",
+      "bytes": 4609,
+      "sha256": "88b59506e362df6b4309662b78fc578885d9190ee9c9f67bf3d41eec917c0b6c"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ReplacementComponentCorrespondence.lean",
+      "bytes": 4770,
+      "sha256": "5312ddbea3a9246cf3d1accda5bd376134ace1edd612e04270ad2352fa8a85d8"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ReplacementComponents.lean",
+      "bytes": 3152,
+      "sha256": "aa019afde380d0d2a590c77676e843aebe416be5b37ad20b6c732c0e7a849742"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ReplacementCoverage.lean",
+      "bytes": 2328,
+      "sha256": "2c62bb4f3ca37d62e8c5c7d0bde432aa0264c0e4c18c2611317bdf61b4312eac"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ReplacementExteriorBag.lean",
+      "bytes": 9310,
+      "sha256": "13cea4b43939d8af24ebd21ae90b63ae28da748dbd1b5571b135a33c5cd45801"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ReplacementGlobalPathwidth.lean",
+      "bytes": 3525,
+      "sha256": "65345953308a6c16d568375c7581876e3e1eb8f671896e6d056b9d3652fd5447"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ReplacementInsertedAppendix.lean",
+      "bytes": 4415,
+      "sha256": "cd38f479fcdf24f670536df4c87b64ce86cc5fc0fb7a44098fa5adcdc67a537f"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ReplacementInsertedInterior.lean",
+      "bytes": 2500,
+      "sha256": "679d3f45c178d2faf95c1ea422da85d6534f40a8eb3c22369154ed2b0fe14830"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ReplacementLocalThinness.lean",
+      "bytes": 8808,
+      "sha256": "e5f5ac239ff400d3cb8056b2c4c023d9c0c10d0f0783956f0784f0585ec4279e"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ReplacementMergedBag.lean",
+      "bytes": 12684,
+      "sha256": "9a8864f7a4cc069b7e5b803f936c4b1182156e63df841cadc7dd6d9264272e37"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ReplacementMergedSupport.lean",
+      "bytes": 8156,
+      "sha256": "e676daa0b52775a600f35e6b19b5118d3c4fd350f098623eccedb8dfc190beb8"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ReplacementSurvivingAppendix.lean",
+      "bytes": 4043,
+      "sha256": "b5dd56970703e2cc8a6b23f0da3aa1f0926812e6a47a3243cfa87ab293537088"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ReplacementUnchangedBridge.lean",
+      "bytes": 4961,
+      "sha256": "09a63073a307aa599e7e994d0afd0f019fe20094a96a9fc0f757da6956ae47af"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ReplacementWalkLift.lean",
+      "bytes": 3198,
+      "sha256": "c60db301d0726668e1bc6dee1a35a7716632145f433ac13618f1e847a10716ae"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ReplacementWalkProjection.lean",
+      "bytes": 5083,
+      "sha256": "b6099ca5dc296bf48976b4e0bfd0226dcd44d28217808031ada73fe0fd6e0981"
+    },
+    {
+      "path": "formal/general-positive-width/sources/RepresentedDecompositionAdmissibility.lean",
+      "bytes": 3474,
+      "sha256": "f5a1ec434c01244ae2117bbe1db06751b1b0e051c7b8002e4b1844742db1e038"
+    },
+    {
+      "path": "formal/general-positive-width/sources/RestrictedWindow.lean",
+      "bytes": 5300,
+      "sha256": "22ab475e7932d0a59ee73f522acc0cc7e7d38b135275406db8b458746ee6ef75"
+    },
+    {
+      "path": "formal/general-positive-width/sources/RightZeroForest.lean",
+      "bytes": 4551,
+      "sha256": "24146f4831d637b990fa9a2e85ac144cf4cb4fce520d6bae148cb5607599cfe7"
+    },
+    {
+      "path": "formal/general-positive-width/sources/RootAdhesionPruning.lean",
+      "bytes": 3976,
+      "sha256": "92ce1989acb9d4f0df6631786783e3943bd5209f074f7d23ead0a2455582b5f0"
+    },
+    {
+      "path": "formal/general-positive-width/sources/RootEmptyNumberedCodec.lean",
+      "bytes": 2187,
+      "sha256": "b93d7753bc6dcd8ab973a455bd06ec13d61493403fe4a65192b87104105cf8b1"
+    },
+    {
+      "path": "formal/general-positive-width/sources/RootPathBags.lean",
+      "bytes": 3593,
+      "sha256": "bc809d81bde6a67f0db2dbe00051cffae8fb8f7aa2ae2bd822316e90725c5c04"
+    },
+    {
+      "path": "formal/general-positive-width/sources/RootedForestPathExtraction.lean",
+      "bytes": 2522,
+      "sha256": "462e74269fbaf5ddad37eb1f0b5ee5479843e26480d88b791ee1f24667826980"
+    },
+    {
+      "path": "formal/general-positive-width/sources/RootedLocalForest.lean",
+      "bytes": 6140,
+      "sha256": "6b710014ebc95aeb2019bce6d812712958918a8ddd35d31d5e4b9c5ed69774a9"
+    },
+    {
+      "path": "formal/general-positive-width/sources/RootedLocalLabelLaws.lean",
+      "bytes": 979,
+      "sha256": "f1a7d63ac17e177fa69ca552fa1b3993578aaafe26018c052590fac5521a115a"
+    },
+    {
+      "path": "formal/general-positive-width/sources/RotationCut.lean",
+      "bytes": 7895,
+      "sha256": "0f080dcadb764e6360e7ade74568067dc42e1947e66dec2fde6dad86092df18c"
+    },
+    {
+      "path": "formal/general-positive-width/sources/RoutedAdhesionIncidence.lean",
+      "bytes": 1611,
+      "sha256": "c2b7267276e48758f4d676e58c45e0ceca386d8742600872fe8e934511658df4"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SaneParentConnector.lean",
+      "bytes": 4310,
+      "sha256": "435cca5402db4867e430758106501f39f19d82b6c6dae0016c6009ad1de10f2e"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SaneSingletonNormalization.lean",
+      "bytes": 7011,
+      "sha256": "5df9e425d38035b3e30b2213346eb26aa1319901f8b3d6eb28c04d17792c4d92"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SaneSuppliedPartsEndpoint.lean",
+      "bytes": 1841,
+      "sha256": "6d33e51a02194a20f42688c32495431235d229535d8b520489cfc40766f7acd1"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SelectedAssemblyTransport.lean",
+      "bytes": 3368,
+      "sha256": "e508f9477d28c6475a0a8f933e7c1765e985923b5613c5fafe231c15c25740f2"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SelectedFrontierChildren.lean",
+      "bytes": 1873,
+      "sha256": "3dc49bc02349ca1df9b384f72b87dc174abf76308e6a2bd98feda8731ec28fd4"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SelectedParentNumbering.lean",
+      "bytes": 3146,
+      "sha256": "067b51a5c77bab45c7689b76f97d1fca0474adf8bbf3e3934fd3130bc73338a7"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SelectedParentTreeSyntax.lean",
+      "bytes": 4505,
+      "sha256": "b5c5f8ae6856b07c9f713af2bf140f71027378270ebac2d5334f3ae2ebf52de1"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SelectedPrefixFibers.lean",
+      "bytes": 2020,
+      "sha256": "13be929cfffded134b2d704a5c147d9dc47aa3fef7a4739d2f77c8f558827bd0"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SelectedRegionAssembly.lean",
+      "bytes": 4544,
+      "sha256": "0fec98d7d7bed2d17ef13f5315728c412e391363d830e788e2bfe9bb9c56bb66"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SelectionPathwidthParts.lean",
+      "bytes": 1584,
+      "sha256": "3f63e6379674daf5e8a15b94d262c239dfed2d35103099eff8a8fa9e1a3c83b1"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SemigroupForest.lean",
+      "bytes": 4127,
+      "sha256": "1658273653dc798d2bf47e97919bb50ec482e173bb34320e87f321081a5a54d1"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SeriesPolynomialSemantics.lean",
+      "bytes": 6549,
+      "sha256": "22aaae5b5224620c0e4b758d5d049ece6173988f84e000465a17368fb9e44807"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ShortestPredecessor.lean",
+      "bytes": 5736,
+      "sha256": "b5044312273e4854045d90cd604ff01a794d4af3493bef25ac3c008941eac85a"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SizeDescent.lean",
+      "bytes": 8801,
+      "sha256": "fe76b71933d7a9c8df97b3d8d07eeae35bb57d50c531b788e82dfaacf2caa6d6"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SourceApexRealization.lean",
+      "bytes": 6667,
+      "sha256": "53fc5882b01a0a821a5ce3644066839c98ebfb88bee410a15c8a852e86a7a8e3"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SourceIntroductionPreorder.lean",
+      "bytes": 3056,
+      "sha256": "ea59b5cff78f823f6be3143dafae718bc2c91b24b40e6cb44c9593c5a62d97e7"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SourceRectangle.lean",
+      "bytes": 5242,
+      "sha256": "049be7fd14283cca3edf5f0b91e6699889a0fe7fe68fdc61706f8a02cbfba882"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SparseAdmissibilityForest.lean",
+      "bytes": 4238,
+      "sha256": "c852baee00bcbd69af09083b33f99245855f8c6ee047e5a8f0febd50c6d23781"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SparseCanonicalForward.lean",
+      "bytes": 7472,
+      "sha256": "a1751af56f938b32db5ae2453438b7048be1f7b7bfda673bad3f087ef7626d54"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SparseCanonicalUniqueness.lean",
+      "bytes": 5796,
+      "sha256": "099abc797d3c95092cfe5dfa87d9a307984801f6129a713b4226b08f9228bea8"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SparseChoiceComparison.lean",
+      "bytes": 3814,
+      "sha256": "0d11e9a2c39668738c148debe72f1820aabea39b771324e5ddce9289e864c877"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SparseEliminationIdentification.lean",
+      "bytes": 3643,
+      "sha256": "7fd46a04fdcc0590d204ddf050b0469cc3d773ca2e415d4522356fe162ee7a1b"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SparseEliminationSyntax.lean",
+      "bytes": 2301,
+      "sha256": "8569bb58da495fc2ab2943e864532129c6183cde03d28ef239513cec35ece453"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SparseEndpointMSO.lean",
+      "bytes": 6395,
+      "sha256": "50bb82a3d572065c975c682932355e7a6efb92ef8b8a10b20c81517949e3b8da"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SparseEndpointTranslation.lean",
+      "bytes": 9895,
+      "sha256": "2c62ac6e42ea6e2e4e2716174e23744c796d6cd130d244bc085f9309f119eec3"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SparseFiniteCopy.lean",
+      "bytes": 10354,
+      "sha256": "9b96bbabd75007f92dfc0acffed7c315ddbb5beb016d492ec69363c5d4674db8"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SparseFiniteCopyRealization.lean",
+      "bytes": 7383,
+      "sha256": "e42e06a4960d26b17d02a20fa8a107a845d214bc4e61022fb2fa58d6cac8e1c6"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SparseForestOrderAdmissibility.lean",
+      "bytes": 4435,
+      "sha256": "a3377281fc3196d1dd4457da4daa64b4ac6046917e5b23694e0e4d221bf48142"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SparseFormulaReindex.lean",
+      "bytes": 3072,
+      "sha256": "e852dc3117d63f04b1c58b02f1800086db99f28998b3a7974623a8980c902fa1"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SparseFrontierAdmissibility.lean",
+      "bytes": 5094,
+      "sha256": "c16056e03033fd6e79349de274ca2a11293978c5d018b3210adc2659a97b8a59"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SparseFullClass.lean",
+      "bytes": 4910,
+      "sha256": "a21baaa9df6c45afd60808653870b2cd410e8b61ef1c254b08dc5e76db908b80"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SparseGraphDecomposition.lean",
+      "bytes": 7151,
+      "sha256": "673dffd23a393a78659d98dbac857d4201092153895c4cc361705aa06aa8deb9"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SparseHamiltonianPath.lean",
+      "bytes": 5857,
+      "sha256": "023908dcfec82e1b4753c8ab8b285511b49697a7fe594c312681b512f956f47a"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SparseIncidenceInterpretation.lean",
+      "bytes": 4561,
+      "sha256": "6fa25855cd0b0a98be29617b22bf34d38e29d85c151bcc1df5e1e05211a18796"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SparseIncidenceOwnership.lean",
+      "bytes": 14509,
+      "sha256": "6e0173fdb64f4786c2bf762ad30e15ce9175cb196963f50c08218a7bdb4c359d"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SparseIncidenceRealization.lean",
+      "bytes": 1782,
+      "sha256": "1a32f7421b58991d42cf18f9233cae1189b6f3dd10f40443bd271270666cd2fb"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SparseIncidenceTemplates.lean",
+      "bytes": 4504,
+      "sha256": "56164a166f241f034a6d12e4f779c727ebc68d2608489fb09fb5fc3e96c39e8e"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SparseLeastSelector.lean",
+      "bytes": 1702,
+      "sha256": "bafbe52f0dca669eb5935519781354a16c7e5578239eeb6ebd96033174fa87e1"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SparseModelConverse.lean",
+      "bytes": 6764,
+      "sha256": "a3c004ec80388450d41b0e0c17c2c237ccccdf657de59ce3ee6200de45361083"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SparseModelEvents.lean",
+      "bytes": 9089,
+      "sha256": "e43aa94596763f883e32b12e71e9ac4e85a71b6763491494381e0e972c6e92fe"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SparseModelInverse.lean",
+      "bytes": 6048,
+      "sha256": "ffd33ec38d3ce2d4cdda0c403458ad7d3b0160a152d8f7c1e14b15b0fa66aacf"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SparseModelIsomorphism.lean",
+      "bytes": 7851,
+      "sha256": "ff8ed046287a41a73b4b49c0af13312f6ccf7bc42afc367d73bcf7a144322b5c"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SparseModelPermutation.lean",
+      "bytes": 4829,
+      "sha256": "c0f89bc7b963ce31ead5991ae7e2a319fde4874ba0aba89bc3dc212c61214617"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SparseModelReconstruction.lean",
+      "bytes": 8749,
+      "sha256": "57d992bd23f651158a890766c072d4ff571934f4c136a12abee40e05fb7e7f9e"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SparseModelReindexing.lean",
+      "bytes": 7593,
+      "sha256": "9dfd988ab71fde078c13e5caa051d42d49881c2e095e73937a4e415702b9a3db"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SparseMonadicBlock.lean",
+      "bytes": 2584,
+      "sha256": "4c5cc824339c10bafa13a4b57c54fb1d845a363b9573465dfb023858b16dbd4f"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SparseOrderWitnessAdmissibility.lean",
+      "bytes": 3362,
+      "sha256": "b2b6a9f6a83f8ec8c939ad1ffbde960fbaf36d7f002cd765cb9b16d709e488c7"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SparseParametricCompatibility.lean",
+      "bytes": 2045,
+      "sha256": "db70b1d06390bae4c2ce8e26e77e3622926f5898781f36b260f40fcdb3526703"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SparseParametricComposition.lean",
+      "bytes": 5989,
+      "sha256": "9a4dbb2ae9b80112707fd3fd9f7c044efaa975e2bdf12ded4f043b390a46a13a"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SparseParametricFiniteCopy.lean",
+      "bytes": 9230,
+      "sha256": "c1ee85ddf083eeb7b5c55e6a621805b3b2f3afea3f9fb865e6d70a8e1790e193"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SparseParametricFlattening.lean",
+      "bytes": 4650,
+      "sha256": "6a62471c6cc189dacda18e90bd0723058074fb59de7eba8d90c7ad7a071e6d7e"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SparseParametricRealization.lean",
+      "bytes": 7281,
+      "sha256": "bfe582a48ef7278924d6fad867439631fc1b07575c1193e6bc7eb26920b54a89"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SparsePositionSemantics.lean",
+      "bytes": 5849,
+      "sha256": "76d4273b763f7ebaf9bf444d254782f2b0e58793c35f5dd999dd07b33c92cd13"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SparseSelectedRelation.lean",
+      "bytes": 3388,
+      "sha256": "46267636a1335f33c451fa72a8d1482acf68cb438bd019993cbe64cab09f0a80"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SparseStructuralSentence.lean",
+      "bytes": 10423,
+      "sha256": "b4f1f4f08ba681df6ddb0a60638c1fdc0033bdd3b91c0fae9badb92f75773846"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SparseTreeCompiler.lean",
+      "bytes": 11065,
+      "sha256": "87aa193600f97bb44539bf3d8e910a5a921727a42c52253b24e1193aa4d21583"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SplicedDemandWalks.lean",
+      "bytes": 4695,
+      "sha256": "e8ba5fb8efe24866f833f23411030703f3bb164ab2b7223d7b1725bc44de242e"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SplicedWalkContainment.lean",
+      "bytes": 2014,
+      "sha256": "e07b591084046f3e12224c8d2ffe74fc9c4a2090f82b47d91b0a280cfa73810d"
+    },
+    {
+      "path": "formal/general-positive-width/sources/StartMarkedDecomposition.lean",
+      "bytes": 1127,
+      "sha256": "f160da5861c47a43f5abdb9064c29c73e5d4d9141a56a72d9f6ea4b077dce197"
+    },
+    {
+      "path": "formal/general-positive-width/sources/StemBoundedSourceTree.lean",
+      "bytes": 1484,
+      "sha256": "8c40d85e4d719ef70ba6e87b8d7a1e7bd1052ee43aaca50283439b89354e718f"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SubdivisionFibers.lean",
+      "bytes": 4814,
+      "sha256": "387722909cda61a35b0feda15d2efec479bc4f1ac62e0d6c49bc488ce6c9a4c9"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SubdivisionNumberedTree.lean",
+      "bytes": 4409,
+      "sha256": "9c0c2b28c63fcf302d64789d0e28c75c72c46438ba40a89a93aa8410b575bb08"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SubdivisionParent.lean",
+      "bytes": 5523,
+      "sha256": "2ace7b82ab356e027b43735a81f6091f742f902336539eb7144e66e33e993467"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SubdivisionPrefix.lean",
+      "bytes": 12958,
+      "sha256": "e56435d24d397dfd7a03e26a8cd269052a6bd5a771c1eeb32cba2e15be7812a2"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SubdivisionRealization.lean",
+      "bytes": 5564,
+      "sha256": "59c81a6fbb4cd63522fefd6b888eab90a200fba25a6b9094e899674257ee6133"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SubdivisionRelabel.lean",
+      "bytes": 9874,
+      "sha256": "482fa6d7062c0e8f09680e7fa2ccbe77ff9fc5d1c7043f2b157395f3bba9c64f"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SubstitutedParentTree.lean",
+      "bytes": 4143,
+      "sha256": "93e91bcbe8ea801bb048558c0fc15b8309040c54da584cae7ce39ce10607ebb7"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SubstitutionAncestry.lean",
+      "bytes": 2924,
+      "sha256": "ccf36c9d8860ef55adb75d9c253a997d6d2fd724c3fe463a7d169aee000e280e"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SubstitutionWalks.lean",
+      "bytes": 4159,
+      "sha256": "ba118d5db3a8e5b8dfd76720200571247d2f1e2057789cf84f0b8ab869bd8d0a"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SubtreeFaceConnectivity.lean",
+      "bytes": 4859,
+      "sha256": "387f5b2a9507deda3564646d29b90f840823d9daedae4b4ea1a779fe1fc624a9"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SubtreeRoutingExistence.lean",
+      "bytes": 1792,
+      "sha256": "8656b3cc838b94800e50e65a10c77ed2426eebb9531e77b32f613b67dea78779"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SubtreeRoutingSolution.lean",
+      "bytes": 1311,
+      "sha256": "d0538d08cde75f6f6b39ff55aac164f637a94661f9d5c8c3035686ce5c47cd83"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SubtreeSupportedCuts.lean",
+      "bytes": 2464,
+      "sha256": "b13c1e52d0ed5eede0ff7882ff8818bde0c52e58efcae67893e9015852c49216"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SuppliedLowPathwidthParts.lean",
+      "bytes": 2133,
+      "sha256": "d8f3425149d42da3f36ffcd205504e58c5887488b542088a632bfb92c72d6f58"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SuppliedOuterPresentation.lean",
+      "bytes": 3453,
+      "sha256": "389caceb5257bc9ad33f029e0a7dcac391ef431aa69a87f4baad8cd4fd24750b"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SuppliedPrefixSeparation.lean",
+      "bytes": 2522,
+      "sha256": "2e0a14aba0827633dd80f592872d93989a34514a257d961f8082493619696fbb"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SupportedBagPaths.lean",
+      "bytes": 2066,
+      "sha256": "50597e07d683c3e0eb74efa80c6ff4ca371a2ff0074e539317af41a305fcae81"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SupportedGlobalPathwidth.lean",
+      "bytes": 1974,
+      "sha256": "b31de284bfa00833598842261ff2552b34fd6cb9c90622faacedf2b1367c0833"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SupportedNetworkThinness.lean",
+      "bytes": 3047,
+      "sha256": "e96fa46bdeea1d077611f08c4b8549de128ba4d194f4b946d6bbcc42ce9371ba"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SupportedReplacementThinness.lean",
+      "bytes": 7500,
+      "sha256": "bb4c1a0fa157d20ca05f73e3a4ddd428062a4ffd66deb0d1c898bfa71a863883"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SupportedThinness.lean",
+      "bytes": 4865,
+      "sha256": "38b119379b1459b003f2b740c0d1f651b05bb536920717533d9a68c81b3a2adb"
+    },
+    {
+      "path": "formal/general-positive-width/sources/SupportedVertexWalks.lean",
+      "bytes": 3804,
+      "sha256": "87ea58b88d17a134592b5b5a79ece0e407ee34e2b76b3a6159682547c1c7bffd"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ThinNetworkDefinitionBridge.lean",
+      "bytes": 5484,
+      "sha256": "172737f9c65c10125a57cf04f42c6835b30ca4cb47291575c248e832b4c7274f"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ThinNetworkGlobalAssembly.lean",
+      "bytes": 5610,
+      "sha256": "f7ec6d737565c036eca78fb1e0a8ed9abd77b42cab55ed107506d3e7b6788ad2"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ThinnessEdgeTransport.lean",
+      "bytes": 5055,
+      "sha256": "5bbe803f95e242c5ca9b7aa9de5086916ddd49f99fbb038ff9702352bb1308ab"
+    },
+    {
+      "path": "formal/general-positive-width/sources/ThreeRootPathDecomposition.lean",
+      "bytes": 3841,
+      "sha256": "200e4068463c855da4a7ad0b2de1bef162c1e9fbec4b2b65080e6fe287b3750a"
+    },
+    {
+      "path": "formal/general-positive-width/sources/TorsoAbstraction.lean",
+      "bytes": 1876,
+      "sha256": "6cbfbad8cef855ae23ba07f15469f2bafd8ebbb2cccb3a05bb0eb96bda4fb72c"
+    },
+    {
+      "path": "formal/general-positive-width/sources/TorsoCodeIso.lean",
+      "bytes": 4133,
+      "sha256": "2cfb2119d0c7adf3a4e0f59d01f59df76ea0d61ca9bec43181788eaf1206798e"
+    },
+    {
+      "path": "formal/general-positive-width/sources/TorsoComposition.lean",
+      "bytes": 2565,
+      "sha256": "620d668cf6c4aacbc387b40f4c5c46a988e960481100374e0a4b168647d33fe5"
+    },
+    {
+      "path": "formal/general-positive-width/sources/TorsoGluingEmbedding.lean",
+      "bytes": 7579,
+      "sha256": "6388c1a3564e5de7ebd14fbb53b21492818e58a5aebdb5ae0421111f1ddcbac5"
+    },
+    {
+      "path": "formal/general-positive-width/sources/TorsoGraph.lean",
+      "bytes": 3374,
+      "sha256": "e9df2f5ac664b09a72b2551b9ba1cd4746ee95fd687ed33805a859b59817f457"
+    },
+    {
+      "path": "formal/general-positive-width/sources/TorsoPaths.lean",
+      "bytes": 3689,
+      "sha256": "014b58594ace3823d490fee4574c2655bade3ea5a094c1fb3f8478d5b3f7d2b1"
+    },
+    {
+      "path": "formal/general-positive-width/sources/TreeRelabel.lean",
+      "bytes": 2728,
+      "sha256": "d1f90be8411b3fd60ae77765b711e6e5c861e9299622de7261515a7171785de2"
+    },
+    {
+      "path": "formal/general-positive-width/sources/TreeSubstitution.lean",
+      "bytes": 3340,
+      "sha256": "e6dcaed6c29a2a4d5c49025a7aaf566a28ebd3bed978eee7e19208b2f54d5d8e"
+    },
+    {
+      "path": "formal/general-positive-width/sources/TreeSupportedCuts.lean",
+      "bytes": 3042,
+      "sha256": "b297f1c492c5e04fdf21646b3e7db7c6938dc7dd3bb2ef84fc871d3fa20d823f"
+    },
+    {
+      "path": "formal/general-positive-width/sources/TriRectangleConnected.lean",
+      "bytes": 2582,
+      "sha256": "dd38543117187ba2059907939c9e60adc1b28ce662915d249e71cfd2b8d4c36c"
+    },
+    {
+      "path": "formal/general-positive-width/sources/TriRectangleCorners.lean",
+      "bytes": 1935,
+      "sha256": "1d58915df3ab06e040a864633ecf16fda0e36aae7157cf84cf2d1d359334b92e"
+    },
+    {
+      "path": "formal/general-positive-width/sources/TriRectangleCotree.lean",
+      "bytes": 2631,
+      "sha256": "0be82c1fcb8b184f2b05f337cac720b756725b90b51da558f3e8f18ce4043d24"
+    },
+    {
+      "path": "formal/general-positive-width/sources/TriRectangleCounts.lean",
+      "bytes": 10107,
+      "sha256": "f6f441cb611fe81239d86c16288e8072c8f708e825c033e9e0dd1eeb4e9e271a"
+    },
+    {
+      "path": "formal/general-positive-width/sources/TriRectangleDarts.lean",
+      "bytes": 4903,
+      "sha256": "77003d827630356f2b4e23b683737476d4acd7d13d6195d26fd15021a1baff5a"
+    },
+    {
+      "path": "formal/general-positive-width/sources/TriRectangleDecomposition.lean",
+      "bytes": 5098,
+      "sha256": "7e9c60a422d100e3e354d336c82f87c505445709c0bcf9ac64c5d3a96f33d38d"
+    },
+    {
+      "path": "formal/general-positive-width/sources/TriRectangleIncidence.lean",
+      "bytes": 5235,
+      "sha256": "30290c36ceca4fcf00dfbfb261bf78a82b6eebd38000d851e54b38382fa6cc7f"
+    },
+    {
+      "path": "formal/general-positive-width/sources/TriRectangleRotation.lean",
+      "bytes": 4154,
+      "sha256": "8fe042a124cc2bd088cc36e04fe7bc47e16155a8698c214aaf83bcf470be2495"
+    },
+    {
+      "path": "formal/general-positive-width/sources/TriRectangleVertexOrbits.lean",
+      "bytes": 7328,
+      "sha256": "860bbeb7fc8c365054dbfbed2395697cdf7d772963c34dbb993b7dd4e8935be3"
+    },
+    {
+      "path": "formal/general-positive-width/sources/UCurveCanonical.lean",
+      "bytes": 3989,
+      "sha256": "4e8aecd0417d319ed0c01ec3958736ee30e2ed8a43673defc5a996d44b33c2a7"
+    },
+    {
+      "path": "formal/general-positive-width/sources/UCurveGeometry.lean",
+      "bytes": 10447,
+      "sha256": "3f838819531ec0cfce25416b8e00bd74c647e850710b1af33f154c349edf75db"
+    },
+    {
+      "path": "formal/general-positive-width/sources/UCurveGraph.lean",
+      "bytes": 7395,
+      "sha256": "068ec59afda8414e0b5b27ec03f7d9698949ad23f4635454b50eb4bc4c1efd95"
+    },
+    {
+      "path": "formal/general-positive-width/sources/UCurveGridArcs.lean",
+      "bytes": 6430,
+      "sha256": "364eaf36cca2a8ebfe3ce5f927fdf3d5adec17ccc4095a91227e18cccc4fb848"
+    },
+    {
+      "path": "formal/general-positive-width/sources/UCurveGridDisjoint.lean",
+      "bytes": 3296,
+      "sha256": "f8402d48c1f8ad9720bd42b4085583db43b0e79ef75dbe2d699259efc6b571ef"
+    },
+    {
+      "path": "formal/general-positive-width/sources/UCurveGridEmbedding.lean",
+      "bytes": 6640,
+      "sha256": "d5163f309f3c399885fc6eb3df99c501aa168c0d36288a1f6911b75934b0cfcb"
+    },
+    {
+      "path": "formal/general-positive-width/sources/UCurveOrder.lean",
+      "bytes": 2947,
+      "sha256": "049cf416c34735559dbc34806316a1de6d24fdcc64dba4d8dd4c9b0d23605b12"
+    },
+    {
+      "path": "formal/general-positive-width/sources/UCurveSchedule.lean",
+      "bytes": 5352,
+      "sha256": "d5943ab60e92017910a7823b9cdf64d34a88c5e7a3733aabaa289f76f9e50ed8"
+    },
+    {
+      "path": "formal/general-positive-width/sources/UCurveStemDistance.lean",
+      "bytes": 5179,
+      "sha256": "4d5d081dfb3db33b96992e5ed35cedf2686666f452807951acb58b6349f137dd"
+    },
+    {
+      "path": "formal/general-positive-width/sources/UCurveStemOrder.lean",
+      "bytes": 7728,
+      "sha256": "aa2c49070f728994adf3c7181c44543716998ceaf884ca4d83b251d77b5ff9ab"
+    },
+    {
+      "path": "formal/general-positive-width/sources/UCurveUnitGrid.lean",
+      "bytes": 5626,
+      "sha256": "20de3a05892fc0ff739c4ca3dc4d324ec812d64560f0c846da4419283a27838c"
+    },
+    {
+      "path": "formal/general-positive-width/sources/UniformNestedAdmissibility.lean",
+      "bytes": 3198,
+      "sha256": "fed44f59ceee33e5ac9a5fbca5d4deaee6e1d675e1ca914b2645c261e2073f59"
+    },
+    {
+      "path": "formal/general-positive-width/sources/UnitGridIntersections.lean",
+      "bytes": 5301,
+      "sha256": "0cdefc55cbe1eb59c582110cd5a8e5cb647997d5486bd2645b90746da41f8aca"
+    },
+    {
+      "path": "formal/general-positive-width/sources/UnitImageForest.lean",
+      "bytes": 2221,
+      "sha256": "a9e249961bce2be6f1f9f95083d3d9b0089328be6bf03e8f0eba8311faee0832"
+    },
+    {
+      "path": "formal/general-positive-width/sources/UnivariateDivision.lean",
+      "bytes": 5680,
+      "sha256": "bc1415cbc8cd0476a2a4a25f5cea47e20f50fd1e82066c9f6df3541937e8babd"
+    },
+    {
+      "path": "formal/general-positive-width/sources/WalkOnePointBoundary.lean",
+      "bytes": 985,
+      "sha256": "b3ecd47e29dafc5ba062d42bd6083336b7fd9d103d83f8f314128b355dd6c99d"
+    },
+    {
+      "path": "formal/general-positive-width/sources/WordBlockEmbedding.lean",
+      "bytes": 4979,
+      "sha256": "d9e1cf9edd5c4f06261255b0474481b589ebca13eaefc2de78d700db6f723802"
+    },
+    {
+      "path": "formal/general-positive-width/sources/WordBlockReassociation.lean",
+      "bytes": 2231,
+      "sha256": "6784fe6b54045f95972e2fda67534c507981ed625c7b44ccbe9f34564cf5a59b"
+    },
+    {
+      "path": "formal/general-positive-width/sources/WordColumnGeometry.lean",
+      "bytes": 3233,
+      "sha256": "e947cea66b675066fb0cb1d15851008261e239cf1c21ee13a10cdbbc6d67d1f4"
+    },
+    {
+      "path": "formal/general-positive-width/test_replay.py",
+      "bytes": 2201,
+      "sha256": "9803bd510e4283de3ab02e4b0b355b58ddc36ed3850e463b7471c4ebd86f6c51"
     },
     {
       "path": "formal/generalized/BlockCycles.lean",
@@ -9106,18 +12771,18 @@
     },
     {
       "path": "papers/algebraicity/generalized-stack-algebraicity.md",
-      "bytes": 51496,
-      "sha256": "bae8d8517641ada4558f32a55ece596a8ae2530482f0e7ab1e3ca4b39d15966d"
+      "bytes": 52852,
+      "sha256": "ee0880a7b0fb03ecdd779d7ca30482611b4c40427b537b91f3a86627825137c0"
     },
     {
       "path": "papers/algebraicity/generalized-stack-algebraicity.pdf",
-      "bytes": 471799,
-      "sha256": "51fda587aca9ef36f0d812d451ea3e4f766919c8cc7723d2c2bceeeea9184099"
+      "bytes": 426402,
+      "sha256": "1fde6d07ca477f7255f05c63ef4c11237c30bd923e98cf8c9d630a8294ad3e26"
     },
     {
       "path": "papers/algebraicity/generalized-stack-algebraicity.tex",
-      "bytes": 51942,
-      "sha256": "2dfeffa710c8ea143c73c5906c006f905367092b4eef35ae0a5cb0b55e8c7411"
+      "bytes": 53474,
+      "sha256": "5409c792410e9a3a78e1277544404dfcf2601e05b2df85694910bb800908252d"
     },
     {
       "path": "papers/capacity/capacity.md",
@@ -9136,18 +12801,18 @@
     },
     {
       "path": "papers/classification/classification.md",
-      "bytes": 46837,
-      "sha256": "c36a5efa8cfd57594fddbdd664c3439959c6634c9046b9b99cf0fdf5d864caf6"
+      "bytes": 47257,
+      "sha256": "4cd3b16ba831f7619813f09bb1c5e5db8401835c65e180413b2531a74a38193e"
     },
     {
       "path": "papers/classification/classification.pdf",
-      "bytes": 406008,
-      "sha256": "e2670d2ff4313ae3df59758901c3da76575a47b6c26add6aed1ba4f39c441206"
+      "bytes": 378081,
+      "sha256": "af74f5349f5987bb84383f3587435446288c693116c054949d192256edd297e4"
     },
     {
       "path": "papers/classification/classification.tex",
-      "bytes": 52322,
-      "sha256": "6b5f4ecf7f84356de6b7b1de4b99726ad1572ee5f538bf8e7f19f51cebd25207"
+      "bytes": 52755,
+      "sha256": "30f563422045aa9f4ca142bbf5cf72a2b75e20e8fc2c4d3d270c8ace9f2a869c"
     },
     {
       "path": "papers/enumeration/main.md",
@@ -9356,18 +13021,18 @@
     },
     {
       "path": "research/full-class-equation/author/compressed-residual-automaton.md",
-      "bytes": 2768,
-      "sha256": "36da8a5d55f63052d1981a11472585f2b7ed529eaad41ea48949f3f4ae96cb03"
+      "bytes": 3123,
+      "sha256": "0a756ab00ffaf90ce58d4be83229bd19114319d46b140299d777e10cf3e79b99"
     },
     {
       "path": "research/full-class-equation/author/conditional-fifteen-state-quotient.md",
-      "bytes": 3337,
-      "sha256": "413a719f0b06f2ab721f00f7ebf69787587ba15907f9de963a98e859d8775b1a"
+      "bytes": 3692,
+      "sha256": "622d4e80c72b33802596d7d23be4f2d62798df56080d878083ceec1bd061ec32"
     },
     {
       "path": "research/full-class-equation/author/eight-parameter-invariant.md",
-      "bytes": 3864,
-      "sha256": "9f97a32f3fee756efe317075d16ded55c439672b2f4e5091715b69aed1cbfc77"
+      "bytes": 4219,
+      "sha256": "fd071a46d1bacfb02dc95fb6b34b0cd8c787452b3c487c3ccc9a6dcbd26643c3"
     },
     {
       "path": "research/full-class-equation/author/eight-parameter-matrix-closure.json",
@@ -9416,8 +13081,8 @@
     },
     {
       "path": "research/full-class-equation/author/signed-suffix-transducer.md",
-      "bytes": 4333,
-      "sha256": "c42adc0557c4b263311ff0c78fafc30bdd6f6fb5ebe963b214ed9f0c4dea8d9a"
+      "bytes": 4688,
+      "sha256": "b518ee93a3d32843a512f99f000ed15068c6da180d7f86f9308309099a0273ca"
     },
     {
       "path": "research/full-class-equation/author/signed-three-letter-system.md",
